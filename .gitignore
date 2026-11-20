@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+data/
+/upload_r2_local.py
+/.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+*.zip
+pilot/

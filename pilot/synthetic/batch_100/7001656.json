@@ -1,0 +1,144 @@
+{
+  "package_id": "137267",
+  "sticker_id": "7001656",
+  "image_path": "images/137267/7001656-dd4ff40493f9ea2fa821.png",
+  "image_view": "still",
+  "image_description": "초록 개구리 캐릭터가 검은 눈동자를 크게 키운 채 눈 가장자리에 푸른 물기를 머금는다. 얼굴 오른쪽으로 길게 늘어난 갈색 입이 살짝 올라가 있다.",
+  "image_tags": [
+    "얼굴 대부분을 차지한 검은 눈동자",
+    "눈 아래 맺힌 파란 물기",
+    "오른쪽으로 길어진 입",
+    "기울어진 초록 얼굴",
+    "선명한 파란 옷"
+  ],
+  "image_text": [],
+  "interpretation_note": "눈의 물기와 올라간 입꼬리가 함께 보여 슬픔뿐 아니라 감동이나 애원으로도 읽힐 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7001656_01",
+      "context": "친구가 구하기 어려운 빵을 대신 사 왔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 거기 치아바타 또 매진이었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 내가 마지막 거 들고 나옴. 저녁에 반 줄게."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "반이나 준다고? 오늘부터 너 빵 은인이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감격",
+        "감사"
+      ],
+      "fit_reason": "매진된 빵을 친구가 나눠 준다는 말에, 파란 물기 어린 큰 눈과 들린 입꼬리가 감격을 표현한다."
+    },
+    {
+      "example_id": "7001656_02",
+      "context": "게임 파티에서 한 번만 더 시도하고 싶은 사람이 부탁한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 진짜 마지막이라고 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "알긴 아는데 방금 퍼즐 원리를 알아냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "딱 맨 처음 방만 한 번 더 봐주면 안 될까",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애원",
+        "재도전 요청"
+      ],
+      "fit_reason": "마지막이라고 했던 약속을 뒤집기 미안한 순간에, 물기를 머금은 큰 눈이 애처롭게 한 번 더 봐 달라는 표정이 된다."
+    },
+    {
+      "example_id": "7001656_03",
+      "context": "동생이 새 스티커를 자기 노트북에 붙이려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 초록색 한 장밖에 없어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 왜? 지금 붙이려고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 그거 하나만 나 주면 안 되나",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여운 부탁",
+        "소유 희망"
+      ],
+      "fit_reason": "마지막 한 장을 넘겨 달라는 부탁이라, 눈동자가 유난히 커진 개구리가 기대 섞인 시선을 대신한다."
+    },
+    {
+      "example_id": "7001656_04",
+      "context": "수리 중인 오래된 기계가 겨우 다시 켜진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 전원 들어왔다 꺼지더니 이젠 어때?"
+        },
+        {
+          "speaker": "B",
+          "text": "팬 도는 소리 나. 일단 화면은 켜짐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "살았구나 한 번만 더 버텨줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "대상에 대한 애착"
+      ],
+      "fit_reason": "수리 실패를 걱정하다 화면이 켜진 때라, 눈가의 눈물과 살짝 오른 입꼬리가 안도해 울컥하는 표정처럼 보인다."
+    },
+    {
+      "example_id": "7001656_05",
+      "context": "친구가 쿠폰을 다 모았다고 했는데 사용 기한이 지나 있었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "도장 열 개면 무료 아냐?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 어제까지만이래"
+        },
+        {
+          "speaker": "A",
+          "text": "어제 너랑 여기 앞 지나갔는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그때 한 번만 들어가 볼걸",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "자조"
+      ],
+      "fit_reason": "가게 앞을 지나간 바로 다음 날에 기한 만료를 알게 돼, 과하게 큰 눈동자의 물기가 아쉬움을 웃기게 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

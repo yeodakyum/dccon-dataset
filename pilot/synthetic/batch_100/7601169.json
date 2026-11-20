@@ -1,0 +1,142 @@
+{
+  "package_id": "175355",
+  "sticker_id": "7601169",
+  "image_path": "images/175355/7601169-e3fa5d97bbcc8abe0f98.png",
+  "image_view": "still",
+  "image_description": "붉은 눈의 검은 단발 인물이 입을 살짝 벌리고 한쪽 팔을 들어 올린다. 화면 위에는 붉은빛이 섞인 글씨로 질문이 적혀 있다.",
+  "image_tags": [
+    "반짝이는 붉은 눈",
+    "작게 벌어 둥근 입",
+    "올린 한쪽 팔",
+    "붉은 소매",
+    "상단의 굵은 물음표 자막"
+  ],
+  "image_text": [
+    "로슈 해볼래?"
+  ],
+  "interpretation_note": "‘로슈’가 무엇을 가리키는지는 이미지로 확인되지 않아 예시에서는 함께 무언가를 해보자는 질문으로 활용했다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7601169_01",
+      "context": "게임 친구에게 새 협동 모드를 제안한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 패치에 뭐 생겼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "둘이 들어가는 짧은 던전 있더라."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "한 판만 같이 찍먹해 볼래?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "참여 제안",
+        "호기심"
+      ],
+      "fit_reason": "팔을 들고 해볼래라고 묻는 그림이 새 게임 모드에 친구를 부르는 말과 맞는다."
+    },
+    {
+      "example_id": "7601169_02",
+      "context": "친구끼리 재료가 남아 새 요리를 해보려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 떡 남은 거 뭐 하지?"
+        },
+        {
+          "speaker": "B",
+          "text": "냉동실 넣기엔 양이 별로 없는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "간장 넣고 한 번 볶아 볼까?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실험 제안",
+        "협업"
+      ],
+      "fit_reason": "작게 열린 입과 질문 자막이 결과를 장담하지 않고 같이 해보자고 권하는 분위기와 맞는다."
+    },
+    {
+      "example_id": "7601169_03",
+      "context": "동료가 시범 운영 참가자를 찾는 공지를 공유한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사내 도서 교환 시범 신청 봤어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 근데 저희 팀에서 아무도 신청 안 했대요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 저랑 먼저 한 번 해 보실래요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "권유",
+        "선뜻 나서기"
+      ],
+      "fit_reason": "한 손을 들어 올린 모습이 먼저 참여하겠다고 손 들면서 사람을 초대하는 몸짓처럼 보인다."
+    },
+    {
+      "example_id": "7601169_04",
+      "context": "친구가 노래방에서 부르기 어려운 곡을 같이 부르자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 노래 시작부터 너무 높지 않음?"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 혼자는 못 해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "후렴만 둘이 같이 질러 볼래 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도전 권유",
+        "장난"
+      ],
+      "fit_reason": "열린 입과 해볼래라는 질문이 서로 부담을 나누어 노래에 도전하는 답과 어울린다."
+    },
+    {
+      "example_id": "7601169_05",
+      "context": "동생이 다 풀지 못한 퍼즐을 식탁에 펼쳐 놓았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "모서리는 다 찾았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "하나 남았는데 한참 봐도 안 보여."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나랑 5분만 같이 찾아볼래?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 제안",
+        "가족 대화"
+      ],
+      "fit_reason": "손을 든 캐릭터가 옆에서 도와주겠다고 가볍게 나서는 말에 붙는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

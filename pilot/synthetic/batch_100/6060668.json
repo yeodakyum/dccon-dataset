@@ -1,0 +1,137 @@
+{
+  "package_id": "166270",
+  "sticker_id": "6060668",
+  "image_path": "images/166270/6060668-7301f3af351fb0a78572.png",
+  "image_description": "밝은 금발 캐릭터가 눈웃음을 짓고 입을 크게 벌린다. 분홍 볼이 도드라지고 말풍선에 ‘쪼아요!’가 쓰여 있다.",
+  "image_tags": [
+    "금발",
+    "눈웃음",
+    "분홍볼",
+    "벌린입",
+    "말풍선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6060668-1",
+      "context": "산책 제안",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 저녁 별일 없어?"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 강변 한 바퀴 걸을까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "쪼아요! 딱 해 질 때 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의",
+        "산책"
+      ],
+      "fit_reason": "말풍선과 눈웃음이 흔쾌한 동의를 전한다."
+    },
+    {
+      "example_id": "6060668-2",
+      "context": "첫 시안 고르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배경 연두색 빼 봤는데"
+        },
+        {
+          "speaker": "B",
+          "text": "이렇게 흰색으로 쭉 갈까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아요, 글씨가 훨씬 또렷해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피드백",
+        "승인"
+      ],
+      "fit_reason": "‘쪼아요!’가 시안에 긍정적으로 답하는 말과 이어진다."
+    },
+    {
+      "example_id": "6060668-3",
+      "context": "공연 초대",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 그 밴드 좋아하지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 표 두 장 있는데 토요일 같이 갈래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "당연히 가지!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공연",
+        "기대"
+      ],
+      "fit_reason": "활짝 웃는 입이 가고 싶던 공연 초대에 어울린다."
+    },
+    {
+      "example_id": "6060668-4",
+      "context": "메뉴를 대접받기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 뭐 먹고 싶냐고 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 좋아하는 떡볶이 해 둘게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "쪼아요! 설거지는 내가 할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "식사",
+        "기쁨"
+      ],
+      "fit_reason": "기쁜 동의를 보여 주는 글자와 붉은 볼이 반가운 메뉴에 딱 맞다."
+    },
+    {
+      "example_id": "6060668-5",
+      "context": "스티커 교환",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 강아지 스티커 아직 모아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 넌 토끼 스티커랑 바꿀래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 그 토끼만 없었어!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "교환",
+        "환영"
+      ],
+      "fit_reason": "눈을 감고 웃는 얼굴이 딱 원하던 교환에 찬성하는 기분을 담는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

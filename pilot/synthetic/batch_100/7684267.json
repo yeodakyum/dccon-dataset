@@ -1,0 +1,137 @@
+{
+  "package_id": "175153",
+  "sticker_id": "7684267",
+  "image_path": "images/175153/7684267-f24dd80fa401a42034d0.png",
+  "image_description": "흰 머리 캐릭터가 턱 가까이에 손을 모으고 고개를 기울인다. 한쪽 눈은 붉게 보이고 왼쪽 위에 ‘흠…’이 적혀 있다.",
+  "image_tags": [
+    "흰 머리",
+    "붉은 눈",
+    "기울인 고개",
+    "모은 손",
+    "흠 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7684267_1",
+      "context": "도시락 누가 먹었는지 추리",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 도시락에 붙였던 이름표 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "못 봤어. 근데 계란말이 맛있더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "흠 방금 계란말이라고 했지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심",
+        "추리"
+      ],
+      "fit_reason": "기울인 얼굴과 ‘흠…’이 상대의 실언을 곱씹는 반응이다."
+    },
+    {
+      "example_id": "7684267_2",
+      "context": "팀의 회의 시간 제안을 검토",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "화요일 오후엔 다 되나?"
+        },
+        {
+          "speaker": "B",
+          "text": "나는 세 시부터 되는데 한 명이 네 시에 나가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 세 시 반에 핵심만 할까",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "검토",
+        "일정"
+      ],
+      "fit_reason": "손을 모은 숙고 자세가 시간대를 조율하는 고민과 어울린다."
+    },
+    {
+      "example_id": "7684267_3",
+      "context": "중고 책상 사진을 보고 결정 고민",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 책상 가격 괜찮지?"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 보니까 한쪽 다리가 조금 휘어 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "직접 보고 결정해야겠네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고민",
+        "중고구매"
+      ],
+      "fit_reason": "‘흠…’ 문구가 추가 정보를 듣고 판단을 보류하는 기분에 맞는다."
+    },
+    {
+      "example_id": "7684267_4",
+      "context": "친구가 새 별명을 제안",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 팀 이름 아직 못 정했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "마감삼총사 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "기억엔 남겠다…",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "평가",
+        "농담"
+      ],
+      "fit_reason": "고개를 기울인 캐릭터가 제안의 묘한 매력을 생각하는 반응이다."
+    },
+    {
+      "example_id": "7684267_5",
+      "context": "동아리 모집 공지 오타를 발견",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공고 올렸어? 내가 한 번 읽어 볼게"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 맨 아래 지원 자격만 봐 줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "초보 환영인데 경력 5년이라고요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "검토",
+        "모순"
+      ],
+      "fit_reason": "한쪽 눈을 드러낸 채 생각하는 표정과 ‘흠…’이 모순을 발견한 반응이 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

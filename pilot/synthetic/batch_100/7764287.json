@@ -1,0 +1,137 @@
+{
+  "package_id": "175767",
+  "sticker_id": "7764287",
+  "image_path": "images/175767/7764287-427e8b81f226e492250d.gif",
+  "image_description": "군복을 입은 남자가 여러 장의 메모리 모듈을 주변 사람에게 건넨다. 뒤에는 'ALL RAM BELONGS TO THE PEOPLE'이라고 적힌 붉은 현수막이 걸려 있다.",
+  "image_tags": [
+    "군복",
+    "메모리 모듈",
+    "붉은 현수막",
+    "영문 문구",
+    "여러 인물"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7764287-1",
+      "context": "연구실에서 남은 메모리를 나누는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "서랍에 DDR4 여분 있던데"
+        },
+        {
+          "speaker": "B",
+          "text": "나 하나 가져가도 돼?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "필요한 인민은 가져가시오",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부품나눔",
+        "패러디"
+      ],
+      "fit_reason": "메모리 모듈을 건네는 장면을 그대로 빗댄다."
+    },
+    {
+      "example_id": "7764287-2",
+      "context": "팀원끼리 GPU 서버 메모리를 나눠 쓰는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 학습 RAM 얼마나 먹어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 혼자 거의 다 쓰고 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "메모리는 모두의 것입니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "개발",
+        "공유"
+      ],
+      "fit_reason": "현수막 문구를 공유 자원에 대한 농담으로 쓴다."
+    },
+    {
+      "example_id": "7764287-3",
+      "context": "오래된 컴퓨터를 분해하다 부품이 나온 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "폐컴 세 대 뜯었는데"
+        },
+        {
+          "speaker": "B",
+          "text": "쓸 만한 거 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "램만 한 움큼 나왔어. 배급 시작",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "컴퓨터",
+        "부품"
+      ],
+      "fit_reason": "손에 여러 모듈을 쥔 모습이 한꺼번에 나온 상황과 맞는다."
+    },
+    {
+      "example_id": "7764287-4",
+      "context": "친구 PC의 메모리를 무상 업그레이드해 주는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아직 램 8기가라고?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 요즘 탭 몇 개만 켜도 버벅여"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 여분 두 장 가져가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "PC",
+        "도움"
+      ],
+      "fit_reason": "군복 차림 인물이 메모리를 건네는 동작이 부품 나눔을 표현한다."
+    },
+    {
+      "example_id": "7764287-5",
+      "context": "부품 구매 제안으로 예산을 모두 쓰려는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "예산 남은 거 어디 쓸까"
+        },
+        {
+          "speaker": "B",
+          "text": "굳이 지금 뭘 더 사야 해?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금이야말로 전원 램 증설의 때다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예산",
+        "과장"
+      ],
+      "fit_reason": "선전물 같은 배경이 사소한 구매 제안을 거창하게 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

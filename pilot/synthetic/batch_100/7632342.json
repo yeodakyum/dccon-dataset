@@ -1,0 +1,140 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632342",
+  "image_path": "images/176622/7632342-9ab54471ac8f0bf7178c.png",
+  "image_view": "still",
+  "image_description": "검은 머리 인물이 눈을 크게 뜨고 입을 굳게 다문 채 옆을 본다. 눈 주위로 푸른 그림자가 드리워져 있고 귀에는 길게 늘어지는 장신구가 있다.",
+  "image_tags": [
+    "크게 뜬 푸른 눈",
+    "굳게 다문 작은 입",
+    "눈가의 푸른 그림자",
+    "늘어지는 귀걸이",
+    "벽의 액자"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632342_01",
+      "context": "집에 혼자 있는데 택배 기사가 현관문 앞이라고 연락한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배송 조회는 내일 온다고 돼 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 방금 기사님이라고 문자 왔어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 나 시킨 거 맞는지 이름부터 볼게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경계",
+        "당황"
+      ],
+      "fit_reason": "푸르게 질린 눈가와 옆을 보는 시선이 예상치 못한 연락에 멈칫하는 기분과 맞는다."
+    },
+    {
+      "example_id": "7632342_02",
+      "context": "친구가 게임 메뉴에서 지운 캐릭터를 복원할 수 없다고 말한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "삭제 확인 한 번 누르면 다시 물어보지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 누르는 순간 끝이야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 이 대화 한 줄만 더 일찍 봤으면 됐는데.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "망연자실",
+        "실수 인지"
+      ],
+      "fit_reason": "입을 다물고 눈만 커진 표정이 복구할 수 없음을 뒤늦게 깨달은 순간을 보여 준다."
+    },
+    {
+      "example_id": "7632342_03",
+      "context": "친구가 미용실 시술 시간을 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 이제 머리 끝났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 색 빼는 중인데 세 시간은 더 걸린대."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 네 머리 끝나면 점심 먹으려고 지금까지 굶었어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "친근한 푸념"
+      ],
+      "fit_reason": "푸른 그림자 아래 넓게 뜬 눈이 배고픈 채로 세 시간을 더 기다려야 한다는 뜻밖의 말에 어울린다."
+    },
+    {
+      "example_id": "7632342_04",
+      "context": "팀원이 예행연습이라고 생각한 발표가 실제 평가였음을 깨닫는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "연습 때 잠깐 말 꼬였는데 괜찮죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까 계신 두 분 심사위원이셨어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 그럼 점수표도 진짜였어요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당혹감",
+        "재확인"
+      ],
+      "fit_reason": "창백한 눈 주변과 굳은 입이 평가였다는 사실을 이제 알고 당황하는 감정을 전한다."
+    },
+    {
+      "example_id": "7632342_05",
+      "context": "친구가 어렵게 한 선택이 원래 정해져 있었다고 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "쿠폰 써야 해서 메뉴 한참 골랐어."
+        },
+        {
+          "speaker": "B",
+          "text": "그 쿠폰 오늘은 김치볶음밥에만 돼."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 메뉴판 정독한 거 아무도 모르게 해 줘.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "자조"
+      ],
+      "fit_reason": "눈만 크게 뜨고 입은 굳은 표정이 헛수고를 들켜 말이 막힌 상황을 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

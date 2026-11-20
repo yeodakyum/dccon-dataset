@@ -1,0 +1,135 @@
+{
+  "package_id": "92234",
+  "sticker_id": "2521036",
+  "image_path": "images/92234/2521036-f696f2d73f986e1783ae.png",
+  "image_view": "still",
+  "image_description": "노란 고양이 캐릭터가 눈을 내리감고 있고 옆에 작은 픽셀 아이콘이 있다.",
+  "image_tags": [
+    "내리감은 눈",
+    "붉은 볼",
+    "비스듬한 얼굴",
+    "픽셀 아이콘",
+    "잘린 귀"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "2521036_01",
+      "context": "친구가 작은 칭찬을 건넨다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 별로 안 어색해?"
+        },
+        {
+          "speaker": "B",
+          "text": "잘 나왔어 너 표정 자연스러운데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "갑자기 그러면 좀 민망한데 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부끄러움"
+      ],
+      "fit_reason": "친구가 작은 칭찬을 건넨다 상황에서 내리감은 눈과 붉은 볼이 칭찬받고 수줍어하는 얼굴처럼 보인다."
+    },
+    {
+      "example_id": "2521036_02",
+      "context": "동료가 사람들 앞에서 공을 돌린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 때 왜 제 이름 나오던데요?"
+        },
+        {
+          "speaker": "B",
+          "text": "일정 맞춘 게 다 덕분이라고 했어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저 혼자 한 것도 아닌데 쑥스럽네요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부끄러움"
+      ],
+      "fit_reason": "동료가 사람들 앞에서 공을 돌린다 상황에서 내리감은 눈과 붉은 볼이 칭찬받고 수줍어하는 얼굴처럼 보인다."
+    },
+    {
+      "example_id": "2521036_03",
+      "context": "친구가 말실수를 기억한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 내가 이름 틀렸지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 본인 앞에서 두 번"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 얘긴 이제 묻어 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부끄러움"
+      ],
+      "fit_reason": "친구가 말실수를 기억한다 상황에서 내리감은 눈과 붉은 볼이 칭찬받고 수줍어하는 얼굴처럼 보인다."
+    },
+    {
+      "example_id": "2521036_04",
+      "context": "친구가 준비한 선물을 좋아한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "선물 너무 소소하지"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 진짜 갖고 싶었던 건데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그렇게 좋아하니까 나도 좋네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부끄러움"
+      ],
+      "fit_reason": "친구가 준비한 선물을 좋아한다 상황에서 내리감은 눈과 붉은 볼이 칭찬받고 수줍어하는 얼굴처럼 보인다."
+    },
+    {
+      "example_id": "2521036_05",
+      "context": "친구가 예전 사진을 찾았다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "앨범에서 뭘 봤길래"
+        },
+        {
+          "speaker": "B",
+          "text": "네 중학교 때 앞머리"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그건 그냥 조용히 덮어주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부끄러움"
+      ],
+      "fit_reason": "친구가 예전 사진을 찾았다 상황에서 내리감은 눈과 붉은 볼이 칭찬받고 수줍어하는 얼굴처럼 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

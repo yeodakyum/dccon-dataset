@@ -1,0 +1,142 @@
+{
+  "package_id": "170728",
+  "sticker_id": "7401791",
+  "image_path": "images/170728/7401791-c0eb1300033a6f309655.png",
+  "image_view": "still",
+  "image_description": "남색 머리 캐릭터가 양눈을 반쯤 감고 분홍 혀를 길게 내민다. 머리 위에는 무지갯빛 두 줄 자막이 놓여 있다.",
+  "image_tags": [
+    "반쯤 감긴 눈",
+    "길게 내민 분홍 혀",
+    "붉어진 볼",
+    "고양이 귀 모양 장식",
+    "무지갯빛 두 줄 자막"
+  ],
+  "image_text": [
+    "개땜꿀야르인 상황"
+  ],
+  "interpretation_note": "밈 문구의 뜻을 특정하기 어렵지만, 혀를 내민 웃는 얼굴과 화려한 글씨는 예상 밖의 이득을 장난스럽게 환호하는 용도로 읽힌다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7401791_01",
+      "context": "쿠폰을 쓰고도 사은품까지 받을 수 있다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "쿠폰 쓰면 사은품은 안 주죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘만 중복으로 들어가요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오 그럼 이걸로 결제할게요!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뜻밖의 이득",
+        "기쁨"
+      ],
+      "fit_reason": "쿠폰과 사은품이 동시에 들어가는 상황에 화려한 글씨와 과장되게 내민 혀가 즐거움을 키운다."
+    },
+    {
+      "example_id": "7401791_02",
+      "context": "게임에서 낮은 확률의 보상을 연속으로 뽑는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 남은 상자 두 개 열었냐"
+        },
+        {
+          "speaker": "B",
+          "text": "응 둘 다 전설 뜸 사진 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너 오늘 손 빌려 달라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "행운 축하",
+        "친근한 농담"
+      ],
+      "fit_reason": "두 상자에서 연달아 좋은 보상이 나온 직후라 볼을 붉히고 혀를 내민 표정이 장난스러운 환호로 어울린다."
+    },
+    {
+      "example_id": "7401791_03",
+      "context": "팀 작업 발표가 뒤로 밀려 준비 시간이 생긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 순서표가 바뀌었어요"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 팀이 맨 끝으로 갔네요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다행이다 마지막 그래프 하나 더 그릴 수 있겠어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "기회 포착"
+      ],
+      "fit_reason": "순서가 밀려 필요한 작업 시간이 생겼다는 말에 들뜬 표정이 이득을 본 기분을 전한다."
+    },
+    {
+      "example_id": "7401791_04",
+      "context": "친구가 배달이 늦어진 대신 받은 서비스를 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "떡볶이 늦게 왔다며 괜찮아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 사장님이 튀김 네 개 더 넣어 줌"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 나 하나만 보상 같이 받으면 안 됨?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "서비스 기쁨",
+        "친근한 부탁"
+      ],
+      "fit_reason": "무료로 받은 튀김을 함께 먹자고 조르는 상황에 혀를 길게 내민 표정과 붉은 볼이 음식 앞의 신난 기색을 보탠다."
+    },
+    {
+      "example_id": "7401791_05",
+      "context": "마감 직전에 친구가 문서 뒷부분을 맡겠다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "표랑 결론 둘 다 아직인데 어떡함"
+        },
+        {
+          "speaker": "B",
+          "text": "난 시간 남아서 결론 먼저 쓰고 있음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 답장 기다린 적 없는데 올해 제일 반갑다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고마움",
+        "과장된 환호"
+      ],
+      "fit_reason": "부탁하기 전에 도움을 받은 상황이라 알록달록한 자막이 화자의 뜻밖의 생색 섞인 기쁨을 강조한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

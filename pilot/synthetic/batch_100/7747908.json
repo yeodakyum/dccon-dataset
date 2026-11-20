@@ -1,0 +1,142 @@
+{
+  "package_id": "174452",
+  "sticker_id": "7747908",
+  "image_path": "images/174452/7747908-824d1a63e70480b48022.png",
+  "image_view": "still",
+  "image_description": "검은 머리 캐릭터가 커다란 보라 눈으로 위쪽을 바라보며 입을 작게 벌리고 있다. 화면 위에는 흰 테두리가 둘린 보라색 질문 문구가 있다.",
+  "image_tags": [
+    "위쪽을 보는 보라색 큰 눈",
+    "작게 벌린 입",
+    "코 위 분홍 빗금",
+    "검은 리본과 보라 장식",
+    "위쪽 두 줄 질문 자막"
+  ],
+  "image_text": [
+    "나 한마디만 해도돼?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7747908_01",
+      "context": "단체 여행에서 한 사람만 새벽 출발에 반대한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그럼 다섯 시 버스 예약한다."
+        },
+        {
+          "speaker": "B",
+          "text": "아침부터 돌아다니면 이득이긴 해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐, 그 시간엔 우리 집 앞 버스도 안 다녀.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발언 요청",
+        "일정 재검토"
+      ],
+      "fit_reason": "다섯 시 버스로 결정나기 직전이라 위를 바라보며 '한마디만'이라고 묻는 이미지가 말을 끼워 넣기 좋다."
+    },
+    {
+      "example_id": "7747908_02",
+      "context": "동료가 회의를 끝내기 전에 누락 사항을 알려야 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이대로 보고서 보내고 끝낼까요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 나머진 다 확인했습니다."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 발송 전에 표 단위만 같이 한번 봐주실래요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "정중한 개입",
+        "검토 요청"
+      ],
+      "fit_reason": "모두 자리를 뜨려는 순간 말을 꺼내면서 작게 열린 입과 질문 문구로 조심스러운 시작을 보탠다."
+    },
+    {
+      "example_id": "7747908_03",
+      "context": "친구가 여러 번 미룬 빵집 얘기를 이제야 꺼낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 이번 주엔 어디 갈까."
+        },
+        {
+          "speaker": "B",
+          "text": "넌 먹으러 갈 데 진짜 없냐?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 맨날 말한 그 소금빵집 이제 좀 가 주라.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "소원 표현",
+        "친근한 재요청"
+      ],
+      "fit_reason": "빵집 이야기를 다시 꺼내는 어조에 눈을 크게 뜨고 한마디 허락을 구하는 얼굴이 간절함을 더한다."
+    },
+    {
+      "example_id": "7747908_04",
+      "context": "게임에서 아군이 실패 원인을 엉뚱하게 짚는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "또 딜 부족으로 졌네."
+        },
+        {
+          "speaker": "B",
+          "text": "그러니까 장비부터 올려야 하나 봐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "근데 방금 다 같이 낙사한 건 장비랑 관계없지 않냐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반론",
+        "가벼운 정정"
+      ],
+      "fit_reason": "실패 이유가 따로 있다는 반론을 '한마디만'이라는 문구로 살짝 눌러 말할 수 있다."
+    },
+    {
+      "example_id": "7747908_05",
+      "context": "동생이 빌린 충전기를 찾지 못해 핑계를 댄다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 충전기 어제 빌렸지?"
+        },
+        {
+          "speaker": "B",
+          "text": "빌리긴 했는데 난 책상에 분명 놨어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 책상이 네 가방 안으로 들어갔나 봐. 거기 있더라.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "빈정거림",
+        "실수 지적"
+      ],
+      "fit_reason": "답을 알고도 말을 보태는 대사에 순한 눈의 질문 자막을 붙이면 가벼운 반어가 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

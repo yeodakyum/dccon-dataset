@@ -1,0 +1,157 @@
+{
+  "package_id": "173617",
+  "sticker_id": "7744593",
+  "image_path": "images/173617/7744593-ffd604b1a64e779f64b0.png",
+  "image_description": "소용돌이치는 하늘과 다리가 그려진 그림 앞에 볼을 감싼 동물 캐릭터가 합성돼 있다.",
+  "image_tags": [
+    "절규 패러디",
+    "볼을 감싼 손",
+    "소용돌이 하늘",
+    "다리",
+    "동물 캐릭터"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7744593_01",
+      "context": "수강신청 시작 직후 원하는 자리가 다 찼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "접속 됐냐"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 대기열 빠졌어"
+        },
+        {
+          "speaker": "A",
+          "text": "인기 분반은 전부 마감이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 고작 20초 늦었는데!!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "절규",
+        "절망"
+      ],
+      "fit_reason": "두 볼을 감싸고 소리치는 모습이 마감을 본 반응에 맞는다."
+    },
+    {
+      "example_id": "7744593_02",
+      "context": "친구가 발표 마감 시간을 잘못 기억한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "슬라이드 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내일 오전까지잖아"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘 오전이야 지금 11시 47분"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 파일명 바꿀 동안 아무 말도 하지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "마감",
+        "당황"
+      ],
+      "fit_reason": "휘몰아치는 배경이 갑자기 닥친 시간 압박을 과장한다."
+    },
+    {
+      "example_id": "7744593_03",
+      "context": "게임 공포 장면에 깜짝 놀란다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "소리 줄여놓지 않았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아무것도 안 나올 것 같아서"
+        },
+        {
+          "speaker": "A",
+          "text": "뒤에 문 열린 거 봤어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "으악 딱 돌아보자마자 나왔다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공포",
+        "놀람"
+      ],
+      "fit_reason": "볼을 감싸는 절규 포즈가 점프 스케어 직후 표정처럼 읽힌다."
+    },
+    {
+      "example_id": "7744593_04",
+      "context": "배달 음식을 받자마자 쏟는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "국물 괜찮게 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "너무 잘 와서 기뻤는데"
+        },
+        {
+          "speaker": "A",
+          "text": "왜 과거형이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "뚜껑 열다가 식탁에 다 쏟음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실수",
+        "탄식"
+      ],
+      "fit_reason": "비명 지르는 캐릭터가 한순간에 엎어진 국물에 반응한다."
+    },
+    {
+      "example_id": "7744593_05",
+      "context": "저장하지 않은 그림이 앱 종료로 사라졌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "채색 얼마나 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "거의 끝났어"
+        },
+        {
+          "speaker": "A",
+          "text": "잠깐 네 화면 검게 변했는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "제발 자동 저장 돼 있어라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "파일 손실",
+        "절규"
+      ],
+      "fit_reason": "절규 그림 패러디가 저장 여부를 확인하기 전의 공포와 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

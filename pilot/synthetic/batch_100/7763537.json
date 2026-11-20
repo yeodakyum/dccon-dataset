@@ -1,0 +1,137 @@
+{
+  "package_id": "175577",
+  "sticker_id": "7763537",
+  "image_path": "images/175577/7763537-64869c41545414503c2b.png",
+  "image_description": "분홍빛이 도는 밝은 머리의 얼굴을 가까이서 보여 준다. 붉은 눈에 눈물이 고여 있고 양쪽 볼이 붉으며, 입술을 꾹 다물고 있다.",
+  "image_tags": [
+    "밝은 앞머리",
+    "붉은 눈",
+    "고인 눈물",
+    "붉은 볼",
+    "꼭 다문 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7763537_1",
+      "context": "친구가 몇 년 만에 오랜 반려견 영상을 복원",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "옛날 폰에 우리 강아지 영상 남아 있겠지?"
+        },
+        {
+          "speaker": "B",
+          "text": "소리까지 복원했어. 지금 보내 줄게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "목소리 들으니까 좀 울컥한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추억",
+        "울컥"
+      ],
+      "fit_reason": "눈가에 눈물이 고여 있고 입술을 누르는 표정이 감정을 참는 순간에 맞는다."
+    },
+    {
+      "example_id": "7763537_2",
+      "context": "서운했지만 말하지 못한 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 어제 말이 좀 셌지"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 네가 그렇게 말할 줄은 몰랐어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 집 와서 계속 생각했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "서운함",
+        "대화"
+      ],
+      "fit_reason": "울음을 삼키듯 입을 다문 얼굴이 조용히 서운함을 털어놓을 때 어울린다."
+    },
+    {
+      "example_id": "7763537_3",
+      "context": "졸업을 앞두고 편지를 받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 봉투에 뭐가 들어 있던데"
+        },
+        {
+          "speaker": "B",
+          "text": "졸업하고 읽으라던 편지야. 지금 읽어도 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 잠깐만 마음의 준비 좀",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감동",
+        "졸업"
+      ],
+      "fit_reason": "붉어진 볼과 고인 눈물이 울컥할 것을 예상하는 표정을 담는다."
+    },
+    {
+      "example_id": "7763537_4",
+      "context": "연습한 노래를 가족에게 처음 들려줌",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "목소리 떨린 거 다 들렸지?"
+        },
+        {
+          "speaker": "B",
+          "text": "들렸지. 그래도 끝까지 한 게 제일 좋았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 말 들으니까 눈물 날 것 같아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "격려",
+        "감동"
+      ],
+      "fit_reason": "입술을 다물고 눈물이 맺힌 얼굴이 격려를 받아 울먹이는 모습을 나타낸다."
+    },
+    {
+      "example_id": "7763537_5",
+      "context": "오래 키운 식물이 시듦",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "며칠 동안 잎이 축 처져 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "아래 줄기부터 한 번 살펴볼까"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "얘 자라는 거 계속 봐 왔는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "걱정",
+        "애착"
+      ],
+      "fit_reason": "울음을 터뜨리기 전의 얼굴이 소중히 돌본 식물에 대한 속상함을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

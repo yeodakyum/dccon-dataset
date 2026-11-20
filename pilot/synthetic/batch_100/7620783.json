@@ -1,0 +1,137 @@
+{
+  "package_id": "163269",
+  "sticker_id": "7620783",
+  "image_path": "images/163269/7620783-0537f88ccef7e1cbadd5.png",
+  "image_description": "청록색 머리 캐릭터가 눈을 가늘게 감고 볼을 붉힌 채 입을 벌린다. 위에 흰 테두리의 '귀엽네ㅋ'가 적혀 있다.",
+  "image_tags": [
+    "청록색 머리",
+    "감은 눈",
+    "홍조",
+    "귀엽네 글자",
+    "남색 옷"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7620783-1",
+      "context": "강아지가 자기보다 큰 방석에 누운 사진을 본 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "강아지 새 방석 잘 써?"
+        },
+        {
+          "speaker": "B",
+          "text": "한가운데서 저렇게 웅크리고 자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "귀엽네ㅋㅋ 가운데는 사수했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물",
+        "애정"
+      ],
+      "fit_reason": "웃는 얼굴과 문구가 강아지의 귀여운 모습에 맞는다."
+    },
+    {
+      "example_id": "7620783-2",
+      "context": "초보 뜨개질 작품을 보여준 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "뜨개질하던 거 완성했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 토끼 귀가 한쪽만 길어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그게 더 귀엽네ㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "취미",
+        "격려"
+      ],
+      "fit_reason": "홍조와 미소가 삐뚤한 결과물을 다정하게 받아 준다."
+    },
+    {
+      "example_id": "7620783-3",
+      "context": "동생이 첫 월급으로 간식을 사 온 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동생 첫 월급 받았대?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 케이크 사 와서 초까지 꽂아 줌"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "귀엽네ㅋ 기념일 다 됐네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가족",
+        "다정함"
+      ],
+      "fit_reason": "수줍게 웃는 표정이 동생을 흐뭇하게 보는 마음과 맞는다."
+    },
+    {
+      "example_id": "7620783-4",
+      "context": "게임 속 친구 캐릭터가 작은 모자를 쓴 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 장비 뭐 떴어?"
+        },
+        {
+          "speaker": "B",
+          "text": "쪼그만 버섯 모자 얻었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "귀엽네ㅋ 그거 계속 써",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "칭찬"
+      ],
+      "fit_reason": "'귀엽네ㅋ'가 아기자기한 외형에 대한 평가를 바로 전달한다."
+    },
+    {
+      "example_id": "7620783-5",
+      "context": "친구가 멋쩍게 칭찬을 요구하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 나름 괜찮았다"
+        },
+        {
+          "speaker": "B",
+          "text": "나 잘한 거 맞지? 칭찬 한 번만"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "귀엽네ㅋ 잘했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친구",
+        "장난"
+      ],
+      "fit_reason": "웃음이 섞인 글자가 친구의 솔직한 행동을 가볍게 놀린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

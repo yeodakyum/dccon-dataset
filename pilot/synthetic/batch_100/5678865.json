@@ -1,0 +1,137 @@
+{
+  "package_id": "166518",
+  "sticker_id": "5678865",
+  "image_path": "images/166518/5678865-c3a8f979ba50bb060a64.png",
+  "image_description": "잔주름이 잡힌 찐빵 같은 베이지색 캐릭터에 둥근 갈색 눈과 붉은 볼, 짧은 일자 입이 있다.",
+  "image_tags": [
+    "찐빵",
+    "베이지색",
+    "반짝눈",
+    "분홍볼",
+    "일자입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5678865-1",
+      "context": "첫 찐빵 주문",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "시장 입구에 찐빵 냄새 나"
+        },
+        {
+          "speaker": "B",
+          "text": "팥 들어간 거 먹어 볼래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 하나만 뜨거울 때 먹자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "찐빵"
+      ],
+      "fit_reason": "캐릭터가 찐빵 모양이라 대화 속 간식을 직접 연상시킨다."
+    },
+    {
+      "example_id": "5678865-2",
+      "context": "조용한 민망함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "카페에서 손 흔들었는데"
+        },
+        {
+          "speaker": "B",
+          "text": "아는 사람 아니었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "전혀. 그냥 그대로 기지개 켰어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망",
+        "일상"
+      ],
+      "fit_reason": "분홍 볼과 굳은 입이 민망함을 견디는 얼굴 같다."
+    },
+    {
+      "example_id": "5678865-3",
+      "context": "반죽 모양 망침",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "만두 여섯 개 빚었어"
+        },
+        {
+          "speaker": "B",
+          "text": "다 같은 모양이야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하나는 이 얼굴로 나를 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리",
+        "만두"
+      ],
+      "fit_reason": "둥근 모양과 꼭대기의 주름이 만두처럼 보인다."
+    },
+    {
+      "example_id": "5678865-4",
+      "context": "부탁 고민",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "혹시 네 충전기 C타입이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 책상에 하나 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 잠깐 빌려도 돼?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부탁",
+        "수줍음"
+      ],
+      "fit_reason": "올려다보는 듯한 둥근 눈이 조심스러운 부탁을 살린다."
+    },
+    {
+      "example_id": "5678865-5",
+      "context": "생각보다 추운 날",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "밖에 나가니까 바람 엄청 불어"
+        },
+        {
+          "speaker": "B",
+          "text": "목도리 했는데도 추워?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 얼굴만 이렇게 빨개짐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "날씨",
+        "추위"
+      ],
+      "fit_reason": "붉은 볼과 굳은 입이 찬바람을 맞은 얼굴과 닮았다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

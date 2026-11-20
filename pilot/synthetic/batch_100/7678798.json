@@ -1,0 +1,135 @@
+{
+  "package_id": "176627",
+  "sticker_id": "7678798",
+  "image_path": "images/176627/7678798-e32f7d05077429e09282.png",
+  "image_view": "still",
+  "image_description": "흰 캐릭터의 몸 아래쪽과 다리 두 개만 확대되어 보인다.",
+  "image_tags": [
+    "두 다리의 잘린 구도",
+    "굵은 검은 외곽",
+    "흰 면",
+    "노란 반점",
+    "넓은 여백"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7678798_01",
+      "context": "물건을 빌린 친구가 예상 밖의 답을 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 우산 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비 맞을까 봐 우산은 집에 두고 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우산이 비를 피했네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "물건을 빌린 친구가 예상 밖의 답을 한다 상황에서 얼굴도 안 보이게 잘린 구도가 엉뚱한 일화를 어이없는 이미지로 받아친다."
+    },
+    {
+      "example_id": "7678798_02",
+      "context": "친구가 회의에 엉뚱한 자료를 올린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 자료 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 폴더에 떡볶이 사진만 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 발표 주제가 떡볶이냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "친구가 회의에 엉뚱한 자료를 올린다 상황에서 얼굴도 안 보이게 잘린 구도가 엉뚱한 일화를 어이없는 이미지로 받아친다."
+    },
+    {
+      "example_id": "7678798_03",
+      "context": "동료가 이미 공유한 내용을 또 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "위에 공지 보셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "공지 어디 있는지 알려주세요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 답장하신 그 글이에요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "동료가 이미 공유한 내용을 또 묻는다 상황에서 얼굴도 안 보이게 잘린 구도가 엉뚱한 일화를 어이없는 이미지로 받아친다."
+    },
+    {
+      "example_id": "7678798_04",
+      "context": "배달비가 음식값보다 크다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "최소 주문 얼마야?"
+        },
+        {
+          "speaker": "B",
+          "text": "음식 육천 원 배달 팔천 원"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "배달 기사님 식사를 시키는 건가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "배달비가 음식값보다 크다 상황에서 얼굴도 안 보이게 잘린 구도가 엉뚱한 일화를 어이없는 이미지로 받아친다."
+    },
+    {
+      "example_id": "7678798_05",
+      "context": "게임 친구가 스스로 위기를 만든다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 함정에 빠졌어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 설치한 거 테스트하다가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "테스트 결과는 확실하네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "게임 친구가 스스로 위기를 만든다 상황에서 얼굴도 안 보이게 잘린 구도가 엉뚱한 일화를 어이없는 이미지로 받아친다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

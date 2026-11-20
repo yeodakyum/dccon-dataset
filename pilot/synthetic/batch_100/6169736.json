@@ -1,0 +1,140 @@
+{
+  "package_id": "171847",
+  "sticker_id": "6169736",
+  "image_path": "images/171847/6169736-bf24ab56c672a8c5a110.png",
+  "image_view": "still",
+  "image_description": "푸른색과 흰색 제복을 입은 인물이 한쪽 눈을 감고 미소 지으며 검은 장갑 낀 손으로 경례한다. 뒤에는 붉고 푸른 원이 있다.",
+  "image_tags": [
+    "한쪽 눈을 감은 윙크",
+    "살짝 올라간 입꼬리",
+    "이마에 댄 검은 장갑",
+    "푸른 제복과 모자",
+    "붉고 푸른 원형 배경"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6169736_01",
+      "context": "친구끼리 중고 물건을 받으러 가면서 역할을 나눈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "판매자한테 도착 시간은 내가 보낼게."
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 입구에서 물건 확인해 줘."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "예 입구 확인 담당 출동합니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "역할 수락",
+        "장난"
+      ],
+      "fit_reason": "장갑을 낀 채 경례하는 모습이 간단한 심부름을 작전처럼 받아들이는 말투와 맞는다."
+    },
+    {
+      "example_id": "6169736_02",
+      "context": "친구가 첫 출근을 앞두고 옷을 골랐다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 뭐 입고 가기로 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "흰 셔츠에 네이비 자켓. 이제 다림질만 하면 돼."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "첫 출근 복장 준비 완료!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "준비 보고",
+        "자기 격려"
+      ],
+      "fit_reason": "남색과 흰색 제복에 경례하는 자세가 말끔하게 차려입고 준비를 마쳤다는 보고처럼 보인다."
+    },
+    {
+      "example_id": "6169736_03",
+      "context": "게임에서 아군이 위험할 때 친구가 구해 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 네가 문 열어 준 거지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 한 대만 더 맞았으면 너 쓰러졌을걸."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "구조대장님께 경례합니다 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "칭찬"
+      ],
+      "fit_reason": "경례 동작으로 구조해 준 친구를 대장이라 치켜세우면서 윙크로 농담임을 드러낸다."
+    },
+    {
+      "example_id": "6169736_04",
+      "context": "밤샘하던 팀원이 먼저 쉬라고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 표까지 마저 볼까요?"
+        },
+        {
+          "speaker": "B",
+          "text": "표는 제가 볼게요. 먼저 들어가세요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 이만 물러나겠습니다. 감사합니다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "작별",
+        "감사"
+      ],
+      "fit_reason": "경례가 먼저 자리를 뜨는 인사 역할을 하고 미소가 고마운 마음을 보탠다."
+    },
+    {
+      "example_id": "6169736_05",
+      "context": "친구가 우산을 빌려주며 돌려줄 시간을 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 내일 점심까지만 빌려도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 오후에 쓰니까 점심 때 줘."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 점심 반납 엄수하겠습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "약속 확인",
+        "친근한 격식"
+      ],
+      "fit_reason": "이마에 손을 갖다 댄 경례가 반납 시간을 지키겠다는 장난스러운 다짐을 받쳐 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

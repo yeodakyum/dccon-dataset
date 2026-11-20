@@ -1,0 +1,137 @@
+{
+  "package_id": "175225",
+  "sticker_id": "7720251",
+  "image_path": "images/175225/7720251-35e083321271486bfca8.jpg",
+  "image_description": "풀밭을 배경으로 입을 벌린 동물 두 마리가 보이며, 위쪽에 녹색 ‘요~이!’가 있다.",
+  "image_tags": [
+    "동물사진",
+    "풀밭",
+    "하늘",
+    "녹색글씨",
+    "벌린입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7720251-1",
+      "context": "기차 여행 출발",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 다 탔냐"
+        },
+        {
+          "speaker": "B",
+          "text": "응 가방도 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요~이! 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "여행",
+        "출발"
+      ],
+      "fit_reason": "동물들이 입을 벌린 사진에 출발 구호가 붙어 있다."
+    },
+    {
+      "example_id": "7720251-2",
+      "context": "친구와 야식 주문",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "치킨으로 결정?"
+        },
+        {
+          "speaker": "B",
+          "text": "그래 그냥 지금 시켜"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "자 주문 넣는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "야식",
+        "시작"
+      ],
+      "fit_reason": "신난 듯 벌어진 입이 야식 주문하는 설렘을 살린다."
+    },
+    {
+      "example_id": "7720251-3",
+      "context": "달리기 내기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "먼저 저 가로등까지 가는 사람이 이김"
+        },
+        {
+          "speaker": "B",
+          "text": "오케이 신호 줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요이 땅",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "달리기",
+        "내기"
+      ],
+      "fit_reason": "이미지의 구호가 달리기 시작 신호에 알맞다."
+    },
+    {
+      "example_id": "7720251-4",
+      "context": "청소 동시 시작",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 딱 십 분만 치우자"
+        },
+        {
+          "speaker": "B",
+          "text": "타이머 켜면 바로 시작할게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "누른다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "청소",
+        "준비"
+      ],
+      "fit_reason": "입을 벌린 동물 얼굴이 요란한 출발 방송 같다."
+    },
+    {
+      "example_id": "7720251-5",
+      "context": "게임 로비",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방에 둘 다 들어왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 이제 매칭 눌러도 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "간다 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "출발"
+      ],
+      "fit_reason": "큼지막한 글씨와 얼굴이 매칭 직전의 구호와 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

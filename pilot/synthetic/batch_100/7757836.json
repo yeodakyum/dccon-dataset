@@ -1,0 +1,142 @@
+{
+  "package_id": "176047",
+  "sticker_id": "7757836",
+  "image_path": "images/176047/7757836-f2ff6e3f2524226953da.png",
+  "image_view": "still",
+  "image_description": "보라 머리 캐릭터가 동그란 흰옷을 입고 눈을 접어 웃으며 엄지를 위로 들어 보인다. 머리 위에 '님짱'이 적혀 있다.",
+  "image_tags": [
+    "가늘게 접힌 눈웃음",
+    "살짝 올라간 입꼬리",
+    "꼿꼿한 엄지손가락",
+    "둥글고 넉넉한 흰옷",
+    "정수리 위 짧은 칭찬 문구"
+  ],
+  "image_text": [
+    "님짱"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7757836_01",
+      "context": "동료가 짧은 시간에 깨진 문서 링크를 모두 고친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 공유 폴더 링크 다 바뀌었죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "회의록까지 새 링크로 걸어 놨어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "덕분에 지금 그대로 공지 올릴 수 있겠네요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "업무 감사"
+      ],
+      "fit_reason": "공지에 필요한 링크를 먼저 고쳐 준 동료에게 엄지와 '님짱'을 보내 기여를 바로 인정한다."
+    },
+    {
+      "example_id": "7757836_02",
+      "context": "친구가 엉성한 요리를 기지로 살린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "팬케이크 뒤집다 반 잘렸어."
+        },
+        {
+          "speaker": "B",
+          "text": "두 조각 붙여서 나비라고 하고 올려봐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "진짜 그럴듯해서 메뉴판까지 만들었어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아이디어 칭찬",
+        "친근한 감탄"
+      ],
+      "fit_reason": "뒤집다 망한 팬케이크를 나비로 만들었다는 좋은 아이디어에 밝은 눈웃음과 엄지로 감탄을 보탠다."
+    },
+    {
+      "example_id": "7757836_03",
+      "context": "친구가 한 주 운동을 이어 갔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "월요일부터 매일 산책했어."
+        },
+        {
+          "speaker": "B",
+          "text": "오늘이 딱 일주일째네."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내일부터는 이어서 8일차로 가자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원",
+        "꾸준함 칭찬"
+      ],
+      "fit_reason": "일주일 동안 산책을 해낸 친구에게 '님짱'과 엄지가 이미 해낸 노력을 알아주는 반응이 된다."
+    },
+    {
+      "example_id": "7757836_04",
+      "context": "게임 친구가 최소한의 기여를 크게 자랑한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "드디어 딜 1 넣었다."
+        },
+        {
+          "speaker": "B",
+          "text": "축하해. 보스 2만 중에 첫 1 떼셨네."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 이제 나머지 19999 부탁드립니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "친근한 놀림"
+      ],
+      "fit_reason": "보스 체력에서 1만 깎았다는 들뜬 말에 전폭적인 칭찬 문구와 엄지를 과하게 얹어 반어를 만든다."
+    },
+    {
+      "example_id": "7757836_05",
+      "context": "친구가 취향에 딱 맞는 음반을 추천한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "추천해 준 앨범 출근길에 틀었어."
+        },
+        {
+          "speaker": "B",
+          "text": "오 첫 곡 어땠어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "첫 곡만 생각하다 출근역 한 정거장 넘겼다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "호평",
+        "감사"
+      ],
+      "fit_reason": "추천받은 곡에 빠져 역도 놓쳤다는 칭찬에 포근한 미소와 치켜든 엄지가 만족을 덧붙인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

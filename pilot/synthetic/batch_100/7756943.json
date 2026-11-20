@@ -1,0 +1,137 @@
+{
+  "package_id": "176270",
+  "sticker_id": "7756943",
+  "image_path": "images/176270/7756943-62d30a8384142920a37f.png",
+  "image_description": "짧고 뾰족한 머리의 남성이 파란색과 노란색 옷을 입고, 얼굴이 붉어진 채 입을 크게 벌려 소리친다.",
+  "image_tags": [
+    "짧은 머리",
+    "붉은 얼굴",
+    "크게 벌린 입",
+    "파란 옷",
+    "노란 옷"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7756943_1",
+      "context": "자동 저장을 믿고 작업을 닫았다가 손실",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저장 됐겠지 하고 닫았어"
+        },
+        {
+          "speaker": "B",
+          "text": "그 프로그램 자동 저장 기본값 꺼져 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아악 내 세 시간",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "절규",
+        "작업손실"
+      ],
+      "fit_reason": "붉어진 얼굴과 크게 벌린 입이 작업을 잃은 절규에 맞는다."
+    },
+    {
+      "example_id": "7756943_2",
+      "context": "축구 중계 막판 역전",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이대로 무승부겠네"
+        },
+        {
+          "speaker": "B",
+          "text": "들어갔다! 추가시간에 들어갔어!"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "으아아아!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "환호",
+        "스포츠"
+      ],
+      "fit_reason": "강하게 소리치는 모습이 막판 득점의 흥분을 표현한다."
+    },
+    {
+      "example_id": "7756943_3",
+      "context": "여름철 엘리베이터 수리 통보",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "장 본 거 들고 1층 도착했어"
+        },
+        {
+          "speaker": "B",
+          "text": "엘베 공사 방금 시작했대. 12층까지 걸어야 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금요?!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "충격",
+        "불평"
+      ],
+      "fit_reason": "얼굴이 일그러지도록 외치는 표정이 갑작스러운 고생에 대한 반응이다."
+    },
+    {
+      "example_id": "7756943_4",
+      "context": "시험 시작 시간을 잘못 알았음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "열한 시 시험이라 천천히 가는 중"
+        },
+        {
+          "speaker": "B",
+          "text": "열 시야. 공지 다시 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 미쳤다 뛰어야 돼",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "시험"
+      ],
+      "fit_reason": "커다란 외침이 시간을 착각한 순간의 다급함을 나타낸다."
+    },
+    {
+      "example_id": "7756943_5",
+      "context": "공포 게임에서 갑작스러운 등장",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저 복도 이제 안전한 거 맞지"
+        },
+        {
+          "speaker": "B",
+          "text": "뒤 봐, 바로 뒤!"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "으악 가까이 오지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "공포게임"
+      ],
+      "fit_reason": "입을 한껏 벌린 얼굴이 갑자기 놀라 비명을 지르는 상황에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,142 @@
+{
+  "package_id": "174452",
+  "sticker_id": "7747889",
+  "image_path": "images/174452/7747889-d1eab623a047da6f4dc6.png",
+  "image_view": "still",
+  "image_description": "밝은 머리와 뾰족한 귀의 캐릭터가 누른 듯한 황금빛 눈과 벌린 입으로 정면을 본다. 팔을 앞으로 뻗은 듯한 구도 위에 갈색 손글씨가 놓여 있다.",
+  "image_tags": [
+    "위쪽이 평평한 황금빛 눈",
+    "네모지게 벌린 입",
+    "콧등 분홍 빗금",
+    "회색 소매와 앞으로 향한 자세",
+    "갈색 느낌표 문구"
+  ],
+  "image_text": [
+    "마치 타마에!!"
+  ],
+  "interpretation_note": "'마치 타마에'는 일본어 '기다리게'에 해당하는 소리를 한글로 적은 것으로 읽힐 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7747889_01",
+      "context": "이미 승강장으로 뛰어가는 친구에게 잠깐 멈추라고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 방금 개찰구 찍었어."
+        },
+        {
+          "speaker": "B",
+          "text": "기차 아직 10분 남지 않았어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 너무 빨라. 나도 들어가게 잠깐만 기다려.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉을 멈춤",
+        "동행"
+      ],
+      "fit_reason": "혼자 앞서가는 친구를 세울 때 앞으로 손을 내미는 모습과 '마치 타마에!!'가 실제로 기다리라는 몸짓이 된다."
+    },
+    {
+      "example_id": "7747889_02",
+      "context": "남은 마감 시간을 착각하고 제출하려는 동료를 막는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 제출 버튼 누를게요."
+        },
+        {
+          "speaker": "B",
+          "text": "최종 검토 끝나셨나요?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐만요. 짝수 페이지에 주석 남아 있어요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "일시 중지",
+        "오류 지적"
+      ],
+      "fit_reason": "주석이 남은 파일을 제출하기 직전에 벌린 입과 느낌표로 급히 중단시키는 의도를 강조한다."
+    },
+    {
+      "example_id": "7747889_03",
+      "context": "친구가 일행 없이 과자를 개봉하려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 사 온 한정 감자칩 맛만 좀 볼게."
+        },
+        {
+          "speaker": "B",
+          "text": "너 혼자 봉지 여는 건 반칙이지."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "사진이라도 먼저 찍어서 보내. 나 아직 오는 중이야.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 항의",
+        "기다림 요청"
+      ],
+      "fit_reason": "같이 열기로 한 봉지를 먼저 열려 하자, 짧은 기다림 문구와 분홍 빗금이 과장된 항의에 맞는다."
+    },
+    {
+      "example_id": "7747889_04",
+      "context": "친구가 작품의 결말을 무심코 이야기하려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 드라마 결말에서 결국 주인공이 있잖아."
+        },
+        {
+          "speaker": "B",
+          "text": "나 아직 3화인데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "거기서 멈춰. 이름도 더 말하지 마.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포일러 차단",
+        "급한 요청"
+      ],
+      "fit_reason": "결말이 나오기 바로 전에 입을 벌리고 뻗는 캐릭터가 말 끊는 짧은 외침에 어울린다."
+    },
+    {
+      "example_id": "7747889_05",
+      "context": "동생이 반려견의 행동을 따라 해 보라고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "산책하다 뛰기 시작하면 뭐라고 해?"
+        },
+        {
+          "speaker": "B",
+          "text": "보통 일단 멈춰 하면서 팔을 내밀어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "요즘은 제발 속도 좀 늦춰 주세요에 더 가까움.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "행동 흉내",
+        "자조"
+      ],
+      "fit_reason": "앞으로 팔을 내밀어 뛰는 개를 멈추려는 설명에 그림 속 소매와 긴 느낌표가 그 순간을 재현한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,157 @@
+{
+  "package_id": "176562",
+  "sticker_id": "7694135",
+  "image_path": "images/176562/7694135-e4cf0fc80f7eb8271ba2.png",
+  "image_description": "넥타이를 맨 회색 줄무늬 고양이가 눈물을 흘리며 ‘도개강을 맞아ㅠ’라고 말한다.",
+  "image_tags": [
+    "회색 줄무늬",
+    "고양이",
+    "넥타이",
+    "눈물",
+    "개강 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7694135_01",
+      "context": "방학 마지막 날에 친구끼리 시간표를 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "개강 첫날 몇 시 수업임"
+        },
+        {
+          "speaker": "B",
+          "text": "난 안 봤는데"
+        },
+        {
+          "speaker": "A",
+          "text": "너 오전 수업 나랑 같이 담았잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 내일 1교시라는 걸 잊고 살았는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "개강",
+        "체념"
+      ],
+      "fit_reason": "개강을 언급하며 우는 표정이 방학 종료의 아쉬움을 표현한다."
+    },
+    {
+      "example_id": "7694135_02",
+      "context": "개강 직전에 새 학기 공지가 쏟아진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 과 단톡 갑자기 메시지 엄청 와"
+        },
+        {
+          "speaker": "B",
+          "text": "어떤 건데"
+        },
+        {
+          "speaker": "A",
+          "text": "수강 정정이랑 새내기 환영회 공지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 알림 소리로 개강 실감한다 ㅠ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "개강",
+        "피로"
+      ],
+      "fit_reason": "넥타이를 매고 우는 모습이 일상으로 복귀하는 기분과 맞는다."
+    },
+    {
+      "example_id": "7694135_03",
+      "context": "새 학기 첫날부터 과제가 공지된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 주니까 일찍 끝날 줄 알았는데"
+        },
+        {
+          "speaker": "B",
+          "text": "강의계획서만 보지 않았어?"
+        },
+        {
+          "speaker": "A",
+          "text": "교수님이 금요일까지 보고서 한 장 올리래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "개강 맞이 선물 너무하다 ㅠ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과제",
+        "푸념"
+      ],
+      "fit_reason": "개강 문구와 눈물이 첫날 과제를 받은 불만을 장난스럽게 전한다."
+    },
+    {
+      "example_id": "7694135_04",
+      "context": "통학하는 친구가 첫날 기상 시간을 계산한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "학교 몇 시에 도착해야 해?"
+        },
+        {
+          "speaker": "B",
+          "text": "아홉 시 전에는 가야지"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 너 집에서 일곱 시에 나와야겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내 방학 동안 해 뜨는 것도 못 봤는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "통학",
+        "아쉬움"
+      ],
+      "fit_reason": "우는 고양이가 개강과 함께 돌아온 이른 기상을 과장한다."
+    },
+    {
+      "example_id": "7694135_05",
+      "context": "옷차림을 챙겨 학교 행사에 가야 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "개강 총회 내일이래"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 편하게 가도 됨?"
+        },
+        {
+          "speaker": "A",
+          "text": "넌 대표라 단체 사진 찍어야지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "일단 넥타이부터 찾아볼게 ㅠ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "개강",
+        "마지못해 준비"
+      ],
+      "fit_reason": "넥타이와 눈물이 차려입어야 하는 부담을 동시에 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

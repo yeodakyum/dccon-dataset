@@ -1,0 +1,135 @@
+{
+  "package_id": "151710",
+  "sticker_id": "7589561",
+  "image_path": "images/151710/7589561-cd3fc6d6c3f6dac4e6ab.png",
+  "image_view": "still",
+  "image_description": "파란 구형 캐릭터가 반쯤 뜬 눈으로 미소 짓고 엄지를 든다.",
+  "image_tags": [
+    "반쯤 감긴 눈",
+    "삐죽한 미소",
+    "치켜든 흰 엄지",
+    "광택 있는 파란 구체",
+    "바닥 그림자"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7589561_01",
+      "context": "친구끼리 주말 계획을 정한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일에 어디 갈까"
+        },
+        {
+          "speaker": "B",
+          "text": "멀리 안 가고 동네 카페 어때"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 세 시에 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "친구끼리 주말 계획을 정한다 상황에서 살짝 웃으며 든 엄지가 가볍게 승인하는 답과 맞는다."
+    },
+    {
+      "example_id": "7589561_02",
+      "context": "회의에서 작업 순서를 정한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어떤 거 먼저 할까요?"
+        },
+        {
+          "speaker": "B",
+          "text": "마감 빠른 것부터 처리하죠"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 그 순서로 하겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "회의에서 작업 순서를 정한다 상황에서 살짝 웃으며 든 엄지가 가볍게 승인하는 답과 맞는다."
+    },
+    {
+      "example_id": "7589561_03",
+      "context": "게임에서 안전하게 진행하기로 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "샛길로 갈까?"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 큰길로 돌아가면 덜 위험해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 네 뒤로 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "게임에서 안전하게 진행하기로 한다 상황에서 살짝 웃으며 든 엄지가 가볍게 승인하는 답과 맞는다."
+    },
+    {
+      "example_id": "7589561_04",
+      "context": "친구가 식사 장소를 고른다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 뭐 땡겨?"
+        },
+        {
+          "speaker": "B",
+          "text": "쌀국수 오랜만에 먹을래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "완전 좋아 거기 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "친구가 식사 장소를 고른다 상황에서 살짝 웃으며 든 엄지가 가볍게 승인하는 답과 맞는다."
+    },
+    {
+      "example_id": "7589561_05",
+      "context": "여행 시간을 조율한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫차는 너무 이르지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아홉 시 차로 잡아볼까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 딱 괜찮다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "여행 시간을 조율한다 상황에서 살짝 웃으며 든 엄지가 가볍게 승인하는 답과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632282",
+  "image_path": "images/176622/7632282-729be65dba0ef7d263b1.png",
+  "image_description": "짧은 연보라색 머리와 붉은빛 눈의 캐릭터가 볼을 붉힌 채 초록 재킷 앞에서 손을 모으고 있다. 손 옆에 연두색 빛이 보인다.",
+  "image_tags": [
+    "연보라 단발",
+    "붉은빛 눈",
+    "홍조",
+    "초록 재킷",
+    "모은 손"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632282_1",
+      "context": "친구가 새 안경을 칭찬함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "안경 프레임 너무 튀지 않아?"
+        },
+        {
+          "speaker": "B",
+          "text": "색 예쁜데. 네 얼굴에 잘 어울려"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 계속 이거 쓰고 다녀야겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "쑥스러움"
+      ],
+      "fit_reason": "홍조와 가슴 앞에 모은 손이 마음에 드는 칭찬을 쑥스럽게 받는 모습이다."
+    },
+    {
+      "example_id": "7632282_2",
+      "context": "먼저 약속을 제안하려 망설임",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일 혹시 시간 괜찮아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 아직 아무 일정 없어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 나랑 영화 보러 갈래?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "약속",
+        "두근거림"
+      ],
+      "fit_reason": "볼을 붉히고 손을 모은 얼굴이 조심스럽게 약속을 제안하는 데 맞는다."
+    },
+    {
+      "example_id": "7632282_3",
+      "context": "발표 전에 칭찬을 받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 리허설 목소리 작았지?"
+        },
+        {
+          "speaker": "B",
+          "text": "뒤에서도 다 잘 들렸어. 설명도 차분했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그렇게 말해 주니까 좀 안심된다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발표",
+        "안도"
+      ],
+      "fit_reason": "곧게 바라보는 눈과 붉은 볼이 긴장 속에서 격려를 받는 반응이다."
+    },
+    {
+      "example_id": "7632282_4",
+      "context": "좋아하는 사람이 만든 쿠키를 선물함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 네가 만든 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 네가 말차 좋아한다길래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 거 생각해서 만든 거야?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물",
+        "설렘"
+      ],
+      "fit_reason": "홍조가 자기 취향을 기억해 준 상대 앞에서 느끼는 설렘에 어울린다."
+    },
+    {
+      "example_id": "7632282_5",
+      "context": "친구의 부탁을 꺼내는 순간",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 버스 타고 집에 가?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 왜? 같이 갈래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 정류장까지만 같이 걸어 줄래?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부탁",
+        "망설임"
+      ],
+      "fit_reason": "손을 가슴 쪽으로 모으고 입을 꼭 다문 표정이 작은 부탁을 망설이는 상황에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

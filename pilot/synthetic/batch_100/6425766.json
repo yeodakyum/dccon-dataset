@@ -1,0 +1,142 @@
+{
+  "package_id": "171100",
+  "sticker_id": "6425766",
+  "image_path": "images/171100/6425766-40484649959f7de2919f.png",
+  "image_view": "still",
+  "image_description": "연한 줄무늬 고양이가 물기 어린 큰 눈을 뜨고 정면을 바라본다. 목에는 분홍 리본이 달려 있고 위에 '아쉽놉'으로 보이는 말풍선이 있다.",
+  "image_tags": [
+    "물기 어린 둥근 눈",
+    "작게 오므린 입",
+    "분홍 목 리본",
+    "이마의 연한 줄무늬",
+    "비스듬한 타원 말풍선"
+  ],
+  "image_text": [
+    "아쉽놉"
+  ],
+  "interpretation_note": "마지막 음절은 손글씨라 '놉'으로 읽히지만 표기가 다소 모호하다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6425766_01",
+      "context": "친구가 사 오려던 신상 빵을 놓쳤다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "크림빵 사 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내 바로 앞에서 마지막 거 나갔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 딱 한 명만 일찍 갔어도.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "공감"
+      ],
+      "fit_reason": "한 사람 차이로 놓친 빵 이야기에 촉촉한 눈과 아쉽다는 말풍선이 미련을 보탠다."
+    },
+    {
+      "example_id": "6425766_02",
+      "context": "약속을 바꿔 함께 저녁을 못 먹게 됐다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 끝나고 국수 먹고 갈래?"
+        },
+        {
+          "speaker": "B",
+          "text": "종강 모임이 연장돼서 다음에 봐야 할 듯."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 오늘 메뉴까지 정했는데 다음 주에 꼭 가자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "재약속"
+      ],
+      "fit_reason": "기대하던 저녁이 미뤄져 입을 작게 오므린 고양이와 아쉬움을 나타낸 문구가 서운한 답에 맞는다."
+    },
+    {
+      "example_id": "6425766_03",
+      "context": "게임에서 기록을 조금 넘겼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 랩 1분 20초 안에 들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "1분 20초 04야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "저 뒤에 04 진짜 얄밉다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "근소한 실패",
+        "자조"
+      ],
+      "fit_reason": "0.04초 차이가 너무 작아 물기 어린 눈이 놓친 기록 앞에서 울상을 짓는 반응처럼 보인다."
+    },
+    {
+      "example_id": "6425766_04",
+      "context": "중고 거래 물건을 다른 사람이 먼저 구입했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 책 세트 바로 결제했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 주소 치는 사이에 판매완료 됐어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "배송지 적는 데 10초도 안 걸렸는데.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "허탈함",
+        "아쉬움"
+      ],
+      "fit_reason": "주소를 거의 다 썼을 때 놓쳤으므로 아쉽다는 말풍선과 가만히 응시하는 눈이 허탈함을 더한다."
+    },
+    {
+      "example_id": "6425766_05",
+      "context": "친구가 키링 랜덤 뽑기에서 원하는 색을 얻지 못했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 분홍색 아니야?"
+        },
+        {
+          "speaker": "B",
+          "text": "노란색이 또 나왔어. 벌써 세 개째야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "분홍이는 사진으로만 만나는 거냐고.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 위로",
+        "아쉬움"
+      ],
+      "fit_reason": "분홍색만 얻지 못한 친구에게 분홍 리본을 달고 울먹이는 고양이를 보내 가벼운 위로를 건넨다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

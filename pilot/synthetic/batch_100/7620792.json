@@ -1,0 +1,142 @@
+{
+  "package_id": "163269",
+  "sticker_id": "7620792",
+  "image_path": "images/163269/7620792-aed26b3e0fcece42644e.png",
+  "image_view": "still",
+  "image_description": "청록색 머리의 인물이 반짝이는 큰 눈으로 정면을 보며 작은 입을 벌린다. 머리 위에 굵은 글씨가 있고 왼쪽 화살표가 캐릭터 쪽을 향한다.",
+  "image_tags": [
+    "반짝이는 큰 옥색 눈",
+    "작게 벌어진 분홍 입",
+    "살짝 올라간 눈썹",
+    "굵은 남색 글씨",
+    "아래로 휜 화살표"
+  ],
+  "image_text": [
+    "귀여움 원툴"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7620792_01",
+      "context": "친구가 새로 입양한 고양이가 상자를 무너뜨렸다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "또 무슨 소리야?"
+        },
+        {
+          "speaker": "B",
+          "text": "박스 꼭대기까지 올라갔다가 무너뜨렸어. 사진 봐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하는 일마다 사고인데 얼굴 보면 다 봐주게 됨.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "친근한 놀림"
+      ],
+      "fit_reason": "귀여움이 유일한 무기라는 문구가 사고를 쳐도 큰 눈에 약해진다는 말과 맞는다."
+    },
+    {
+      "example_id": "7620792_02",
+      "context": "친구가 꾸민 게임 캐릭터의 능력치를 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 캐릭터 세팅 어때?"
+        },
+        {
+          "speaker": "B",
+          "text": "방어구는 약한데 리본은 진짜 잘 골랐네."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "공격은 팀에 맡기고 저는 외모 담당입니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "캐릭터 자랑"
+      ],
+      "fit_reason": "캐릭터를 가리키는 화살표와 귀여움 원툴 문구가 성능보다 외형을 고른 선택을 농담으로 만든다."
+    },
+    {
+      "example_id": "7620792_03",
+      "context": "조카가 부탁할 게 있을 때만 눈을 크게 뜬다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까부터 왜 저렇게 올려다봐?"
+        },
+        {
+          "speaker": "B",
+          "text": "아이스크림 하나 더 사 달래."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저 눈으로 쳐다보면 거절하기 어렵지.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정",
+        "장난"
+      ],
+      "fit_reason": "반짝이는 동그란 눈이 귀여운 표정으로 부탁하는 상황과 직접 연결된다."
+    },
+    {
+      "example_id": "7620792_04",
+      "context": "친구가 귀여운 자석을 샀는데 잘 붙지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 자석 냉장고에 붙어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "붙는데 메모 한 장 끼우면 떨어짐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "기능은 없어도 색은 예뻐서 일단 둔다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "애정"
+      ],
+      "fit_reason": "귀여움에만 강점이 있다는 자막이 장식으로 쓰겠다는 말을 유쾌하게 보탠다."
+    },
+    {
+      "example_id": "7620792_05",
+      "context": "친구가 자신이 바느질한 첫 인형을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "팔 길이가 하나씩 다르지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 눈 위치가 너무 절묘해서 자꾸 보게 돼."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 그럼 귀여운 맛으로 밀어붙인다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자기 격려",
+        "성취 공유"
+      ],
+      "fit_reason": "큼직한 눈과 캐릭터 옆 화살표가 인형에서 마음에 드는 한 가지 특징을 강조하는 답과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,157 @@
+{
+  "package_id": "175404",
+  "sticker_id": "7626565",
+  "image_path": "images/175404/7626565-8909f52259a904057a3f.png",
+  "image_description": "불꽃 배경에 붉은 글씨로 ‘터져서 없어짐 수고하세요’가 적혀 있고 아래에 동물 얼굴 둘이 있다.",
+  "image_tags": [
+    "불꽃 배경",
+    "빨간 글씨",
+    "터져서 없어짐 문구",
+    "고양이 얼굴",
+    "동물 얼굴 합성"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7626565_01",
+      "context": "게임에서 지켜야 할 기지가 터졌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "기지 아직 살아 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 귀환 중이야"
+        },
+        {
+          "speaker": "A",
+          "text": "미니맵 보니까 아이콘 안 보이는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 방금 흔적도 없이 터짐 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "허탈"
+      ],
+      "fit_reason": "폭발 배경과 문구가 기지 소멸을 그대로 장난으로 묘사한다."
+    },
+    {
+      "example_id": "7626565_02",
+      "context": "온라인 장바구니에서 마지막 재고를 놓쳤다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "결제했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "주소 확인하는 중이었어"
+        },
+        {
+          "speaker": "A",
+          "text": "상품 페이지 품절 떴던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내 장바구니에서도 사라짐 수고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절",
+        "체념"
+      ],
+      "fit_reason": "없어졌다는 문구가 순식간에 놓친 상품에 맞는다."
+    },
+    {
+      "example_id": "7626565_03",
+      "context": "풍선 장식이 터져서 행사를 다시 꾸민다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파란 풍선 더 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 마지막 하나 불었어"
+        },
+        {
+          "speaker": "A",
+          "text": "아까 빵 소리 그거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "네 방금 마지막 재고가 터졌습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "풍선",
+        "자조"
+      ],
+      "fit_reason": "‘터져서 없어짐’이 풍선 사고에 바로 대응한다."
+    },
+    {
+      "example_id": "7626565_04",
+      "context": "게임의 강화 도전이 실패했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "재료 모았다며"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 10강 도전함"
+        },
+        {
+          "speaker": "A",
+          "text": "성공 이펙트 떴어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이펙트는 떴는데 장비가 없어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "강화 실패",
+        "허탈"
+      ],
+      "fit_reason": "불꽃과 멍한 동물 얼굴이 장비를 잃은 허탈함을 살린다."
+    },
+    {
+      "example_id": "7626565_05",
+      "context": "미리 만든 눈사람이 다음 날 녹았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 만든 거 사진 더 찍게"
+        },
+        {
+          "speaker": "B",
+          "text": "저녁에 다시 가보자"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘 낮 기온 12도래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이미 눈 대신 물만 있음 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "소멸",
+        "농담"
+      ],
+      "fit_reason": "대상이 감쪽같이 사라진 결과를 폭발 이미지로 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

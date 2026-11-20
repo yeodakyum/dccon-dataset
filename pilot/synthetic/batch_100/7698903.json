@@ -1,0 +1,140 @@
+{
+  "package_id": "175918",
+  "sticker_id": "7698903",
+  "image_path": "images/175918/7698903-bdabc68293df33eb6e77.png",
+  "image_view": "still",
+  "image_description": "은색 단발 인물이 양쪽 눈꺼풀을 반쯤 내리고 입을 작게 동그랗게 연다. 두 볼이 옅게 붉고 한쪽 볼에 작은 점이 보인다.",
+  "image_tags": [
+    "반쯤 감은 금빛 눈",
+    "작게 동그란 입",
+    "붉은 두 볼",
+    "작은 눈 밑 점",
+    "은색 앞머리 확대"
+  ],
+  "image_text": [],
+  "interpretation_note": "표정만으로는 졸림과 느슨한 불만이 모두 가능해 상황별로 나누어 썼다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7698903_01",
+      "context": "아침에 친구가 잠결에 회의 초대를 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 일어났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 폰 켰는데 10분 뒤에 회의래."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "눈부터 좀 뜨고 들어갈게요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "잠결"
+      ],
+      "fit_reason": "눈꺼풀이 반쯤 내려오고 입이 살짝 열린 표정이 막 잠에서 깬 상태에 맞는다."
+    },
+    {
+      "example_id": "7698903_02",
+      "context": "친구가 같은 얘기를 자꾸 반복한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 어제 버스 반대로 탄 얘기 했나?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘만 세 번째야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "다음부턴 결말만 말해 줘.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가벼운 핀잔",
+        "지루함"
+      ],
+      "fit_reason": "입이 작게 벌어지고 눈이 반쯤 감긴 얼굴이 지루해서 기운 빠진 답을 보여 준다."
+    },
+    {
+      "example_id": "7698903_03",
+      "context": "친구가 만든 차가 아직 너무 뜨겁다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "차 한 모금 마셔 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "뜨거워서 아직 입 못 댔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "천천히 불어 마셔. 나도 방금 데일 뻔했어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "상황 공유",
+        "가벼운 주의"
+      ],
+      "fit_reason": "동그랗게 오므린 입이 뜨거운 차를 식히려고 후후 부는 모습처럼 보인다."
+    },
+    {
+      "example_id": "7698903_04",
+      "context": "동생이 소파에서 자다 뒤늦게 배달 도착을 알아챈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "피자 문 앞에 있는데 나가서 받을래?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 지금 소파에서 한쪽 눈만 뜬 상태야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나머지 한쪽 뜨면 가지러 갈게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "가족 농담"
+      ],
+      "fit_reason": "반쯤 감긴 눈의 확대가 완전히 깨지 못해 소파에서 일어나기 싫은 기분을 살린다."
+    },
+    {
+      "example_id": "7698903_05",
+      "context": "친구가 방금 보여 준 사진에 칭찬을 너무 많이 붙인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 잘 나왔지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 너무 잘 나왔어. 진짜 모델 아니야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이제 그만 놀려 ㅋㅋ 부끄러우니까.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "친근한 대응"
+      ],
+      "fit_reason": "반쯤 내리감은 눈과 옅은 홍조가 칭찬을 듣고 민망해하는 표정으로도 읽힌다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,140 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632374",
+  "image_path": "images/176622/7632374-61cfe76b20c107633fe9.png",
+  "image_view": "still",
+  "image_description": "하늘색 머리 인물이 둥근 안경과 커다란 코, 검은 콧수염이 붙은 장난감 안경을 썼다. 망이 있는 푸른 벽 앞에서 정면을 본다.",
+  "image_tags": [
+    "안경 너머 동그란 눈",
+    "큰 가짜 코",
+    "검은 양쪽 콧수염",
+    "하늘색 앞머리",
+    "격자무늬 푸른 배경"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632374_01",
+      "context": "친구들끼리 변장 콘셉트의 사진을 보내기로 했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 드레스코드 정했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 아무도 나인지 몰라보게 입으려고."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "안경 하나로 신분 세탁 완료.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "변장 농담",
+        "자랑"
+      ],
+      "fit_reason": "가짜 코와 콧수염이 붙은 안경이 허술한 변장을 완벽하다고 우기는 말과 맞는다."
+    },
+    {
+      "example_id": "7632374_02",
+      "context": "동료가 회의 때 했던 제안의 주인을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 익명으로 누가 냈던 거죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "문장에 괄호가 여섯 개라 박 대리님 같아요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "흠 저는 처음 보는 문서입니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시치미",
+        "자조"
+      ],
+      "fit_reason": "정면을 빤히 보면서 우스운 변장 안경을 쓴 모습이 훤히 들키는 시치미를 보여 준다."
+    },
+    {
+      "example_id": "7632374_03",
+      "context": "친구가 기분 전환으로 앞머리를 자른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 봤어? 좀 달라 보이지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 네가 보낸 건 콧수염 필터 사진인데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 콧수염 빼고 머리만 평가해 주세요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "분위기 전환"
+      ],
+      "fit_reason": "커다란 가짜 코와 수염이 새 앞머리보다 먼저 눈에 들어오는 상황과 맞는다."
+    },
+    {
+      "example_id": "7632374_04",
+      "context": "온라인 경기에서 부계정으로 친구를 만난다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 사람 너랑 플레이 스타일 똑같은데?"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 지나가던 초보입니다."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "첫 판부터 아는 척 금지요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "신분 숨기기",
+        "장난"
+      ],
+      "fit_reason": "눈에 띄는 변장 소품이 친구에게 정체를 숨기는 척하는 분위기를 만든다."
+    },
+    {
+      "example_id": "7632374_05",
+      "context": "친구가 모임에 단체 안경을 준비한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 생일 사진에 쓸 소품 샀어."
+        },
+        {
+          "speaker": "B",
+          "text": "설마 또 그 콧수염 안경?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 이번엔 단체로 쓰고 찍자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "참여 제안"
+      ],
+      "fit_reason": "사진에 보이는 가짜 코와 수염을 실제 모임 소품으로 제안하므로 장면과 직접 연결된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

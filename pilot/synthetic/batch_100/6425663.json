@@ -1,0 +1,137 @@
+{
+  "package_id": "171100",
+  "sticker_id": "6425663",
+  "image_path": "images/171100/6425663-c6f0a454a8e31e52b600.png",
+  "image_description": "빨간 리본을 맨 노란 고양이가 엄지를 치켜든다. 양쪽 눈 색은 각각 주황빛과 파란빛이고 볼은 분홍색이다.",
+  "image_tags": [
+    "노란고양이",
+    "엄지",
+    "빨간리본",
+    "오드아이",
+    "분홍볼"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6425663-1",
+      "context": "회의 시간 확정",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 오후 두 시 괜찮아?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 그때 비어 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 두 시로 잡을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "일정",
+        "확인"
+      ],
+      "fit_reason": "엄지가 확정했다는 짧은 신호가 된다."
+    },
+    {
+      "example_id": "6425663-2",
+      "context": "그림 초안 피드백",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배경 색 바꾼 거 보낼게"
+        },
+        {
+          "speaker": "B",
+          "text": "이제 글씨 잘 보여?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 지금 조합 너무 좋아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "그림"
+      ],
+      "fit_reason": "양쪽 눈 색이 다른 고양이의 엄지가 색 변경을 칭찬하는 말에 어울린다."
+    },
+    {
+      "example_id": "6425663-3",
+      "context": "요리 성공 인증",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "계란말이 처음 해 봤어"
+        },
+        {
+          "speaker": "B",
+          "text": "오 안 찢어졌네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이번 건 인정이지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑",
+        "요리"
+      ],
+      "fit_reason": "뿌듯해 보이는 엄지로 첫 요리 성공을 축하한다."
+    },
+    {
+      "example_id": "6425663-4",
+      "context": "청소 분담",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나는 바닥 닦을게"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 설거지는 내가 할게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "완벽한 분업이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "협력",
+        "동의"
+      ],
+      "fit_reason": "엄지를 올린 동작으로 분담에 동의한다."
+    },
+    {
+      "example_id": "6425663-5",
+      "context": "택배 수령 확인",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "문 앞에 놓고 갔대"
+        },
+        {
+          "speaker": "B",
+          "text": "비 오는데 안 젖었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 확인했어 멀쩡해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "확인",
+        "안도"
+      ],
+      "fit_reason": "가볍게 치켜든 엄지가 이상 없다는 뜻을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

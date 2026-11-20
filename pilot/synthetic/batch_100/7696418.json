@@ -1,0 +1,135 @@
+{
+  "package_id": "176564",
+  "sticker_id": "7696418",
+  "image_path": "images/176564/7696418-40466990c718e707e71d.jpg",
+  "image_view": "still",
+  "image_description": "연두 머리 인물이 얼굴 반쪽에 그림자를 뒤집어쓴 채 양팔을 어색하게 편다.",
+  "image_tags": [
+    "비대칭으로 보이는 눈",
+    "어두운 얼굴 반쪽",
+    "옆으로 댄 팔",
+    "연두색 머리",
+    "붉은 넥타이"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7696418_01",
+      "context": "친구가 예정보다 빨리 도착한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 아직 출발 안 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이미 너희 집 앞이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 나 머리도 안 말렸는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "친구가 예정보다 빨리 도착한다 상황에서 굳은 눈과 어정쩡하게 든 팔이 어떻게 답할지 몰라 멈칫하는 분위기를 만든다."
+    },
+    {
+      "example_id": "7696418_02",
+      "context": "업무 파일이 서로 뒤바뀐다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "제가 올린 거 열어보셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 근데 지난달 영수증인데요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앗 바로 다시 올릴게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "업무 파일이 서로 뒤바뀐다 상황에서 굳은 눈과 어정쩡하게 든 팔이 어떻게 답할지 몰라 멈칫하는 분위기를 만든다."
+    },
+    {
+      "example_id": "7696418_03",
+      "context": "배달지를 잘못 입력했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배달 다 왔다는데 왜 안 보이지"
+        },
+        {
+          "speaker": "B",
+          "text": "너 주소 예전 집이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 기사님께 전화할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "배달지를 잘못 입력했다 상황에서 굳은 눈과 어정쩡하게 든 팔이 어떻게 답할지 몰라 멈칫하는 분위기를 만든다."
+    },
+    {
+      "example_id": "7696418_04",
+      "context": "친구가 모임 일자를 착각한 걸 알려 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "모임 준비 내일 해도 되지?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 다 출발했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "어 잠시만 오늘이었어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "친구가 모임 일자를 착각한 걸 알려 준다 상황에서 굳은 눈과 어정쩡하게 든 팔이 어떻게 답할지 몰라 멈칫하는 분위기를 만든다."
+    },
+    {
+      "example_id": "7696418_05",
+      "context": "이름이 같은 사람에게 메시지를 잘못 보냈다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 부탁한 거 해봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 어제 연락한 적 없는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "같은 이름이라 방을 잘못 열었어 미안",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "이름이 같은 사람에게 메시지를 잘못 보냈다 상황에서 굳은 눈과 어정쩡하게 든 팔이 어떻게 답할지 몰라 멈칫하는 분위기를 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,162 @@
+{
+  "package_id": "175577",
+  "sticker_id": "7763690",
+  "image_path": "images/175577/7763690-2e5f0b36672d5fd793e0.png",
+  "image_view": "still",
+  "image_description": "흑백 만화에서 등 돌린 단발 인물과 왼쪽의 각진 말풍선이 함께 보인다.",
+  "image_tags": [
+    "등 돌린 단발",
+    "검게 칠한 상의",
+    "각진 말풍선",
+    "굵은 두 줄 손글씨",
+    "촘촘한 교차 명암"
+  ],
+  "image_text": [
+    "이거 더 내놔"
+  ],
+  "interpretation_note": "화자의 얼굴은 보이지 않는다. 명령조 문구는 앞 대화에 따라 가벼운 재촉과 실제 추가 요청으로 쓰일 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7763690_01",
+      "context": "동생이 막 구운 쿠키를 맛보라고 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 하나만 맛봐"
+        },
+        {
+          "speaker": "B",
+          "text": "버터 냄새 엄청 좋은데"
+        },
+        {
+          "speaker": "A",
+          "text": "나머지는 내일 먹을 거야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내일 먹을 거에서 딱 하나만 빼 주라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추가 요청",
+        "간접 칭찬"
+      ],
+      "fit_reason": "맛보기 쿠키에 만족한 뒤 더 내놓으라는 말풍선을 붙이면 맛있었다는 뜻이 전해진다."
+    },
+    {
+      "example_id": "7763690_02",
+      "context": "친구가 만화 초안 한 장을 공개한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "스케치긴 한데 첫 장 올림"
+        },
+        {
+          "speaker": "B",
+          "text": "문 열고 누구 만나는 건데"
+        },
+        {
+          "speaker": "A",
+          "text": "그다음 장은 내일"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "여기서 끊는 거 너무하잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "다음 편 요구",
+        "몰입"
+      ],
+      "fit_reason": "인물이 문을 여는 데서 끊겨서 흑백 만화의 요구 말풍선이 다음 편을 더 보고 싶다는 뜻을 살린다."
+    },
+    {
+      "example_id": "7763690_03",
+      "context": "동아리원이 행사 홍보용 사진을 고른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난 행사 사진 더 있나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 한 장 올렸어요"
+        },
+        {
+          "speaker": "A",
+          "text": "이건 현수막에 사람이 가려졌네요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앞에서 찍은 컷도 두세 장만 보내 주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "후보 추가",
+        "자료 요청"
+      ],
+      "fit_reason": "올라온 한 장에서 사람이 가려져 추가 컷이 필요한 상황이라 ‘더 내놔’가 요청을 과장한다."
+    },
+    {
+      "example_id": "7763690_04",
+      "context": "친구가 반려견의 낮잠 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "얘 자는데 배만 올라왔다 내려갔다 함"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 이걸로 끝이야?"
+        },
+        {
+          "speaker": "A",
+          "text": "다섯 장 찍긴 했지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오늘의 강아지 사진 여기서 끊으면 안 됨",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "친근한 재촉"
+      ],
+      "fit_reason": "사진이 더 있다는 사실을 듣고 바로 내놓으라는 말풍선을 보내니 귀엽다는 반응이 장난스럽게 전해진다."
+    },
+    {
+      "example_id": "7763690_05",
+      "context": "게임 중 친구가 제작 재료를 나눠 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나무 다섯 개 줄까?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 그럼 화살 몇 개 만들겠네"
+        },
+        {
+          "speaker": "A",
+          "text": "기지에도 울타리 치려고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 열 개만 지원해 주십시오",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자원 요청",
+        "장난스러운 독촉"
+      ],
+      "fit_reason": "화살뿐 아니라 울타리도 만들어야 해서 요구량을 늘리는 말을 단호한 말풍선이 강조한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

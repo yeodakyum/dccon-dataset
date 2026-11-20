@@ -1,0 +1,160 @@
+{
+  "package_id": "139837",
+  "sticker_id": "4325231",
+  "image_path": "images/139837/4325231-be0288eae4f1958a0ffd.png",
+  "image_view": "still",
+  "image_description": "큰 흰 손이 보라색 원형 캐릭터의 머리 위를 강하게 누르는 장면이다. 아래 캐릭터는 비스듬한 눈으로 힐끗 보며 작은 이 하나가 드러나게 웃는다.",
+  "image_tags": [
+    "위쪽을 힐끗 보는 비대칭 눈",
+    "살짝 드러난 이",
+    "머리 위 커다란 흰 주먹",
+    "붉은 충격 효과",
+    "노랑 테두리"
+  ],
+  "image_text": [],
+  "interpretation_note": "손의 동작은 한 대 때리거나 꾹 누르는 듯 보인다. 폭력적인 묘사보다 친구끼리 장난을 저지하는 과장된 반응에 맞는다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4325231_01",
+      "context": "친구 둘이 마지막 남은 만두를 누가 먹을지 장난을 친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그거 내 마지막 만두 남겨둔 거임"
+        },
+        {
+          "speaker": "B",
+          "text": "이미 젓가락 들었음"
+        },
+        {
+          "speaker": "A",
+          "text": "거기 내려놔 ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 만두에 손대면 압수임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 경고",
+        "장난"
+      ],
+      "fit_reason": "젓가락이 만두에 가는 순간이라 큰 흰 손이 덮쳐 막는 충격 연출이 즉각적인 제지처럼 읽힌다."
+    },
+    {
+      "example_id": "4325231_02",
+      "context": "친구가 익숙한 말장난을 예고한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 개그 하나만 더 쳐도 됨?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까 그 고양이 시리즈야?"
+        },
+        {
+          "speaker": "A",
+          "text": "이번엔 고양이가 컴퓨터 하면 뭔지 알아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이번 건 시작 전에 막을게 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "말장난 차단",
+        "친근한 놀림"
+      ],
+      "fit_reason": "질문이 시작되자마자 거대한 손이 내려오는 구도가 친구가 새 썰을 시작하지 못하게 막는 느낌에 맞는다."
+    },
+    {
+      "example_id": "4325231_03",
+      "context": "약속 시간이 다가오는데 친구가 모임 장소 투표를 새로 만들자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여섯 시에 역 앞 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "갑자기 다른 역도 괜찮을 것 같은데 투표 다시 해 볼까"
+        },
+        {
+          "speaker": "A",
+          "text": "다들 이미 지하철 탔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "재투표 버튼은 제가 누르고 있을게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선택지 차단",
+        "반어"
+      ],
+      "fit_reason": "다들 이미 이동 중인 상황에서 아이디어를 눌러 버린다는 답이 화면을 누르는 흰 손과 연결된다."
+    },
+    {
+      "example_id": "4325231_04",
+      "context": "친구가 함께 세운 게임 전략을 접고 함정으로 뛰려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 왼쪽으로 돌아서 가자"
+        },
+        {
+          "speaker": "B",
+          "text": "근데 그냥 정면으로 뛰면 빠를 듯"
+        },
+        {
+          "speaker": "A",
+          "text": "저기 다 바닥 꺼지는 곳이라고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 그 발 좀 멈춰 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "긴급 제지",
+        "친근한 타박"
+      ],
+      "fit_reason": "당장 뛰려는 동작을 막는 상황이고 붉은 충격 표시가 붙은 손이 급하게 잡아 세우는 기분을 전한다."
+    },
+    {
+      "example_id": "4325231_05",
+      "context": "친구가 의도적으로 못 찍은 사진을 단체방에 보내려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 사진 너만 갖고 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 단톡 첨부 중인데?"
+        },
+        {
+          "speaker": "A",
+          "text": "야 잠깐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "올리기 전에 네 손부터 봉인한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난 섞인 저지",
+        "민망함"
+      ],
+      "fit_reason": "친구가 전송을 누르기 직전이라 머리 위에서 덮치는 흰 손과 보라 캐릭터의 장난스러운 표정이 과장된 반응에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

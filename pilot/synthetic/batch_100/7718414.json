@@ -1,0 +1,137 @@
+{
+  "package_id": "175289",
+  "sticker_id": "7718414",
+  "image_path": "images/175289/7718414-00533ba7385c3091c12b.png",
+  "image_description": "펼친 손바닥 위에 배추와 퍼그의 얼굴을 합성했다. 불꽃을 배경으로 ‘음음 개추를 주마’라는 글자가 있다.",
+  "image_tags": [
+    "퍼그",
+    "배추",
+    "손바닥",
+    "불꽃 배경",
+    "개추 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7718414_1",
+      "context": "온라인 게시판에 정리 글이 올라옴",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 질문한 부분 해결했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 과정까지 게시판에 정리해서 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "정성추 드립니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추천",
+        "게시판"
+      ],
+      "fit_reason": "‘개추를 주마’라는 문구가 정성 글에 추천을 누르는 뜻과 맞는다."
+    },
+    {
+      "example_id": "7718414_2",
+      "context": "단체 채팅에 반응 좋은 사진 등장",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 찍은 단체 사진 골랐어?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 점프 실패한 컷이 만장일치야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이건 나도 추천",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사진",
+        "추천"
+      ],
+      "fit_reason": "우스운 퍼그와 배추 합성이 웃긴 사진에 장난스러운 추천을 보탠다."
+    },
+    {
+      "example_id": "7718414_3",
+      "context": "점심 메뉴 의견에 동의",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 메뉴 못 정했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비도 오는데 칼국수 어때"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋다 그 의견에 한 표",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의",
+        "점심"
+      ],
+      "fit_reason": "손바닥 위에서 추천을 건네는 구도가 메뉴 투표에 어울린다."
+    },
+    {
+      "example_id": "7718414_4",
+      "context": "친구가 구하기 어려운 자료 공유",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난 수업 예제 어디서 찾아?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 실습한 거 파일로 묶어서 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "자료추 주고 갑니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "자료"
+      ],
+      "fit_reason": "추천 문구로 공유한 자료를 공개적으로 칭찬할 수 있다."
+    },
+    {
+      "example_id": "7718414_5",
+      "context": "반려견 사진으로 투표를 여는 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 프사 뭐로 할까"
+        },
+        {
+          "speaker": "B",
+          "text": "퍼그가 양배추 옆에 앉아 있는 사진 어때"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그게 당선이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려견",
+        "선택"
+      ],
+      "fit_reason": "퍼그와 배추가 합쳐진 장면이 후보 사진에 익살스러운 한 표를 더한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

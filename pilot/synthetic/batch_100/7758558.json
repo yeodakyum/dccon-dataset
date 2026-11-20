@@ -1,0 +1,146 @@
+{
+  "package_id": "176503",
+  "sticker_id": "7758558",
+  "image_path": "images/176503/7758558-28484a7687351612e54f.png",
+  "image_view": "still",
+  "image_description": "겹겹이 말린 고리 모양 케이크 옆면에 수염과 파랗게 우는 얼굴이 그려졌다.",
+  "image_tags": [
+    "파란 눈물이 맺힌 눈",
+    "작게 굽은 입",
+    "중심이 빈 고리",
+    "윗면에 보이는 노란 겹무늬",
+    "검은 손글씨 두 줄"
+  ],
+  "image_text": [
+    "나 우울해서 바움쿠헨 됐어.."
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758558_01",
+      "context": "동료와 원형 케이크를 옮기다 가운데가 부서졌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "접시에 그대로 내려놓았어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "가운데만 못 버티고 떨어졌어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이젠 구멍 난 버전이라고 소개하죠",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실수 수습",
+        "자조"
+      ],
+      "fit_reason": "케이크가 가운데만 떨어져 나갔다는 말에 고리 모양 케이크와 파란 눈물이 재미를 보탠다."
+    },
+    {
+      "example_id": "7758558_02",
+      "context": "친구가 같은 지하철역의 출구를 찾다 제자리로 왔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 어디야?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까 그 약국으로 다시 왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 진짜 바퀴 돌듯이 도네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "길 찾기 실패",
+        "가벼운 한탄"
+      ],
+      "fit_reason": "같은 자리로 돌아온 친구의 동선에 원형으로 돌아가는 케이크의 노란 겹무늬가 연결된다."
+    },
+    {
+      "example_id": "7758558_03",
+      "context": "친구가 작업을 반복하게 된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 외곽선은 다 그었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "파일 꼬여서 어제 선부터 다시 그어야 해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이렇게 한 겹씩 하다가 밤 새겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반복 작업 한탄",
+        "자조"
+      ],
+      "fit_reason": "한 겹씩 선을 다시 그어야 한다는 말에 층으로 쌓인 케이크와 눈물이 반복의 피로를 표현한다."
+    },
+    {
+      "example_id": "7758558_04",
+      "context": "친구가 간식을 당장 먹지 못하지만 베이커리 앞을 지나간다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 퇴근길에 그 가게 지나감?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지금 검사 때문에 금식 중인데 냄새 미침"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내일 구멍 뚫린 그거 꼭 먹는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식 갈망",
+        "기약"
+      ],
+      "fit_reason": "당장 먹지 못하는 서러움과 내일 먹을 디저트가 파란 눈물을 흘리는 고리 모양 케이크에 함께 드러난다."
+    },
+    {
+      "example_id": "7758558_05",
+      "context": "동생이 디저트 장식 사진을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 산 케이크에 얼굴 그렸어"
+        },
+        {
+          "speaker": "B",
+          "text": "볼에 파란 건 뭐야?"
+        },
+        {
+          "speaker": "A",
+          "text": "너랑 나눠 먹기 싫어서 운대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "케이크한테만 미안하다고 전해 줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "상황극"
+      ],
+      "fit_reason": "먹힐 걸 슬퍼하는 케이크라는 상상에 케이크 자체가 눈물을 흘리는 컷이 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,148 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632427",
+  "image_path": "images/176622/7632427-b9daeae61ac689754521.png",
+  "image_view": "still",
+  "image_description": "연분홍 단발 캐릭터가 회색 눈으로 화면 왼쪽을 보고 미소 짓는다. 손가락 두 개를 입꼬리 가까이에 댄 얼굴 확대 컷이다.",
+  "image_tags": [
+    "옆으로 향한 회색 눈",
+    "입을 살짝 벌린 미소",
+    "입가에 댄 손가락",
+    "연분홍 단발",
+    "짙은 목 장식"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632427_01",
+      "context": "친구가 연애 얘기를 얼버무리며 주제를 바꾼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일에 그분 또 만나?"
+        },
+        {
+          "speaker": "B",
+          "text": "그런 얘기보다 너 저녁 먹었냐"
+        },
+        {
+          "speaker": "A",
+          "text": "난 먹었는데 그래서 토요일은?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 화제 바꾼 거 다 티 났어 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "눈치챔"
+      ],
+      "fit_reason": "약속 질문에 저녁 얘기로 샌 순간이라, 곁눈질과 입가에 댄 손이 눈치챘지만 조용히 놀리는 표정이 된다."
+    },
+    {
+      "example_id": "7632427_02",
+      "context": "동료가 다음 회의의 간식으로 준비한 것을 비밀로 해 달라고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "서랍에 종이봉투 뭐예요?"
+        },
+        {
+          "speaker": "B",
+          "text": "내일 팀장님 생일 케이크 초예요. 아직은 쉿."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저는 아무것도 못 봤습니다 ㅎㅎ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "비밀 공유",
+        "장난스러운 약속"
+      ],
+      "fit_reason": "서랍 속 초의 사정을 두 사람만 알게 된 뒤라, 입가에 손을 댄 작은 미소가 비밀에 동참하는 듯하다."
+    },
+    {
+      "example_id": "7632427_03",
+      "context": "보드게임에서 상대의 수를 눈치챈 친구가 여유를 부린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 카드 방어할 때 쓰는 거지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아닌데? 나 그냥 들고 있는 건데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그래 그럼 내가 먼저 들어가 볼게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "견제",
+        "심리전"
+      ],
+      "fit_reason": "방어 카드를 얼버무리는 상대에게, 옆을 보며 웃는 얼굴이 무슨 생각을 하는지 알 것 같다는 심리전이 된다."
+    },
+    {
+      "example_id": "7632427_04",
+      "context": "동생이 졸업 작품에 칭찬을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "전시장 조명 바꾸니까 훨씬 예뻐졌어."
+        },
+        {
+          "speaker": "B",
+          "text": "누나 원래 저렇게 잘 그렸어? 멀리서 보고 바로 알았는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "더 말해봐 기분 좋아서 듣고 있을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러운 기쁨",
+        "칭찬 수용"
+      ],
+      "fit_reason": "동생이 멀리서도 알아봤다고 칭찬하자, 입가에 손을 댄 은근한 웃음이 기쁜 티를 살짝 드러낸다."
+    },
+    {
+      "example_id": "7632427_05",
+      "context": "친구가 잠깐 구경만 하겠다고 한 행사에서 굿즈를 잔뜩 산다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 지갑 놔두고 왔다며."
+        },
+        {
+          "speaker": "B",
+          "text": "응 그래서 계좌이체함"
+        },
+        {
+          "speaker": "A",
+          "text": "얼마나 샀는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "봉투 한 개로는 못 들고 가더라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "장난스러운 실토"
+      ],
+      "fit_reason": "지갑을 두고 와도 계좌이체로 잔뜩 샀다는 고백에, 입가를 감춘 듯한 얄미운 미소가 머쓱한 자조를 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

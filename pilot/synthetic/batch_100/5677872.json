@@ -1,0 +1,160 @@
+{
+  "package_id": "166499",
+  "sticker_id": "5677872",
+  "image_path": "images/166499/5677872-a5513ee4a1398708652f.png",
+  "image_view": "still",
+  "image_description": "노란 줄무늬의 고양이 캐릭터가 양손으로 커다란 두 원통을 눈앞에 대고 왼쪽을 향해 본다. 목에 빨간 리본이 달렸다.",
+  "image_tags": [
+    "원통 끝의 동그란 검은 점",
+    "눈을 가린 원통 두 개",
+    "앞으로 들어 올린 두 손",
+    "노란 줄무늬 털",
+    "빨간 목 리본"
+  ],
+  "image_text": [],
+  "interpretation_note": "원통은 쌍안경처럼 보이지만 과장되게 튀어나온 눈의 표현으로도 읽힌다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5677872_01",
+      "context": "콘서트 좌석이 무대에서 꽤 멀다는 것을 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 자리 어디야?"
+        },
+        {
+          "speaker": "B",
+          "text": "2층 맨 뒤 가운데"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 가수 목소리는 제일 잘 들리겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "얼굴은 오페라글라스 빌려서 볼게 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "관람 준비",
+        "친근한 농담"
+      ],
+      "fit_reason": "무대와 거리가 먼 좌석 이야기 뒤에 커다란 쌍안경을 가져다 댄 모습이 해결책을 시각화한다."
+    },
+    {
+      "example_id": "5677872_02",
+      "context": "친구가 멀리 보이는 모양을 구별하지 못한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저기 지붕에 까만 거 새 같아?"
+        },
+        {
+          "speaker": "B",
+          "text": "바람 불 때마다 움직여"
+        },
+        {
+          "speaker": "A",
+          "text": "깃발일 수도 있겠는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "폰 줌 끝까지 당겨 볼게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자세히 보기",
+        "호기심"
+      ],
+      "fit_reason": "지붕 위 작은 물체를 확대하게 된 상황에 원통을 눈에 댄 고양이가 집중해서 보려는 동작을 흉내 낸다."
+    },
+    {
+      "example_id": "5677872_03",
+      "context": "친구가 단체 사진에 자기가 찍혔다고 주장한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 사진에 나 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "어디? 아무리 봐도 모르겠는데"
+        },
+        {
+          "speaker": "A",
+          "text": "맨 오른쪽 구석 팔 그게 나야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "더 확대하면 픽셀한테 물어봐야겠어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "사진 확대"
+      ],
+      "fit_reason": "사람이 아니라 구석의 팔만 보이니 눈을 가릴 만큼 큰 관찰 도구가 필요하다는 농담과 맞는다."
+    },
+    {
+      "example_id": "5677872_04",
+      "context": "게임에서 멀리 있는 장애물을 먼저 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그대로 앞으로 갈까?"
+        },
+        {
+          "speaker": "B",
+          "text": "저 건물 옥상에 뭐 움직였어"
+        },
+        {
+          "speaker": "A",
+          "text": "일단 벽 뒤에서 잠깐만"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "확대해서 옥상만 확인하고 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "주의 환기",
+        "탐색"
+      ],
+      "fit_reason": "옥상에 있는 대상을 멀리서 확인하자는 말에 쌍안경을 고쳐 대는 자세가 상태 확인을 강조한다."
+    },
+    {
+      "example_id": "5677872_05",
+      "context": "모임에서 친구가 반 년 만에 처음 지각하지 않았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 도착했어"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 시작 10분 전인데?"
+        },
+        {
+          "speaker": "A",
+          "text": "앞에 창문 봐 손 흔들고 있음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 맞는지 두 눈으로 확인하러 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반가움",
+        "친근한 의심"
+      ],
+      "fit_reason": "늘 늦던 친구가 일찍 왔다 해서 원통 두 개로 자세히 알아보는 모습이 믿기지 않는다는 농담을 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

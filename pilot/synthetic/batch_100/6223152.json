@@ -1,0 +1,137 @@
+{
+  "package_id": "171367",
+  "sticker_id": "6223152",
+  "image_path": "images/171367/6223152-c52e58ee44ffe3433dac.png",
+  "image_description": "별이 달린 어두운 모자를 쓴 금발 캐릭터가 낮은 자세로 웃고, 위쪽에 상대를 ‘하찮은 불법아’라 부르는 큰 말풍선이 있다.",
+  "image_tags": [
+    "별모자",
+    "금발",
+    "금빛눈",
+    "말풍선",
+    "장난기"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6223152-1",
+      "context": "친구의 게임 공략",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 보스 앞에서 계속 죽어"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 무작정 앞으로 달리면 되는 거 아냐?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "패턴부터 봐야지 친구야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "빈정거림"
+      ],
+      "fit_reason": "작은 마법사와 긴 말풍선이 잘난 척하는 장난에 어울린다."
+    },
+    {
+      "example_id": "6223152-2",
+      "context": "비장의 라면 조리법",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "라면에 마지막에 한 가지 더 넣어 봐"
+        },
+        {
+          "speaker": "B",
+          "text": "대파면 나도 늘 넣는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "거기서부터 네가 내 비법을 모르는 거지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리",
+        "능청"
+      ],
+      "fit_reason": "아는 비밀이 있다는 듯 웃는 얼굴이 요리 부심을 살린다."
+    },
+    {
+      "example_id": "6223152-3",
+      "context": "카드게임 규칙 발견",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 왜 턴이 나한테 다시 왔지?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 방해 카드를 썼잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 카드의 뒷면부터 보시죠",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "함정"
+      ],
+      "fit_reason": "마법사 같은 복장과 긴 대사가 함정을 공개하는 연출에 걸맞다."
+    },
+    {
+      "example_id": "6223152-4",
+      "context": "추리 문제 오답",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "힌트 하나 줄 건데 들어 볼래?"
+        },
+        {
+          "speaker": "B",
+          "text": "필요 없어. 범인은 우체부야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 사람은 이미 첫 장에서 알리바이 나왔어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "놀림"
+      ],
+      "fit_reason": "뻔한 걸 놓친 친구에게 과장된 독백을 붙이기 좋다."
+    },
+    {
+      "example_id": "6223152-5",
+      "context": "서점 코너 고르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "판타지 코너부터 갈까?"
+        },
+        {
+          "speaker": "B",
+          "text": "마법사 나오는 건 다 비슷하지 않아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 지금 너랑 진지하게 한 판 할 수 있어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "판타지",
+        "장난"
+      ],
+      "fit_reason": "별 모자와 극적인 말투가 판타지 취향을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

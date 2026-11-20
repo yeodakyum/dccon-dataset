@@ -1,0 +1,142 @@
+{
+  "package_id": "175310",
+  "sticker_id": "7668868",
+  "image_path": "images/175310/7668868-68358916502d5beebd25.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 인물이 몸을 사선으로 기울여 눈을 꼭 감고 입을 연다. 몸 주변에 검은 방사선이 있고 위쪽에 누우라는 큰 글씨가 놓여 있다.",
+  "image_tags": [
+    "질끈 감은 눈",
+    "둥글게 벌린 입",
+    "사선으로 누운 자세",
+    "검은 방사형 속도선",
+    "느낌표가 이어진 상단 문구"
+  ],
+  "image_text": [
+    "누워!!!!!!!!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7668868_01",
+      "context": "동료가 야근 후에도 메신저를 계속 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "퇴근하셨어요? 방금도 수정 표시가 떴는데."
+        },
+        {
+          "speaker": "B",
+          "text": "집인데 페이지 한 번만 더 보려고요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제가 볼게요. 오늘은 제발 누워요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴식 권유",
+        "배려"
+      ],
+      "fit_reason": "몸을 사선으로 눕힌 자세와 굵은 누워 문구가 그만 일하고 쉬라는 뜻을 전한다."
+    },
+    {
+      "example_id": "7668868_02",
+      "context": "친구가 사 온 새 매트리스를 곧바로 써 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 매트리스 어때?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 포장 뜯는 중. 좀 이따 앉아 볼게."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앉지만 말고 한 번 누워 봐 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사용 권유",
+        "기대"
+      ],
+      "fit_reason": "검은 속도선 안으로 눕는 몸이 새 매트리스에 바로 몸을 던져 보라는 제안과 맞는다."
+    },
+    {
+      "example_id": "7668868_03",
+      "context": "동생이 몸살인데 하루 계획을 억지로 지키려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "열 얼마나 내려갔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "조금. 지금 빨래부터 하려구."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "빨래 냅두고 이불부터 덮어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "걱정",
+        "휴식 권유"
+      ],
+      "fit_reason": "느낌표가 반복된 명령과 누운 캐릭터가 아픈 상대를 쉬게 하려는 다급함을 보여 준다."
+    },
+    {
+      "example_id": "7668868_04",
+      "context": "캠핑을 마친 친구가 귀가하자마자 지친 기색을 보인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "짐 다 옮겼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지금 현관 바닥에 앉았어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이제 현관 말고 침대로 가서 기절하자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공감",
+        "피로"
+      ],
+      "fit_reason": "눈을 감고 사선으로 넘어지는 모습이 몸을 써서 지친 뒤 쓰러져 자고 싶은 느낌을 살린다."
+    },
+    {
+      "example_id": "7668868_05",
+      "context": "친구가 소파를 차지하려고 사소한 내기를 건다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "가위바위보 이긴 사람이 소파 써."
+        },
+        {
+          "speaker": "B",
+          "text": "나 이겼지? 이제 자리 비켜."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "감사합니다 바로 가로로 들어갑니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "승리 선언"
+      ],
+      "fit_reason": "기울어진 전신과 방사형 효과가 소파에 재빨리 드러눕겠다는 말을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,142 @@
+{
+  "package_id": "175355",
+  "sticker_id": "7601229",
+  "image_path": "images/175355/7601229-a7398da7eb05bf8b7067.png",
+  "image_view": "still",
+  "image_description": "검은 단발의 캐릭터가 몸을 비스듬히 기울여 얼굴을 들이밀고 장갑 낀 손을 입가에 댄다. 두 눈은 붉게 반짝이고 위쪽에 짙은 갈색 문구가 있다.",
+  "image_tags": [
+    "비스듬히 뜬 붉은 눈",
+    "작게 열린 분홍 입",
+    "입가에 댄 장갑",
+    "기울어진 검은 단발",
+    "짙은 갈색 상단 자막"
+  ],
+  "image_text": [
+    "나는.앉.것.몰"
+  ],
+  "interpretation_note": "자막 글자와 구분점이 불명확하다. 시치미를 떼는 표정으로 읽되 문구의 뜻은 특정하지 않았다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7601229_01",
+      "context": "같이 과자를 먹던 친구가 마지막 조각의 행방을 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "봉지에 하나 남겨놨는데 어디 갔지?"
+        },
+        {
+          "speaker": "B",
+          "text": "너 방금 새 봉지 뜯지 않았어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "새 봉지 말고 네 앞에 부스러기 떨어진 그 봉지요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 추궁",
+        "장난"
+      ],
+      "fit_reason": "입가에 손을 댄 얼굴이 범인을 떠보는 장난스러운 추궁에 어울린다."
+    },
+    {
+      "example_id": "7601229_02",
+      "context": "단체방 몰래 친구 생일 케이크를 준비한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너네 아까 둘이 무슨 얘기했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 이번 주에 비 온다는 얘기."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "진짜 별 얘기 안 했어. 금요일에 보자~",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시치미",
+        "깜짝 계획"
+      ],
+      "fit_reason": "몸을 기울여 빤히 보면서 입을 가리는 자세가 다 말하지 않고 넘기는 느낌을 준다."
+    },
+    {
+      "example_id": "7601229_03",
+      "context": "게임에서 알 수 없는 수수께끼를 만난다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동쪽에 첫째 달이 뜰 때 문을 열래."
+        },
+        {
+          "speaker": "B",
+          "text": "여기 시간대가 바뀌기는 해?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 문 앞에서 눈치 보는 중임.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "막막함",
+        "관찰"
+      ],
+      "fit_reason": "비스듬히 얼굴을 들이밀어 살피는 구도가 모르는 기믹 앞에서 관찰하는 장면과 맞는다."
+    },
+    {
+      "example_id": "7601229_04",
+      "context": "친구가 드라마의 범인을 직접 물어본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 마지막 편 봤지. 옆집 사람 맞아?"
+        },
+        {
+          "speaker": "B",
+          "text": "말하면 재미 떨어진다니까."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 지금부터 아무것도 모르는 사람 할게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포일러 회피",
+        "장난"
+      ],
+      "fit_reason": "입을 가린 손과 반짝이는 눈이 답을 알면서도 감추는 장난을 전한다."
+    },
+    {
+      "example_id": "7601229_05",
+      "context": "부모님이 소리 없이 사라진 반찬을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고 위쪽에 있던 계란말이 봤니?"
+        },
+        {
+          "speaker": "B",
+          "text": "어제 저녁에 거기 있던 것까진 봤어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그 뒤는 제 기억에 없네요…",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "모르는 척",
+        "가족 농담"
+      ],
+      "fit_reason": "입가의 손과 기울어진 얼굴이 아는 게 더 있는 듯 머뭇거리는 대답에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

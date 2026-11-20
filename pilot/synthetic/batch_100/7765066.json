@@ -1,0 +1,137 @@
+{
+  "package_id": "176642",
+  "sticker_id": "7765066",
+  "image_path": "images/176642/7765066-2f4508eec26fad42cb02.png",
+  "image_description": "분홍 머리 캐릭터가 눈을 내려 감고 작은 입을 내민다. 왼쪽에는 흰 글씨가 적힌 검은 병과 병 위를 덮는 흰 형태가 보인다.",
+  "image_tags": [
+    "분홍 머리",
+    "내리감은 눈",
+    "검은 병",
+    "병의 흰 글씨",
+    "작은 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7765066-1",
+      "context": "친구가 근교에서 사 온 술을 꺼낸 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여행에서 뭐 사 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "동네 양조장 병 한 개 사 왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 이거 한 잔만 하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "여행",
+        "술자리"
+      ],
+      "fit_reason": "정색한 듯한 표정과 병을 앞세운 그림이 진지한 시음 제안처럼 보인다."
+    },
+    {
+      "example_id": "7765066-2",
+      "context": "스트레스 받는 업무를 마무리한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 진짜 퇴근해?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 오늘 보고서 마감까지 끝남"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 한 병 열 자격 있다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "퇴근",
+        "해방감"
+      ],
+      "fit_reason": "눈을 감은 피곤한 얼굴과 병이 하루 끝의 한 잔을 표현한다."
+    },
+    {
+      "example_id": "7765066-3",
+      "context": "친구가 장식이 특이한 병을 자랑하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "병 위에 이거 뭐 올려놨어?"
+        },
+        {
+          "speaker": "B",
+          "text": "가게에서 준 장식이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "맛보다 일단 이 병이 궁금한데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기념품",
+        "호기심"
+      ],
+      "fit_reason": "그림 왼쪽에 크게 잡힌 병과 윗부분 장식이 화제와 맞는다."
+    },
+    {
+      "example_id": "7765066-4",
+      "context": "모임에서 친구가 갑자기 건배사를 넘긴 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "건배사는 누가 해?"
+        },
+        {
+          "speaker": "B",
+          "text": "병 잡고 있는 네가 해야지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다들 무사히 퇴근하길. 건배",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "회식",
+        "건배"
+      ],
+      "fit_reason": "눈을 감고 병을 든 그림이 짧고 근엄한 건배에 어울린다."
+    },
+    {
+      "example_id": "7765066-5",
+      "context": "밤새 게임하겠다는 친구에게 음료를 챙긴 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "진짜 오늘 밤샘할 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오늘 안에 엔딩 본다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 내 음료부터 열게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "음료"
+      ],
+      "fit_reason": "병과 무표정한 얼굴이 차분하게 준비 태세를 갖추는 느낌을 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

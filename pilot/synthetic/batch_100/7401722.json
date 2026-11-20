@@ -1,0 +1,154 @@
+{
+  "package_id": "170728",
+  "sticker_id": "7401722",
+  "image_path": "images/170728/7401722-6d4ed1a07c976454df6b.png",
+  "image_view": "still",
+  "image_description": "흰 양갈래 캐릭터가 한쪽 눈을 앞머리로 가린 채 큼직한 분홍 입을 벌린다. 옆에 귀가 접혀 보이는 작은 보라 캐릭터가 있고 머리 위에 짧은 글씨가 있다.",
+  "image_tags": [
+    "작은 검은 한쪽 눈",
+    "세로로 벌린 분홍 입",
+    "흰 양갈래",
+    "작은 보라 캐릭터",
+    "머리 위 짧은 글씨"
+  ],
+  "image_text": [
+    "렐아야"
+  ],
+  "interpretation_note": "적힌 표현의 고유한 뜻은 이미지로 확정하기 어렵다. 입을 크게 벌린 자세는 이름을 부르거나 소리를 내는 반응에 쓰기 좋다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7401722_01",
+      "context": "친구가 약속 장소 근처인데 사람을 못 알아본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 정문 의자 옆에 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "앉아 있는 사람이 너무 많은데"
+        },
+        {
+          "speaker": "A",
+          "text": "흰 모자 쓰고 손 든 쪽이 나야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "여기야 고개 들어 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위치 알림",
+        "친근한 부름"
+      ],
+      "fit_reason": "멀리서 존재를 알리려는 말에 크게 벌린 입이 소리 내서 부르는 듯하다."
+    },
+    {
+      "example_id": "7401722_02",
+      "context": "두 사람이 반려견을 데리고 나갈 준비를 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "목줄 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "소파 옆에 있고 애는 간식통 뒤에 숨었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "간식 친구야 산책 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물 부르기",
+        "장난"
+      ],
+      "fit_reason": "숨은 작은 반려견을 부르는 상황이라 올려다보며 외치는 인물 옆의 작은 캐릭터가 보조 단서가 된다."
+    },
+    {
+      "example_id": "7401722_03",
+      "context": "이어폰 전달 문제로 목소리가 상대에게 들리지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 말하고 있는데 들려?"
+        },
+        {
+          "speaker": "B",
+          "text": "입 움직이는 것만 보임"
+        },
+        {
+          "speaker": "A",
+          "text": "마이크 다시 꽂았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "자 이번엔 들리냐아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "소리 확인",
+        "장난스러운 과장"
+      ],
+      "fit_reason": "마이크를 고쳐 소리를 테스트하는 말에 세로로 크게 열린 입이 목청을 높이는 모습처럼 읽힌다."
+    },
+    {
+      "example_id": "7401722_04",
+      "context": "친구가 신나는 마음에 상대 이름을 채팅으로 길게 부른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 못 구한 책 드디어 샀다"
+        },
+        {
+          "speaker": "B",
+          "text": "중고 매장 다시 간 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지윤아아 네가 알려준 곳에 있었어!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "좋은 소식",
+        "반가운 부름"
+      ],
+      "fit_reason": "좋은 소식을 들떠서 전하려고 이름을 길게 부르며 작은 검은 눈과 벌어진 입으로 외치는 캐릭터를 붙였다."
+    },
+    {
+      "example_id": "7401722_05",
+      "context": "온라인 게임에서 아군 한 명이 늦게 상황을 알아차린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마을 문 열렸어 다들 들어가"
+        },
+        {
+          "speaker": "B",
+          "text": "한 명 아직 상점 보고 있음"
+        },
+        {
+          "speaker": "A",
+          "text": "누군지 보니까 네 옆에 있는 애야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "야 여기부터 열렸다고 전해 줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동료 부르기",
+        "잔잔한 재촉"
+      ],
+      "fit_reason": "무리와 떨어진 캐릭터를 찾는 대화에서 옆의 작은 캐릭터와 큰 입이 함께 있어 옆을 향해 부르는 느낌을 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

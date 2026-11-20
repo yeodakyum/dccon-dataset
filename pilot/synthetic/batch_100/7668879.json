@@ -1,0 +1,146 @@
+{
+  "package_id": "175310",
+  "sticker_id": "7668879",
+  "image_path": "images/175310/7668879-e50d066ca7e7d5f57955.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 캐릭터 둘이 나란히 보인다. 왼쪽은 눈물이 맺힌 두 눈으로 입을 벌렸고 오른쪽은 그림자가 드리운 얼굴로 정면을 본다.",
+  "image_tags": [
+    "왼쪽 인물의 눈가에 맺힌 눈물",
+    "왼쪽 인물의 둥근 입",
+    "오른쪽 인물의 어두운 얼굴 그림자",
+    "붉고 분홍색인 세 줄 자막",
+    "밝게 번진 배경"
+  ],
+  "image_text": [
+    "터져서 없어짐~수고하세요"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7668879_01",
+      "context": "친구들과 연결하던 게임 방이 오류로 종료된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나만 로비에 튕김?"
+        },
+        {
+          "speaker": "B",
+          "text": "방 목록에도 우리 거 없어졌네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 한 시간 준비한 보스전 여기서 종료입니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "갑작스러운 종료",
+        "자조"
+      ],
+      "fit_reason": "게임 방이 통째로 사라진 상황에 붉은 종료 문구와 허망한 두 얼굴이 붙는다."
+    },
+    {
+      "example_id": "7668879_02",
+      "context": "직접 만든 빵이 오븐에서 상상보다 크게 갈라진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오븐 열었는데 빵 어디까지 부풀었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "윗면이 둘로 갈라져서 토핑이 다 밑으로 갔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "중간 완성 사진은 없다고 생각해 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리 실패",
+        "체념"
+      ],
+      "fit_reason": "토핑과 원래 모양을 한꺼번에 잃었다는 말에 ‘터져서 없어짐’ 자막이 글자 그대로 겹친다."
+    },
+    {
+      "example_id": "7668879_03",
+      "context": "동료가 계획에 잡힌 마지막 미팅의 취소를 알린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네 시에 다들 들어오나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "내부 일정 바뀌어서 이번 주 회의 자체가 빠졌어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 오늘은 캘린더 닫겠습니다 고생하셨습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "갑작스런 일정 종료",
+        "안도"
+      ],
+      "fit_reason": "회의 자체가 사라져 일과를 닫는 말에 자막의 ‘수고하세요’가 장난스러운 종결을 더한다."
+    },
+    {
+      "example_id": "7668879_04",
+      "context": "친구가 장바구니에 담아 둔 할인 물건을 놓친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 재킷 고민 끝났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "결제 버튼 누르니까 재고 없음 뜸"
+        },
+        {
+          "speaker": "A",
+          "text": "남은 색도 없대?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 이 고민은 강제 종료됨",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절",
+        "허탈"
+      ],
+      "fit_reason": "오래 고민했는데 재고가 아예 사라진 시점에 눈물 맺힌 얼굴과 없어졌다는 문구가 허탈함을 전한다."
+    },
+    {
+      "example_id": "7668879_05",
+      "context": "친구와 함께 계획한 야외 활동이 현장에서 무산된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "텐트 치고 나서 바람 잦아들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "오히려 더 불어서 방금 다 접었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘의 캠핑은 봉지 과자만 남기고 끝났다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "계획 무산",
+        "친근한 농담"
+      ],
+      "fit_reason": "텐트를 다시 접고 계획을 접었다는 말에 터져서 끝났다는 자막이 작은 실패를 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

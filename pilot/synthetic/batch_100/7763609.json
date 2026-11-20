@@ -1,0 +1,158 @@
+{
+  "package_id": "175577",
+  "sticker_id": "7763609",
+  "image_path": "images/175577/7763609-73026ac3b13bb1b48a65.jpg",
+  "image_view": "still",
+  "image_description": "흑백 만화의 인물이 한쪽 눈을 크게 뜨고 얼어붙은 듯 정면을 본다. 홍채와 말풍선 둘레에는 촘촘한 빗금이 있고 말풍선 안에는 점과 느낌표가 세로로 놓였다.",
+  "image_tags": [
+    "크게 뜬 한쪽 눈",
+    "홍채의 방사형 빗금",
+    "이마를 가르는 머리카락",
+    "얼굴 절반만 잡은 확대",
+    "세로 점과 느낌표"
+  ],
+  "image_text": [
+    "……!"
+  ],
+  "interpretation_note": "점 여섯 개와 느낌표가 세로로 배열되어 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7763609_01",
+      "context": "친구가 도서관 반납 기한을 새로 확인해 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "빌린 책 다음 주 금요일까지지?"
+        },
+        {
+          "speaker": "B",
+          "text": "앱 보니까 지난 금요일인데"
+        },
+        {
+          "speaker": "A",
+          "text": "뭐? 날짜 다시 봐봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 내가 월을 잘못 봤다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "깨달음",
+        "당황"
+      ],
+      "fit_reason": "다음 주라고 믿었던 기한이 이미 지났음을 깨달아, 방사형 빗금의 커다란 눈과 ‘……!’가 얼어붙은 순간을 표현한다."
+    },
+    {
+      "example_id": "7763609_02",
+      "context": "낯선 야경 사진에서 친구가 자란 아파트가 눈에 들어온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 어제 언덕에서 찍은 건데 어느 동네 같아?"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐 저기 지붕에 파란 물탱크 보여"
+        },
+        {
+          "speaker": "A",
+          "text": "보이네 왜?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "저 아래 불 켜진 집 우리 집이었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뜻밖의 발견",
+        "감회"
+      ],
+      "fit_reason": "낯선 야경에서 바로 자기 집을 찾아내는 순간이라, 유난히 확대된 눈과 말 없이 뜬 느낌표가 발견의 강도를 더한다."
+    },
+    {
+      "example_id": "7763609_03",
+      "context": "방탈출에서 종이의 날짜가 자물쇠 방향이라는 걸 깨닫는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 날짜가 비번인 줄 알았는데 숫자 칸이 없네"
+        },
+        {
+          "speaker": "B",
+          "text": "도어 손잡이 옆에 요일만 적혀 있긴 해"
+        },
+        {
+          "speaker": "A",
+          "text": "달력 돌려 보면 수요일만 표시돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 손잡이를 수요일 칸으로 돌리는 거다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "문제 해결",
+        "아하 반응"
+      ],
+      "fit_reason": "숫자 대신 요일 방향을 써야 한다는 해법이 이어지는 순간에, 눈 확대와 세로 ‘……!’가 말보다 빠른 깨달음을 보여 준다."
+    },
+    {
+      "example_id": "7763609_04",
+      "context": "공유 캘린더에 미완성 여행 계획이 회사 일정으로 표시된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 주 회사 캘린더에 제주도 흑돼지라고 뜨던데 누가 등록했어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "그거 제 개인 일정인데요. 화면 공유 좀 해봐 주세요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "올릴 캘린더를 반대로 눌렀네요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "실수 확인"
+      ],
+      "fit_reason": "개인 일정이 회사에 보였다는 사실을 확인한 순간이라, 흰자가 크게 드러난 정지 표정이 뜨끔한 느낌을 전달한다."
+    },
+    {
+      "example_id": "7763609_05",
+      "context": "어두운 창고에서 스스로 떨어지는 소리를 듣고 놀란다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "안쪽에서 방금 딱 소리 안 났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "난 여기 서 있었는데. 네 옆에 저 선반 움직였어"
+        },
+        {
+          "speaker": "A",
+          "text": "안쪽에 뭐 있는 줄 알았지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "손전등부터 켜자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경계",
+        "긴장"
+      ],
+      "fit_reason": "가까운 선반이 저절로 움직인 듯 들린 뒤라, 흑백의 눈 확대와 말줄임 느낌표가 소리에 얼어붙은 긴장을 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,135 @@
+{
+  "package_id": "164671",
+  "sticker_id": "5586206",
+  "image_path": "images/164671/5586206-300dcb025d3606cdd9e3.png",
+  "image_view": "still",
+  "image_description": "흰 캐릭터가 두 손을 가슴 앞에 두고 머리 위의 커다란 생각풍선을 띄운다.",
+  "image_tags": [
+    "소용돌이처럼 둥근 눈",
+    "분홍 뺨",
+    "가슴 앞 두 손",
+    "노란 이마 표시",
+    "크게 잘린 생각풍선"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5586206_01",
+      "context": "친구가 이야기의 다음 부분을 꺼낸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그래서 그 손님 다시 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 이번엔 메뉴판을 직접 만들었더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 그다음 얘기 계속해 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 이야기의 다음 부분을 꺼낸다 상황에서 커다란 생각풍선과 고정된 눈이 이야기에 골똘히 빠지는 자세와 맞는다."
+    },
+    {
+      "example_id": "5586206_02",
+      "context": "친구가 추리물 반전을 암시한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "2화까지 봤어"
+        },
+        {
+          "speaker": "B",
+          "text": "3화에 단서 하나 크게 나와"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 거기까지 보고 잘래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 추리물 반전을 암시한다 상황에서 커다란 생각풍선과 고정된 눈이 이야기에 골똘히 빠지는 자세와 맞는다."
+    },
+    {
+      "example_id": "5586206_03",
+      "context": "친구가 작업할 때 말을 건다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 연락 좀 늦게 봤지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 아까 뭐 하고 있었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "퍼즐 풀다가 두 시간 지나갔어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 작업할 때 말을 건다 상황에서 커다란 생각풍선과 고정된 눈이 이야기에 골똘히 빠지는 자세와 맞는다."
+    },
+    {
+      "example_id": "5586206_04",
+      "context": "동료가 복잡한 문제의 원인을 찾는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "기록 더 보셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 같은 오류가 한 시간마다 나요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠시만 그 앞뒤 로그 좀 더 봐요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "동료가 복잡한 문제의 원인을 찾는다 상황에서 커다란 생각풍선과 고정된 눈이 이야기에 골똘히 빠지는 자세와 맞는다."
+    },
+    {
+      "example_id": "5586206_05",
+      "context": "게임 친구가 어려운 구간을 중계한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 어디까지 감?"
+        },
+        {
+          "speaker": "B",
+          "text": "보스 체력 3퍼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "말 안 걸게 끝까지 보고 있다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "게임 친구가 어려운 구간을 중계한다 상황에서 커다란 생각풍선과 고정된 눈이 이야기에 골똘히 빠지는 자세와 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

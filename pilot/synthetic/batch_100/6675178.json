@@ -1,0 +1,150 @@
+{
+  "package_id": "165184",
+  "sticker_id": "6675178",
+  "image_path": "images/165184/6675178-6163fbb095eef700aec9.png",
+  "image_view": "still",
+  "image_description": "분홍색 머리를 한쪽에 둥글게 말아 올린 캐릭터가 허리에 양손을 얹고 눈을 꾹 감는다. 이마의 붉은 화 표시 위에 자신이 돌았다고 외치는 문구가 있다.",
+  "image_tags": [
+    "꾹 감은 웃음눈",
+    "이마의 붉은 화 표시",
+    "허리에 얹은 양손",
+    "둥글게 만 분홍 머리",
+    "느낌표가 늘어선 손글씨"
+  ],
+  "image_text": [
+    "그래애! 나 도랐어!!!!"
+  ],
+  "interpretation_note": "웃는 듯 닫힌 눈과 이마의 화 표시가 함께 있어 들뜬 자기 인정이나 성난 반어로 모두 읽힌다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6675178_01",
+      "context": "친구가 같은 빵집에 문 열기 전부터 줄을 선 걸 알아챈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지금 어디야"
+        },
+        {
+          "speaker": "B",
+          "text": "어제 못 산 식빵 오늘 다시 기다리는 중"
+        },
+        {
+          "speaker": "A",
+          "text": "아직 아침 일곱 시인데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 오늘은 내가 빵보다 먼저 도착했다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "열정 과장"
+      ],
+      "fit_reason": "식빵을 사려고 일곱 시 전에 도착한 일을 인정하는 답이라, 허리에 손 얹고 ‘나 도랐어’라고 외치는 자세가 우스운 자랑이 된다."
+    },
+    {
+      "example_id": "6675178_02",
+      "context": "집 수리하다가 나사 구멍을 잘못 뚫었다는 말을 듣는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 왼쪽 벽에도 구멍 하나 냈더라"
+        },
+        {
+          "speaker": "B",
+          "text": "아 그럼 이 브라켓 뒤집어 달아야 했던 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그래 내가 또 설명서 반대로 펼쳤다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실수 인정",
+        "자조"
+      ],
+      "fit_reason": "설명서를 반대로 읽어 벽에 구멍을 낸 실수 뒤라, 눈을 질끈 감고 자백하는 문구가 본인을 직접 놀리는 데 맞는다."
+    },
+    {
+      "example_id": "6675178_03",
+      "context": "게임에서 혼자 보스를 잡겠다던 친구가 새 장비를 차고 다시 들어간다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 한 방에 죽었는데 또 들어갈 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까랑 다르게 이번엔 신발을 바꿨어"
+        },
+        {
+          "speaker": "A",
+          "text": "그게 문제였다고 생각하는 게 더 신기함"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그래 이번에는 신발의 가능성을 믿는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고집",
+        "친근한 농담"
+      ],
+      "fit_reason": "한 방에 졌는데 신발만 바꿔 재도전한다는 고집에, 허리 짚고 ‘나 도랐어’라고 외치는 그림이 무모함을 당당히 받아친다."
+    },
+    {
+      "example_id": "6675178_04",
+      "context": "친구가 날짜를 미루자는 말을 세 번 바꾼 뒤 상대를 예민하다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 토요일 맞춰 근무 바꾼 거 알지"
+        },
+        {
+          "speaker": "B",
+          "text": "다시 일요일로 하면 안 돼? 왜 그렇게 예민해?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "세 번째로 바꾸는 건데 확인은 해야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "불만 표시"
+      ],
+      "fit_reason": "일정을 반복해 바꾼 사람이 오히려 예민하다고 하니 붉은 화 표시와 극단적 자기 인정이 억울함을 뒤집어 표현한다."
+    },
+    {
+      "example_id": "6675178_05",
+      "context": "작은 온라인 가게의 첫 주문이 예상보다 크게 들어온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 주문 들어왔다며. 상품 하나야?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 열두 개. 나 지금 포장 박스 찾고 있음."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "방금 혼자 방 한 바퀴 돌면서 소리 질렀다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "환희",
+        "흥분 과장"
+      ],
+      "fit_reason": "첫 주문에 열두 개가 들어온 흥분을, 치켜세운 팔꿈치와 길게 늘인 느낌표가 과장해 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

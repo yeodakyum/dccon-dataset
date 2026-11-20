@@ -1,0 +1,135 @@
+{
+  "package_id": "166518",
+  "sticker_id": "5678883",
+  "image_path": "images/166518/5678883-e8adb247c1e4224e8a41.png",
+  "image_view": "still",
+  "image_description": "만두 캐릭터가 눈썹을 찡그린 채 화면의 로딩 표시 앞에 앉아 있다.",
+  "image_tags": [
+    "아래로 날카롭게 향한 눈썹",
+    "가늘게 뜬 눈",
+    "만두 주름",
+    "어두운 화면",
+    "원형 로딩 표시"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5678883_01",
+      "context": "친구가 길을 찾는 동안 연락한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 어디쯤이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "출구 반대로 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앞에서 기다릴게 천천히 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림"
+      ],
+      "fit_reason": "친구가 길을 찾는 동안 연락한다 상황에서 로딩 표시를 노려보는 구도가 기다리는 시간이 길어지는 답에 어울린다."
+    },
+    {
+      "example_id": "5678883_02",
+      "context": "온라인 회의 참가자가 접속을 시도한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "링크 들어오셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "웹캠 권한 설정 중이에요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 접속되면 시작할게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림"
+      ],
+      "fit_reason": "온라인 회의 참가자가 접속을 시도한다 상황에서 로딩 표시를 노려보는 구도가 기다리는 시간이 길어지는 답에 어울린다."
+    },
+    {
+      "example_id": "5678883_03",
+      "context": "배달이 늦어진다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배달 앱에 뭐라고 떠?"
+        },
+        {
+          "speaker": "B",
+          "text": "기사님 배정 중이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 좀 더 기다려 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림"
+      ],
+      "fit_reason": "배달이 늦어진다 상황에서 로딩 표시를 노려보는 구도가 기다리는 시간이 길어지는 답에 어울린다."
+    },
+    {
+      "example_id": "5678883_04",
+      "context": "친구가 할 말을 미룬다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "근데 결론이 뭔데"
+        },
+        {
+          "speaker": "B",
+          "text": "길어서 집 가서 말할게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "알았어 궁금하니까 꼭 말해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림"
+      ],
+      "fit_reason": "친구가 할 말을 미룬다 상황에서 로딩 표시를 노려보는 구도가 기다리는 시간이 길어지는 답에 어울린다."
+    },
+    {
+      "example_id": "5678883_05",
+      "context": "게임 매칭이 오래 걸린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "큐 잡혔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 찾는 중이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "물 떠 올게 잠깐만",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림"
+      ],
+      "fit_reason": "게임 매칭이 오래 걸린다 상황에서 로딩 표시를 노려보는 구도가 기다리는 시간이 길어지는 답에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

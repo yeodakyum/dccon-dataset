@@ -1,0 +1,154 @@
+{
+  "package_id": "170728",
+  "sticker_id": "7401735",
+  "image_path": "images/170728/7401735-6bde0ebc221b5c1ab0ac.png",
+  "image_view": "still",
+  "image_description": "밝은 회색 머리 캐릭터가 한쪽 눈을 앞머리로 가리고 다른 쪽 눈을 가늘게 뜬 채 작은 인물 그림이 든 네모난 물건을 두 손으로 안는다. 위에는 돈이 없느냐는 흰 글자가 있다.",
+  "image_tags": [
+    "앞머리에 가린 한쪽 눈",
+    "검은 가로 실눈",
+    "혀가 살짝 보이는 입",
+    "두 손에 안은 인물 그림",
+    "검은 테두리의 흰 질문 글씨"
+  ],
+  "image_text": [
+    "응..?돈이 없어?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7401735_01",
+      "context": "친구가 무료 굿즈 배포를 유료 판매로 오해했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저 아크릴 스탠드 나눔 글 봤냐"
+        },
+        {
+          "speaker": "B",
+          "text": "나 오늘 카드값 나가서 그런 거 못 사"
+        },
+        {
+          "speaker": "A",
+          "text": "공짜인데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "돈 안 받아 ㅋㅋ 대신 직접 받으러 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "오해 정정",
+        "무료 나눔"
+      ],
+      "fit_reason": "돈이 없어 못 산다는 오해에, 돈이 없느냐는 문구와 품에 든 굿즈 같은 그림이 상황을 짚어 준다."
+    },
+    {
+      "example_id": "7401735_02",
+      "context": "오랜 친구가 소액 내기를 하자던 말을 거둔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 맞으면 천 원 걸래?"
+        },
+        {
+          "speaker": "B",
+          "text": "그래 하자"
+        },
+        {
+          "speaker": "A",
+          "text": "어 내가 틀렸네. 지금 계좌에 딱 900원 있다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나머지 백 원은 이자로 받아야겠네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "가벼운 내기"
+      ],
+      "fit_reason": "천 원보다 딱 백 원 부족하다는 변명이라, 실눈 뜨고 돈이 없느냐는 캐릭터가 웃으면서 물고 늘어지는 듯하다."
+    },
+    {
+      "example_id": "7401735_03",
+      "context": "게임에서 상점 아이템을 사려던 친구가 재화를 다 써버린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 방어구 사야 돼 기회 한 번뿐이야"
+        },
+        {
+          "speaker": "B",
+          "text": "나 방금 춤 이모션에 코인 다 썼는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 보스 앞에서 춤춰서 설득해 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "게임 실패 놀림"
+      ],
+      "fit_reason": "필요한 방어구 비용을 이모션에 써버려, ‘돈이 없어?’라는 질문과 무언가 소중히 안은 자세가 소비의 우선순위를 놀린다."
+    },
+    {
+      "example_id": "7401735_04",
+      "context": "용돈을 아끼는 동생에게 무료 야외 상영회를 권한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 광장 영화 보러 갈래?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금은 표 사기 애매해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "입장료 없어. 돗자리만 챙겨 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부담 낮추기",
+        "대안 제시"
+      ],
+      "fit_reason": "입장료를 걱정하던 상대에게, 살짝 벌린 입과 돈 이야기를 꺼낸 짤이 무료라는 해명을 부드럽게 만든다."
+    },
+    {
+      "example_id": "7401735_05",
+      "context": "친구들이 한정판 도록을 한 권만 사서 번갈아 보기로 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 가격 뒤에 0 하나 잘못 붙은 거 아냐?"
+        },
+        {
+          "speaker": "B",
+          "text": "맞는 가격임 방금 평생 소장 계획 접었어"
+        },
+        {
+          "speaker": "A",
+          "text": "나도"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 그냥 한 권만 사서 빌려 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가격 부담 공감",
+        "공동 구매 제안"
+      ],
+      "fit_reason": "도록 가격에 둘 다 망설이는 가운데, 그림이 든 물건을 끌어안으며 돈을 묻는 이미지가 갖고 싶지만 비싼 마음을 실감나게 한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

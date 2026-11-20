@@ -1,0 +1,157 @@
+{
+  "package_id": "176696",
+  "sticker_id": "7684207",
+  "image_path": "images/176696/7684207-60490213dfa7298b257a.png",
+  "image_description": "볼이 붉고 눈이 빛나는 캐릭터 위에 ‘혈팩이다요!’라는 문구가 있다.",
+  "image_tags": [
+    "혈팩이다요 문구",
+    "붉은 팩",
+    "빛나는 눈",
+    "홍조",
+    "흰 머리"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7684207_01",
+      "context": "협동 게임에서 아군이 체력 아이템을 찾아준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 피 한 칸이야"
+        },
+        {
+          "speaker": "B",
+          "text": "아무 데도 회복템이 없어"
+        },
+        {
+          "speaker": "A",
+          "text": "내 발밑에 하나 떨궜음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "살았다 이거 먹고 바로 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "회복"
+      ],
+      "fit_reason": "붉은 팩과 들뜬 표정이 회복템을 발견한 순간에 맞는다."
+    },
+    {
+      "example_id": "7684207_02",
+      "context": "공포 게임의 보급품 상자를 연다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "문 잠갔으니까 상자 열어봐"
+        },
+        {
+          "speaker": "B",
+          "text": "제발 탄약이라도 나와라"
+        },
+        {
+          "speaker": "A",
+          "text": "빨간 팩 보이는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오 여기서 피를 채워주네 개이득",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발견",
+        "기쁨"
+      ],
+      "fit_reason": "혈팩 문구가 공포 게임의 보급품을 바로 가리킨다."
+    },
+    {
+      "example_id": "7684207_03",
+      "context": "뱀파이어 역할극 중 동료가 선물을 건넨다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "백작님 야식 가져왔습니다"
+        },
+        {
+          "speaker": "B",
+          "text": "또 마늘빵이면 추방이다"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘은 냉장 보관했습니다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오 이 집은 취향을 아네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "역할극",
+        "만족"
+      ],
+      "fit_reason": "혈팩에 눈을 빛내는 모습이 뱀파이어의 반응처럼 읽힌다."
+    },
+    {
+      "example_id": "7684207_04",
+      "context": "밤샘 작업 중에 친구가 음료를 건넨다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 모니터 앞에서 잠들겠어"
+        },
+        {
+          "speaker": "B",
+          "text": "끝내려면 한 시간 더 걸려"
+        },
+        {
+          "speaker": "A",
+          "text": "책상에 체리주스 놨어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오 체력 좀 채우고 다시 한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피로",
+        "기운 회복"
+      ],
+      "fit_reason": "붉은 음료를 회복용 팩에 빗대어 받는다."
+    },
+    {
+      "example_id": "7684207_05",
+      "context": "게임 소지품을 정리하다 여분 회복템을 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보스방 가기 전에 가방 비워"
+        },
+        {
+          "speaker": "B",
+          "text": "뭘 이렇게 많이 주웠지"
+        },
+        {
+          "speaker": "A",
+          "text": "맨 밑 칸도 확인해봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 여기 숨은 비상식량 있었네 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재발견",
+        "반가움"
+      ],
+      "fit_reason": "눈을 반짝이는 모습이 모르고 있던 회복템을 찾은 기쁨을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

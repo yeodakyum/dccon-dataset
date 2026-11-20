@@ -1,0 +1,135 @@
+{
+  "package_id": "176055",
+  "sticker_id": "7509742",
+  "image_path": "images/176055/7509742-acb39b6109315c1bf1ba.png",
+  "image_view": "still",
+  "image_description": "인물의 눈을 가까이서 보여 주며 홍채에 여러 색의 원과 별빛이 겹쳐 있다.",
+  "image_tags": [
+    "크게 열린 한쪽 눈",
+    "다색 홍채",
+    "별빛 반사",
+    "굵은 속눈썹",
+    "비스듬한 확대"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7509742_01",
+      "context": "친구가 이야기의 다음 부분을 꺼낸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그래서 그 손님 다시 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 이번엔 메뉴판을 직접 만들었더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 그다음 얘기 계속해 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 이야기의 다음 부분을 꺼낸다 상황에서 반사가 가득한 눈을 크게 보여 주는 구도가 뭔가에 시선이 고정된 느낌을 준다."
+    },
+    {
+      "example_id": "7509742_02",
+      "context": "친구가 추리물 반전을 암시한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "2화까지 봤어"
+        },
+        {
+          "speaker": "B",
+          "text": "3화에 단서 하나 크게 나와"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 거기까지 보고 잘래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 추리물 반전을 암시한다 상황에서 반사가 가득한 눈을 크게 보여 주는 구도가 뭔가에 시선이 고정된 느낌을 준다."
+    },
+    {
+      "example_id": "7509742_03",
+      "context": "친구가 작업할 때 말을 건다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 연락 좀 늦게 봤지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 아까 뭐 하고 있었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "퍼즐 풀다가 두 시간 지나갔어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "친구가 작업할 때 말을 건다 상황에서 반사가 가득한 눈을 크게 보여 주는 구도가 뭔가에 시선이 고정된 느낌을 준다."
+    },
+    {
+      "example_id": "7509742_04",
+      "context": "동료가 복잡한 문제의 원인을 찾는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "기록 더 보셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 같은 오류가 한 시간마다 나요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠시만 그 앞뒤 로그 좀 더 봐요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "동료가 복잡한 문제의 원인을 찾는다 상황에서 반사가 가득한 눈을 크게 보여 주는 구도가 뭔가에 시선이 고정된 느낌을 준다."
+    },
+    {
+      "example_id": "7509742_05",
+      "context": "게임 친구가 어려운 구간을 중계한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 어디까지 감?"
+        },
+        {
+          "speaker": "B",
+          "text": "보스 체력 3퍼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "말 안 걸게 끝까지 보고 있다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입"
+      ],
+      "fit_reason": "게임 친구가 어려운 구간을 중계한다 상황에서 반사가 가득한 눈을 크게 보여 주는 구도가 뭔가에 시선이 고정된 느낌을 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

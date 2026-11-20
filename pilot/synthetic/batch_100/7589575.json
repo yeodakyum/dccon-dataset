@@ -1,0 +1,140 @@
+{
+  "package_id": "151710",
+  "sticker_id": "7589575",
+  "image_path": "images/151710/7589575-8c42a8f84906df0d9ca1.gif",
+  "image_view": "still",
+  "image_description": "흰 셔츠를 입은 사람이 두 손을 머리 뒤로 올린 채 눈을 크게 뜬다. 이마에 주름이 잡히고 입은 둥글게 벌어져 있다.",
+  "image_tags": [
+    "흰자가 보이게 뜬 눈",
+    "둥글게 벌어진 입",
+    "접힌 이마 주름",
+    "머리 뒤의 양손",
+    "인물 사진 확대"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7589575_01",
+      "context": "카페 영수증을 확인하다 주문을 잘못 넣은 걸 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아메리카노 내 거 포함해서 세 잔 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "영수증에 열세 잔 찍혀 있는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐만 내가 수량을 잘못 눌렀나 봐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "실수 인지"
+      ],
+      "fit_reason": "눈과 입을 크게 벌리고 머리를 잡은 모습이 수량을 잘못 주문했음을 알아차린 반응과 맞는다."
+    },
+    {
+      "example_id": "7589575_02",
+      "context": "친구가 잃어버렸다고 생각한 지갑을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "카드 정지시켰어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지갑을 세탁기 옆에서 찾았어. 하루 종일 거기 있었대."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그걸 두고 지하철 역까지 찾으러 갔잖아.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "헛수고 탄식"
+      ],
+      "fit_reason": "머리 뒤에 올린 양손이 하루 종일 헛수고했다는 말을 듣고 어이없어하는 몸짓을 보탠다."
+    },
+    {
+      "example_id": "7589575_03",
+      "context": "친구가 경기에서 나온 기록을 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "기록 나왔어? 어제보다 나음?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 11초나 줄였어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "11초를 하루 만에? 영상 남겼지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감탄",
+        "호기심"
+      ],
+      "fit_reason": "이마 주름과 크게 뜬 눈이 예상을 훌쩍 넘긴 기록에 놀라는 반응으로 읽힌다."
+    },
+    {
+      "example_id": "7589575_04",
+      "context": "동료가 마감에 앞서 시스템 점검 안내를 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "열한 시에 올려도 제출 되죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 점검이라 열 시에 서버 닫힌대요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 9시 57분인데요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "다급함",
+        "시간 압박"
+      ],
+      "fit_reason": "입을 동그랗게 벌리고 머리를 잡은 모습이 갑자기 남은 제출 시간이 줄어든 충격을 강조한다."
+    },
+    {
+      "example_id": "7589575_05",
+      "context": "친구가 산 중고 기기에서 예상 밖의 구성품을 꺼낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "박스 열었어? 충전기는 있대?"
+        },
+        {
+          "speaker": "B",
+          "text": "동봉은 맞는데 충전기만 네 개 들어 있어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "충전기는 넘치고 본체가 없는 건 아니지 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당함",
+        "친근한 농담"
+      ],
+      "fit_reason": "크게 뜬 눈과 벌어진 입이 예상과 다른 구성품을 듣고 던지는 농담을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

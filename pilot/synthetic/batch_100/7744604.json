@@ -1,0 +1,137 @@
+{
+  "package_id": "173617",
+  "sticker_id": "7744604",
+  "image_path": "images/173617/7744604-f68fdb52e2c12792f1f8.png",
+  "image_view": "still",
+  "image_description": "하얀 캐릭터가 바닥에 엎드린 채 빵을 끌어안고 입을 댄다.",
+  "image_tags": [
+    "옆으로 눕힌 얼굴",
+    "작은 점눈",
+    "바닥에 붙은 몸",
+    "황금색 빵",
+    "네 번 반복한 글자"
+  ],
+  "image_text": [
+    "걱걱걱걱"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7744604_01",
+      "context": "이른 아침에 친구가 연락한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 몇 시야"
+        },
+        {
+          "speaker": "B",
+          "text": "여섯 시 이제 일어나야지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 눈이 안 떠져",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤"
+      ],
+      "fit_reason": "이른 아침에 친구가 연락한다 상황에서 바닥에 몸을 붙이고 빵에 입만 대는 구도가 기운이 빠져 드러누운 때와 어울린다."
+    },
+    {
+      "example_id": "7744604_02",
+      "context": "장시간 회의가 끝난다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 끝났어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 두 시간 반 걸렸어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 집 가서 바로 자야겠어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤"
+      ],
+      "fit_reason": "장시간 회의가 끝난다 상황에서 바닥에 몸을 붙이고 빵에 입만 대는 구도가 기운이 빠져 드러누운 때와 어울린다."
+    },
+    {
+      "example_id": "7744604_03",
+      "context": "친구가 막차를 기다린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아직 밖이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 막차 15분 남았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 의자 보이자마자 주저앉음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤"
+      ],
+      "fit_reason": "친구가 막차를 기다린다 상황에서 바닥에 몸을 붙이고 빵에 입만 대는 구도가 기운이 빠져 드러누운 때와 어울린다."
+    },
+    {
+      "example_id": "7744604_04",
+      "context": "과제를 마치자 새 과제가 생긴다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이걸로 과제 다 끝났지?"
+        },
+        {
+          "speaker": "B",
+          "text": "다른 과목도 하나 올라왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 더 볼 기운이 없어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤"
+      ],
+      "fit_reason": "과제를 마치자 새 과제가 생긴다 상황에서 바닥에 몸을 붙이고 빵에 입만 대는 구도가 기운이 빠져 드러누운 때와 어울린다."
+    },
+    {
+      "example_id": "7744604_05",
+      "context": "게임 친구가 재도전을 제안한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 몇 번째 트라이야"
+        },
+        {
+          "speaker": "B",
+          "text": "열두 번째 더 갈까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐만 멍 좀 때릴게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤"
+      ],
+      "fit_reason": "게임 친구가 재도전을 제안한다 상황에서 바닥에 몸을 붙이고 빵에 입만 대는 구도가 기운이 빠져 드러누운 때와 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

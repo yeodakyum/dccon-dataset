@@ -1,0 +1,144 @@
+{
+  "package_id": "175404",
+  "sticker_id": "7626604",
+  "image_path": "images/175404/7626604-32822139ab4105a8014a.png",
+  "image_view": "still",
+  "image_description": "눈썹을 찌푸린 사람 얼굴이 감자에 합성되어 네 크기로 반복된다. 작은 얼굴부터 큰 얼굴까지 열린 상자와 파란 격자 위에 날아오르는 듯 배치되고 왼쪽에 같은 문구가 세 번 쓰여 있다.",
+  "image_tags": [
+    "미간을 좁힌 눈썹",
+    "앞쪽을 빤히 노려보는 눈",
+    "감자에 합성된 얼굴",
+    "열린 상자와 파란 격자",
+    "세 크기로 반복된 청록색 자막"
+  ],
+  "image_text": [
+    "빡쳐요",
+    "빡쳐요",
+    "빡쳐요"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7626604_01",
+      "context": "편집 프로그램이 저장 직전에 강제 종료된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 컷만 정리하면 끝난다며?"
+        },
+        {
+          "speaker": "B",
+          "text": "완료 버튼 눌렀더니 앱 자체가 종료됨."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "설마 이 두 시간을 다시 하라는 거야.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증",
+        "허탈함"
+      ],
+      "fit_reason": "작업을 잃은 순간에 작은 찡그림이 큰 찡그림까지 반복되는 합성이 커져 가는 화를 대변한다."
+    },
+    {
+      "example_id": "7626604_02",
+      "context": "친구가 길을 잘못 알려 다시 출발점으로 돌아왔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기서 계단 오르면 지름길이래."
+        },
+        {
+          "speaker": "B",
+          "text": "계단 올라왔더니 방금 있던 광장이야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 이 광장 세 번째 봐. 이제 사진 안 찍어도 외워.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가벼운 짜증",
+        "친근한 항의"
+      ],
+      "fit_reason": "같은 광장만 반복해서 보게 돼 반복 자막과 크기만 달라지는 감자 얼굴이 끝없는 제자리걸음에 어울린다."
+    },
+    {
+      "example_id": "7626604_03",
+      "context": "친구가 싫다는 말처럼 매운 감자튀김을 추천한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "감튀 신상 먹어 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "바삭하길래 네 것도 하나 시켰어. 고추가루 범벅임."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나한테 맵기 테스트 맡기지 좀 마 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 짜증",
+        "친근한 타박"
+      ],
+      "fit_reason": "맵기 힘든 감자 메뉴 이야기에 화난 얼굴을 박은 감자가 직접적인 소재 농담이 된다."
+    },
+    {
+      "example_id": "7626604_04",
+      "context": "배달 기사의 위치가 앱에서 계속 앞뒤로 움직인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 우리 집 200미터 앞 아니었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 다시 2킬로 밖으로 뜨는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 만두가 동네 유람 중이구나.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증",
+        "냉소"
+      ],
+      "fit_reason": "배달이 가까워졌다가 멀어지는 어이없는 변화에 격자 위를 날아가는 합성이 배송 위치 농담과 맞는다."
+    },
+    {
+      "example_id": "7626604_05",
+      "context": "친구가 비 오는 날 빨래를 널었다가 세 번 걷었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 분명 해 떴다며."
+        },
+        {
+          "speaker": "B",
+          "text": "빨래 널면 비 오고 걷으면 그쳐. 지금 세 번째야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이쯤 되면 하늘이 내 빨래만 보고 있지.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "불만"
+      ],
+      "fit_reason": "널고 걷는 일을 반복한 뒤 '빡쳐요'가 세 번 나오는 그림으로 끓어오른 불만을 우습게 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

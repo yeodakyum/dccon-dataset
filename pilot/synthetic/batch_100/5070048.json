@@ -1,0 +1,137 @@
+{
+  "package_id": "154129",
+  "sticker_id": "5070048",
+  "image_path": "images/154129/5070048-e3d9d0dfa77fec27c583.png",
+  "image_description": "파란 귀 모양의 머리 윗부분 아래에 동그란 흰 얼굴과 반짝이는 검은 눈, 양쪽 분홍 볼이 있다.",
+  "image_tags": [
+    "흰얼굴",
+    "파란귀",
+    "반짝눈",
+    "분홍볼",
+    "작은미소"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5070048-1",
+      "context": "빵 가게 부탁",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "퇴근길에 그 빵집 지나가?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 왜?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "소금빵 하나만 사다 주면 안 돼?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부탁",
+        "간식"
+      ],
+      "fit_reason": "반짝이는 큰 눈이 작은 부탁을 귀엽게 만든다."
+    },
+    {
+      "example_id": "5070048-2",
+      "context": "사진 칭찬",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "프사 새로 했는데 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "와 이번 사진 잘 나왔다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헤헤 고마워",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "칭찬"
+      ],
+      "fit_reason": "볼에 오른 분홍빛이 칭찬을 듣고 쑥스러운 표정 같다."
+    },
+    {
+      "example_id": "5070048-3",
+      "context": "고양이 사진 요청",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네 고양이 오늘도 내 베개 차지함"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 자고 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 사진 보내줄까?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고양이",
+        "일상"
+      ],
+      "fit_reason": "둥근 눈과 파란 귀가 귀여운 고양이 이야기와 어울린다."
+    },
+    {
+      "example_id": "5070048-4",
+      "context": "메뉴 기대",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "크림파스타 오늘 먹는 거 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 이미 예약했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 벌써 기대됨",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기대",
+        "식사"
+      ],
+      "fit_reason": "정면을 보는 반짝이는 눈이 설렘을 드러낸다."
+    },
+    {
+      "example_id": "5070048-5",
+      "context": "좋아하는 곡 발견",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 보내준 플레이리스트 다 들음"
+        },
+        {
+          "speaker": "B",
+          "text": "그중에 뭐가 제일 좋았어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "맨 끝 곡 지금 네 번째 듣는 중",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "만족",
+        "음악"
+      ],
+      "fit_reason": "작은 미소와 분홍 볼이 조용한 만족을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

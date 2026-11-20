@@ -1,0 +1,137 @@
+{
+  "package_id": "176340",
+  "sticker_id": "7764103",
+  "image_path": "images/176340/7764103-65740e55c1e8db3edb98.png",
+  "image_description": "금발 캐릭터가 눈을 꾹 감고 입을 벌려 울며 양쪽 볼에 파란 눈물을 흘린다. 위에는 ‘뿌에엥~’이 적혀 있다.",
+  "image_tags": [
+    "금발",
+    "파란 눈물",
+    "감긴 눈",
+    "빨간 리본",
+    "뿌에엥 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7764103_1",
+      "context": "마지막 아이스크림을 가족이 먹음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 초코 아이스크림 냉동실에 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 어젯밤에 먹었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 아껴 둔 거였는데에",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "투정",
+        "간식"
+      ],
+      "fit_reason": "‘뿌에엥~’과 과장된 눈물이 아껴 둔 간식을 잃은 가벼운 투정을 표현한다."
+    },
+    {
+      "example_id": "7764103_2",
+      "context": "아끼던 게임 장비가 강화 중 사라짐",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 강화 될 거 같아"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐 실패하면 장비 사라지는 단계야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이미 눌렀다고요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "울상",
+        "게임"
+      ],
+      "fit_reason": "눈을 꾹 감고 우는 모습이 되돌리기 어려운 실수에 어울린다."
+    },
+    {
+      "example_id": "7764103_3",
+      "context": "사진을 찍다 비를 피하지 못함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 막 강변 도착했어"
+        },
+        {
+          "speaker": "B",
+          "text": "그쪽 5분 뒤에 소나기 온대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 이미 양말까지 다 젖었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "투정",
+        "날씨"
+      ],
+      "fit_reason": "큰 파란 눈물이 갑자기 비에 흠뻑 젖은 서러움을 과장한다."
+    },
+    {
+      "example_id": "7764103_4",
+      "context": "좋아하던 예능이 시즌 종료",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 주에 그 예능 같이 볼래?"
+        },
+        {
+          "speaker": "B",
+          "text": "지난주 편이 시즌 마지막이었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "벌써 끝났어? 내 금요일 돌려줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "예능"
+      ],
+      "fit_reason": "크게 우는 캐릭터가 가벼운 이별의 아쉬움을 장난스럽게 보여 준다."
+    },
+    {
+      "example_id": "7764103_5",
+      "context": "체육대회 계주 결승에서 아쉽게 짐",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 마지막에 거의 따라잡았지?"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 보면 진짜 반 발 차이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "반 발 너무 억울해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "경기"
+      ],
+      "fit_reason": "눈을 꽉 감고 우는 표정이 아주 작은 차이로 진 억울함에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

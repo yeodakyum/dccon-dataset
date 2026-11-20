@@ -1,0 +1,137 @@
+{
+  "package_id": "176439",
+  "sticker_id": "7606141",
+  "image_path": "images/176439/7606141-b33cfe59c524fa8f5703.png",
+  "image_description": "연두색 연필로 그린 듯한 둥근 캐릭터가 눈을 곡선으로 감고 있다. 몸 옆에 비슷한 형태의 면이 이어지고, 머리 위에 느낌표 세 개가 있다.",
+  "image_tags": [
+    "연두색",
+    "연필 질감",
+    "둥근 몸",
+    "감긴 눈",
+    "느낌표 세 개"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7606141_1",
+      "context": "친구가 선물로 원하던 키링을 찾아 줌",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 개구리 키링 품절이더라"
+        },
+        {
+          "speaker": "B",
+          "text": "문구점에 하나 남아서 사 왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헉 내 거야?!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨",
+        "선물"
+      ],
+      "fit_reason": "작고 둥근 캐릭터 위의 느낌표가 뜻밖의 선물에 순간 들뜨는 반응이다."
+    },
+    {
+      "example_id": "7606141_2",
+      "context": "늦을 줄 알았던 버스가 바로 옴",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "버스 앱에 20분이라고 뜨는데"
+        },
+        {
+          "speaker": "B",
+          "text": "앞에 봐, 네 버스 들어온다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오 지금 탄다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "교통"
+      ],
+      "fit_reason": "느낌표 세 개가 갑자기 버스를 발견하고 움직이는 반응을 강조한다."
+    },
+    {
+      "example_id": "7606141_3",
+      "context": "단체 채팅에서 새 모임 이름 생각남",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 산책 모임 이름 아직 비었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 짧은 거 생각나면 말해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "초록발자국 어때!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아이디어",
+        "동호회"
+      ],
+      "fit_reason": "초록 연필 그림과 머리 위 느낌표가 순간 떠오른 이름에 어울린다."
+    },
+    {
+      "example_id": "7606141_4",
+      "context": "친구가 어린 시절 잃어버린 배지를 찾아 줌",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 배지 사진도 이제 없겠지"
+        },
+        {
+          "speaker": "B",
+          "text": "앨범 정리하다 실물 찾았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐, 그 연두색 배지?!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발견",
+        "추억"
+      ],
+      "fit_reason": "연두색 그림과 느낌표가 잃어버린 물건을 찾았을 때의 반가운 놀람을 담는다."
+    },
+    {
+      "example_id": "7606141_5",
+      "context": "분식집에서 오늘만 메뉴 추가",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 떡볶이 먹을까?"
+        },
+        {
+          "speaker": "B",
+          "text": "사장님이 튀김 막 꺼내셨대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 바로 갈래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "기대"
+      ],
+      "fit_reason": "감긴 눈과 느낌표가 귀엽게 반색하는 반응으로 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,150 @@
+{
+  "package_id": "170728",
+  "sticker_id": "7401759",
+  "image_path": "images/170728/7401759-6917621213281e2c6214.png",
+  "image_view": "still",
+  "image_description": "짙은 남색 양갈래 캐릭터가 황갈색 눈을 동그랗게 뜨고 작은 입으로 웃는다. 머리 위 살구색 사각 말풍선에서 게임을 해도 되는지 묻는다.",
+  "image_tags": [
+    "동그란 황갈색 눈",
+    "오므린 작은 입",
+    "짙은 남색 양갈래",
+    "머리의 청록색 선",
+    "살구색 사각 말풍선"
+  ],
+  "image_text": [
+    "겜좀 하면 안돼?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7401759_01",
+      "context": "스스로 잡은 공부 시간표에 게임 시간을 끼워 넣는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 오늘 기출 두 세트 풀 계획이었지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 방금 두 번째 오답까지 봤다며"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "할 거 다 했으니까 한 판만 할래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴식 요청",
+        "스스로 보상"
+      ],
+      "fit_reason": "공부와 오답 정리까지 끝내 놓고 게임하고 싶다는 마음에, 동그란 눈 아래의 순한 표정과 허락을 구하는 말풍선이 맞는다."
+    },
+    {
+      "example_id": "7401759_02",
+      "context": "동생이 콘솔을 쓰고 있는 형에게 자기 차례를 부탁한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "형 세이브 지점 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "이번 방 열면 바로 저장할 수 있어"
+        },
+        {
+          "speaker": "A",
+          "text": "나 오늘 아직 한 판도 못 했는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저장하면 나한테 패드 좀 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "순서 요청",
+        "차례 협의"
+      ],
+      "fit_reason": "형이 저장 지점에 다다른 순간 차례를 청해서, ‘겜좀 하면 안돼?’라는 문구가 콘솔을 넘겨 달라는 뜻을 명확히 한다."
+    },
+    {
+      "example_id": "7401759_03",
+      "context": "친구가 일하자는 말만 하는 단체방에 주말 같이 놀자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다음 주 할 일 미리 정리할까?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 토요일 저녁인데 또 회의야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "우리 오늘은 게임 방부터 열면 안 되냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "분위기 전환",
+        "친구 초대"
+      ],
+      "fit_reason": "토요일 저녁까지 업무 분위기가 이어져, 순한 표정의 게임 허락 요청이 다 같이 쉬자는 제안으로 쓰인다."
+    },
+    {
+      "example_id": "7401759_04",
+      "context": "친구가 초보인 자기에게 매번 구경만 시키는 팀에게 말한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너는 화면 공유 보고 있으면 기술 익숙해질걸"
+        },
+        {
+          "speaker": "B",
+          "text": "어제도 두 시간 봤잖아"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘은 어려운 부분이라 그래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "죽어도 좋으니까 나도 한 번만 참가하게 해줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "참여 요청",
+        "가벼운 불만"
+      ],
+      "fit_reason": "이틀 연속 구경만 하게 된 사람이 직접 하겠다고 부탁해서, 조용히 게임 허락을 구하는 캐릭터가 살짝 불만인 태도도 보탠다."
+    },
+    {
+      "example_id": "7401759_05",
+      "context": "게임이 점검 중일 때 친구에게 재접속을 기다리며 농담한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "서버 점검 완료 몇 시야?"
+        },
+        {
+          "speaker": "B",
+          "text": "두 시였는데 끝나는 시간 공지에서 지웠어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "서버 관리자님 저 여기서 기다리고 있습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림",
+        "장난스러운 호소"
+      ],
+      "fit_reason": "종료 시각까지 사라진 점검 앞에서, 눈을 동그랗게 뜨고 게임을 해도 되냐고 묻는 그림이 관리자를 향한 호소처럼 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

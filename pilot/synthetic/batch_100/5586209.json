@@ -1,0 +1,140 @@
+{
+  "package_id": "164671",
+  "sticker_id": "5586209",
+  "image_path": "images/164671/5586209-703de36fd7bdc0b4ff57.png",
+  "image_view": "still",
+  "image_description": "흰 털을 둥글게 그린 캐릭터가 커다란 눈으로 옆을 흘겨보고 작은 주황색 물건을 앞발에 쥔다. 양 볼에 분홍 타원이 칠해져 있다.",
+  "image_tags": [
+    "오른쪽으로 몰린 동공",
+    "분홍색 타원 홍조",
+    "작게 모인 입",
+    "몸 앞에 쥔 주황색 물건",
+    "흰 배경과 검은 펜선"
+  ],
+  "image_text": [],
+  "interpretation_note": "이마와 앞발 부근에 뿔처럼 보이는 주황색 뾰족한 부분이 있다. 앞발에 든 물건의 정체는 확실하지 않다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5586209_01",
+      "context": "영화관에서 다 먹기로 한 간식을 미리 먹는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "팝콘 영화 시작하면 열자고 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나는 통을 한 번 열어 봤을 뿐이야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한 번 열었는데 왜 반이나 없어졌지.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 의심",
+        "친근한 추궁"
+      ],
+      "fit_reason": "팝콘 통을 한 번만 열었다는 변명에 뭔가를 손 안에 감추고 곁눈질하는 모습이 슬쩍 들여다보는 반응으로 읽힌다."
+    },
+    {
+      "example_id": "5586209_02",
+      "context": "그림 초안을 보여 주기 부끄러워한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "작업한 캐릭터 시안 벌써 나왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장 있긴 한데 선이 진짜 지저분해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "일단 너만 봐. 다른 사람한텐 아직 안 보여 줄래.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "조심스러운 공개"
+      ],
+      "fit_reason": "덜 끝난 그림을 한 사람에게만 보여 주는 상황에 홍조와 곁눈질이 눈치를 살피는 기분을 더한다."
+    },
+    {
+      "example_id": "5586209_03",
+      "context": "친구가 강아지에게 새 장난감을 줬다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 준 당근 인형 어때?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 번 물더니 자꾸 소파 뒤에서 날 쳐다봐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뺏어 갈까 봐 경계하는 거 아니야?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "행동 해석"
+      ],
+      "fit_reason": "장난감을 지키며 바라본다는 대화에서 주황색 물건을 쥔 채 흘겨보는 얼굴이 강아지 행동을 빗댄다."
+    },
+    {
+      "example_id": "5586209_04",
+      "context": "단체 채팅방에서 자기 얘기란 걸 알아차린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "누가 회의실에 우산 세 개씩 두고 갔을까."
+        },
+        {
+          "speaker": "B",
+          "text": "그 방에 나 말고 우산 가져간 사람 있었나."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "다들 모른 척해 주면 점심에 회수하겠습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "자조"
+      ],
+      "fit_reason": "남의 일인 듯 말하려다 자기 물건으로 밝혀져 붉어진 볼과 슬쩍 빠지는 눈동자가 들킨 표정에 어울린다."
+    },
+    {
+      "example_id": "5586209_05",
+      "context": "먹던 샌드위치 한입을 달라는 친구가 다가온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 그 매장 마지막 에그샌드 가져갔다며."
+        },
+        {
+          "speaker": "B",
+          "text": "응 아직 한입도 안 먹었어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "갑자기 나한테 다가오지 마. 반으로 자를 순 있어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 경계",
+        "양보"
+      ],
+      "fit_reason": "마지막 샌드위치를 들고 친구의 접근을 의식하는 상황에 앞발을 모아 쥐고 옆을 보는 이미지가 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

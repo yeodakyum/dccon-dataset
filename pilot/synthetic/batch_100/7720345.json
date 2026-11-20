@@ -1,0 +1,137 @@
+{
+  "package_id": "176740",
+  "sticker_id": "7720345",
+  "image_path": "images/176740/7720345-4ec16d5350d14bd3fc0f.png",
+  "image_description": "광각으로 찍은 듯 코가 커 보이는 개 두 마리가 하늘을 배경으로 올려다본다. 왼쪽 위의 노란 해 옆에 빨간 글씨로 '점몰닝몰닝'이 붙어 있다.",
+  "image_tags": [
+    "개 두 마리",
+    "큰 코",
+    "광각 구도",
+    "노란 해",
+    "빨간 아침 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7720345-1",
+      "context": "아침 산책 단톡방에 먼저 인사하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 일어났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 산책 나왔는데 벌써 밝다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "점몰닝몰닝 오늘 날 좋네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아침인사",
+        "산책"
+      ],
+      "fit_reason": "해와 카메라에 다가온 개들이 아침 산책 분위기와 맞는다."
+    },
+    {
+      "example_id": "7720345-2",
+      "context": "점심 무렵 겨우 잠에서 깬 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아 이제 눈 뜸"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 점심시간 다 됐는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "점몰닝몰닝",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "늦잠",
+        "인사"
+      ],
+      "fit_reason": "점심 무렵 아침 인사라는 엉뚱함을 큰 빨간 글씨가 살린다."
+    },
+    {
+      "example_id": "7720345-3",
+      "context": "강아지가 얼굴을 들이밀며 깨운 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아침에 알람 안 울렸는데 일어났어"
+        },
+        {
+          "speaker": "B",
+          "text": "어떻게 깼어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "눈 뜨니까 이 구도였음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려견",
+        "기상"
+      ],
+      "fit_reason": "코가 크게 보이는 근접 사진이 강아지가 들이댄 모습을 재현한다."
+    },
+    {
+      "example_id": "7720345-4",
+      "context": "이른 여행 출발 전에 단톡방을 깨우는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 집합 6시인 거 알지?"
+        },
+        {
+          "speaker": "B",
+          "text": "채팅방 아무도 말이 없네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "점몰닝몰닝 다들 생존 신고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "여행",
+        "기상"
+      ],
+      "fit_reason": "해와 커다란 아침 인사가 사람들을 깨우는 톤과 맞는다."
+    },
+    {
+      "example_id": "7720345-5",
+      "context": "야간 근무 끝에 아침 인사를 하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 이제 퇴근한다"
+        },
+        {
+          "speaker": "B",
+          "text": "나는 이제 출근길인데ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "점몰닝몰닝 나는 잔다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "교대근무",
+        "인사"
+      ],
+      "fit_reason": "떠오른 해를 배경으로 한 발랄한 인사가 엇갈린 일과를 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

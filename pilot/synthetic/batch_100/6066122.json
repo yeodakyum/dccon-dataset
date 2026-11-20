@@ -1,0 +1,137 @@
+{
+  "package_id": "169284",
+  "sticker_id": "6066122",
+  "image_path": "images/169284/6066122-0f23c95d36707c2ce7c0.png",
+  "image_description": "회백색 머리 캐릭터가 졸린 듯 반쯤 감은 푸른 눈으로 손을 입 가까이에 모은다. 위에 ‘참 잘했어요’ 글자가 있고 아래에 보라색 별이 있다.",
+  "image_tags": [
+    "회백색 머리",
+    "반쯤 감은 눈",
+    "입가의 손",
+    "보라색 별",
+    "참 잘했어요 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6066122_1",
+      "context": "아이가 숙제 검사를 받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 수학 풀어 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "열 문제 다 풀고 틀린 문제도 고쳤어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 별 도장 다섯 개",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "숙제"
+      ],
+      "fit_reason": "‘참 잘했어요’와 별이 숙제를 마친 사람에게 주는 도장을 연상시킨다."
+    },
+    {
+      "example_id": "6066122_2",
+      "context": "친구가 미룬 설거지 끝냄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 그릇 싱크대에 그대로 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "퇴근하자마자 다 씻었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "장하다 다음은 빨래야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "격려",
+        "집안일"
+      ],
+      "fit_reason": "칭찬 문구와 힘이 빠진 표정이 일상적인 성취를 가볍게 인정하는 데 맞는다."
+    },
+    {
+      "example_id": "6066122_3",
+      "context": "동료가 오래 걸린 데이터 수정 완료",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 표 손으로 다 맞췄어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네, 번호도 다시 돌려 봤어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "덕분에 이제 제출할 수 있겠어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "업무"
+      ],
+      "fit_reason": "별이 달린 ‘참 잘했어요’가 지루한 반복 작업을 마친 동료에게 주는 칭찬이다."
+    },
+    {
+      "example_id": "6066122_4",
+      "context": "알람 연장을 자랑하는 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "일찍 일어난다며, 몇 시에 깼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "알람을 7시부터 9시까지 한 번도 빠짐없이 껐어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "끈기 하나는 인정합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "늦잠"
+      ],
+      "fit_reason": "심드렁한 눈과 칭찬 글자의 조합이 장난스러운 반어에 어울린다."
+    },
+    {
+      "example_id": "6066122_5",
+      "context": "친구가 그림의 첫 단계를 완성",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "스케치 어디까지 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "눈 양쪽 크기 드디어 맞췄어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오 그럼 어려운 데 하나 넘겼네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "격려",
+        "그림"
+      ],
+      "fit_reason": "별과 칭찬 문구가 중간 단계의 성취에도 작은 보상처럼 쓰인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

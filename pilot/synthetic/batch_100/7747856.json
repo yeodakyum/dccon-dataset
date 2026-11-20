@@ -1,0 +1,142 @@
+{
+  "package_id": "174452",
+  "sticker_id": "7747856",
+  "image_path": "images/174452/7747856-03d40a6d11f79cb75ce3.png",
+  "image_view": "still",
+  "image_description": "붉은 꽃을 단 검은 머리 캐릭터가 양옆에 주먹을 쥐고 울면서 입을 크게 벌린다. 상단의 붉은 외침 글자가 오른쪽에서 잘린다.",
+  "image_tags": [
+    "굵게 감긴 두 눈",
+    "파란 눈물 두 줄",
+    "세로로 벌린 입",
+    "몸 옆에 든 주먹",
+    "붉은 꽃과 외침 자막"
+  ],
+  "image_text": [
+    "뚜아아"
+  ],
+  "interpretation_note": "오른쪽에 외침 글자가 이어지지만 일부가 잘려 확인되는 부분만 적었다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7747856_01",
+      "context": "친구가 밤새 키운 게임 캐릭터의 저장 상태를 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 자동 저장 켜져 있었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "설정에 꺼짐으로 되어 있는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 내 세 시간은 어디로 갔어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "허탈함",
+        "절규"
+      ],
+      "fit_reason": "입을 크게 벌리고 양옆으로 눈물이 흐르는 모습이 저장분을 날린 아픔을 과장한다."
+    },
+    {
+      "example_id": "7747856_02",
+      "context": "간식을 기다리던 사람이 배달 취소 알림을 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "도넛 이제 올 때 됐는데."
+        },
+        {
+          "speaker": "B",
+          "text": "알림 봐봐. 재료 소진이라 취소됐대."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "커피는 이미 내려 놨단 말이야.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "섭섭함",
+        "장난 섞인 투정"
+      ],
+      "fit_reason": "주먹을 쥐고 우는 얼굴이 디저트를 못 먹게 된 작은 실망을 크게 표현한다."
+    },
+    {
+      "example_id": "7747856_03",
+      "context": "친구가 팬 행사에서 받은 사인을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 자세히 봐. 오른쪽 아래 뭐라고 쓰였어?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 이름 직접 써 주셨는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미쳤다 나 지금 화면 확대해 놓고 울고 있어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감격",
+        "팬심"
+      ],
+      "fit_reason": "눈물이 줄줄 흐르면서 소리 지르는 얼굴이 실망과 달리 여기서는 벅찬 감격으로 읽힌다."
+    },
+    {
+      "example_id": "7747856_04",
+      "context": "운동 뒤에 친구가 계단으로 내려가자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 하체 운동 제대로 한 듯."
+        },
+        {
+          "speaker": "B",
+          "text": "엘리베이터 점검 중이라 8층부터 내려가야 돼."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 다리는 이미 퇴근했는데.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피로",
+        "자조"
+      ],
+      "fit_reason": "주먹을 꽉 쥐고 절규하는 캐릭터가 운동 뒤 계단을 마주친 피곤함을 과장한다."
+    },
+    {
+      "example_id": "7747856_05",
+      "context": "단체 작업 마감 직전에 파일이 열리지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파일 열고 제출 버튼만 누르면 돼."
+        },
+        {
+          "speaker": "B",
+          "text": "내 컴퓨터에선 손상됐다고 떠."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 제발 원본 복사본 하나만 있어라.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "초조함",
+        "다급함"
+      ],
+      "fit_reason": "굵은 눈물과 위쪽 외침이 마감을 앞두고 생긴 오류 때문에 초조해하는 답을 받쳐 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

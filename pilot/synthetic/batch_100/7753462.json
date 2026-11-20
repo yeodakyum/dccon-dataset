@@ -1,0 +1,137 @@
+{
+  "package_id": "176662",
+  "sticker_id": "7753462",
+  "image_path": "images/176662/7753462-84e76d8c8a12306c3e90.png",
+  "image_description": "보랏빛 단발 캐릭터가 가느다란 보라색 눈으로 웃으며 한 손에 든 작은 십자가를 앞으로 내민다.",
+  "image_tags": [
+    "보라단발",
+    "십자가",
+    "하트핀",
+    "반눈",
+    "늘어진소매"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7753462-1",
+      "context": "공포 영화 시작",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "불 다 끄고 볼래?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 예고편부터 소리 너무 무서워"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 부적부터 장착한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공포",
+        "영화"
+      ],
+      "fit_reason": "작은 십자가를 내미는 모습이 무서운 장면에 대비하는 농담과 어울린다."
+    },
+    {
+      "example_id": "7753462-2",
+      "context": "모기 잡기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 방에 모기 한 마리 있는 듯"
+        },
+        {
+          "speaker": "B",
+          "text": "아까 잡았는데 또 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 퇴마까지 해야겠네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "모기",
+        "퇴마"
+      ],
+      "fit_reason": "모기를 끈질긴 괴물처럼 대하는 농담을 십자가가 살린다."
+    },
+    {
+      "example_id": "7753462-3",
+      "context": "늦은 밤 메신저",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 보낸 링크 열어봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "새벽에 열면 소리 난대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 이거 들고 열어야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "괴담",
+        "장난"
+      ],
+      "fit_reason": "심드렁하게 십자가를 든 캐릭터가 괴담을 가볍게 받는다."
+    },
+    {
+      "example_id": "7753462-4",
+      "context": "게임 새 장비",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 던전에 뭐 들고 가?"
+        },
+        {
+          "speaker": "B",
+          "text": "언데드만 나온다던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 이걸로 준비 끝",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "장비"
+      ],
+      "fit_reason": "십자가를 마주 든 포즈가 판타지 장비 고르기와 맞다."
+    },
+    {
+      "example_id": "7753462-5",
+      "context": "코딩 중 오류",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "수정한 줄은 하나인데"
+        },
+        {
+          "speaker": "B",
+          "text": "로그가 어제보다 두 배 늘었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이제 코드 말고 다른 걸 봐야 할 듯",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "코딩",
+        "장난"
+      ],
+      "fit_reason": "십자가를 내밀어 설명 안 되는 오류를 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

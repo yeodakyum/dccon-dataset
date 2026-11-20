@@ -1,0 +1,157 @@
+{
+  "package_id": "176746",
+  "sticker_id": "7760455",
+  "image_path": "images/176746/7760455-025f8b6fb2399a1b12cd.png",
+  "image_description": "보라색 머리의 캐릭터가 입을 벌리고 있고 왼쪽에 노란 빛줄기와 속도선이 보인다.",
+  "image_tags": [
+    "보라색 머리",
+    "노란 빛줄기",
+    "벌린 입",
+    "속도선",
+    "치켜올린 눈썹"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7760455_01",
+      "context": "게임에서 팀원이 궁극기를 쓰라고 외친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보스 실드 깨졌다"
+        },
+        {
+          "speaker": "B",
+          "text": "내 궁 다 찼어"
+        },
+        {
+          "speaker": "A",
+          "text": "지금 정면 봐!"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "간다 받아라!!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공격",
+        "타이밍"
+      ],
+      "fit_reason": "노란 빛줄기와 속도선이 궁극기 연출처럼 보인다."
+    },
+    {
+      "example_id": "7760455_02",
+      "context": "친구와 팬을 세게 틀었을 때 반응을 주고받는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "선풍기 제일 센 걸로 했어"
+        },
+        {
+          "speaker": "B",
+          "text": "진짜 시원하네"
+        },
+        {
+          "speaker": "A",
+          "text": "고개 가까이 대면 더 시원함"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "으아 얼굴 날아가겠다 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과장",
+        "장난"
+      ],
+      "fit_reason": "속도선과 벌어진 입이 강한 바람의 충격을 과장한다."
+    },
+    {
+      "example_id": "7760455_03",
+      "context": "게임 스트리밍을 보는 친구가 큰 발사 효과에 놀란다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "화면 밝기 좀 내려봐"
+        },
+        {
+          "speaker": "B",
+          "text": "밤이라 이미 낮췄어"
+        },
+        {
+          "speaker": "A",
+          "text": "다음 장면이 흰색으로 번쩍해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "으악 이미 봐버림",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "번쩍임"
+      ],
+      "fit_reason": "노란 광선이 눈앞을 채우는 연출과 맞는다."
+    },
+    {
+      "example_id": "7760455_04",
+      "context": "친구가 말도 안 되는 말장난을 반복한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오리가 얼면 언덕이래"
+        },
+        {
+          "speaker": "B",
+          "text": "그건 어제도 들었어"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 차가 얼면 차가워"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "자 네 아재개그 바로 소각합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "타박",
+        "장난"
+      ],
+      "fit_reason": "입 앞의 빛줄기를 농담을 태우는 만화 연출로 쓴다."
+    },
+    {
+      "example_id": "7760455_05",
+      "context": "노래방에서 크게 고음을 지르는 동료가 있다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 이 노래 끝까지 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "마지막만 좀 힘들어"
+        },
+        {
+          "speaker": "A",
+          "text": "딱 한 키 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "지금부터 내 목소리 발사한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고음",
+        "과장"
+      ],
+      "fit_reason": "벌린 입 앞의 빛줄기가 고음을 광선처럼 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

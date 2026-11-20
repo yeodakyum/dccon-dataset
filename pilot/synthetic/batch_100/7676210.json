@@ -1,0 +1,157 @@
+{
+  "package_id": "175962",
+  "sticker_id": "7676210",
+  "image_path": "images/175962/7676210-2e6dffa9a01d3ded3dde.png",
+  "image_description": "턱을 괸 검은 머리 캐릭터 옆에 영상 썸네일과 빨간 화살표가 있고 위에는 ‘안봐도 비디오다’가 쓰여 있다.",
+  "image_tags": [
+    "안봐도 비디오다 문구",
+    "턱 괸 자세",
+    "검은 머리",
+    "영상 썸네일",
+    "빨간 화살표"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7676210_01",
+      "context": "친구가 회의에 늦을 때마다 같은 핑계를 댄다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "걔 또 조금 늦는대"
+        },
+        {
+          "speaker": "B",
+          "text": "이번엔 뭐래"
+        },
+        {
+          "speaker": "A",
+          "text": "버스가 눈앞에서 갔대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "지난주랑 대사까지 똑같네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예측",
+        "놀림"
+      ],
+      "fit_reason": "안 봐도 비디오라는 문구가 익숙한 핑계에 맞는다."
+    },
+    {
+      "example_id": "7676210_02",
+      "context": "친구가 할인 소식에 결국 결제할 게 뻔하다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 구경만 한대"
+        },
+        {
+          "speaker": "B",
+          "text": "장바구니는 몇 개래"
+        },
+        {
+          "speaker": "A",
+          "text": "벌써 여섯 개"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "자정 전에 결제 인증 올라온다에 한 표",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예상",
+        "농담"
+      ],
+      "fit_reason": "심드렁한 표정이 결말을 이미 아는 듯하다."
+    },
+    {
+      "example_id": "7676210_03",
+      "context": "게임 길드원이 위험한 보스를 혼자 잡으러 간다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "걔 장비 안 바꾸고 들어갔대"
+        },
+        {
+          "speaker": "B",
+          "text": "우리가 기다리라고 했는데"
+        },
+        {
+          "speaker": "A",
+          "text": "일단 할 만하다고 하더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "곧 부활 좀 시켜달라고 오겠네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뻔한 결과",
+        "장난"
+      ],
+      "fit_reason": "영상도 볼 필요 없다는 말이 이미 반복된 결과를 빗댄다."
+    },
+    {
+      "example_id": "7676210_04",
+      "context": "친구가 만든 영상의 내용을 썸네일만으로 짐작한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "영상 편집 끝났다"
+        },
+        {
+          "speaker": "B",
+          "text": "제목이 왜 절대 따라 하지 마임?"
+        },
+        {
+          "speaker": "A",
+          "text": "썸네일 좀 봐봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 또 라면에 뭐 넣고 한 입 먹자마자 후회했지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추측",
+        "놀림"
+      ],
+      "fit_reason": "썸네일과 문구가 내용을 미리 읽는 장면에 어울린다."
+    },
+    {
+      "example_id": "7676210_05",
+      "context": "친구가 시험 전날까지 미루는 습관을 알아차린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공부하기 전에 방 좀 치울 거야"
+        },
+        {
+          "speaker": "B",
+          "text": "그러고 뭐 할 건데"
+        },
+        {
+          "speaker": "A",
+          "text": "책상 위치까지 바꾸려고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "정리 다 하면 잘 시간이라는 거지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예측",
+        "가벼운 지적"
+      ],
+      "fit_reason": "턱을 괸 표정이 익숙한 미루기 패턴을 관찰하는 듯하다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,135 @@
+{
+  "package_id": "176627",
+  "sticker_id": "7678784",
+  "image_path": "images/176627/7678784-035f03f0922919c2484a.png",
+  "image_view": "still",
+  "image_description": "노란 줄무늬 고양이가 정면을 보고 팔다리를 옆으로 살짝 내민다.",
+  "image_tags": [
+    "작은 점눈",
+    "오므린 입",
+    "옆으로 편 두 팔",
+    "빨간 목 리본",
+    "말린 꼬리"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7678784_01",
+      "context": "친구끼리 주말 계획을 정한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일에 어디 갈까"
+        },
+        {
+          "speaker": "B",
+          "text": "멀리 안 가고 동네 카페 어때"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 세 시에 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "친구끼리 주말 계획을 정한다 상황에서 양팔을 가볍게 펼치는 자세가 편하게 수락하는 대답의 분위기와 맞는다."
+    },
+    {
+      "example_id": "7678784_02",
+      "context": "회의에서 작업 순서를 정한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어떤 거 먼저 할까요?"
+        },
+        {
+          "speaker": "B",
+          "text": "마감 빠른 것부터 처리하죠"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 그 순서로 하겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "회의에서 작업 순서를 정한다 상황에서 양팔을 가볍게 펼치는 자세가 편하게 수락하는 대답의 분위기와 맞는다."
+    },
+    {
+      "example_id": "7678784_03",
+      "context": "게임에서 안전하게 진행하기로 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "샛길로 갈까?"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 큰길로 돌아가면 덜 위험해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 네 뒤로 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "게임에서 안전하게 진행하기로 한다 상황에서 양팔을 가볍게 펼치는 자세가 편하게 수락하는 대답의 분위기와 맞는다."
+    },
+    {
+      "example_id": "7678784_04",
+      "context": "친구가 식사 장소를 고른다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 뭐 땡겨?"
+        },
+        {
+          "speaker": "B",
+          "text": "쌀국수 오랜만에 먹을래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "완전 좋아 거기 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "친구가 식사 장소를 고른다 상황에서 양팔을 가볍게 펼치는 자세가 편하게 수락하는 대답의 분위기와 맞는다."
+    },
+    {
+      "example_id": "7678784_05",
+      "context": "여행 시간을 조율한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫차는 너무 이르지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아홉 시 차로 잡아볼까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 딱 괜찮다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "동의"
+      ],
+      "fit_reason": "여행 시간을 조율한다 상황에서 양팔을 가볍게 펼치는 자세가 편하게 수락하는 대답의 분위기와 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

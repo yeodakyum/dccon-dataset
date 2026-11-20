@@ -1,0 +1,137 @@
+{
+  "package_id": "172975",
+  "sticker_id": "7685544",
+  "image_path": "images/172975/7685544-75e81eb07d963d25d25b.png",
+  "image_view": "still",
+  "image_description": "금발 인물이 새빨간 얼굴에 눈을 찡그리고 외친다.",
+  "image_tags": [
+    "바짝 좁힌 눈",
+    "붉어진 얼굴",
+    "크게 벌린 입",
+    "푸른 모자",
+    "빨간 글씨"
+  ],
+  "image_text": [
+    "야한말 멈처"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7685544_01",
+      "context": "밤늦게 다시 일을 요청받는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파일 이걸로 끝이죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "제목부터 다시 바꿔 달래요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 시간에 또요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증"
+      ],
+      "fit_reason": "밤늦게 다시 일을 요청받는다 상황에서 멈추라는 명령과 부글거리는 표정이 가볍게 제동을 걸 때 어울린다."
+    },
+    {
+      "example_id": "7685544_02",
+      "context": "친구가 늦는다는 말을 반복한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 도착까지 얼마나 남았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 오 분? 아직 집 앞이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오 분이 벌써 세 번째임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증"
+      ],
+      "fit_reason": "친구가 늦는다는 말을 반복한다 상황에서 멈추라는 명령과 부글거리는 표정이 가볍게 제동을 걸 때 어울린다."
+    },
+    {
+      "example_id": "7685544_03",
+      "context": "채팅 상대가 질문에 답하지 않는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그래서 예약했어 안 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "근데 거기 메뉴 진짜 많더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "메뉴 말고 예약했냐고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증"
+      ],
+      "fit_reason": "채팅 상대가 질문에 답하지 않는다 상황에서 멈추라는 명령과 부글거리는 표정이 가볍게 제동을 걸 때 어울린다."
+    },
+    {
+      "example_id": "7685544_04",
+      "context": "게임에서 같은 구간을 또 실패한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 장판 피했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "미안 나 또 밟음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음엔 바닥부터 보고 가자 좀",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증"
+      ],
+      "fit_reason": "게임에서 같은 구간을 또 실패한다 상황에서 멈추라는 명령과 부글거리는 표정이 가볍게 제동을 걸 때 어울린다."
+    },
+    {
+      "example_id": "7685544_05",
+      "context": "아이디어를 무시당한 뒤 그대로 채택된다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "제 방법은 어렵다고 하셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 다른 분이 같은 안을 냈는데 그걸로 가재요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아까 제 설명은 어디 갔죠",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짜증"
+      ],
+      "fit_reason": "아이디어를 무시당한 뒤 그대로 채택된다 상황에서 멈추라는 명령과 부글거리는 표정이 가볍게 제동을 걸 때 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

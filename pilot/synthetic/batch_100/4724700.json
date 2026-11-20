@@ -1,0 +1,137 @@
+{
+  "package_id": "147394",
+  "sticker_id": "4724700",
+  "image_path": "images/147394/4724700-bdb182db9d830d74417b.png",
+  "image_description": "분홍 머리 캐릭터가 왼쪽 아래에서 얼굴을 빼꼼 내민다. 보라색 눈과 웃는 입 주변으로 검은 집중선이 뻗는다.",
+  "image_tags": [
+    "분홍 머리",
+    "보라색 눈",
+    "빼꼼 구도",
+    "검은 집중선",
+    "벌린 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4724700_1",
+      "context": "한동안 조용했던 단체 채팅에 간식 소식",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 여기 아무도 없어?"
+        },
+        {
+          "speaker": "B",
+          "text": "탕비실에 도넛 왔던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "도넛이라고요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "등장",
+        "간식"
+      ],
+      "fit_reason": "모서리에서 튀어나오는 얼굴이 간식 얘기에 갑자기 나타나는 모습이다."
+    },
+    {
+      "example_id": "4724700_2",
+      "context": "게임에 사람이 한 명 모자람",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너희 벌써 팀 다 찼지?"
+        },
+        {
+          "speaker": "B",
+          "text": "딱 한 자리 비었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저 여기 있어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "합류",
+        "게임"
+      ],
+      "fit_reason": "미소 짓는 얼굴이 구석에서 불쑥 참여 의사를 내비친다."
+    },
+    {
+      "example_id": "4724700_3",
+      "context": "친구들이 깜짝 생일을 준비하는지 떠봄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너희 오늘 저녁에 뭐 해"
+        },
+        {
+          "speaker": "B",
+          "text": "그냥 각자 일정 있지… 왜?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "흠 벌써 케이크 봉투 봤는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "눈치",
+        "생일"
+      ],
+      "fit_reason": "집중선에 둘러싸여 빼꼼 내민 얼굴이 비밀을 알아챈 장난을 표현한다."
+    },
+    {
+      "example_id": "4724700_4",
+      "context": "채팅방에 새 고양이 사진 공개",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새로 온 고양이 사진 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장만 먼저 보여 줄게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "더 주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사진",
+        "기대"
+      ],
+      "fit_reason": "활짝 웃는 얼굴이 더 볼 것이 있나 엿보는 기대에 맞는다."
+    },
+    {
+      "example_id": "4724700_5",
+      "context": "마감 직전 팀 채팅에 접속",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "혹시 아직 다들 깨어 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 마지막 슬라이드 보고 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 왔다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "등장",
+        "팀과제"
+      ],
+      "fit_reason": "프레임 모서리로 들어온 얼굴이 뒤늦게 다시 나타나는 반응을 대신한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

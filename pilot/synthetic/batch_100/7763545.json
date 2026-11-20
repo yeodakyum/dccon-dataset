@@ -1,0 +1,158 @@
+{
+  "package_id": "175577",
+  "sticker_id": "7763545",
+  "image_path": "images/175577/7763545-1fb1d3a18c61306a87e9.png",
+  "image_view": "still",
+  "image_description": "흑백 만화의 작은 인물이 입을 벌린 채 가슴 앞에 손을 들고 있다. 머리 양옆에 땀 같은 효과가 있고 위쪽 말풍선에 짧은 소리가 반복된다.",
+  "image_tags": [
+    "크게 열려 보이는 눈",
+    "동그랗게 벌린 입",
+    "가슴 앞에 든 손",
+    "머리 둘레의 땀 효과",
+    "물결 모양 말풍선"
+  ],
+  "image_text": [
+    "아우 아우..."
+  ],
+  "interpretation_note": "작게 그려진 인물의 눈동자 방향은 명확하지 않다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7763545_01",
+      "context": "친구와 버스를 겨우 잡고 정차한 뒤 메시지를 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 먼저 버스 타고 가도 돼"
+        },
+        {
+          "speaker": "B",
+          "text": "문 열려 있어 뛰면 잡음"
+        },
+        {
+          "speaker": "A",
+          "text": "휴 지금 뒤로 탔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "가방 들고 뛰었더니 숨이 안 돌아온다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "숨참",
+        "안도"
+      ],
+      "fit_reason": "버스를 놓치지 않으려고 뛴 직후라 인물 주변의 땀 효과와 ‘아우’ 반복이 헐떡이는 반응에 맞는다."
+    },
+    {
+      "example_id": "7763545_02",
+      "context": "친구에게서 방금 한 말의 농담을 다시 설명해 달라는 답이 온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 그 농담 알아들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 설명해 봐"
+        },
+        {
+          "speaker": "A",
+          "text": "계란이 알바한다고 한 거였어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "말로 다시 하니까 내가 더 민망하네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "민망함"
+      ],
+      "fit_reason": "말장난을 다시 풀어 말한 직후라 손을 가슴 앞에 어정쩡하게 든 인물과 말끝이 흐려지는 문구가 머쓱하다."
+    },
+    {
+      "example_id": "7763545_03",
+      "context": "동료가 정리하고 온 장소에서 또 일이 생겼다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의실 청소 끝냈어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 근데 누가 방금 가루 과자 쏟았어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "걸레 어디 뒀는지부터 다시 기억할게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "힘 빠짐",
+        "가벼운 한탄"
+      ],
+      "fit_reason": "이미 청소한 바닥을 또 닦게 되자 ‘아우 아우...’가 맥 빠지는 반응을 보탠다."
+    },
+    {
+      "example_id": "7763545_04",
+      "context": "친구가 처음 도전한 매운 소스에 대해 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "한 숟갈만 넣었는데 매운가?"
+        },
+        {
+          "speaker": "B",
+          "text": "그거 청양 소스인데 한 숟갈을 다 넣음?"
+        },
+        {
+          "speaker": "A",
+          "text": "응 한 입 먹었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "말 시키지 말고 물 좀",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매운맛 호소",
+        "도움 요청"
+      ],
+      "fit_reason": "한 입에 매운맛을 본 뒤 말풍선처럼 말을 제대로 잇지 못하는 상황과 맞는다."
+    },
+    {
+      "example_id": "7763545_05",
+      "context": "친구가 한동안 닫혀 있던 가방 안에서 분실물을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "학교 카드 잃어버렸다 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지난달에 재발급 받았어"
+        },
+        {
+          "speaker": "A",
+          "text": "네 여행 가방 앞주머니에 있던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "가방 앞주머니만 확인을 안 했네 아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뒤늦은 발견",
+        "자기 타박"
+      ],
+      "fit_reason": "이미 재발급한 카드가 가까운 곳에서 나오자 땀 흘리는 얼굴과 짧은 한숨 같은 말풍선이 속상함을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,140 @@
+{
+  "package_id": "170688",
+  "sticker_id": "7719387",
+  "image_path": "images/170688/7719387-6ec5b8d603fd8b6316a8.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 인물의 얼굴이 화면 왼쪽에 잘려 있고 눈과 입이 크게 열려 있다. 오른쪽에는 붉고 어두운 기계처럼 보이는 각진 물체가 가까이 놓여 있다.",
+  "image_tags": [
+    "흰자위가 도드라진 한쪽 눈",
+    "크게 벌어진 입",
+    "분홍 앞머리",
+    "붉고 어두운 각진 물체",
+    "비스듬히 잘린 화면 구도"
+  ],
+  "image_text": [],
+  "interpretation_note": "어두운 구조물이 무엇을 하는지는 이미지 한 장만으로 확인하기 어렵다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7719387_01",
+      "context": "게임에서 몰래 돌던 길의 막다른 곳에 거대한 장애물이 나온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기 지름길이라며?"
+        },
+        {
+          "speaker": "B",
+          "text": "진입하고 보니까 문 앞에 거대 로봇 서 있음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "문 여는 법보다 일단 돌아가는 길부터 찾자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "긴장",
+        "급한 후퇴"
+      ],
+      "fit_reason": "걷던 길의 끝에서 큰 로봇을 마주쳤다는 말에 붉은 기계가 코앞까지 보이고 얼굴이 얼어붙은 구도가 맞는다."
+    },
+    {
+      "example_id": "7719387_02",
+      "context": "친구가 대형 행사 장비의 실제 크기를 처음 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "박스 하나면 트렁크에 들어가지?"
+        },
+        {
+          "speaker": "B",
+          "text": "박스가 아니라 거의 자판기만 해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 차부터 다시 빌려야겠는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "계획 변경"
+      ],
+      "fit_reason": "예상보다 큰 물건을 코앞에서 맞닥뜨린 상황이라 각진 물체와 커진 눈이 체감 크기를 과장한다."
+    },
+    {
+      "example_id": "7719387_03",
+      "context": "친구가 고장 난 전자기기의 내부를 열어 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내부 먼지 좀 닦아 보려는 거지?"
+        },
+        {
+          "speaker": "B",
+          "text": "뚜껑 여니까 케이블이 엄청 많더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 당장 뚜껑 닫고 기사님 부를까 고민 중",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "난감함",
+        "자기 보호"
+      ],
+      "fit_reason": "내부가 예상보다 복잡한 걸 알자 어두운 장치가 시야 대부분을 가리고 입이 벌어진 장면이 부담감을 살린다."
+    },
+    {
+      "example_id": "7719387_04",
+      "context": "친구와 놀이공원에 갔다가 안전바가 내려오자 겁이 난다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "앞자리가 덜 무섭다며"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 안전바 내려옴 꽉 잡아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직 출발도 안 했는데 손에 땀난다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "겁",
+        "긴장 공유"
+      ],
+      "fit_reason": "출발 직전 안전바가 몸 앞을 막는 상황에 기계가 바로 앞에 놓인 인물의 커진 눈이 겁먹은 반응처럼 보인다."
+    },
+    {
+      "example_id": "7719387_05",
+      "context": "출력 도중 뜻밖의 큰 알림음이 울린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "복합기에서 뭐 하세요?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장 출력했는데 갑자기 삑 울리고 멈췄어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 저랑 복합기 둘 다 얼었습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기계 앞 당황",
+        "가벼운 농담"
+      ],
+      "fit_reason": "알림음 뒤에 기계와 마주 서서 멈춘 상황이 붉은 장치 옆에서 입을 벌린 표정과 연결된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

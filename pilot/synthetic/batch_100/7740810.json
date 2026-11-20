@@ -1,0 +1,157 @@
+{
+  "package_id": "176742",
+  "sticker_id": "7740810",
+  "image_path": "images/176742/7740810-c254c8cb415a75a71346.jpg",
+  "image_description": "초록색 모자를 쓴 고양이가 눈을 감고 두 손으로 잔을 든 채 빨대로 음료를 마신다.",
+  "image_tags": [
+    "초록색 모자",
+    "고양이",
+    "감은 눈",
+    "빨대",
+    "음료 컵"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7740810_01",
+      "context": "점심시간에 일이 잠깐 뜸해진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 전화 좀 할까"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 커피 사 왔어"
+        },
+        {
+          "speaker": "A",
+          "text": "오 업무 얘기면 나중에 할까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "한 모금만 마시고 받을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴식",
+        "커피"
+      ],
+      "fit_reason": "눈을 감고 빨대를 문 모습이 고요한 한 모금을 보여 준다."
+    },
+    {
+      "example_id": "7740810_02",
+      "context": "친구 사이 실랑이를 구경한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "둘이 메뉴 때문에 아직도 싸워"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 뭐 시켰어"
+        },
+        {
+          "speaker": "A",
+          "text": "결국 아직 아무것도 안 시킴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나는 음료 먼저 시켜놓고 구경할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "관망",
+        "장난"
+      ],
+      "fit_reason": "태평하게 음료를 마시는 모습이 관객처럼 있는 태도에 맞는다."
+    },
+    {
+      "example_id": "7740810_03",
+      "context": "겨울 산책 뒤 카페에서 몸을 녹인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "귀 시려서 감각 없어"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 모자까지 눌러썼어"
+        },
+        {
+          "speaker": "A",
+          "text": "따뜻한 거 나오면 좀 낫겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 여기서 한동안 안 나갈래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "따뜻함",
+        "휴식"
+      ],
+      "fit_reason": "모자를 쓴 채 음료를 꼭 쥔 자세가 추위를 녹이는 상황을 살린다."
+    },
+    {
+      "example_id": "7740810_04",
+      "context": "친구에게 새 음료의 맛을 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "신메뉴 사봤다며"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지금 마셔"
+        },
+        {
+          "speaker": "A",
+          "text": "그래서 별로야 맛있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐 블라인드 시음 중임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시음",
+        "평가 유보"
+      ],
+      "fit_reason": "눈을 감고 빨대로 마시는 자세가 맛에 집중하는 듯하다."
+    },
+    {
+      "example_id": "7740810_05",
+      "context": "새벽에 작업을 끝내고 음료를 챙긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 파일 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 끝냈어"
+        },
+        {
+          "speaker": "A",
+          "text": "이제 자면 되겠네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "일단 이거 한 잔 비우고 쉴게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "해방감",
+        "휴식"
+      ],
+      "fit_reason": "편안한 얼굴로 컵을 드는 모습이 작업을 끝낸 여유와 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

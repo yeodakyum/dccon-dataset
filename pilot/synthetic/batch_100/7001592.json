@@ -1,0 +1,157 @@
+{
+  "package_id": "137267",
+  "sticker_id": "7001592",
+  "image_path": "images/137267/7001592-a5b87df439d6d6568e7e.png",
+  "image_description": "파란 옷을 입은 초록 개구리가 혀를 늘어뜨리고 길게 튀어나온 눈으로 한쪽을 바라본다.",
+  "image_tags": [
+    "초록 개구리",
+    "튀어나온 눈",
+    "늘어진 혀",
+    "파란 옷",
+    "벌린 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7001592_01",
+      "context": "친구가 갓 구운 빵 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "크루아상 방금 나옴"
+        },
+        {
+          "speaker": "B",
+          "text": "겉에 윤기 장난 아닌데"
+        },
+        {
+          "speaker": "A",
+          "text": "한 개 남겨둘까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "지금 책상 정리하고 간다 건들지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "식욕",
+        "기대"
+      ],
+      "fit_reason": "튀어나온 눈과 혀가 빵에 홀린 반응을 과장한다."
+    },
+    {
+      "example_id": "7001592_02",
+      "context": "게임 채팅에서 원하는 아이템이 떴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "상자 열었는데 금색이야"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐 나왔는데"
+        },
+        {
+          "speaker": "A",
+          "text": "네가 찾던 검"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그거 보여줘 강화도 붙었어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "탐남",
+        "놀람"
+      ],
+      "fit_reason": "앞으로 쏠린 눈이 희귀 아이템에 집중하는 모습을 표현한다."
+    },
+    {
+      "example_id": "7001592_03",
+      "context": "친구가 할인율이 큰 항공권을 알려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다음 주 표 검색해봐"
+        },
+        {
+          "speaker": "B",
+          "text": "연휴라 다 비쌀 텐데"
+        },
+        {
+          "speaker": "A",
+          "text": "왕복 6만 원 하나 남았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐 날짜부터 다시 봐 진짜면 결제한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "흥미"
+      ],
+      "fit_reason": "과장된 눈이 예상 밖 가격을 뚫어지게 보는 반응에 맞는다."
+    },
+    {
+      "example_id": "7001592_04",
+      "context": "팬이 좋아하는 캐릭터의 새 의상을 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 패치 의상 유출 봄?"
+        },
+        {
+          "speaker": "B",
+          "text": "내 최애도 있어?"
+        },
+        {
+          "speaker": "A",
+          "text": "사진 맨 오른쪽에 있음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 손 가는데 이번 달 예산 끝났는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "탐남",
+        "갈등"
+      ],
+      "fit_reason": "눈과 혀가 새 의상에 정신이 팔린 반응을 익살스럽게 보여 준다."
+    },
+    {
+      "example_id": "7001592_05",
+      "context": "친구가 전날보다 큰 케이크를 가져왔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고 좀 비워줄래"
+        },
+        {
+          "speaker": "B",
+          "text": "조각 몇 개 넣는 건데?"
+        },
+        {
+          "speaker": "A",
+          "text": "통째로 한 판"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "한 조각은 지금 먹어서 자리 만들어줄게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "농담"
+      ],
+      "fit_reason": "군침 도는 듯한 표정이 케이크를 나눠 먹자는 농담을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,157 @@
+{
+  "package_id": "171761",
+  "sticker_id": "7322022",
+  "image_path": "images/171761/7322022-3b5932384812f0d5721f.png",
+  "image_description": "분홍색 머리 캐릭터가 보라색으로 빛나는 무기 같은 물건을 들고 있고 ‘쓸모없는건 낙원에서 추방할뿐’이라는 문구가 있다.",
+  "image_tags": [
+    "분홍색 머리",
+    "보라색 광원",
+    "무기 모양",
+    "흰색 의상",
+    "추방 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7322022_01",
+      "context": "친구와 협동 게임의 공용 창고를 정리한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "창고 또 꽉 찼어"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 보석 넣어야 하는데"
+        },
+        {
+          "speaker": "A",
+          "text": "첫 마을 장비가 열다섯 칸 먹고 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "똑같은 것부터 싹 버린다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "정리",
+        "게임"
+      ],
+      "fit_reason": "추방 문구를 필요 없는 인벤토리 물건에 적용한다."
+    },
+    {
+      "example_id": "7322022_02",
+      "context": "팀원이 오래된 파일을 따로 정리한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공유 폴더에서 최종본이 안 보여"
+        },
+        {
+          "speaker": "B",
+          "text": "여기 최종_진짜가 네 개야"
+        },
+        {
+          "speaker": "A",
+          "text": "맨 위 파일만 방금 수정했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나머지는 옛날 버전 폴더로 추방",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "파일 정리",
+        "농담"
+      ],
+      "fit_reason": "비장한 추방을 파일 이동에 빗대어 과장한다."
+    },
+    {
+      "example_id": "7322022_03",
+      "context": "친구가 말장난으로 단톡 분위기를 얼린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 웃긴 거 하나씩 해"
+        },
+        {
+          "speaker": "B",
+          "text": "지난번 네 거 아무도 안 웃었지"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 같은 거 다시 간다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그 드립은 오늘부로 봉인한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 타박",
+        "장난"
+      ],
+      "fit_reason": "단호한 추방 문구를 반복되는 농담에 붙인다."
+    },
+    {
+      "example_id": "7322022_04",
+      "context": "냉장고에서 유통기한이 지난 소스를 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저기 문에 있는 소스 써도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 안 뜯은 거야"
+        },
+        {
+          "speaker": "A",
+          "text": "뒷면에 날짜 봐 작년인데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 너는 오늘 냉장고에서 퇴출이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폐기",
+        "장난"
+      ],
+      "fit_reason": "캐릭터의 위엄 있는 자세가 사소한 정리를 과장한다."
+    },
+    {
+      "example_id": "7322022_05",
+      "context": "사진 후보 중 흔들린 컷을 걸러낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "단체 사진 열 장 보냈어"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐가 제일 잘 나왔어?"
+        },
+        {
+          "speaker": "A",
+          "text": "다섯 번째는 다 움직였더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "5번은 탈락 남은 것만 투표하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선별",
+        "농담"
+      ],
+      "fit_reason": "추방 문구를 후보에서 제외하는 장난스러운 판정에 쓴다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

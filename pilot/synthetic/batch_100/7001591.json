@@ -1,0 +1,137 @@
+{
+  "package_id": "137267",
+  "sticker_id": "7001591",
+  "image_path": "images/137267/7001591-cbaecbccb06e5c8d07bb.png",
+  "image_description": "파란 셔츠를 입은 초록 개구리가 가늘게 뜬 눈을 옆으로 굴리며 입꼬리를 길게 올린다.",
+  "image_tags": [
+    "초록개구리",
+    "파란셔츠",
+    "반눈",
+    "곁눈질",
+    "능청미소"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7001591-1",
+      "context": "할인 쿠폰 공개",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배달비까지 내면 너무 비싼데"
+        },
+        {
+          "speaker": "B",
+          "text": "너 혹시 쿠폰 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 이럴 줄 알고 남겨 뒀지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "득의",
+        "할인"
+      ],
+      "fit_reason": "능청스럽게 웃는 표정이 준비해 둔 쿠폰을 공개하는 말에 맞다."
+    },
+    {
+      "example_id": "7001591-2",
+      "context": "추리 게임 정답",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "범인 누군지 이제 알겠어?"
+        },
+        {
+          "speaker": "B",
+          "text": "설마 첫 장에서 이미 맞혔어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "말하면 재미없지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "능청"
+      ],
+      "fit_reason": "곁눈질과 미소가 답을 알아도 숨기는 태도를 보여 준다."
+    },
+    {
+      "example_id": "7001591-3",
+      "context": "몰래 남긴 간식",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉동실 아이스크림 다 먹었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 하나도 없더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 건 맨 뒤에 숨겨 뒀지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "장난"
+      ],
+      "fit_reason": "잘 숨겨 둔 간식을 공개하는 순간의 얄미운 미소와 닮았다."
+    },
+    {
+      "example_id": "7001591-4",
+      "context": "갈 곳 정하기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 또 라멘 먹자고 하려는 거지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 근데 네가 어제도 먹었잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그래서 오늘은 다른 지점 가려고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "능청",
+        "식사"
+      ],
+      "fit_reason": "개구리의 웃음이 뻔한 의도를 슬쩍 바꾸는 말과 맞는다."
+    },
+    {
+      "example_id": "7001591-5",
+      "context": "내기 결과",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "비 온다고 했잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "우산 빌려줘. 내가 졌다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "커피 한 잔 잊지 마시고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "내기",
+        "득의"
+      ],
+      "fit_reason": "가늘게 뜬 눈과 만족스러운 미소가 내기 승자의 반응을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

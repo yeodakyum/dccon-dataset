@@ -1,0 +1,135 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632473",
+  "image_path": "images/176622/7632473-30c4608dc8108ee130c5.png",
+  "image_view": "still",
+  "image_description": "분홍빛 머리 인물이 고개를 비스듬히 돌린 채 눈을 크게 뜨고 입을 조금 연다.",
+  "image_tags": [
+    "크게 뜬 보라 눈",
+    "조금 열린 입",
+    "희미한 홍조",
+    "비스듬한 얼굴",
+    "연갈색 배경"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632473_01",
+      "context": "친구가 예정보다 빨리 도착한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 아직 출발 안 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이미 너희 집 앞이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 나 머리도 안 말렸는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "친구가 예정보다 빨리 도착한다 상황에서 눈이 커지고 입이 열리는 작은 변화가 갑자기 상황을 알아차리는 느낌을 준다."
+    },
+    {
+      "example_id": "7632473_02",
+      "context": "업무 파일이 서로 뒤바뀐다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "제가 올린 거 열어보셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 근데 지난달 영수증인데요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앗 바로 다시 올릴게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "업무 파일이 서로 뒤바뀐다 상황에서 눈이 커지고 입이 열리는 작은 변화가 갑자기 상황을 알아차리는 느낌을 준다."
+    },
+    {
+      "example_id": "7632473_03",
+      "context": "배달지를 잘못 입력했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "배달 다 왔다는데 왜 안 보이지"
+        },
+        {
+          "speaker": "B",
+          "text": "너 주소 예전 집이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 기사님께 전화할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "배달지를 잘못 입력했다 상황에서 눈이 커지고 입이 열리는 작은 변화가 갑자기 상황을 알아차리는 느낌을 준다."
+    },
+    {
+      "example_id": "7632473_04",
+      "context": "친구가 모임 일자를 착각한 걸 알려 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "모임 준비 내일 해도 되지?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 다 출발했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "어 잠시만 오늘이었어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "친구가 모임 일자를 착각한 걸 알려 준다 상황에서 눈이 커지고 입이 열리는 작은 변화가 갑자기 상황을 알아차리는 느낌을 준다."
+    },
+    {
+      "example_id": "7632473_05",
+      "context": "이름이 같은 사람에게 메시지를 잘못 보냈다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 부탁한 거 해봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 어제 연락한 적 없는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "같은 이름이라 방을 잘못 열었어 미안",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황"
+      ],
+      "fit_reason": "이름이 같은 사람에게 메시지를 잘못 보냈다 상황에서 눈이 커지고 입이 열리는 작은 변화가 갑자기 상황을 알아차리는 느낌을 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

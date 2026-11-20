@@ -1,0 +1,140 @@
+{
+  "package_id": "176257",
+  "sticker_id": "7534386",
+  "image_path": "images/176257/7534386-50c68910503c685f0f7e.png",
+  "image_view": "still",
+  "image_description": "검은 보라색 머리 캐릭터가 눈을 꼭 감고 입을 활짝 벌린다. 파란 눈물 방울이 양쪽으로 흩어지고 목에는 분홍 리본이 있다.",
+  "image_tags": [
+    "꼭 감아 휘어진 눈",
+    "활짝 벌린 입",
+    "양옆으로 튀는 파란 눈물",
+    "분홍 리본",
+    "보라빛 머리와 하트 핀"
+  ],
+  "image_text": [],
+  "interpretation_note": "벌린 입과 눈물은 크게 웃는 모습으로도, 감정이 북받쳐 우는 모습으로도 읽힌다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7534386_01",
+      "context": "친구가 스피커에 잘못 연결한 일을 털어놓는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "헬스장에서 무슨 일 있었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내 이어폰 대신 공용 스피커로 오리 소리 틀었어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 조용한 스트레칭 시간에? 나 지금 눈물 남 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "친근한 놀림"
+      ],
+      "fit_reason": "눈을 감고 양쪽으로 물방울을 튀기는 모습이 웃다가 눈물이 날 만큼 우스웠다는 말과 맞는다."
+    },
+    {
+      "example_id": "7534386_02",
+      "context": "친구가 공연 직전 멀리 있는 가족을 객석에서 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "객석 첫 줄 쪽 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 엄마는 못 온다더니 앉아 있더라."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "시작 전인데 이미 울컥했겠다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감동",
+        "공감"
+      ],
+      "fit_reason": "활짝 열린 입과 파란 눈물이 깜짝 방문이 반가워 벅차오르는 반응으로 읽힌다."
+    },
+    {
+      "example_id": "7534386_03",
+      "context": "친구가 근사하게 찍은 사진의 원본을 공유한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 공중에 뜬 사진 원본 보낼까?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나는 운동선수처럼 나왔을 줄 알았는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "확대해 보니까 신발 한 짝만 날아가고 있어 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "자기 놀림"
+      ],
+      "fit_reason": "입을 크게 벌리고 눈물을 튀기는 얼굴이 기대와 다른 사진을 본 자기 농담에 어울린다."
+    },
+    {
+      "example_id": "7534386_04",
+      "context": "친구가 같이 기다려 온 전시에 당첨됐다고 알린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "전시 추첨 결과 안 떴지?"
+        },
+        {
+          "speaker": "B",
+          "text": "떴어. 우리 둘 다 당첨 문자 왔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 진짜 올해 이거 하나만 기다렸어!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "벅찬 기쁨",
+        "환호"
+      ],
+      "fit_reason": "눈을 질끈 감고 소리치듯 벌린 입이 오래 기다린 소식에 터진 환호와 맞는다."
+    },
+    {
+      "example_id": "7534386_05",
+      "context": "친구가 영상통화 중 반려동물의 실수를 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "화면 왜 천장만 나와?"
+        },
+        {
+          "speaker": "B",
+          "text": "강아지가 터치해서 카메라 뒤집혔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "통화 방장 넘겨줘야겠는데 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "폭소"
+      ],
+      "fit_reason": "양쪽으로 날리는 눈물과 크게 열린 웃음이 뜻밖의 귀여운 해프닝을 웃어넘기는 답을 담는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

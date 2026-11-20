@@ -1,0 +1,137 @@
+{
+  "package_id": "176612",
+  "sticker_id": "7656797",
+  "image_path": "images/176612/7656797-799a460489b1df20d7ab.png",
+  "image_description": "짙은 모자와 남색 옷을 입은 녹색 머리 캐릭터가 반짝이는 눈으로 웃으며 ‘개추’라고 적힌 검은 팻말을 들고 있다.",
+  "image_tags": [
+    "녹색머리",
+    "남색모자",
+    "반짝눈",
+    "검은팻말",
+    "개추"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7656797-1",
+      "context": "게시글 추천",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동네 도서관 운영시간 정리했어"
+        },
+        {
+          "speaker": "B",
+          "text": "휴관일도 적었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 마지막에 표로 붙임. 이건 추천 받아도 된다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "커뮤니티",
+        "추천"
+      ],
+      "fit_reason": "팻말의 ‘개추’를 글 추천 버튼처럼 쓴다."
+    },
+    {
+      "example_id": "7656797-2",
+      "context": "친구 사진 고르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여행 사진 세 장 중에 뭐 올릴까"
+        },
+        {
+          "speaker": "B",
+          "text": "난 두 번째가 제일 자연스러워"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 2번에 한 표",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사진",
+        "투표"
+      ],
+      "fit_reason": "팻말을 들어 선택을 지지하는 모습으로 읽힌다."
+    },
+    {
+      "example_id": "7656797-3",
+      "context": "앱 기능 칭찬",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "타이머에 잠금 화면 표시 넣었어"
+        },
+        {
+          "speaker": "B",
+          "text": "덕분에 화면 켤 때마다 시간 바로 보여"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 피드백에 추천 누름",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "개발",
+        "호응"
+      ],
+      "fit_reason": "반짝이는 눈과 추천 문구가 기능 개선에 대한 호응과 맞다."
+    },
+    {
+      "example_id": "7656797-4",
+      "context": "노래 추천 후기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 네가 말한 곡 들었음"
+        },
+        {
+          "speaker": "B",
+          "text": "후렴 괜찮았지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 재생목록 넣었어. 강추",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "음악",
+        "추천"
+      ],
+      "fit_reason": "검은 팻말이 음악을 추천한다는 말을 강조한다."
+    },
+    {
+      "example_id": "7656797-5",
+      "context": "조별 회의 합의",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘은 온라인으로 회의할까"
+        },
+        {
+          "speaker": "B",
+          "text": "다들 통학 오래 걸리니까 그게 낫겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 온라인 찬성",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "회의",
+        "찬성"
+      ],
+      "fit_reason": "‘개추’ 팻말을 찬성표처럼 들어 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

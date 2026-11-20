@@ -1,0 +1,142 @@
+{
+  "package_id": "175086",
+  "sticker_id": "7758056",
+  "image_path": "images/175086/7758056-636af71eaddd776227f6.png",
+  "image_view": "still",
+  "image_description": "흰 머리 캐릭터가 녹색 반사가 있는 선글라스를 끼고 입을 벌려 웃는다. 아래에는 쇠사슬이 비스듬히 놓이고 위에는 두 줄 질문이 보인다.",
+  "image_tags": [
+    "선글라스에 가려진 눈",
+    "붉게 벌린 입",
+    "렌즈의 녹색 빗금",
+    "비스듬한 쇠사슬",
+    "두 줄 검은 질문"
+  ],
+  "image_text": [
+    "이터리인데 왜 불통이나??"
+  ],
+  "interpretation_note": "첫 줄은 보이는 대로 옮겼고, 문맥상 어떤 대상을 가리키는지는 분명하지 않다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758056_01",
+      "context": "예약한 회의실의 화면 연결이 되지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난달에 새 회의실에 화면 달았다며."
+        },
+        {
+          "speaker": "B",
+          "text": "전원은 켜지는데 화면 공유만 안 돼요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "새 장비 구경만 할 거였으면 예약 안 했죠.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "답답함"
+      ],
+      "fit_reason": "연결이 되어야 할 새 장비가 응답하지 않을 때 '왜 불통이나' 질문과 선글라스를 낀 웃음이 짜증을 비튼다."
+    },
+    {
+      "example_id": "7758056_02",
+      "context": "친구 메시지가 한참 동안 배달되지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 지하상가 들어간 뒤로 연락 안 봐?"
+        },
+        {
+          "speaker": "B",
+          "text": "여기 통신 한 칸이야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아까 입구에 무료 와이파이 써 있던데 그거 어디 갔냐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "연결 불만",
+        "황당함"
+      ],
+      "fit_reason": "와이파이가 있다고 했는데 연락이 안 되어 불통을 직접 묻는 자막이 웃기게 맞는다."
+    },
+    {
+      "example_id": "7758056_03",
+      "context": "단체 일정에서 한 사람의 답만 기다린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "장소랑 시간 다 정했어."
+        },
+        {
+          "speaker": "B",
+          "text": "근데 준호가 아직 가능 여부를 안 줬어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 정도면 비둘기한테 쪽지 묶어 보내야 되는 거 아님.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과장",
+        "친근한 재촉"
+      ],
+      "fit_reason": "마지막 한 사람과 연락이 끊긴 상황에 쇠사슬과 과한 선글라스 차림이 통신 두절을 큰 사건처럼 만든다."
+    },
+    {
+      "example_id": "7758056_04",
+      "context": "팀원이 자동 알림을 켜 놨다고 장담했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오류 나면 휴대폰 알림 온다고 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "두 번 떴는데 아무도 못 받았대요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 알림이 오는 알림부터 만들까요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "오류 지적"
+      ],
+      "fit_reason": "자동 알림 도입 뒤 정작 연락이 안 된 상황에 불통 질문과 크게 웃는 입이 비꼬는 실패 반응이 된다."
+    },
+    {
+      "example_id": "7758056_05",
+      "context": "음성 통화에서 서로의 말이 계속 끊긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 들려? 네가 방금 모음만 셋 말했어."
+        },
+        {
+          "speaker": "B",
+          "text": "그나마 네 목소리라는 건 알겠어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "카메라는 잘 보이는데 우리 아직 묵음 영화 찍니.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "소통 불편",
+        "친근한 농담"
+      ],
+      "fit_reason": "영상만 나오고 소리는 불통인 상태에서 입을 벌렸는데 선글라스로 눈은 안 보이는 이미지가 대화 단절을 희화화한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "175259",
+  "sticker_id": "7202084",
+  "image_path": "images/175259/7202084-674e9e4da66601a2b440.jpg",
+  "image_description": "밀짚모자와 붉은 민소매를 착용한 남자가 두 눈을 크게 뜨고 입을 벌린 채 엄지를 앞으로 든다. 옆에 주황색 '따봉~!' 글자가 있다.",
+  "image_tags": [
+    "밀짚모자",
+    "붉은 민소매",
+    "크게 벌린 입",
+    "엄지",
+    "따봉 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7202084-1",
+      "context": "친구가 캠핑에서 예상외로 맛있는 밥을 한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냄비밥 좀 먹어 봐"
+        },
+        {
+          "speaker": "B",
+          "text": "처음인데 누룽지 잘 됐어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "따봉! 집에서도 해 먹자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "캠핑",
+        "칭찬"
+      ],
+      "fit_reason": "입을 벌리고 치켜든 엄지가 뜻밖의 맛에 대한 감탄이다."
+    },
+    {
+      "example_id": "7202084-2",
+      "context": "친구가 필요하던 자료를 바로 보낸 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 강의 노트 사진 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지난번에 정리한 거 보냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "따봉 덕분에 살았다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공부",
+        "감사"
+      ],
+      "fit_reason": "따봉 글자와 엄지가 즉각적인 고마움을 전한다."
+    },
+    {
+      "example_id": "7202084-3",
+      "context": "장비를 직접 수리하고 정상 작동시킨 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "모니터 이제 나와?"
+        },
+        {
+          "speaker": "B",
+          "text": "케이블 갈았더니 바로 켜짐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "따봉! 돈 굳었네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "수리",
+        "기쁨"
+      ],
+      "fit_reason": "크게 뜬 눈과 엄지가 일이 풀린 기쁨을 과장한다."
+    },
+    {
+      "example_id": "7202084-4",
+      "context": "형편없는 점심을 차린 친구에게 장난치는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 달걀 프라이 잘 구웠지?"
+        },
+        {
+          "speaker": "B",
+          "text": "검은 테두리는 원래 의도야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "숯 향까지 완벽한데? 따봉",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리",
+        "놀림"
+      ],
+      "fit_reason": "과장된 표정으로 엄지를 들어 가벼운 반어가 된다."
+    },
+    {
+      "example_id": "7202084-5",
+      "context": "휴일에 일정을 잡지 않고 쉬기로 합의하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 연휴에 우리 그냥 집에 있을까"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 어디 안 나가고 싶어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "따봉~ 이게 휴가지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴일",
+        "동의"
+      ],
+      "fit_reason": "엄지와 굵은 따봉 글자가 두 사람의 합의를 힘 있게 승인한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

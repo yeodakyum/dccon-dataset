@@ -1,0 +1,144 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632319",
+  "image_path": "images/176622/7632319-61163308d524289f6519.png",
+  "image_view": "still",
+  "image_description": "어두운 방의 긴 갈색 머리 인물이 검은 헤드폰을 끼고 입을 작게 다문다. 눈썹 안쪽을 모으고 분홍 보라색 눈으로 앞을 가만히 응시한다.",
+  "image_tags": [
+    "안쪽을 모은 눈썹",
+    "정면을 보는 분홍 보라 눈",
+    "작게 다문 입",
+    "검은 오버이어 헤드폰",
+    "차가운 보랏빛 조명"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632319_01",
+      "context": "음성 녹음을 편집하던 친구가 아주 작은 잡음을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "몇 초쯤에 잡음 들려?"
+        },
+        {
+          "speaker": "B",
+          "text": "2분 14초. 오른쪽만 듣고 있으면 딱 한번 딸깍해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 볼륨 올리고 그 부분만 다시 들을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "집중",
+        "문제 재확인"
+      ],
+      "fit_reason": "오른쪽에만 있는 미세한 소리를 들어야 하므로, 헤드폰을 끼고 눈썹 안쪽을 모은 얼굴이 귀 기울이는 순간과 맞는다."
+    },
+    {
+      "example_id": "7632319_02",
+      "context": "게임 중 집중해야 할 때 친구가 엉뚱한 얘기를 꺼낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 패턴 끝나면 바로 들어가"
+        },
+        {
+          "speaker": "B",
+          "text": "근데 네 캐릭터 헤어 어디서 바꿨어?"
+        },
+        {
+          "speaker": "A",
+          "text": "나 지금 마지막 한 명 남았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 얘긴 전투 끝나고 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "우선순위 조정",
+        "친근한 타박"
+      ],
+      "fit_reason": "마지막 한 명을 상대하는 중에 꾸미기 이야기가 들어와서, 굳게 다문 입과 헤드폰이 지금은 집중하겠다는 메시지를 보탠다."
+    },
+    {
+      "example_id": "7632319_03",
+      "context": "친구가 대화 중 하고 싶은 말을 꺼낼지 망설인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 아까 할 말 있다던 거 뭐였어?"
+        },
+        {
+          "speaker": "B",
+          "text": "문자로 쓰니까 자꾸 이상해 보여서 못 보냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "천천히 말해도 돼 지금 내가 듣고 있어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경청",
+        "배려"
+      ],
+      "fit_reason": "글로 전하기 어렵다는 말을 듣고 음성으로 기다리는 상황이라, 눈을 맞추듯 응시하는 얼굴과 헤드폰이 경청을 드러낸다."
+    },
+    {
+      "example_id": "7632319_04",
+      "context": "친구가 읽기도 어려운 근거를 들며 소문을 전한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그게 확실한 얘기야?"
+        },
+        {
+          "speaker": "B",
+          "text": "누가 단톡에서 들었다는데 원문은 못 봤어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "원문 뜨면 그때 다시 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심",
+        "판단 유보"
+      ],
+      "fit_reason": "소문의 원문이 없는데도 구체적인 말을 믿기는 어려워, 안쪽으로 모인 눈썹과 다문 입이 미심쩍은 판단을 보여 준다."
+    },
+    {
+      "example_id": "7632319_05",
+      "context": "팀원의 작업을 보느라 한참 말을 멈춘다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 화면 보여요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네. 여기 숫자가 왼쪽 로그랑 맞는지 볼게요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐만요 말 안 해도 계속 보고 있어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "검토 집중",
+        "침묵 양해"
+      ],
+      "fit_reason": "두 숫자를 대조하며 채팅이 조용해지는 때라, 입을 다물고 정면만 보는 이미지가 잠깐 응답을 미룬 이유를 대신한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

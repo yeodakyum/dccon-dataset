@@ -1,0 +1,157 @@
+{
+  "package_id": "42885",
+  "sticker_id": "6868053",
+  "image_path": "images/42885/6868053-3ea56cf9d4d0f521d82e.png",
+  "image_description": "초록색 개구리가 가슴에 ‘NO’가 크게 적힌 파란 상의를 입고 있다.",
+  "image_tags": [
+    "초록 개구리",
+    "파란 상의",
+    "NO 글자",
+    "커다란 눈",
+    "다문 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6868053_01",
+      "context": "퇴근 직전 친구가 일을 하나 더 하자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파일 하나만 더 손볼까"
+        },
+        {
+          "speaker": "B",
+          "text": "이제 막 껐어"
+        },
+        {
+          "speaker": "A",
+          "text": "진짜 5분이면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오늘의 5분은 내일 하겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절",
+        "퇴근"
+      ],
+      "fit_reason": "큰 NO가 단호한 마무리를 전한다."
+    },
+    {
+      "example_id": "6868053_02",
+      "context": "친구가 음식에 싫어하는 재료를 넣자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "피자에 올리브 추가할까"
+        },
+        {
+          "speaker": "B",
+          "text": "이미 기본으로 들어가지 않나"
+        },
+        {
+          "speaker": "A",
+          "text": "두 배로 찍을까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그 버튼에서 손 떼 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절",
+        "취향"
+      ],
+      "fit_reason": "상의의 NO로 추가 주문을 막는 반응이다."
+    },
+    {
+      "example_id": "6868053_03",
+      "context": "친구가 새벽에 게임 한 판을 더 하자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "막판 한 번만 더"
+        },
+        {
+          "speaker": "B",
+          "text": "아까도 막판이라며"
+        },
+        {
+          "speaker": "A",
+          "text": "이번엔 이길 것 같아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "안 됨 내일 나 1교시야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절",
+        "수면"
+      ],
+      "fit_reason": "고집스럽게 입을 다문 표정이 거절을 강조한다."
+    },
+    {
+      "example_id": "6868053_04",
+      "context": "사진을 단톡에 올려도 되는지 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 자는 사진 찍힘"
+        },
+        {
+          "speaker": "B",
+          "text": "나 입 벌리고 잤냐"
+        },
+        {
+          "speaker": "A",
+          "text": "응 단톡에 올려도 됨?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그건 너만 보고 지워줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "거절"
+      ],
+      "fit_reason": "NO 글자가 즉각적인 거부 의사를 보여 준다."
+    },
+    {
+      "example_id": "6868053_05",
+      "context": "비가 많이 오는데 먼 곳까지 걸어가자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "역까지 걸으면 20분이래"
+        },
+        {
+          "speaker": "B",
+          "text": "우산 하나밖에 없어"
+        },
+        {
+          "speaker": "A",
+          "text": "좀 뛰면 되잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "신발 다 젖어 택시 잡자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절",
+        "대안"
+      ],
+      "fit_reason": "개구리의 단호한 NO를 먼저 던지고 대안을 제시한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

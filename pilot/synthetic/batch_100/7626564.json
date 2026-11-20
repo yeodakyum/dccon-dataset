@@ -1,0 +1,137 @@
+{
+  "package_id": "175404",
+  "sticker_id": "7626564",
+  "image_path": "images/175404/7626564-ebe4e2cafb75ae6b45b3.png",
+  "image_description": "파란 하늘 앞에 입을 벌린 동물 사진 두 장과 ‘다음 장에 있음’이라는 빨간 화살표가 겹쳐 있다.",
+  "image_tags": [
+    "하늘",
+    "고양이",
+    "합성사진",
+    "빨간화살표",
+    "흰글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7626564-1",
+      "context": "여행 사진 공개",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여행 사진 한 장 올릴까?"
+        },
+        {
+          "speaker": "B",
+          "text": "제일 웃긴 거부터 보내 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하이라이트는 다음 장에 있음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예고",
+        "여행"
+      ],
+      "fit_reason": "화살표가 다음 사진을 기다리게 한다."
+    },
+    {
+      "example_id": "7626564-2",
+      "context": "상자 개봉",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "택배 상자 사진 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 안에 뭐 들었냐고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개봉은 다음 편에",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "개봉"
+      ],
+      "fit_reason": "동물 표정과 다음 장 문구가 뜸 들이는 말에 어울린다."
+    },
+    {
+      "example_id": "7626564-3",
+      "context": "요리 과정 공유",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기까지가 반죽이야"
+        },
+        {
+          "speaker": "B",
+          "text": "완성된 건 색이 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음 사진에서 공개합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예고",
+        "요리"
+      ],
+      "fit_reason": "화살표를 요리 결과 사진으로 넘기는 표시처럼 쓴다."
+    },
+    {
+      "example_id": "7626564-4",
+      "context": "미스터리 퀴즈",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "힌트 하나 더 줄까?"
+        },
+        {
+          "speaker": "B",
+          "text": "아 그냥 답 알려줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "정답은 다음 장에",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "퀴즈",
+        "장난"
+      ],
+      "fit_reason": "과장된 합성 사진이 정답을 늦추는 장난과 맞는다."
+    },
+    {
+      "example_id": "7626564-5",
+      "context": "발표 슬라이드 확인",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 장만 먼저 봐줘"
+        },
+        {
+          "speaker": "B",
+          "text": "그래프는 어디 갔어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "바로 다음 장에 있다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안내",
+        "발표"
+      ],
+      "fit_reason": "이미지의 화살표가 실제 페이지 안내와 맞아떨어진다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

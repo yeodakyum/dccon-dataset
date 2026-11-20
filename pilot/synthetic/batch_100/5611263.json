@@ -1,0 +1,135 @@
+{
+  "package_id": "165198",
+  "sticker_id": "5611263",
+  "image_path": "images/165198/5611263-f50a56a8600245b781eb.png",
+  "image_view": "still",
+  "image_description": "고양이처럼 생긴 얼굴 전체가 연두색이고 머리에 더듬이 두 개가 붙어 있다.",
+  "image_tags": [
+    "가느다란 검은 눈",
+    "흐릿한 입",
+    "초록 색조",
+    "길게 솟은 더듬이",
+    "흰 배경"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5611263_01",
+      "context": "물건을 빌린 친구가 예상 밖의 답을 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 우산 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비 맞을까 봐 우산은 집에 두고 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우산이 비를 피했네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "물건을 빌린 친구가 예상 밖의 답을 한다 상황에서 낯선 초록 얼굴과 더듬이가 엉뚱한 말을 듣고 어색한 반응을 내놓는 데 어울린다."
+    },
+    {
+      "example_id": "5611263_02",
+      "context": "친구가 회의에 엉뚱한 자료를 올린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 자료 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 폴더에 떡볶이 사진만 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 발표 주제가 떡볶이냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "친구가 회의에 엉뚱한 자료를 올린다 상황에서 낯선 초록 얼굴과 더듬이가 엉뚱한 말을 듣고 어색한 반응을 내놓는 데 어울린다."
+    },
+    {
+      "example_id": "5611263_03",
+      "context": "동료가 이미 공유한 내용을 또 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "위에 공지 보셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "공지 어디 있는지 알려주세요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 답장하신 그 글이에요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "동료가 이미 공유한 내용을 또 묻는다 상황에서 낯선 초록 얼굴과 더듬이가 엉뚱한 말을 듣고 어색한 반응을 내놓는 데 어울린다."
+    },
+    {
+      "example_id": "5611263_04",
+      "context": "배달비가 음식값보다 크다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "최소 주문 얼마야?"
+        },
+        {
+          "speaker": "B",
+          "text": "음식 육천 원 배달 팔천 원"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "배달 기사님 식사를 시키는 건가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "배달비가 음식값보다 크다 상황에서 낯선 초록 얼굴과 더듬이가 엉뚱한 말을 듣고 어색한 반응을 내놓는 데 어울린다."
+    },
+    {
+      "example_id": "5611263_05",
+      "context": "게임 친구가 스스로 위기를 만든다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 함정에 빠졌어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 설치한 거 테스트하다가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "테스트 결과는 확실하네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "게임 친구가 스스로 위기를 만든다 상황에서 낯선 초록 얼굴과 더듬이가 엉뚱한 말을 듣고 어색한 반응을 내놓는 데 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

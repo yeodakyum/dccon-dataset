@@ -1,0 +1,36 @@
+{
+  "sample_id": "synthetic_000001",
+  "is_synthetic": true,
+  "package_id": "175404",
+  "sticker_id": "7626564",
+  "image_path": "images/175404/7626564-ebe4e2cafb75ae6b45b3.png",
+  "image_description": "볼이 빵빵하게 부푼 햄스터와 과장된 문구가 합쳐진 밈 이미지.",
+  "context": "친구 A와 B가 무한리필 식당에서 식사를 마친 뒤, 더 먹을 수 있는지 장난스럽게 이야기한다.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "text": "너 오늘 고기 몇 접시 먹었냐 ㅋㅋ"
+    },
+    {
+      "speaker": "B",
+      "text": "세다가 포기함. 마지막 냉면이 좀 무리였어"
+    },
+    {
+      "speaker": "A",
+      "text": "아이스크림도 있던데 먹고 갈래?"
+    }
+  ],
+  "target": {
+    "speaker": "B",
+    "text": "아 배 터지겠다 ㅋㅋ 더는 못 먹어",
+    "sticker_id": "7626564",
+    "sticker_position": "after_text"
+  },
+  "emotion": [
+    "포만감",
+    "유쾌함"
+  ],
+  "communicative_intent": "너무 배불러서 더 먹을 수 없다는 말을 장난스럽게 강조한다.",
+  "fit_reason": "빵빵하게 부푼 볼과 과장된 이미지 구성을 배부른 상태에 빗대어 사용한다.",
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "176747",
+  "sticker_id": "7734733",
+  "image_path": "images/176747/7734733-ff4d56f8217130746a43.png",
+  "image_description": "연두색 머리에 빨간 리본을 맨 캐릭터가 볼을 붉히고 손가락을 든다. 아래에는 '장짜야! 그리고 두두 마마는 사망!'이라는 대사창이 있다.",
+  "image_tags": [
+    "연두색 머리",
+    "홍조",
+    "빨간 리본",
+    "손가락",
+    "대사창"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7734733-1",
+      "context": "게임에서 동료가 먼저 탈락한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 팀 아직 둘이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 방금 낙사했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그리고 우리 원딜은 사망!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "탈락"
+      ],
+      "fit_reason": "명랑한 얼굴로 사망을 선언하는 대사와 맞는다."
+    },
+    {
+      "example_id": "7734733-2",
+      "context": "알람을 여러 번 끄고 지각이 확정된 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 이번엔 지각 안 할 듯"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 등교 시간 3분 전인데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그리고 아침형 인간 계획은 사망!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "지각",
+        "자조"
+      ],
+      "fit_reason": "거창한 사망 선언으로 계획 실패를 가볍게 말한다."
+    },
+    {
+      "example_id": "7734733-3",
+      "context": "친구가 매운 음식을 권하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 맵기 어느 정도야?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 입 먹으면 바로 알아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그리고 내 혀는 사망!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매운맛",
+        "과장"
+      ],
+      "fit_reason": "발랄한 표정과 파국을 알리는 문구의 대비가 우습다."
+    },
+    {
+      "example_id": "7734733-4",
+      "context": "카페 신메뉴를 시켰다가 품절을 들은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "딸기 케이크 하나 주세요"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 마지막 거 나갔대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그리고 내 케이크 꿈은 사망!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절",
+        "농담"
+      ],
+      "fit_reason": "만화 대사처럼 기대가 꺾인 순간을 과장한다."
+    },
+    {
+      "example_id": "7734733-5",
+      "context": "한밤중에 작업하던 파일이 날아간 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 컴퓨터가 멈췄어"
+        },
+        {
+          "speaker": "B",
+          "text": "저장 언제 했는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그리고 내 두 시간은 사망!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "작업",
+        "허탈"
+      ],
+      "fit_reason": "활기찬 몸짓으로 참담한 소식을 전하는 그림이다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

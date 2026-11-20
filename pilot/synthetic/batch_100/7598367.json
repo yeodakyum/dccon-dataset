@@ -1,0 +1,160 @@
+{
+  "package_id": "176499",
+  "sticker_id": "7598367",
+  "image_path": "images/176499/7598367-feb016d5104ddf2207a1.png",
+  "image_view": "still",
+  "image_description": "회갈색 줄무늬 고양이가 큰 회색 돌을 머리에 얹고 앞발을 몸 앞에 모은다. 점처럼 작은 눈 아래로 입이 살짝 열리고 한쪽 뺨에는 파란 땀방울이 떠 있다.",
+  "image_tags": [
+    "점처럼 작은 눈",
+    "열린 작은 입",
+    "한쪽 뺨의 파란 땀방울",
+    "머리 위 커다란 회색 돌",
+    "몸 앞에 모은 앞발"
+  ],
+  "image_text": [],
+  "interpretation_note": "머리 위 돌은 구체적 짐이나 부담을 비유할 수 있고, 작고 굳은 표정은 난처함을 더한다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7598367_01",
+      "context": "일정표가 빈 날에만 모든 작업 요청이 몰린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "목요일 오전 비워놨지?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 오전에는 아무것도 없어요"
+        },
+        {
+          "speaker": "A",
+          "text": "창고 정리랑 기기 점검 둘 다 그때 하면 되겠네요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "빈 시간이 한 번에 꽉 찼네요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "업무 부담",
+        "난처함"
+      ],
+      "fit_reason": "빈 시간에 큰 일이 겹쳐 들어오면서, 머리 위 돌과 한 방울의 땀이 부담을 묵묵히 받는 모습과 맞는다."
+    },
+    {
+      "example_id": "7598367_02",
+      "context": "친구가 이사 준비 중 모아 둔 돌 상자를 나중에 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 마지막 상자엔 뭐 들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "산책하면서 주워 온 돌들"
+        },
+        {
+          "speaker": "A",
+          "text": "왜 상자 세 개보다 더 무거운지 알겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이건 둘이 같이 들어야 돼",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "협력 요청",
+        "무게 강조"
+      ],
+      "fit_reason": "실제로 돌이 담겨 움직이기 힘든 상자여서, 머리에 돌을 얹고 땀 흘리는 그림이 무게를 그대로 과장한다."
+    },
+    {
+      "example_id": "7598367_03",
+      "context": "게임에서 돌 운반 임무를 두고 둘이 역할을 나눈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "누가 이거 들고 가야 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "넌 길 잘 기억하니까 내가 들게"
+        },
+        {
+          "speaker": "A",
+          "text": "누르면 이동 속도 반 된다던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그러니까 나 앞질러서 먼저 도착하지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "역할 수용",
+        "동행 요청"
+      ],
+      "fit_reason": "돌을 들면 이동 속도가 느려지는 상황에, 큰 돌을 얹고 땀을 흘리는 고양이가 뒤처질 수 있다는 농담을 더한다."
+    },
+    {
+      "example_id": "7598367_04",
+      "context": "친구가 머릿속에 남은 말실수를 하소연한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 그분이 좋은 하루 보내세요 했거든"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 너는 뭐라 그랬는데"
+        },
+        {
+          "speaker": "A",
+          "text": "감사합니다 해야 하는데 축하합니다 해버림"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직도 그 말이 머리에서 안 내려와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "자조"
+      ],
+      "fit_reason": "오래 곱씹는 말실수를 머리에서 내려오지 않는다고 표현해, 돌이 머리 위에 그대로 올라 있는 구도가 비유를 받친다."
+    },
+    {
+      "example_id": "7598367_05",
+      "context": "동생이 종이 상자 위에 무거운 박스까지 쌓는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 상자 찌그러졌어 위에 뭐 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "생수 두 묶음. 자리 없어서 잠깐만."
+        },
+        {
+          "speaker": "A",
+          "text": "난 안에 종이 작품 넣어둔 건데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 바로 생수부터 내려줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "급한 부탁",
+        "가벼운 항의"
+      ],
+      "fit_reason": "무거운 생수 아래 종이 상자가 눌리므로, 머리 위 큰 돌과 난처해 보이는 땀이 당장 들어 달라는 뜻을 강조한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

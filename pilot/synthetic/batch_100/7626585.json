@@ -1,0 +1,142 @@
+{
+  "package_id": "175404",
+  "sticker_id": "7626585",
+  "image_path": "images/175404/7626585-70d9fc3dc91b8808a953.png",
+  "image_view": "still",
+  "image_description": "납작하게 늘인 고양이 사진이 붉은 짬뽕 국물 위에 합성되어 있다. 뒤에는 고양이 사진 둘이 더 있고 화면 위에 '웃기는 짬뽕이네~'가 비스듬히 적혀 있다.",
+  "image_tags": [
+    "가늘어 보이는 고양이 눈",
+    "좌우로 납작한 고양이 얼굴",
+    "합성된 파란 땀방울",
+    "붉은 짬뽕 국물",
+    "비스듬한 노랑과 빨강 자막"
+  ],
+  "image_text": [
+    "웃기는 짬뽕이네~"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7626585_01",
+      "context": "요리 주문을 잘못 읽은 친구가 구색이 안 맞는 세트를 주문한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "쟁반짜장 세트면 탕수육도 있는 거 아냐?"
+        },
+        {
+          "speaker": "B",
+          "text": "안 읽고 눌렀더니 짜장에 공깃밥 두 개 왔음."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "누가 탄수화물 모임 열었어 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당함",
+        "음식 농담"
+      ],
+      "fit_reason": "엉뚱하게 조합된 음식 얘기에 고양이는 떠 있고 짬뽕은 멀쩡한 합성이 부조리한 농담을 더한다."
+    },
+    {
+      "example_id": "7626585_02",
+      "context": "팀원이 약속을 어겨 두 가지 핑계를 한 번에 댄다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 오늘 책 반납한다고 했잖아."
+        },
+        {
+          "speaker": "B",
+          "text": "도서관이 닫았고 책은 집에 뒀어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 집에 두고 와서 닫은 걸 어떻게 알았어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "빈정거림",
+        "친근한 추궁"
+      ],
+      "fit_reason": "책을 챙기지 않았다면서 영업 탓도 하는 모순에 '웃기는 짬뽕이네~'라는 문구를 붙여 가볍게 타박한다."
+    },
+    {
+      "example_id": "7626585_03",
+      "context": "친구가 사진 앱에서 잘못된 보정 효과를 선택한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "모자이크로 얼굴만 살짝 가려 봐."
+        },
+        {
+          "speaker": "B",
+          "text": "잘못 눌렀더니 코가 화면 끝까지 늘어났어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "원본보다 이게 궁금해. 보내 봐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음",
+        "엉뚱한 결과 감상"
+      ],
+      "fit_reason": "이미지가 옆으로 늘어난 사고를 두고 납작하게 가공된 고양이를 보내면 실패한 효과를 흉내 낸다."
+    },
+    {
+      "example_id": "7626585_04",
+      "context": "친구가 고양이에게 밀린 저녁 상황을 설명한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "한 입 먹으려고 그릇 들었거든."
+        },
+        {
+          "speaker": "B",
+          "text": "그랬더니 또 책상 올라왔어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이젠 고양이 있는 데다 내가 짬뽕을 차린 꼴임.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "반려동물 농담"
+      ],
+      "fit_reason": "고양이가 식탁을 먼저 차지한 장면을 앞쪽 고양이가 그릇을 가득 덮고 있는 합성에 빗댄다."
+    },
+    {
+      "example_id": "7626585_05",
+      "context": "친구 인터뷰가 엉뚱한 부분만 남아 공개됐다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지역 방송 인터뷰 나왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "진지한 얘긴 다 잘리고 메뉴 추천만 나옴."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나는 한 시간 행사 얘기하고 짬뽕 한마디로 데뷔했네.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "황당한 편집"
+      ],
+      "fit_reason": "메뉴 추천만 남은 편집 결과에 짬뽕이 화면 한가운데 들어간 우스운 합성이 자기비하를 가볍게 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

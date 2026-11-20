@@ -1,0 +1,137 @@
+{
+  "package_id": "176630",
+  "sticker_id": "7733783",
+  "image_path": "images/176630/7733783-951ca548a9870e5b65f0.gif",
+  "image_description": "검은 비니와 두꺼운 검은 점퍼를 입은 남자가 야외에서 눈을 감고 두 손바닥을 맞댄다. 아래에 작은 '소원은'과 큰 '제발' 글자가 있다.",
+  "image_tags": [
+    "검은 비니",
+    "검은 점퍼",
+    "감은 눈",
+    "맞댄 손바닥",
+    "제발 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7733783-1",
+      "context": "비 예보가 있는 날 야외 공연을 기다리는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 공연 야외라며"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오후에 비 올 확률 높대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 공연 끝날 때까지만 참아 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공연",
+        "날씨"
+      ],
+      "fit_reason": "눈을 감고 두 손을 모은 기원 자세가 날씨에 비는 상황과 맞는다."
+    },
+    {
+      "example_id": "7733783-2",
+      "context": "택배가 여행 전에 도착하길 기다리는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 캐리어 아직 배송 중이야"
+        },
+        {
+          "speaker": "B",
+          "text": "출발 내일 새벽 아니었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 오늘 저녁엔 와라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "택배",
+        "간절함"
+      ],
+      "fit_reason": "제발 글자와 합장 자세가 시간에 쫓기는 마음을 그대로 전한다."
+    },
+    {
+      "example_id": "7733783-3",
+      "context": "성적이 공개되기 전에 결과를 기다리는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "교수님 오늘 저녁에 성적 올린대"
+        },
+        {
+          "speaker": "B",
+          "text": "너 그 과목 졸업 필수라며"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 통과만 하게 해 주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시험",
+        "소원"
+      ],
+      "fit_reason": "눈을 꼭 감은 모습이 결과를 바꿀 수 없는 순간의 기도처럼 보인다."
+    },
+    {
+      "example_id": "7733783-4",
+      "context": "저장하지 않은 문서를 복구하려는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "프로그램 죽기 전에 저장했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "복구 창에 이름 없는 거 하나 뜬다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 그게 내 파일이어라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "작업",
+        "복구"
+      ],
+      "fit_reason": "손을 맞대고 비는 모습이 복구 파일을 열기 직전과 맞는다."
+    },
+    {
+      "example_id": "7733783-5",
+      "context": "식당에서 먹고 싶던 마지막 메뉴가 남았길 바라는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "앞에 우리 한 팀 남았어"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 재료 거의 다 나갔대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 내 것 한 그릇만",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "맛집",
+        "기대"
+      ],
+      "fit_reason": "커다란 제발 문구가 사소하지만 간절한 소원을 강조한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

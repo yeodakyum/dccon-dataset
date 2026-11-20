@@ -1,0 +1,157 @@
+{
+  "package_id": "139837",
+  "sticker_id": "4325210",
+  "image_path": "images/139837/4325210-344b9a9a8453232be75a.png",
+  "image_description": "청록색 둥근 캐릭터가 눈을 크게 뜨고 있고 옆에 검은 물음표가 떠 있다.",
+  "image_tags": [
+    "청록색",
+    "둥근 캐릭터",
+    "큰 눈",
+    "벌린 입",
+    "검은 물음표"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4325210_01",
+      "context": "친구가 약속 장소를 갑자기 바꾼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 도착했어"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 역 앞인데"
+        },
+        {
+          "speaker": "A",
+          "text": "우리 원래 공원에서 보기로 한 거 아냐?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐만 어느 공원 얘기하는 거임?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "혼란",
+        "확인"
+      ],
+      "fit_reason": "큰 물음표로 장소가 뒤섞인 혼란을 드러낸다."
+    },
+    {
+      "example_id": "4325210_02",
+      "context": "팀원이 회의 시각을 뒤늦게 정정한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 회의 3시 아님"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 4시야?"
+        },
+        {
+          "speaker": "A",
+          "text": "아니 아침 9시에 이미 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나한테만 공지가 안 온 건가?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "확인"
+      ],
+      "fit_reason": "휘둥그레진 눈으로 예상 밖의 소식에 반응한다."
+    },
+    {
+      "example_id": "4325210_03",
+      "context": "친구가 요리에 독특한 재료를 쓴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "카레 다 끓였다"
+        },
+        {
+          "speaker": "B",
+          "text": "오 뭐 넣었어?"
+        },
+        {
+          "speaker": "A",
+          "text": "어제 남은 딸기잼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "거기서 딸기잼이 왜 나와 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당",
+        "놀람"
+      ],
+      "fit_reason": "눈을 크게 뜬 채 붙은 물음표가 조합에 대한 의문을 강조한다."
+    },
+    {
+      "example_id": "4325210_04",
+      "context": "처음 보는 게임 약어를 듣는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 판은 걍 손절각이야"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐부터 하면 돼?"
+        },
+        {
+          "speaker": "A",
+          "text": "일단 백도어 ㄱ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "백도어가 뭔데 나 뉴비라고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "질문",
+        "도움 요청"
+      ],
+      "fit_reason": "물음표가 용어를 이해하지 못했다는 신호가 된다."
+    },
+    {
+      "example_id": "4325210_05",
+      "context": "프린터에서 신청하지 않은 문서가 나온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 프린터 썼냐"
+        },
+        {
+          "speaker": "B",
+          "text": "과제 두 장 뽑았는데 왜"
+        },
+        {
+          "speaker": "A",
+          "text": "갑자기 20장째 달력 나옴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어? 달력은 내가 누른 적 없는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의아함",
+        "해명"
+      ],
+      "fit_reason": "당황한 표정이 뜻밖의 출력에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

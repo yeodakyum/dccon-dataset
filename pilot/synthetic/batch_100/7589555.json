@@ -1,0 +1,157 @@
+{
+  "package_id": "151710",
+  "sticker_id": "7589555",
+  "image_path": "images/151710/7589555-f2f6f1659bfbe45c7e33.png",
+  "image_description": "파란 구형 캐릭터가 볼을 부풀리고 하얀 장갑을 낀 손으로 과자를 들고 있다.",
+  "image_tags": [
+    "파란 캐릭터",
+    "부푼 볼",
+    "큰 눈",
+    "과자 부스러기",
+    "하얀 장갑"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7589555_01",
+      "context": "간식을 몰래 먹다가 친구에게 들킨다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 책상 과자 먹었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "……"
+        },
+        {
+          "speaker": "A",
+          "text": "네 옷에 가루 묻었는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "증거 인멸이 늦었네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "들킴",
+        "농담"
+      ],
+      "fit_reason": "입 주변과 옷에 묻은 부스러기를 연결하는 농담이다."
+    },
+    {
+      "example_id": "7589555_02",
+      "context": "게임 음성 채팅 중 한 명이 대답을 못 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왼쪽 갈까 오른쪽 갈까"
+        },
+        {
+          "speaker": "B",
+          "text": "잠만"
+        },
+        {
+          "speaker": "A",
+          "text": "왜 마이크에서 바삭바삭 소리 나?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "입에 든 것만 삼키고 말할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "상태 설명"
+      ],
+      "fit_reason": "볼이 부풀고 과자를 든 모습이 답이 늦는 이유를 보여 준다."
+    },
+    {
+      "example_id": "7589555_03",
+      "context": "영화의 결말이 어떻게 될지 집중해서 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 누가 범인인지 나오겠다"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐 일시정지 좀"
+        },
+        {
+          "speaker": "A",
+          "text": "화장실 가게?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아니 과자가 딱 한 개 남아서 지금 먹으려고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "몰입",
+        "간식"
+      ],
+      "fit_reason": "과자를 들고 눈을 크게 뜬 얼굴이 화면에 빠진 상태를 보여 준다."
+    },
+    {
+      "example_id": "7589555_04",
+      "context": "친구가 가져온 간식을 처음 맛본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "입맛에 안 맞으면 말해"
+        },
+        {
+          "speaker": "B",
+          "text": "일단 한 입만"
+        },
+        {
+          "speaker": "A",
+          "text": "뭐야 왜 조용해?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "말 걸지 마 한 개 더 집는 중",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감탄",
+        "맛 평가"
+      ],
+      "fit_reason": "과자에 손을 댄 채 입이 꽉 찬 표정이 맛있다는 뜻을 전한다."
+    },
+    {
+      "example_id": "7589555_05",
+      "context": "동갑 친구가 음식 때문에 놀라 말을 멈춘다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "뭐 다 먹었으면 튀어나와"
+        },
+        {
+          "speaker": "B",
+          "text": "응 거의 다 먹음"
+        },
+        {
+          "speaker": "A",
+          "text": "지금 가게 앞에 있대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "헉 이거 한입에 넣고 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "서두름",
+        "당황"
+      ],
+      "fit_reason": "큰 눈과 부푼 볼이 급하게 간식을 입에 넣은 모습을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

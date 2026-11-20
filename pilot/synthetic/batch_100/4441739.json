@@ -1,0 +1,157 @@
+{
+  "package_id": "142135",
+  "sticker_id": "4441739",
+  "image_path": "images/142135/4441739-97b477f7296c6152f301.png",
+  "image_description": "빨간 리본을 단 고양이 위에 ‘이거 진짜애요?’라는 말풍선이 있다.",
+  "image_tags": [
+    "고양이",
+    "빨간 리본",
+    "말풍선",
+    "홍조",
+    "움직이는 듯한 눈동자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4441739_01",
+      "context": "친구가 믿기 힘든 할인 소식을 알려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "치킨 두 마리에 만 원이래"
+        },
+        {
+          "speaker": "B",
+          "text": "배달비가 만 원 아니야?"
+        },
+        {
+          "speaker": "A",
+          "text": "포장하면 진짜 만 원 끝이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이거 진짜야? 지금 나간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "확인"
+      ],
+      "fit_reason": "진짜인지 묻는 말풍선이 그대로 어울린다."
+    },
+    {
+      "example_id": "4441739_02",
+      "context": "공지가 바뀌어 시험 범위가 줄었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공지 다시 읽어봐"
+        },
+        {
+          "speaker": "B",
+          "text": "왜 또 바뀌었어?"
+        },
+        {
+          "speaker": "A",
+          "text": "5장은 시험에서 뺀대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "진짜요? 거기 아직 안 봤는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "확인"
+      ],
+      "fit_reason": "반신반의한 눈으로 반가운 변경을 확인한다."
+    },
+    {
+      "example_id": "4441739_03",
+      "context": "친구가 수십 번 도전한 기록을 깼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 드디어 1분 벽 깸"
+        },
+        {
+          "speaker": "B",
+          "text": "몇 초 나왔는데?"
+        },
+        {
+          "speaker": "A",
+          "text": "59.99"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 진짜 딱 0.01초 차이라고? ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "축하"
+      ],
+      "fit_reason": "놀란 얼굴로 간발의 차이를 확인한다."
+    },
+    {
+      "example_id": "4441739_04",
+      "context": "친구가 너무 작은 사은품 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이게 이번 구매 사은품이래"
+        },
+        {
+          "speaker": "B",
+          "text": "옆에 있는 건 뭐야?"
+        },
+        {
+          "speaker": "A",
+          "text": "크기 비교하라고 놓은 동전"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "진짜 이게 본품이라고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당",
+        "확인"
+      ],
+      "fit_reason": "말풍선이 사진을 보고 든 의문을 되묻는다."
+    },
+    {
+      "example_id": "4441739_05",
+      "context": "친구가 우연히 같은 물건을 샀다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 컵 샀어 사진 봐"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐 이 무늬"
+        },
+        {
+          "speaker": "A",
+          "text": "너도 어제 샀다고 하지 않았나?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "설마 우리 똑같은 거 고른 거야?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "우연",
+        "놀람"
+      ],
+      "fit_reason": "커진 눈과 물음이 신기한 우연에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "170728",
+  "sticker_id": "7401655",
+  "image_path": "images/170728/7401655-3ed36ab3e699198a547e.png",
+  "image_description": "검푸른 양갈래와 청록색 포인트가 있는 캐릭터가 무릎을 꿇은 자세로 크게 입을 벌린다. 머리 위에 '듀아아'가 적혀 있다.",
+  "image_tags": [
+    "검푸른 양갈래",
+    "청록색 포인트",
+    "벌린 입",
+    "무릎 꿇은 자세",
+    "듀아아 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7401655-1",
+      "context": "막차를 코앞에서 놓친 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "잠깐만 거의 다 왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 출발했는데…"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "듀아아 내 막차",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "교통",
+        "절규"
+      ],
+      "fit_reason": "낮게 주저앉아 입을 벌린 모습이 낭패를 과장한다."
+    },
+    {
+      "example_id": "7401655-2",
+      "context": "랜덤 뽑기에서 원치 않는 것이 나온 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 진짜 새 캐릭터 나온다"
+        },
+        {
+          "speaker": "B",
+          "text": "화면 보니까 또 걔 같은데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "듀아아 또 중복이야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뽑기",
+        "좌절"
+      ],
+      "fit_reason": "울부짖는 입 모양이 기대가 무너지는 순간과 맞는다."
+    },
+    {
+      "example_id": "7401655-3",
+      "context": "친구가 예정에 없던 야근을 알려 준 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저녁 예약 7시 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "팀장님이 회의 하나 더 잡으셨대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "듀아아 내 저녁",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "야근",
+        "탄식"
+      ],
+      "fit_reason": "바닥에 내려앉은 자세가 퇴근 계획이 깨진 기분을 표현한다."
+    },
+    {
+      "example_id": "7401655-4",
+      "context": "온라인 주문 버튼을 누르자 품절이 뜬 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "결제만 하면 끝이야"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 품절로 바뀌었대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "듀아아 한 발 늦었다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절",
+        "아쉬움"
+      ],
+      "fit_reason": "듀아아라는 글자가 안타까운 비명을 직접 드러낸다."
+    },
+    {
+      "example_id": "7401655-5",
+      "context": "운동 세트를 하나 더 해야 하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이걸로 끝이죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 세트 더 남았어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "듀아아 다리가 안 움직여요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "운동",
+        "엄살"
+      ],
+      "fit_reason": "무릎을 꿇은 모습이 힘이 풀렸다는 농담과 잘 붙는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

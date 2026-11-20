@@ -1,0 +1,157 @@
+{
+  "package_id": "176499",
+  "sticker_id": "7598312",
+  "image_path": "images/176499/7598312-56ed8c091ba44f90eb9e.png",
+  "image_description": "파란 리본과 꽃 장식을 단 노란 줄무늬 고양이가 눈을 가늘게 뜨고 앞니를 내민다.",
+  "image_tags": [
+    "노란 줄무늬",
+    "고양이",
+    "가늘게 뜬 눈",
+    "드러난 앞니",
+    "꽃 장식 리본"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7598312_01",
+      "context": "친구가 남의 간식을 몰래 하나 집어 먹는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 과자 누가 뜯었어"
+        },
+        {
+          "speaker": "B",
+          "text": "난 하나만 먹었지"
+        },
+        {
+          "speaker": "A",
+          "text": "봉지가 절반이 비었는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "하나씩 여러 번 먹었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "능청",
+        "장난"
+      ],
+      "fit_reason": "실눈과 앞니가 뻔뻔한 농담에 어울린다."
+    },
+    {
+      "example_id": "7598312_02",
+      "context": "게임에서 상대의 함정을 먼저 눈치챈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 길 사람 하나도 없는데 그냥 가자"
+        },
+        {
+          "speaker": "B",
+          "text": "너 지난번에도 그러더라"
+        },
+        {
+          "speaker": "A",
+          "text": "왜 먼저 안 감?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너부터 가면 나도 갈게 ^^",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심",
+        "견제"
+      ],
+      "fit_reason": "가늘게 뜬 눈이 속셈을 아는 듯한 반응을 만든다."
+    },
+    {
+      "example_id": "7598312_03",
+      "context": "친구가 옷을 갈아입고 칭찬을 기다린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "리본까지 달았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오늘 좀 힘줬지"
+        },
+        {
+          "speaker": "A",
+          "text": "사진 찍어줄까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "당연하지 이 각도 예쁘게 찍어줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑",
+        "포즈"
+      ],
+      "fit_reason": "꽃 리본과 익살스러운 얼굴이 한껏 꾸민 모습을 대신한다."
+    },
+    {
+      "example_id": "7598312_04",
+      "context": "내기에 이긴 친구가 약속을 상기시킨다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아 그게 왜 골대 맞냐"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 1대0이라 했지"
+        },
+        {
+          "speaker": "A",
+          "text": "설마 진짜 계산하라고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 나는 이미 메뉴 골랐어 ㅎㅎ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "득의",
+        "장난"
+      ],
+      "fit_reason": "실눈에 앞니를 드러낸 표정이 얄밉게 웃는 기색을 살린다."
+    },
+    {
+      "example_id": "7598312_05",
+      "context": "동료가 편하게 쓸 수 있는 지름길을 혼자 알고 있었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 한 줄씩 옮기는 데 하루 걸리겠다"
+        },
+        {
+          "speaker": "B",
+          "text": "나 다 했어"
+        },
+        {
+          "speaker": "A",
+          "text": "너 진짜 손으로 다 했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아니 나 일괄 이동 버튼 찾았지롱",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "우쭐함"
+      ],
+      "fit_reason": "옆을 흘겨보는 듯한 표정이 뒤늦게 비법을 밝히는 말과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

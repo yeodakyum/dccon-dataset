@@ -1,0 +1,137 @@
+{
+  "package_id": "175882",
+  "sticker_id": "7534420",
+  "image_path": "images/175882/7534420-94fd001089ede38a98cb.png",
+  "image_description": "은회색 머리에 청록색 목도리를 맨 픽셀 캐릭터가 파란 눈으로 정면을 본다. 옆 말풍선에는 '응.. 늙고 살쪄서 그래'가 있다.",
+  "image_tags": [
+    "픽셀 그림",
+    "은회색 머리",
+    "파란 눈",
+    "청록색 목도리",
+    "말풍선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7534420-1",
+      "context": "계단 몇 층에 숨이 찬 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "엘리베이터 기다리기 싫어서 올라왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "고작 3층인데 말이 왜 그렇게 끊겨"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응… 그럴 나이가 된 거야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "계단",
+        "자조"
+      ],
+      "fit_reason": "덤덤한 말풍선이 숨찬 일을 나이 탓으로 돌리는 농담과 맞는다."
+    },
+    {
+      "example_id": "7534420-2",
+      "context": "예전만큼 밤새 게임하지 못한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘은 열두 시까지만 할래"
+        },
+        {
+          "speaker": "B",
+          "text": "너 예전엔 밤새 레이드 뛰었잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금은 열한 시부터 눈이 감겨",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "체력"
+      ],
+      "fit_reason": "정면을 보는 담담한 표정과 말풍선이 체력 저하를 인정하는 분위기다."
+    },
+    {
+      "example_id": "7534420-3",
+      "context": "오랜만에 옛날 바지를 꺼내 입은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "행사 때 이 바지 입으면 되겠다"
+        },
+        {
+          "speaker": "B",
+          "text": "잠기기만 하면 딱인데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "단추가 예전보다 멀리 있네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "옷",
+        "자조"
+      ],
+      "fit_reason": "살이 쪘다는 문구가 단추가 잠기지 않는 상황과 바로 맞물린다."
+    },
+    {
+      "example_id": "7534420-4",
+      "context": "옛날 단체 사진을 보며 체력 차이를 느낀 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저때 배낭 메고 하루 종일 돌아다녔지"
+        },
+        {
+          "speaker": "B",
+          "text": "지금은 두 군데만 가도 카페 찾아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그래서 내일도 일정 두 개만 잡자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추억",
+        "체력"
+      ],
+      "fit_reason": "차분한 픽셀 얼굴이 가벼운 나이 농담으로 반응한다."
+    },
+    {
+      "example_id": "7534420-5",
+      "context": "친구가 운동 복귀 첫날 근육통을 호소하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오랜만에 스쿼트 열 개 했어"
+        },
+        {
+          "speaker": "B",
+          "text": "하나도 안 힘들다더니 왜 걸음이 그래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 몸이 예전 같지 않다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "운동",
+        "근육통"
+      ],
+      "fit_reason": "체력과 몸의 변화를 담담히 받아들이는 말풍선이 자조를 표현한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

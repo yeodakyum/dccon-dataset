@@ -1,0 +1,150 @@
+{
+  "package_id": "171234",
+  "sticker_id": "7699480",
+  "image_path": "images/171234/7699480-0fde315140f0ee8b2de4.png",
+  "image_view": "still",
+  "image_description": "검은 단발 캐릭터가 핏기 오른 얼굴로 가늘게 뜬 눈을 하고, 손을 코와 입가에 올린다. 보라색 물결 배경 위로 왼쪽에 한숨처럼 보이는 글자가 놓였다.",
+  "image_tags": [
+    "가로로 반쯤 감긴 눈",
+    "코에 모인 붉은 빗금",
+    "입 앞에 든 손",
+    "흰 꽃 머리 장식",
+    "보라색 물결 배경"
+  ],
+  "image_text": [
+    "후.."
+  ],
+  "interpretation_note": "글자가 크게 기울어져 있고 점이 두 개 붙어 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7699480_01",
+      "context": "같이 요리를 하던 친구가 기름에 식초를 먼저 붓는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 방금 기름 넣은 거 맞아?"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐만 이거 이름 비슷한 식초였어"
+        },
+        {
+          "speaker": "A",
+          "text": "팬 아직 안 켰지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "불 안 켠 게 오늘 제일 잘한 일이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "실수 수습"
+      ],
+      "fit_reason": "팬에 불이 들어오기 전에 잘못 넣은 재료를 알아차려, 입을 손으로 가린 얼굴의 ‘후..’가 안도의 숨처럼 들린다."
+    },
+    {
+      "example_id": "7699480_02",
+      "context": "친구가 주말 일정표를 다 고른 다음 처음 보는 선택지를 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "카페는 내가 세 곳 추렸어. 하나만 골라."
+        },
+        {
+          "speaker": "B",
+          "text": "다 좋은데 방금 새로 뜬 데 또 찾았다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 커피는 대체 언제 마시냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피로",
+        "친근한 재촉"
+      ],
+      "fit_reason": "선택을 끝내려던 순간 또 후보가 늘어서, 반쯤 감긴 눈과 한숨 글씨가 결정을 미루는 친구에 대한 가벼운 타박이 된다."
+    },
+    {
+      "example_id": "7699480_03",
+      "context": "친구가 앞사람의 강한 향수 때문에 환기할 창을 찾는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기 창문 열려?"
+        },
+        {
+          "speaker": "B",
+          "text": "손잡이 위로 한 칸 더 올려봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "됐다 이제 좀 숨 쉬겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감각적 불쾌감",
+        "안도"
+      ],
+      "fit_reason": "강한 냄새를 피해 창을 연 대화라, 코와 입 앞을 손으로 가린 듯한 자세가 답답했던 순간을 보여 준다."
+    },
+    {
+      "example_id": "7699480_04",
+      "context": "조용한 팀 채팅에서 마감 1분 전에 빌드가 통과한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "최종 빌드 아직 빨간색인데요"
+        },
+        {
+          "speaker": "B",
+          "text": "이제 초록불 떴습니다. 로그 한 번만 더 보고 내보낼게요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금까지 숨 참고 보고 있었어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "긴장 완화",
+        "상황 공유"
+      ],
+      "fit_reason": "마감 직전에 빌드가 통과했다는 소식에, 붉어진 얼굴이 내쉬는 ‘후..’가 긴장을 놓는 동작처럼 읽힌다."
+    },
+    {
+      "example_id": "7699480_05",
+      "context": "가족 채팅에서 동생이 같은 컵으로 세 번째 물을 쏟는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "수건 다시 가져갈게"
+        },
+        {
+          "speaker": "B",
+          "text": "이번엔 컵 받침까지 같이 엎었어"
+        },
+        {
+          "speaker": "A",
+          "text": "해명은 그만하고 컵부터 내려놔"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 닦는 동안 그냥 가만있어줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "답답함",
+        "친근한 지시"
+      ],
+      "fit_reason": "같은 실수를 세 번 본 상황에서 힘 빠진 눈과 보라색 배경의 한숨이 체념 섞인 지시가 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

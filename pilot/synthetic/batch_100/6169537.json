@@ -1,0 +1,137 @@
+{
+  "package_id": "171847",
+  "sticker_id": "6169537",
+  "image_path": "images/171847/6169537-1ee620ef0103d16d4074.png",
+  "image_description": "남색 옷과 작은 모자를 쓴 갈색 머리 캐릭터가 눈웃음을 지으며 어두운 머리의 작은 인형 같은 캐릭터를 안고 있다. 배경에 분홍 장식이 있다.",
+  "image_tags": [
+    "갈색머리",
+    "남색모자",
+    "눈웃음",
+    "포옹",
+    "분홍배경"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6169537-1",
+      "context": "인형 배송 도착",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "택배 드디어 왔다"
+        },
+        {
+          "speaker": "B",
+          "text": "뜯었어? 실물 괜찮아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아서 지금 안고 앉아 있어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인형",
+        "만족"
+      ],
+      "fit_reason": "인형처럼 작은 캐릭터를 껴안은 포즈가 말과 맞다."
+    },
+    {
+      "example_id": "6169537-2",
+      "context": "친구 생일 선물",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보낸 거 오늘 받아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 딱 사고 싶던 거라 바로 씀"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마음에 든다니 기쁘다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물",
+        "기쁨"
+      ],
+      "fit_reason": "눈을 감고 활짝 웃는 표정이 선물이 통한 기쁨을 전한다."
+    },
+    {
+      "example_id": "6169537-3",
+      "context": "오랜만에 안부",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 다음 주에 내려오지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 토요일 기차 탔어, 예매했단 뜻"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "도착하면 일단 포옹부터",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재회",
+        "포옹"
+      ],
+      "fit_reason": "캐릭터가 양팔로 안는 동작으로 반가운 재회를 표현한다."
+    },
+    {
+      "example_id": "6169537-4",
+      "context": "반려견 돌봄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 집 강아지 사진 받았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 계속 품에 들어오더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "걔 한번 안으면 내려놓기 싫지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물",
+        "애정"
+      ],
+      "fit_reason": "두 팔에 작은 대상을 안은 모습이 반려견 이야기와 맞다."
+    },
+    {
+      "example_id": "6169537-5",
+      "context": "시험을 끝낸 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 드디어 마지막 시험 끝났다"
+        },
+        {
+          "speaker": "B",
+          "text": "이번 주 내내 고생했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너도 끝나면 만나서 축하하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원",
+        "축하"
+      ],
+      "fit_reason": "환한 표정과 포옹이 서로 수고했다는 마음을 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

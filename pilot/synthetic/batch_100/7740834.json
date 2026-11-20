@@ -1,0 +1,142 @@
+{
+  "package_id": "176742",
+  "sticker_id": "7740834",
+  "image_path": "images/176742/7740834-0cdacdd1074baf3fbc78.jpg",
+  "image_view": "still",
+  "image_description": "검은 선글라스를 쓴 고양이가 이빨 달린 회갈색 동물 모자를 쓰고 앞발 하나를 들어 말린 고리를 든다. 아래에는 슬래시로 나뉜 숫자 세 개가 있다.",
+  "image_tags": [
+    "눈을 가린 검은 선글라스",
+    "오므린 작은 입",
+    "이빨 달린 동물 모자",
+    "위로 든 말린 고리",
+    "슬래시 사이 세 숫자"
+  ],
+  "image_text": [
+    "3/20/20"
+  ],
+  "interpretation_note": "숫자의 원래 뜻은 그림만으로 특정하기 어렵다. 점수나 기록표 같은 모양과 선글라스의 여유로운 표정에 근거해 해석했다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7740834_01",
+      "context": "볼링에서 처음으로 친구 둘의 합산 기록을 넘긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 판 거터 세 번 나더니 점수 왜 저래"
+        },
+        {
+          "speaker": "B",
+          "text": "마지막 두 프레임 연속 스트라이크 쳤음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "앞부분은 몸 푸는 시간이었습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "득의양양",
+        "친근한 자랑"
+      ],
+      "fit_reason": "출발은 부진했는데 마지막에 크게 만회한 결과를, 기록 숫자 아래 선글라스를 낀 여유로운 모습이 자랑스럽게 전한다."
+    },
+    {
+      "example_id": "7740834_02",
+      "context": "동호회에서 각 단계별 통과 개수를 의미 없이 뽐낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "미션 성공 개수 몇 개 나왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "첫 관문에서 셋, 뒤에 두 개는 다 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "순서대로 적으니까 무슨 선수 전적 같다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기록 농담",
+        "장난스러운 과장"
+      ],
+      "fit_reason": "관문별 성공 개수를 나열한 모양이 그림 아래 ‘3/20/20’과 닮아, 선글라스가 평범한 수치를 전적처럼 과장한다."
+    },
+    {
+      "example_id": "7740834_03",
+      "context": "자기 포장 점수를 매긴 친구가 심사위원 흉내를 낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "세 개 다 붙였는데 포장 점수 몇 점?"
+        },
+        {
+          "speaker": "B",
+          "text": "테이프를 덧댄 부분이 바깥쪽으로 튀어나오긴 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "튼튼함 만점 드리고 미관 점수는 조용히 감점할게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "평가 놀이",
+        "친근한 놀림"
+      ],
+      "fit_reason": "튼튼함과 미관에 별도 점수를 주는 농담이라, 숫자를 늘어놓은 판과 선글라스의 심드렁한 표정이 심사위원 흉내에 어울린다."
+    },
+    {
+      "example_id": "7740834_04",
+      "context": "친구가 과하게 차려입고 가벼운 모임에 나타난다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 그냥 한강 앉았다 오는 거 알지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 선글라스랑 모자 챙기는 중"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "산책 복장에도 컨셉은 있어야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "꾸밈 자랑",
+        "장난스러운 허세"
+      ],
+      "fit_reason": "가벼운 산책에 모자와 선글라스를 따로 챙겨, 동물 모자와 선글라스를 겹쳐 쓴 고양이가 허세 섞인 패션을 강조한다."
+    },
+    {
+      "example_id": "7740834_05",
+      "context": "친구가 예전 파일을 날짜로 구분하며 발견을 자랑한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 사진 아직 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "이름을 찍은 날짜로 해놨더니 바로 찾음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "타임캡슐 관리 하나는 내가 잘한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기록 발견",
+        "소소한 자랑"
+      ],
+      "fit_reason": "날짜 형식의 파일명 덕에 옛 사진을 찾았으므로, 아래에 날짜처럼 찍힌 숫자와 여유로운 선글라스가 자랑을 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

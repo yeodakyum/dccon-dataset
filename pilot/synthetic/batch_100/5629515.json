@@ -1,0 +1,137 @@
+{
+  "package_id": "165566",
+  "sticker_id": "5629515",
+  "image_path": "images/165566/5629515-94b2cdcbeabd7a486a0f.png",
+  "image_description": "분홍색 무늬 옷과 작은 머리 장식을 한 초록 개구리 캐릭터가 파란 옷을 입은 작은 개구리의 어깨 뒤에 팔을 댄다. 작은 개구리는 눈에 눈물이 맺혀 있다.",
+  "image_tags": [
+    "초록 개구리 둘",
+    "분홍색 무늬 옷",
+    "파란 옷",
+    "어깨에 댄 팔",
+    "눈물"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5629515-1",
+      "context": "동생이 친구와 다퉈 속상해하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동생 오늘 방에만 있던데"
+        },
+        {
+          "speaker": "B",
+          "text": "친구랑 말다툼했대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "옆에 잠깐 같이 있어 줘야겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가족",
+        "위로"
+      ],
+      "fit_reason": "큰 캐릭터가 눈물 맺힌 작은 캐릭터 곁에 팔을 내미는 장면이다."
+    },
+    {
+      "example_id": "5629515-2",
+      "context": "친구가 면접에서 떨어진 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회사에서 연락 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 불합격이래. 기대했는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 내가 저녁 살게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "면접",
+        "위로"
+      ],
+      "fit_reason": "곁에서 어깨를 감싸는 듯한 동작이 같이 있어 주겠다는 뜻을 보탠다."
+    },
+    {
+      "example_id": "5629515-3",
+      "context": "게임이 잘 안 풀려 팀원이 위축된 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 판 네 탓 아니야"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 실수 많이 해서 미안"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "괜찮아 다음 판 같이 하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "격려"
+      ],
+      "fit_reason": "우는 작은 개구리와 팔을 댄 큰 개구리가 다독이는 관계를 보여 준다."
+    },
+    {
+      "example_id": "5629515-4",
+      "context": "헤어질 때 반려견을 두고 가는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "강아지 호텔에 잘 들어갔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 집 오니까 내가 더 허전해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "며칠만 지나면 바로 데리러 가잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물",
+        "위로"
+      ],
+      "fit_reason": "눈물이 맺힌 얼굴 곁에서 같이 서 있는 모습이 잠깐의 이별을 달랜다."
+    },
+    {
+      "example_id": "5629515-5",
+      "context": "속상한 말을 듣고 친구에게 이야기하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 그 말 아직도 마음에 걸려"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 너무 예민한가 싶기도 하고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "속상할 만했어. 더 얘기해도 돼",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친구",
+        "공감"
+      ],
+      "fit_reason": "가까이에서 팔을 대는 몸짓이 따뜻하게 들어 주는 분위기에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

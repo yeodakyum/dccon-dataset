@@ -1,0 +1,137 @@
+{
+  "package_id": "175997",
+  "sticker_id": "7692675",
+  "image_path": "images/175997/7692675-6fff66dc9220e3af3410.png",
+  "image_description": "화면을 가득 채운 연두색 머리 캐릭터의 파란 눈과 옅은 볼이 중앙에서 바깥으로 번지듯 흐려져 있다.",
+  "image_tags": [
+    "연두머리",
+    "파란눈",
+    "분홍볼",
+    "얼굴클로즈업",
+    "방사형흐림"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7692675-1",
+      "context": "친구의 새 안경",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 안경 새로 맞췄다"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 줘 봐, 멀쩡히 보이게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "도수가 너무 강했나",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "흐릿함",
+        "장난"
+      ],
+      "fit_reason": "얼굴이 번져 보여 안경 농담을 살린다."
+    },
+    {
+      "example_id": "7692675-2",
+      "context": "과제 기한 착각",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보고서 내일까진 줄 알았는데"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 자정까지야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "갑자기 화면이 흐려지는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "마감"
+      ],
+      "fit_reason": "방사형 흐림이 당황해서 정신없는 느낌을 낸다."
+    },
+    {
+      "example_id": "7692675-3",
+      "context": "화상 통화 지연",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지금 내 얼굴 보여?"
+        },
+        {
+          "speaker": "B",
+          "text": "얼굴만 남기고 다 뭉개졌어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 인터넷 지금 이 상태임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "화질",
+        "통화"
+      ],
+      "fit_reason": "뭉개진 얼굴이 화상 통화 화질을 대신 보여 준다."
+    },
+    {
+      "example_id": "7692675-4",
+      "context": "이른 기상",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 아침 여섯 시에 보자"
+        },
+        {
+          "speaker": "B",
+          "text": "넌 그때 눈 뜰 수 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뜬다고는 안 했음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "장난"
+      ],
+      "fit_reason": "흐릿한 눈이 겨우 잠에서 깬 얼굴 같다."
+    },
+    {
+      "example_id": "7692675-5",
+      "context": "놀이기구 소감",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 회전컵 재밌었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 그렇게 빨리 돌릴 줄은 몰랐어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 아직 초점이 안 잡혀",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "어지러움",
+        "놀이"
+      ],
+      "fit_reason": "중앙에서 퍼지는 흐림이 어지러운 시야 같다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "176612",
+  "sticker_id": "7656812",
+  "image_path": "images/176612/7656812-29a6e3cc755716cb1d45.png",
+  "image_view": "still",
+  "image_description": "연두 머리 인물이 제복 모자를 쓰고 미소 지으며 검지로 위를 가리킨다.",
+  "image_tags": [
+    "크고 어두운 눈",
+    "열린 미소",
+    "들어 올린 검지",
+    "제복 모자",
+    "회색 말풍선"
+  ],
+  "image_text": [
+    "개인빙 미쳤지"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7656812_01",
+      "context": "친구가 자동완성 실수를 고백한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "교수님께 메일 보냈어?"
+        },
+        {
+          "speaker": "B",
+          "text": "감사합니다가 감자입니다로 갔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "갑자기 감자 자기소개 뭐냐고 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음"
+      ],
+      "fit_reason": "친구가 자동완성 실수를 고백한다 상황에서 웃으며 자신을 소개하듯 손을 드는 모습이 친구의 우스운 해프닝에 농담으로 화답하기 좋다."
+    },
+    {
+      "example_id": "7656812_02",
+      "context": "고양이가 새 장난감을 외면한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 캣타워 좋아해?"
+        },
+        {
+          "speaker": "B",
+          "text": "택배 상자에만 들어가 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "결국 본품은 박스였네 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음"
+      ],
+      "fit_reason": "고양이가 새 장난감을 외면한다 상황에서 웃으며 자신을 소개하듯 손을 드는 모습이 친구의 우스운 해프닝에 농담으로 화답하기 좋다."
+    },
+    {
+      "example_id": "7656812_03",
+      "context": "게임 캐릭터가 우스운 자세로 멈춘다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 화면에선 나 어떻게 보여?"
+        },
+        {
+          "speaker": "B",
+          "text": "다리 한쪽 들고 공중에 고정됨"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "갑자기 체조 국대 됐네 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음"
+      ],
+      "fit_reason": "게임 캐릭터가 우스운 자세로 멈춘다 상황에서 웃으며 자신을 소개하듯 손을 드는 모습이 친구의 우스운 해프닝에 농담으로 화답하기 좋다."
+    },
+    {
+      "example_id": "7656812_04",
+      "context": "친구가 근사한 요리에 실패한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그거 팬케이크야?"
+        },
+        {
+          "speaker": "B",
+          "text": "원래 곰 모양 시도했음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "곰이 오늘 많이 피곤해 보인다 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음"
+      ],
+      "fit_reason": "친구가 근사한 요리에 실패한다 상황에서 웃으며 자신을 소개하듯 손을 드는 모습이 친구의 우스운 해프닝에 농담으로 화답하기 좋다."
+    },
+    {
+      "example_id": "7656812_05",
+      "context": "동료가 사무실의 작은 해프닝을 알린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "복도에서 무슨 소리였어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "로봇청소기가 제 슬리퍼 데려갔어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "조용히 한 짝만 이사 갔네요 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음"
+      ],
+      "fit_reason": "동료가 사무실의 작은 해프닝을 알린다 상황에서 웃으며 자신을 소개하듯 손을 드는 모습이 친구의 우스운 해프닝에 농담으로 화답하기 좋다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

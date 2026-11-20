@@ -1,0 +1,137 @@
+{
+  "package_id": "176544",
+  "sticker_id": "7684415",
+  "image_path": "images/176544/7684415-efaa083c8b319ca38f80.png",
+  "image_description": "흰색 바탕에 검은 선으로 그린 둥글고 납작한 캐릭터가 엎드려 있다. 머리 위에 두 가닥이 튀어나오고 얼굴에는 작은 미소가 있다.",
+  "image_tags": [
+    "흰색 몸",
+    "검은 윤곽",
+    "두 가닥",
+    "납작한 자세",
+    "작은 미소"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7684415-1",
+      "context": "퇴근 후 집 바닥에 드러누운 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 집 도착했어"
+        },
+        {
+          "speaker": "B",
+          "text": "씻고 나면 통화할래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "바닥이랑 먼저 한 몸이 됐어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "퇴근",
+        "휴식"
+      ],
+      "fit_reason": "힘없이 납작해진 모습이 바닥에 녹아드는 기분을 전한다."
+    },
+    {
+      "example_id": "7684415-2",
+      "context": "주말 오전에 약속이 취소된 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "일어났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비 와서 오늘 등산 취소됐어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "침대 연장합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "주말",
+        "느긋함"
+      ],
+      "fit_reason": "납작한 자세와 미소가 느긋하게 누워 있을 기쁨과 맞는다."
+    },
+    {
+      "example_id": "7684415-3",
+      "context": "운동을 끝내고 숨을 돌리는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "스쿼트 다 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "마지막 세트 네 차례야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 잠깐만 이렇게 있을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "운동",
+        "탈진"
+      ],
+      "fit_reason": "팔다리 힘이 빠진 듯한 실루엣이 지친 몸 상태를 표현한다."
+    },
+    {
+      "example_id": "7684415-4",
+      "context": "가벼운 장난에 얌전히 항복하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "간식 내가 숨긴 거 아냐"
+        },
+        {
+          "speaker": "B",
+          "text": "네 책상에서 봉지 나왔는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 제가 그랬습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "항복"
+      ],
+      "fit_reason": "바닥에 납작 엎드린 모습이 익살스러운 항복으로 읽힌다."
+    },
+    {
+      "example_id": "7684415-5",
+      "context": "방학 첫날 아무 일정도 잡지 않은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 뭐 할 계획이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "다들 오후에 카페 간대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "난 일단 누워 있기부터",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "방학",
+        "여유"
+      ],
+      "fit_reason": "작은 미소가 아무것도 안 하는 편안함을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

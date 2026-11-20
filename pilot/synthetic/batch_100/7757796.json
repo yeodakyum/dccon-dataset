@@ -1,0 +1,148 @@
+{
+  "package_id": "176047",
+  "sticker_id": "7757796",
+  "image_path": "images/176047/7757796-ac3bad1d11c1705367ad.png",
+  "image_view": "still",
+  "image_description": "푸른 배경에 보라 머리 인물 두 명과 노란 손가락 모양이 합성되었다. 왼쪽 인물은 도수 높은 듯한 흰 안경알을 걸쳤고 오른쪽 인물은 반짝이는 보라 눈을 뜨고 있다.",
+  "image_tags": [
+    "왼쪽 인물의 흰 안경알",
+    "오른쪽 인물의 반짝이는 보라 눈",
+    "검지를 올린 노란 손",
+    "기울어진 붉은 제목",
+    "푸른 사각 격자 배경"
+  ],
+  "image_text": [
+    "사이뻐 불링",
+    "4주 특강",
+    "!?"
+  ],
+  "interpretation_note": "대형 제목 아래의 작은 문구는 선명하게 판독하기 어렵다. 조립된 강의 홍보물 구도가 온라인에서 벌어진 가벼운 놀림을 과장해 지적하는 밈으로 읽힌다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7757796_01",
+      "context": "친구들이 단체방에서 한 사람의 사진 대신 모두가 겪은 실수를 놀린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 발표 시작하고 마이크 2분 동안 꺼져 있었대"
+        },
+        {
+          "speaker": "B",
+          "text": "여기 세 명 다 한 번씩 그랬음"
+        },
+        {
+          "speaker": "A",
+          "text": "다음 모임 첫 안건 그걸로 하자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "음소거 극복반 개강합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "집단 자조",
+        "모의 강의"
+      ],
+      "fit_reason": "모두의 실수를 수업으로 만든다는 농담에 격자 배경의 ‘4주 특강’ 제목이 개강 홍보물처럼 붙는다."
+    },
+    {
+      "example_id": "7757796_02",
+      "context": "게임 친구가 단체방에서 별명 장난이 길어졌음을 지적한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 실수한 건 웃겼는데 이제 그 별명 그만 불러 줘"
+        },
+        {
+          "speaker": "B",
+          "text": "아 인정 내가 너무 오래 써먹었다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "고마워 다음 판은 우리 잘해 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난 중단",
+        "관계 회복"
+      ],
+      "fit_reason": "친구가 온라인 농담의 선을 알아들은 뒤라 불링 특강처럼 꾸민 포스터가 상황을 가볍게 닫는 역할을 한다."
+    },
+    {
+      "example_id": "7757796_03",
+      "context": "채팅방에 신입을 위한 규칙 안내를 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새로 들어오는 사람한테 뭐 먼저 안내하죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "모르는 사람한테 반말이나 별명부터 쓰지 말라고 하죠"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아요 첫 공지 제목은 채팅 매너로 할게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매너 안내",
+        "과장된 개강"
+      ],
+      "fit_reason": "채팅 예절 안내에 대비되는 도발적 강의 제목과 검지를 든 손이 가짜 홍보물 농담을 만든다."
+    },
+    {
+      "example_id": "7757796_04",
+      "context": "친구가 단체방 밈을 매번 한 박자 늦게 이해한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 아까 왜 다들 4주라고 했는지 알았냐"
+        },
+        {
+          "speaker": "B",
+          "text": "나 운동 프로그램 얘기인 줄 알았음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 같이 밈 읽는 법부터 수강해야겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 자조",
+        "공감"
+      ],
+      "fit_reason": "둘 다 농담을 놓쳐 수강을 제안하는 말과 ‘4주 특강’이 적힌 화려한 포스터가 연결된다."
+    },
+    {
+      "example_id": "7757796_05",
+      "context": "친구가 눈에 띄게 과장된 홍보물을 만들어 피드백을 구한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "행사 포스터에 빨간 제목에 노란 손도 넣었어"
+        },
+        {
+          "speaker": "B",
+          "text": "둘 다 넣으니까 어디부터 봐야 할지 모르겠어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오히려 학원 광고 컨셉으로 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "디자인 장난",
+        "과장된 홍보"
+      ],
+      "fit_reason": "색과 소품을 잔뜩 넣은 포스터 이야기라 빨강 제목, 노란 손, 보라 인물이 겹친 특강 컷이 시각적 예시가 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

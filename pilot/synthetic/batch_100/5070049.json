@@ -1,0 +1,157 @@
+{
+  "package_id": "154129",
+  "sticker_id": "5070049",
+  "image_path": "images/154129/5070049-e4581633ffb08c0839e4.png",
+  "image_description": "눈을 감고 볼이 빨개진 흰 고양이 얼굴 주변에 분홍색 하트 세 개가 떠 있다.",
+  "image_tags": [
+    "흰 고양이",
+    "분홍 하트",
+    "홍조",
+    "감은 눈",
+    "파란 귀"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5070049_01",
+      "context": "친구가 빌려준 책과 함께 간식을 돌려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "책 네 가방 옆에 놨어"
+        },
+        {
+          "speaker": "B",
+          "text": "고마워 잘 읽었어?"
+        },
+        {
+          "speaker": "A",
+          "text": "응 안에 쿠키도 넣어뒀어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 뭐야 쿠키까지 챙겨줬네 고마워",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "애정"
+      ],
+      "fit_reason": "하트와 홍조가 예상 못 한 작은 선물에 반응한다."
+    },
+    {
+      "example_id": "5070049_02",
+      "context": "친구가 반려동물 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 집 애 낮잠 자는 거 볼래"
+        },
+        {
+          "speaker": "B",
+          "text": "당연히 봐야지"
+        },
+        {
+          "speaker": "A",
+          "text": "앞발 접고 자는 거 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 발끝까지 귀여워",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "감탄"
+      ],
+      "fit_reason": "하트가 귀여운 사진에 대한 감탄을 보여 준다."
+    },
+    {
+      "example_id": "5070049_03",
+      "context": "친구가 난처할 때 먼저 도와준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지하철 끊겼지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 버스 찾아보는 중"
+        },
+        {
+          "speaker": "A",
+          "text": "나 차로 가는 길인데 데리러 갈게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "진짜 덕분에 산다 너 최고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고마움",
+        "안도"
+      ],
+      "fit_reason": "웃고 있는 얼굴이 배려를 받은 따뜻한 기분을 전한다."
+    },
+    {
+      "example_id": "5070049_04",
+      "context": "친구와 약속 장소를 정한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 카페 어디 갈까"
+        },
+        {
+          "speaker": "B",
+          "text": "케이크 맛있는 곳이면 어디든"
+        },
+        {
+          "speaker": "A",
+          "text": "네가 지난번에 가고 싶다던 데 예약했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "와 그걸 기억하고 있었어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨",
+        "감동"
+      ],
+      "fit_reason": "분홍 하트가 취향을 기억해 준 친구에게 애정을 표현한다."
+    },
+    {
+      "example_id": "5070049_05",
+      "context": "직접 만든 작은 선물을 칭찬받는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 네가 뜬 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 모자 모양 좀 삐뚤지"
+        },
+        {
+          "speaker": "A",
+          "text": "아냐 이 색 너무 좋아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잘 받았다니 나도 기분 좋다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뿌듯함",
+        "애정"
+      ],
+      "fit_reason": "눈을 감고 웃는 얼굴이 기분 좋은 칭찬을 받은 반응에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

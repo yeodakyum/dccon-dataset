@@ -1,0 +1,135 @@
+{
+  "package_id": "137267",
+  "sticker_id": "7001683",
+  "image_path": "images/137267/7001683-65b606719589148a327a.png",
+  "image_view": "still",
+  "image_description": "파란 옷의 개구리가 깨진 듯한 검은 선글라스를 쓰고 입꼬리를 올린다.",
+  "image_tags": [
+    "선글라스가 가린 눈",
+    "올라간 입꼬리",
+    "검은 파편",
+    "파란 상의",
+    "선글라스의 흰 얼룩"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7001683_01",
+      "context": "친구가 작은 성과를 확인한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 기록 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 몇 분 나왔어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 드디어 30분 밑으로 깼다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑"
+      ],
+      "fit_reason": "친구가 작은 성과를 확인한다 상황에서 선글라스와 여유로운 입꼬리가 득의양양한 답에 어울린다."
+    },
+    {
+      "example_id": "7001683_02",
+      "context": "과제 결과가 좋았다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "점수 떴지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 몇 점인데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "만점 처음 받아 봤어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑"
+      ],
+      "fit_reason": "과제 결과가 좋았다 상황에서 선글라스와 여유로운 입꼬리가 득의양양한 답에 어울린다."
+    },
+    {
+      "example_id": "7001683_03",
+      "context": "친구가 완성한 요리를 보여 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 배달시킨 거 같지?"
+        },
+        {
+          "speaker": "B",
+          "text": "직접 한 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 나 이제 계란말이 좀 하는 듯",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑"
+      ],
+      "fit_reason": "친구가 완성한 요리를 보여 준다 상황에서 선글라스와 여유로운 입꼬리가 득의양양한 답에 어울린다."
+    },
+    {
+      "example_id": "7001683_04",
+      "context": "게임에서 드문 아이템을 얻었다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 상자에서 뭐 나왔게"
+        },
+        {
+          "speaker": "B",
+          "text": "설마 그 한정 장비?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "맞음 오늘 운 다 썼다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑"
+      ],
+      "fit_reason": "게임에서 드문 아이템을 얻었다 상황에서 선글라스와 여유로운 입꼬리가 득의양양한 답에 어울린다."
+    },
+    {
+      "example_id": "7001683_05",
+      "context": "동료가 깔끔하게 마무리한 작업을 알아본다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자동화 덕분에 빨라졌죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "벌써 다 끝났네요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 저도 좀 뿌듯합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자랑"
+      ],
+      "fit_reason": "동료가 깔끔하게 마무리한 작업을 알아본다 상황에서 선글라스와 여유로운 입꼬리가 득의양양한 답에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

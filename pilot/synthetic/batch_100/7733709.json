@@ -1,0 +1,137 @@
+{
+  "package_id": "176410",
+  "sticker_id": "7733709",
+  "image_path": "images/176410/7733709-72cbb447345f12bb9c12.png",
+  "image_description": "불길처럼 주황빛이 번지는 배경에 금발 캐릭터가 눈을 크게 뜨고 입을 벌린다. 위에 흰색 ‘예에?’가 있다.",
+  "image_tags": [
+    "금발",
+    "주황배경",
+    "벌린입",
+    "흰글씨",
+    "붉은문장부호"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7733709-1",
+      "context": "가격 오름",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 카페 아메리카노 얼마더라"
+        },
+        {
+          "speaker": "B",
+          "text": "어제 보니까 칠천 원"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "예에? 거기 원래 오천 원이었잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "가격"
+      ],
+      "fit_reason": "큰 반문과 불길 배경이 가격에 놀라는 반응을 강조한다."
+    },
+    {
+      "example_id": "7733709-2",
+      "context": "시험 범위 정정",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "시험 5장까지 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "6장도 들어간대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 그게 언제 바뀜?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "시험"
+      ],
+      "fit_reason": "크게 뜬 눈이 예상보다 넓은 범위를 들었을 때와 맞다."
+    },
+    {
+      "example_id": "7733709-3",
+      "context": "휴무 확인",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 국수집 가는 길이야"
+        },
+        {
+          "speaker": "B",
+          "text": "거기 오늘 쉰대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뭐? 이미 지하철 탔어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "허탈",
+        "휴무"
+      ],
+      "fit_reason": "입을 벌리고 되묻는 표정이 뒤늦게 소식 들은 순간과 같다."
+    },
+    {
+      "example_id": "7733709-4",
+      "context": "치열한 경기 결과",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 두 골 차였는데 누가 이겼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "막판에 세 골 넣어서 뒤집었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그게 남은 5분에 다 들어갔다고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "경기"
+      ],
+      "fit_reason": "커다란 문구가 극적인 결과를 반문할 때 맞는다."
+    },
+    {
+      "example_id": "7733709-5",
+      "context": "약속 장소 착각",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "건물 앞인데 너 어디야?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 반대쪽 캠퍼스 도착했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 캠퍼스가 달랐어?!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "약속",
+        "혼란"
+      ],
+      "fit_reason": "붉은 감탄부호와 물음표가 엇갈린 상황을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

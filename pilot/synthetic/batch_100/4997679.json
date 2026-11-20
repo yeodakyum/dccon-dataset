@@ -1,0 +1,158 @@
+{
+  "package_id": "152659",
+  "sticker_id": "4997679",
+  "image_path": "images/152659/4997679-6091b636c98ec221aa47.png",
+  "image_view": "still",
+  "image_description": "청록색 단발 캐릭터가 반짝이는 눈을 크게 뜨고 입을 삼각형처럼 벌린다. 머리 위에는 속았다는 사실을 가리키는 글씨가 있다.",
+  "image_tags": [
+    "크게 뜬 청록색 눈",
+    "흰 반짝임 두 줄",
+    "삼각형으로 벌린 입",
+    "청록 단발",
+    "흰 테두리의 남색 글자"
+  ],
+  "image_text": [
+    "이걸속네"
+  ],
+  "interpretation_note": "보낸 사람이 상대를 놀리는 말로 쓰거나 자기가 속은 상황에 되돌려 보내는 자조적 반응으로 쓸 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4997679_01",
+      "context": "친구가 진짜 같은 가짜 신메뉴 사진을 올렸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "편의점에서 이 오이 우유 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "오이 우유는 무슨 맛일까 궁금하다"
+        },
+        {
+          "speaker": "A",
+          "text": "내가 우유 사진에 오이만 붙인 건데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 이걸 진짜 사러 가려 했다고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난 공개",
+        "친근한 놀림"
+      ],
+      "fit_reason": "합성한 오이를 실제 신메뉴로 믿었다는 걸 알게 돼, 활짝 벌린 입과 ‘이걸속네’가 장난이 통했다는 놀림이 된다."
+    },
+    {
+      "example_id": "4997679_02",
+      "context": "친구가 만우절에 역 출구 번호를 지어냈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어디 출구에서 만날까"
+        },
+        {
+          "speaker": "B",
+          "text": "99번으로 와"
+        },
+        {
+          "speaker": "A",
+          "text": "지도 보니까 4번까지밖에 없는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 진짜 지도 켰었어 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "장난 수용"
+      ],
+      "fit_reason": "존재하지 않는 99번 출구를 잠깐 찾은 본인이 보내는 ‘이걸속네’와 크게 뜬 눈은 자기 실수를 웃어넘기는 반응이다."
+    },
+    {
+      "example_id": "4997679_03",
+      "context": "숨은그림찾기 게임에서 상자 모양으로 위장한 팀원이 상대를 따돌린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "걔 네 앞에 진짜 왔었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 쳐다보고 상자 하나 열더니 그냥 감"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "포장 좀 잘했다고 바로 보내주네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "전략 성공",
+        "장난스러운 자랑"
+      ],
+      "fit_reason": "위장한 플레이어를 상대가 실제 상자로 판단해 지나쳤으므로, ‘이걸속네’가 예상보다 잘 통했던 전략을 자랑한다."
+    },
+    {
+      "example_id": "4997679_04",
+      "context": "동생이 형의 생일 선물 상자에 쌀 한 봉지를 넣어 무게를 속인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "상자 무거운데 뭐 샀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "열기 전에 하나만 맞혀 봐"
+        },
+        {
+          "speaker": "A",
+          "text": "이거 아령이지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "안에 든 건 무게 맞추려고 넣은 쌀이야 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물 장난",
+        "반전 공개"
+      ],
+      "fit_reason": "무겁다는 단서만으로 아령을 예상하도록 유도한 뒤, 크게 벌린 입과 속았다는 제목이 반전을 강조한다."
+    },
+    {
+      "example_id": "4997679_05",
+      "context": "시험 공부 중 친구가 틀린 공식을 함정 보기로 내놓는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기서 분모에 바로 제곱 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 분자부터 소거해야 돼"
+        },
+        {
+          "speaker": "A",
+          "text": "근데 너 방금 분모 먼저 썼는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 낸 함정에 내가 걸렸네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "실수 인정"
+      ],
+      "fit_reason": "함정을 낸 본인이 같은 오답을 먼저 적었으므로, 청록 캐릭터의 크게 뜬 눈과 문구가 자기한테 던지는 농담이 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

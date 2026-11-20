@@ -1,0 +1,142 @@
+{
+  "package_id": "169284",
+  "sticker_id": "6066152",
+  "image_path": "images/169284/6066152-412e354abc0a407fb343.png",
+  "image_view": "still",
+  "image_description": "밝은 머리 캐릭터가 눈꺼풀을 반쯤 내리고 혀를 살짝 내민 채 뺨에 손을 올렸다. 분홍 바탕과 머리 위에 작은 하트가 떠 있다.",
+  "image_tags": [
+    "반쯤 감긴 파란 눈",
+    "혀를 내민 작은 미소",
+    "손가락을 댄 뺨",
+    "분홍 하트",
+    "진분홍 상단 자막"
+  ],
+  "image_text": [
+    "사랑스럽고 음흉함"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6066152_01",
+      "context": "친구가 고양이에게 자기 간식을 빼앗겼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "초코가 계속 내 무릎에서 애교 부리더라."
+        },
+        {
+          "speaker": "B",
+          "text": "옆에 네 닭가슴살 접시 있어서 그런 거 아냐?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 보니까 내 접시만 쳐다보고 있네.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "속내 간파"
+      ],
+      "fit_reason": "애교가 사실 닭가슴살을 노린 행동이었다는 말에 하트와 반쯤 감긴 눈이 귀엽고 능청스러운 두 면을 살린다."
+    },
+    {
+      "example_id": "6066152_02",
+      "context": "친구가 조카에게 부탁을 받았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "조카가 그림 그려서 나한테 주더라."
+        },
+        {
+          "speaker": "B",
+          "text": "훈훈하네. 뭐라도 적었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "사랑해 밑에 아이스크림 두 개라고 적어 놨어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사랑스러움",
+        "친근한 놀림"
+      ],
+      "fit_reason": "다정한 그림에 먹고 싶은 것도 적어 둔 모습이 분홍 하트와 슬쩍 혀를 내민 표정에 들어맞는다."
+    },
+    {
+      "example_id": "6066152_03",
+      "context": "친구가 팀원을 자기 편으로 끌어들였다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저녁 다 같이 샐러드 먹자고 하지 않았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "현지한테 떡볶이 사진 보내니까 현지는 이미 내 편임."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "설득은 잘 모르겠고 사진은 좀 잘 찍은 것 같아.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 자랑",
+        "은근한 유혹"
+      ],
+      "fit_reason": "맛있어 보이는 사진 한 장으로 편을 만든 얘기에 뺨에 손을 댄 능청스러운 미소가 붙는다."
+    },
+    {
+      "example_id": "6066152_04",
+      "context": "모임 장소를 제안한 데 숨은 이유가 있었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 모임만 잡으면 네 집 앞에서 보자 그래?"
+        },
+        {
+          "speaker": "B",
+          "text": "요즘 거기 새 카페 좋다니까."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "돌아오는 지하철 막차를 검색 안 해도 되는 게 제일 좋지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "동기 추측"
+      ],
+      "fit_reason": "카페를 내세우지만 사실 귀가가 편하다는 추측을 '사랑스럽고 음흉함' 문구가 악의 없는 놀림으로 만든다."
+    },
+    {
+      "example_id": "6066152_05",
+      "context": "작품 속 악동 캐릭터를 좋아한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "걔 방금 웃으면서 도어락 비번 바꿨어."
+        },
+        {
+          "speaker": "B",
+          "text": "그래도 웃는 얼굴 보면 진짜 밉지가 않아."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 저런 캐릭터한테 꼭 넘어가더라.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "캐릭터 감상",
+        "귀여움과 얄미움"
+      ],
+      "fit_reason": "몰래 비밀번호를 바꾸고 웃는 캐릭터를 두고 하트와 음흉한 눈매를 함께 보여 주면 호감과 얄미움이 동시에 드러난다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

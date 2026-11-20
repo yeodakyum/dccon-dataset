@@ -1,0 +1,137 @@
+{
+  "package_id": "164671",
+  "sticker_id": "5586204",
+  "image_path": "images/164671/5586204-738fabf4bc1a36ad4320.png",
+  "image_description": "이마에 주황색 돌기가 있는 흰 캐릭터가 세 작은 동물 모양 캐릭터를 앞에 모아 둔다. 좌우에는 주황색 끈처럼 둥글게 말린 그림이 있다.",
+  "image_tags": [
+    "흰 큰 캐릭터",
+    "작은 동물 셋",
+    "주황색 이마 돌기",
+    "말린 끈",
+    "검은 윤곽선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5586204_1",
+      "context": "친구들끼리 단체 사진을 찍으려 모임",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 찍을 사람 여기 붙어"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 네 명 다 들어갈까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "앞으로 조금씩 모여 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "단체사진",
+        "모이기"
+      ],
+      "fit_reason": "큰 캐릭터 앞에 작은 셋이 붙어 있는 배치가 단체 사진 포즈와 닮았다."
+    },
+    {
+      "example_id": "5586204_2",
+      "context": "친구가 인형을 종류별로 구매",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "가방에 인형 하나만 단다며"
+        },
+        {
+          "speaker": "B",
+          "text": "나란히 두니까 셋 다 데려오고 싶더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 정도면 가족사진 찍자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인형",
+        "귀여움"
+      ],
+      "fit_reason": "작은 동물 셋을 챙긴 이미지가 새 인형들을 모아 세우는 상황에 맞는다."
+    },
+    {
+      "example_id": "5586204_3",
+      "context": "초보 셋을 데리고 협동 게임 시작",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 처음인 사람들 누구야?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 셋 전부 튜토리얼만 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 다 내 앞으로 집합",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "협동게임",
+        "안내"
+      ],
+      "fit_reason": "뒤에 선 큰 캐릭터와 앞에 모인 셋이 초보들을 한곳에 모으는 모습을 연상시킨다."
+    },
+    {
+      "example_id": "5586204_4",
+      "context": "친구가 고양이 새끼들을 찍어 보냄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어미가 오늘은 보여 줬어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 자기 앞에 세 마리 모아 놨어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "볼 거리가 네 배네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물",
+        "귀여움"
+      ],
+      "fit_reason": "흰 캐릭터가 작은 셋을 앞에 모은 장면이 어미와 새끼들의 배치에 닮았다."
+    },
+    {
+      "example_id": "5586204_5",
+      "context": "모임에서 셋에게 나눠 줄 간식 준비",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아직 간식 못 받은 사람 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "여기 셋이 아직이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 앞에 모여 하나씩 가져가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "챙기기"
+      ],
+      "fit_reason": "큰 캐릭터 아래 셋이 모인 모습이 여럿을 고루 챙기는 상황과 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

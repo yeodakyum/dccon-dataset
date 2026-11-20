@@ -1,0 +1,142 @@
+{
+  "package_id": "174452",
+  "sticker_id": "7747948",
+  "image_path": "images/174452/7747948-6ada73829e44d0b45a42.png",
+  "image_view": "still",
+  "image_description": "하늘색 머리 캐릭터가 눈을 힘껏 감고 입을 크게 벌리며 한 주먹을 앞으로 내민다. 위쪽을 주황색 문구가 채운다.",
+  "image_tags": [
+    "세모처럼 꽉 감긴 눈",
+    "크게 벌린 입",
+    "앞으로 내민 주먹",
+    "붉은 뺨",
+    "노란 효과와 주황 상단 문구"
+  ],
+  "image_text": [
+    "그럼 주거!!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7747948_01",
+      "context": "친구가 피자를 마지막 조각까지 가져가겠다고 주장한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 피자 조각 가위바위보 하자."
+        },
+        {
+          "speaker": "B",
+          "text": "내가 주문했으니까 그냥 내가 먹을게."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 주문 버튼 한 번 누른 걸로 독재 들어가냐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 타박",
+        "과장된 분노"
+      ],
+      "fit_reason": "가위바위보도 거절한 친구에게 전경에 들이민 주먹과 과한 느낌표로 가벼운 다툼을 연기한다."
+    },
+    {
+      "example_id": "7747948_02",
+      "context": "게임 상대가 마지막 도전을 피하겠다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이대로 가면 승부 안 났는데 한 판 더 해."
+        },
+        {
+          "speaker": "B",
+          "text": "내 기록이 지금 위니까 이대로 도망갈래."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내일 접속하자마자 재대결 예약이다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "승부욕",
+        "장난스러운 선전포고"
+      ],
+      "fit_reason": "앞선 기록만 챙겨 물러나는 상대에게 꽉 감긴 눈과 뻗은 주먹이 우스운 발끈을 보탠다."
+    },
+    {
+      "example_id": "7747948_03",
+      "context": "친구가 단체 사진을 두고 평소 쌓인 불만을 농담으로 푼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "단체 사진 이거 올려도 되지?"
+        },
+        {
+          "speaker": "B",
+          "text": "넌 잘 나왔고 나만 눈 감고 있잖아."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "올리면 네 재채기 영상도 같이 올라갑니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경고 흉내",
+        "친근한 놀림"
+      ],
+      "fit_reason": "눈 감긴 사진을 올린다는 친구에게 소리치듯 벌린 입과 주먹으로 과장한 맞대응을 보인다."
+    },
+    {
+      "example_id": "7747948_04",
+      "context": "작업을 마쳤는데 동료가 처음부터 다시 하자고 농담한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자막 120개 위치 다 맞췄어."
+        },
+        {
+          "speaker": "B",
+          "text": "색을 하나씩 다시 골라 보자."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그건 농담이라고 바로 말해 줘.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과장된 절망",
+        "농담 받아치기"
+      ],
+      "fit_reason": "120개를 끝내고 다시 하자는 말에 꼭 감긴 눈과 '그럼 주거!!' 자막이 잠깐 발끈하는 웃음을 만든다."
+    },
+    {
+      "example_id": "7747948_05",
+      "context": "친구가 창피했던 과거 별명을 단체방에서 부른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 나 왔어."
+        },
+        {
+          "speaker": "B",
+          "text": "어서 와 왕만두 장군."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 별명은 2018년에 은퇴시켰잖아.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "친근한 타박"
+      ],
+      "fit_reason": "은퇴한 별명을 다시 꺼낸 친구에게 홍조와 화난 듯 내민 주먹이 민망해서 씩씩거리는 반응에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

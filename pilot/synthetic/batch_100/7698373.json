@@ -1,0 +1,137 @@
+{
+  "package_id": "175669",
+  "sticker_id": "7698373",
+  "image_path": "images/175669/7698373-c862a3f79c791ce46ac4.jpg",
+  "image_description": "검은 배경에 한국어와 일본어의 작은 글씨가 여러 줄 빽빽하게 겹쳐 보인다. 오른쪽 위에는 노란 경고 삼각형 일부가 있다.",
+  "image_tags": [
+    "검은 배경",
+    "노란 삼각형",
+    "한국어 문구",
+    "일본어 문구",
+    "빽빽한 작은 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7698373_1",
+      "context": "친구가 무료 체험의 조건을 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 첫 달 무료 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "맞는데 해지 시점이 약관 맨 밑에 작게 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "갑자기 읽을 게 많아지네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "약관",
+        "경고"
+      ],
+      "fit_reason": "경고 삼각형과 밀집된 작은 글씨가 유의 사항을 힘겹게 읽는 상황을 닮았다."
+    },
+    {
+      "example_id": "7698373_2",
+      "context": "커뮤니티에서 위험한 투자 자랑을 들음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "요새 수익 인증만 엄청 올라오더라"
+        },
+        {
+          "speaker": "B",
+          "text": "올린 사람 말로는 무조건 번대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "옆에 주의 문구부터 붙여 줘야겠는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경고",
+        "풍자"
+      ],
+      "fit_reason": "이미지에 보이는 FX 안내문과 경고 표시가 과장된 수익 자랑에 대비되는 반응이다."
+    },
+    {
+      "example_id": "7698373_3",
+      "context": "친구가 빌려줄 우산에 조건을 붙임",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우산 하루만 빌릴게"
+        },
+        {
+          "speaker": "B",
+          "text": "돼. 단 접을 때 찍찍이 꼭 돌돌 감아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "유의 사항 전문도 보내 주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "조건"
+      ],
+      "fit_reason": "수많은 작은 경고문이 간단한 부탁에 대한 조건을 일부러 과장한다."
+    },
+    {
+      "example_id": "7698373_4",
+      "context": "게임 이벤트 보상을 받으려다 복잡한 조건 발견",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이벤트에서 무료 장비 준다길래 들어왔는데"
+        },
+        {
+          "speaker": "B",
+          "text": "레벨 50에 출석 15일이 조건이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "작은 글씨부터 읽을 걸",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "이용조건"
+      ],
+      "fit_reason": "작은 글씨로 채워진 경고 그래픽이 뒤늦게 확인한 세부 조건을 나타낸다."
+    },
+    {
+      "example_id": "7698373_5",
+      "context": "주말 한정 쿠폰 사용 직전",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 쿠폰 토요일도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "공휴일 제외에 일부 지점 제외에 특정 메뉴만이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그냥 조건이 본문이잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쿠폰",
+        "불평"
+      ],
+      "fit_reason": "겹겹이 이어지는 글줄이 많은 예외 사항에 대한 피로를 표현한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

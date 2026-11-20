@@ -1,0 +1,135 @@
+{
+  "package_id": "176766",
+  "sticker_id": "7703319",
+  "image_path": "images/176766/7703319-2738a667fa9b81144929.png",
+  "image_view": "still",
+  "image_description": "레이싱 모자를 쓴 남성이 입을 조금 벌리고 바라보며 양옆에 물음표가 있다.",
+  "image_tags": [
+    "한곳에 멈춘 시선",
+    "살짝 벌린 입",
+    "짙은 모자",
+    "양쪽 물음표",
+    "인물 사진"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7703319_01",
+      "context": "물건을 빌린 친구가 예상 밖의 답을 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 우산 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비 맞을까 봐 우산은 집에 두고 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우산이 비를 피했네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "물건을 빌린 친구가 예상 밖의 답을 한다 상황에서 양쪽 물음표와 굳은 시선이 이해하기 어려운 답을 받았을 때 어울린다."
+    },
+    {
+      "example_id": "7703319_02",
+      "context": "친구가 회의에 엉뚱한 자료를 올린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 자료 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 폴더에 떡볶이 사진만 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 발표 주제가 떡볶이냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "친구가 회의에 엉뚱한 자료를 올린다 상황에서 양쪽 물음표와 굳은 시선이 이해하기 어려운 답을 받았을 때 어울린다."
+    },
+    {
+      "example_id": "7703319_03",
+      "context": "동료가 이미 공유한 내용을 또 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "위에 공지 보셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "공지 어디 있는지 알려주세요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 답장하신 그 글이에요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "동료가 이미 공유한 내용을 또 묻는다 상황에서 양쪽 물음표와 굳은 시선이 이해하기 어려운 답을 받았을 때 어울린다."
+    },
+    {
+      "example_id": "7703319_04",
+      "context": "배달비가 음식값보다 크다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "최소 주문 얼마야?"
+        },
+        {
+          "speaker": "B",
+          "text": "음식 육천 원 배달 팔천 원"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "배달 기사님 식사를 시키는 건가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "배달비가 음식값보다 크다 상황에서 양쪽 물음표와 굳은 시선이 이해하기 어려운 답을 받았을 때 어울린다."
+    },
+    {
+      "example_id": "7703319_05",
+      "context": "게임 친구가 스스로 위기를 만든다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 함정에 빠졌어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 설치한 거 테스트하다가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "테스트 결과는 확실하네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "게임 친구가 스스로 위기를 만든다 상황에서 양쪽 물음표와 굳은 시선이 이해하기 어려운 답을 받았을 때 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

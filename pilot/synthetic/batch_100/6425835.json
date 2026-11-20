@@ -1,0 +1,142 @@
+{
+  "package_id": "171100",
+  "sticker_id": "6425835",
+  "image_path": "images/171100/6425835-86585cdbd5a8c67fd0ee.png",
+  "image_view": "still",
+  "image_description": "노란 줄무늬 꼬리의 고양이가 눈을 감고 짧은 앞발을 가슴 쪽에 대고 있다. 빨간 목 리본 위로 볼의 붉은 빗금과 수면 표시가 보인다.",
+  "image_tags": [
+    "가늘게 감은 눈",
+    "붉은 빗금 볼",
+    "앞발을 가슴에 댄 자세",
+    "노란 줄무늬 꼬리",
+    "머리 위 수면 기호"
+  ],
+  "image_text": [
+    "ZZz..."
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6425835_01",
+      "context": "친구와 늦게까지 대화하다가 잠자리에 든다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 나 오전 수업이라 이제 가볼게."
+        },
+        {
+          "speaker": "B",
+          "text": "오케이 나도 알람 맞췄다."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잘 자. 아침에 눈 뜨면 연락할게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "취침 인사",
+        "친근함"
+      ],
+      "fit_reason": "알람까지 맞춘 뒤 보내는 수면 기호와 감긴 눈이 잘 자라는 인사를 곧바로 이어 준다."
+    },
+    {
+      "example_id": "6425835_02",
+      "context": "강의 영상이 유난히 잔잔하다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지난주 강의 다 들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "교수님 목소리가 너무 평온해서 15분쯤 기억이 없어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "재생 속도 올리고 다시 들어야겠어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "자조"
+      ],
+      "fit_reason": "강의 중 잠깐 잠들었다는 말에 눈을 감고 수면 표시를 띄운 고양이가 당시 모습을 재현한다."
+    },
+    {
+      "example_id": "6425835_03",
+      "context": "대기열이 너무 길어져 게임 시작을 기다린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 매칭 아직 안 잡혔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "대기 21분 찍혔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "들어가면 나부터 깨워 줘.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림",
+        "과장"
+      ],
+      "fit_reason": "매칭 대기가 20분을 넘어가니 수면 표시가 기다리다 자겠다는 과장에 잘 맞는다."
+    },
+    {
+      "example_id": "6425835_04",
+      "context": "친구가 고양이와 낮잠을 잔 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이불 밖으로 나온 그 꼬리 콩이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 같이 한 시간 잤어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "둘 다 너무 평화로워 보인다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "귀여움",
+        "공감"
+      ],
+      "fit_reason": "이불 곁의 고양이 꼬리를 얘기한 직후라 말린 꼬리와 감긴 눈이 사진의 평화로운 분위기를 이어 준다."
+    },
+    {
+      "example_id": "6425835_05",
+      "context": "늦게까지 깨워 달라는 친구의 부탁을 받는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 영상 렌더 끝날 때까진 깨어 있어야 돼."
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 나한테 메시지 한 번씩 보내 달라고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "할 순 있는데 내가 먼저 눈 감으면 모름 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "장난스러운 양해"
+      ],
+      "fit_reason": "깨워 주기로 하면서도 이미 잠들 듯 감긴 눈을 함께 보내 자신의 한계를 농담으로 알려 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

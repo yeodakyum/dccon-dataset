@@ -1,0 +1,137 @@
+{
+  "package_id": "170660",
+  "sticker_id": "7174573",
+  "image_path": "images/170660/7174573-6f7261b074bcd0acc4ae.png",
+  "image_description": "짙은 단발 캐릭터의 얼굴이 화면 오른쪽에 크게 잘려 들어온다. 파란 머리핀과 큰 갈색 계열 눈, 붉어진 볼이 보인다.",
+  "image_tags": [
+    "짙은 단발",
+    "파란 머리핀",
+    "한쪽 눈",
+    "붉은 볼",
+    "오른쪽 클로즈업"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7174573_1",
+      "context": "친구가 선물 줄 말을 흐림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 내 생일 선물 뭐라 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 말 못 해. 힌트는 책상 위에 놓는 거"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "조금만 더 알려 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "호기심",
+        "선물"
+      ],
+      "fit_reason": "한쪽 눈만 보이도록 다가온 구도가 힌트를 살짝 더 엿보는 반응이다."
+    },
+    {
+      "example_id": "7174573_2",
+      "context": "채팅방에 자기 얘기가 나온 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 내 이름 나왔지"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 그냥 어제 네가 한 말 떠올라서"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뭐라고 했는지 듣고 있는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "엿듣기",
+        "눈치"
+      ],
+      "fit_reason": "얼굴이 측면에서 화면에 들어온 모습이 옆에서 듣고 있음을 드러낸다."
+    },
+    {
+      "example_id": "7174573_3",
+      "context": "달라진 머리핀을 친구가 알아봄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 오늘 어디 달라졌게"
+        },
+        {
+          "speaker": "B",
+          "text": "파란 핀? 그거 예쁜데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헉 바로 알았네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "부끄러움"
+      ],
+      "fit_reason": "파란 핀과 붉은 볼이 작은 변화를 알아본 칭찬에 어울린다."
+    },
+    {
+      "example_id": "7174573_4",
+      "context": "야식 먹는 친구 옆에서 한 입을 기다림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그거 마지막 한 조각이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응. 접시 치우려고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나는 여기 조용히 있을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "야식",
+        "눈치"
+      ],
+      "fit_reason": "한쪽 눈으로 살짝 다가오는 표정이 말없이 기대하는 모습이다."
+    },
+    {
+      "example_id": "7174573_5",
+      "context": "영상통화 화면에 늦게 합류함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아직도 카메라 멀리 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 얼굴 반쪽만 보여"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이렇게 가까이 가면 보여?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "영상통화",
+        "장난"
+      ],
+      "fit_reason": "얼굴 반쪽이 화면에 크게 잘린 구도를 통화 장난으로 그대로 쓴다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

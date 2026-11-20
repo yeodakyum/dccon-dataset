@@ -1,0 +1,137 @@
+{
+  "package_id": "175918",
+  "sticker_id": "7698860",
+  "image_path": "images/175918/7698860-4da2f051bd5df833c9eb.png",
+  "image_description": "검은 단발과 일자 앞머리의 캐릭터가 보라색 눈으로 정면을 보며 살짝 웃는다. 볼이 붉고 옆머리에 보라색 핀이 꽂혀 있다.",
+  "image_tags": [
+    "검은단발",
+    "보라눈",
+    "머리핀",
+    "분홍볼",
+    "잔미소"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7698860-1",
+      "context": "미리 챙긴 충전기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "휴대폰 배터리 없다고 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 케이블도 안 가져왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그래서 네 것까지 챙겼지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "배려",
+        "흐뭇함"
+      ],
+      "fit_reason": "살짝 올라간 입꼬리가 준비해 둔 배려를 드러낸다."
+    },
+    {
+      "example_id": "7698860-2",
+      "context": "오랜만의 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 여기 오랜만이지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 우리 거의 반년 만이지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "얼굴 보니까 좋네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재회",
+        "반가움"
+      ],
+      "fit_reason": "붉은 볼과 은은한 미소가 수줍은 반가움에 어울린다."
+    },
+    {
+      "example_id": "7698860-3",
+      "context": "머리핀 고르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "둘 중 뭐가 나아?"
+        },
+        {
+          "speaker": "B",
+          "text": "보라색이 오늘 옷이랑 맞아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 이미 그거 꽂았지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "패션",
+        "만족"
+      ],
+      "fit_reason": "보라색 핀이 보이는 얼굴로 선택을 보여 준다."
+    },
+    {
+      "example_id": "7698860-4",
+      "context": "실시간 추리",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 저 사람이 거짓말했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "너는 왜 알아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 아까부터 표정만 보고 있었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "관찰"
+      ],
+      "fit_reason": "차분하게 정면을 응시하는 표정이 예리하게 지켜봤다는 말과 맞다."
+    },
+    {
+      "example_id": "7698860-5",
+      "context": "친구의 진심",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 방금 진지하게 칭찬한 거임"
+        },
+        {
+          "speaker": "B",
+          "text": "알아들었어. 너도 꽤 든든해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 얘긴 오늘 여기까지만 하자 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "칭찬"
+      ],
+      "fit_reason": "살짝 붉은 볼이 쑥스러워 말을 돌리는 마음을 드러낸다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

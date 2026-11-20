@@ -1,0 +1,137 @@
+{
+  "package_id": "176564",
+  "sticker_id": "7696374",
+  "image_path": "images/176564/7696374-90c41a6cc5b1fd8ca5a7.png",
+  "image_description": "연한 푸른색 머리카락 사이로 반쯤 감긴 노란 눈 하나가 크게 보인다. 화면 오른쪽 가장자리에 입 일부가 있다.",
+  "image_tags": [
+    "하늘색머리",
+    "노란눈",
+    "반눈",
+    "얼굴확대",
+    "가려진얼굴"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7696374-1",
+      "context": "약속 시간 떠보기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일은 제시간에 올 수 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "이번엔 진짜 정확히 감"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 말 지난주에도 들었는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심",
+        "약속"
+      ],
+      "fit_reason": "반쯤 뜬 한쪽 눈이 약속을 미심쩍어하는 눈빛에 맞다."
+    },
+    {
+      "example_id": "7696374-2",
+      "context": "새벽 카페인",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "일찍 잔다며 왜 접속 중이야"
+        },
+        {
+          "speaker": "B",
+          "text": "저녁에 커피 두 잔 마셨거든"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한 잔까진 이해할 수 있었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "카페인",
+        "어이없음"
+      ],
+      "fit_reason": "가만히 쳐다보는 눈이 사연을 듣고 말없이 판단하는 느낌을 준다."
+    },
+    {
+      "example_id": "7696374-3",
+      "context": "뮤직비디오 한 장면",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 뮤비 어디가 제일 좋았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "난 마지막 도시 야경"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나는 머리카락 가르고 눈 보이는 컷",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "영상",
+        "취향"
+      ],
+      "fit_reason": "한쪽 눈만 드러난 클로즈업이 장면을 묘사하는 데 어울린다."
+    },
+    {
+      "example_id": "7696374-4",
+      "context": "게임 상대 도발",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 오늘 나한테 진다"
+        },
+        {
+          "speaker": "B",
+          "text": "어제도 그 말 하고 네가 졌잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 리플레이부터 저장해 둬",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "경쟁"
+      ],
+      "fit_reason": "차가운 색감과 날카로운 시선이 진지한 척하는 경쟁에 맞다."
+    },
+    {
+      "example_id": "7696374-5",
+      "context": "냉장고 속 디저트",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 푸딩 뚜껑 누가 열었어"
+        },
+        {
+          "speaker": "B",
+          "text": "일단 난 어떤 푸딩인지도 몰라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "종류는 내가 말 안 했는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추궁",
+        "간식"
+      ],
+      "fit_reason": "한쪽 눈의 응시가 모르는 척한다는 의심을 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

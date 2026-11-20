@@ -1,0 +1,135 @@
+{
+  "package_id": "165184",
+  "sticker_id": "6675270",
+  "image_path": "images/165184/6675270-98c65754e1f4c380a8ce.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 캐릭터가 눈물을 흘리며 검은 다리 같은 실루엣에 팔을 두른다.",
+  "image_tags": [
+    "보라 눈의 파란 눈물",
+    "바닥에 낮춘 자세",
+    "길게 뻗은 팔",
+    "검은 다리 윤곽",
+    "흰 배경"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6675270_01",
+      "context": "기다리던 메뉴가 매진된다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 그 푸딩 있대?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 앞에서 마지막 거 나갔대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하 그거 먹으러 왔는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬픔"
+      ],
+      "fit_reason": "기다리던 메뉴가 매진된다 상황에서 울면서 붙드는 몸짓이 아쉬워서 놓기 어려운 반응을 과장한다."
+    },
+    {
+      "example_id": "6675270_02",
+      "context": "친구와 잡은 약속이 밀린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일에 볼 수 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "갑자기 근무 잡혔어 미안"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아쉽다 다음 주라도 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬픔"
+      ],
+      "fit_reason": "친구와 잡은 약속이 밀린다 상황에서 울면서 붙드는 몸짓이 아쉬워서 놓기 어려운 반응을 과장한다."
+    },
+    {
+      "example_id": "6675270_03",
+      "context": "작업을 저장하지 못한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 작업 다 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 앱 꺼지면서 통으로 날아감"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 한 시간이 너무 아깝다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬픔"
+      ],
+      "fit_reason": "작업을 저장하지 못한다 상황에서 울면서 붙드는 몸짓이 아쉬워서 놓기 어려운 반응을 과장한다."
+    },
+    {
+      "example_id": "6675270_04",
+      "context": "좋아하던 가게가 문을 닫는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 단골집 갈래?"
+        },
+        {
+          "speaker": "B",
+          "text": "저번 주에 영업 끝났대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마지막 인사도 못 했네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬픔"
+      ],
+      "fit_reason": "좋아하던 가게가 문을 닫는다 상황에서 울면서 붙드는 몸짓이 아쉬워서 놓기 어려운 반응을 과장한다."
+    },
+    {
+      "example_id": "6675270_05",
+      "context": "게임에서 거의 다 모은 재료를 잃는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 이제 나오면 된다"
+        },
+        {
+          "speaker": "B",
+          "text": "너 들어간 곳 바닥 무너졌어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 재료들 안녕…",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬픔"
+      ],
+      "fit_reason": "게임에서 거의 다 모은 재료를 잃는다 상황에서 울면서 붙드는 몸짓이 아쉬워서 놓기 어려운 반응을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

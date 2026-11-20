@@ -1,0 +1,137 @@
+{
+  "package_id": "175760",
+  "sticker_id": "7361667",
+  "image_path": "images/175760/7361667-8c72c286a3d72e128abd.png",
+  "image_description": "회색 머리 캐릭터가 십자 모양의 하이라이트가 든 주황빛 큰 눈으로 쳐다본다. 위로 '아니 생각을 해보라맹...'이라는 짙은 갈색 글자가 덮여 있다.",
+  "image_tags": [
+    "회색 머리",
+    "주황빛 눈",
+    "십자 하이라이트",
+    "큰 글자",
+    "작게 벌린 입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7361667-1",
+      "context": "친구가 비효율적인 순서로 요리하려는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파스타부터 삶게?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 그다음에 소스 장 보러 갈 거야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아니 그 사이에 면 다 불잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리",
+        "반박"
+      ],
+      "fit_reason": "생각해 보라는 문구와 또렷한 눈이 순서를 되짚게 한다."
+    },
+    {
+      "example_id": "7361667-2",
+      "context": "친구가 걸어서 너무 먼 거리를 제안한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "역에서 숙소까지 걸을까?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지도에 5킬로밖에 안 되던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "캐리어 끌고 비 맞으면서 5킬로를?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "여행",
+        "재고"
+      ],
+      "fit_reason": "큰 눈으로 빤히 보는 그림이 조건을 다시 생각하라는 반응이다."
+    },
+    {
+      "example_id": "7361667-3",
+      "context": "게임 파티에서 아이템을 한 명에게 몰아주는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회복약 왜 다 네가 들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "탱커가 많이 맞으니까"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네가 먼저 쓰러지면 누가 우리 살려",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "전략"
+      ],
+      "fit_reason": "위의 문구가 제안에 빠진 경우의 수를 일깨운다."
+    },
+    {
+      "example_id": "7361667-4",
+      "context": "할인 때문에 필요 없는 지출을 하려는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그거 이미 집에 있지 않아?"
+        },
+        {
+          "speaker": "B",
+          "text": "그래도 두 개 사면 40퍼 할인임"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "안 사면 100퍼 절약이야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쇼핑",
+        "설득"
+      ],
+      "fit_reason": "강조된 눈과 글자가 계산을 다시 해보라고 쳐다보는 듯하다."
+    },
+    {
+      "example_id": "7361667-5",
+      "context": "친구가 우연의 일치를 음모처럼 푸는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "엘리베이터 로그가 딱 7시에 비었어"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 삼 층 사는 분이 범인이라고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아니 월요일 7시면 경비 교대잖아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "설명"
+      ],
+      "fit_reason": "큰 글자와 동그란 눈이 단서를 다른 각도에서 보자는 호소처럼 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

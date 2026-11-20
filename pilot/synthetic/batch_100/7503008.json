@@ -1,0 +1,137 @@
+{
+  "package_id": "176232",
+  "sticker_id": "7503008",
+  "image_path": "images/176232/7503008-9fb785cf0daf6fd261dd.png",
+  "image_description": "금발에 초록 눈인 캐릭터가 붉은 약식 왕좌 같은 팔걸이 의자에 앉아 있다. 양손을 얼굴 가까이 대고 한쪽 맨발을 화면 앞으로 내밀었다.",
+  "image_tags": [
+    "금발",
+    "초록 눈",
+    "붉은 팔걸이 의자",
+    "얼굴 옆 손",
+    "맨발"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7503008-1",
+      "context": "큰 일을 마치고 푹신한 의자를 차지한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 제일 먼저 회의실 들어왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 좋은 의자 앉았겠네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 왕좌는 내 차지다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴식",
+        "왕좌놀이"
+      ],
+      "fit_reason": "붉은 의자가 자리를 차지한 농담을 왕좌처럼 표현한다."
+    },
+    {
+      "example_id": "7503008-2",
+      "context": "중고로 본 의자가 너무 화려한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 의자 당근에 올라왔더라"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 집 거실에 어울리겠어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 앉으면 내가 집주인 같긴 하겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가구",
+        "농담"
+      ],
+      "fit_reason": "붉은 의자와 여유로운 자세가 위엄 있는 연출처럼 보인다."
+    },
+    {
+      "example_id": "7503008-3",
+      "context": "친구가 장난스레 판결을 부탁한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "둘이서 피자 마지막 조각 두고 싸우고 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 중재 좀 해줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "판결. 둘 다 남겨 두고 내가 먹는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "중재",
+        "장난"
+      ],
+      "fit_reason": "왕좌처럼 보이는 자리에 앉은 캐릭터를 판결자 역할로 쓴다."
+    },
+    {
+      "example_id": "7503008-4",
+      "context": "집에 들어와서 바로 신발과 양말을 벗은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 하루 종일 서 있었어"
+        },
+        {
+          "speaker": "B",
+          "text": "집 왔으면 이제 쉬어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "씻기 전에 일단 발 좀 펴고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "퇴근",
+        "휴식"
+      ],
+      "fit_reason": "의자에 앉아 맨발을 앞으로 내민 모습이 해방감을 보여준다."
+    },
+    {
+      "example_id": "7503008-5",
+      "context": "친구가 의견을 묻고 답을 기다리는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 영화랑 저 영화 중에 뭐 볼까?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 고르면 무조건 따를게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "흠, 왕실에서 검토 중입니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "영화",
+        "심사숙고"
+      ],
+      "fit_reason": "얼굴 가까이 양손을 댄 왕좌 자세가 근엄한 고민처럼 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

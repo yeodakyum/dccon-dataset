@@ -1,0 +1,152 @@
+{
+  "package_id": "166499",
+  "sticker_id": "5677881",
+  "image_path": "images/166499/5677881-5fe41bf78d04883b8f9a.png",
+  "image_view": "still",
+  "image_description": "노란 줄무늬 고양이가 몸을 한쪽으로 길게 뻗어 바닥에 엎드린다. 눈을 꽉 감고 입을 벌렸으며 뺨과 바닥에 파란 눈물 자국이 있다.",
+  "image_tags": [
+    "꽉 감은 눈",
+    "활짝 열린 분홍 입",
+    "양쪽 뺨의 파란 눈물",
+    "바닥에 길게 엎드린 몸",
+    "빨간 리본과 노란 별"
+  ],
+  "image_text": [],
+  "interpretation_note": "크게 열린 입과 감은 눈은 대화에 따라 통곡이나 눈물이 날 만큼 큰 폭소로도 보일 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5677881_01",
+      "context": "친구가 저장하지 않은 게임에서 진도가 날아갔다고 말한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 지역 다 밀었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "두 시간 밀었는데 갑자기 앱이 꺼짐"
+        },
+        {
+          "speaker": "A",
+          "text": "자동 저장 안 돼?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "입구에서 다시 시작이래 오늘은 못 한다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "허탈함",
+        "과장된 통곡"
+      ],
+      "fit_reason": "두 시간 진행이 사라진 상황이라, 바닥에 엎드려 파란 눈물을 흘리는 고양이가 허탈함을 극적으로 보여 준다."
+    },
+    {
+      "example_id": "5677881_02",
+      "context": "자취방에서 일주일 벼른 후식을 놓친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고에 내 케이크 한 조각 남아 있지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아 그게 네 거였어? 어제 내가 먹었는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "퇴근하면서 그거 하나만 생각했단 말이야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "먹거리 아쉬움",
+        "가벼운 원망"
+      ],
+      "fit_reason": "힘든 날 기대한 케이크를 룸메이트가 먹어버려서, 눈물을 흘리며 엎드린 모습이 작은 실망을 크게 과장한다."
+    },
+    {
+      "example_id": "5677881_03",
+      "context": "친구가 발표에서 잘못 연결한 화면을 이야기한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "시작할 때 화면 안 나오다가 뭐 나왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "교수님 자료 말고 내 장바구니가 스크린에 뜸"
+        },
+        {
+          "speaker": "A",
+          "text": "만두 세 봉지 담아둔 거 그거?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 상상했는데 나 지금 숨 못 쉬겠어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "친근한 놀림"
+      ],
+      "fit_reason": "엄숙한 발표 화면에 만두 장바구니가 떴다는 반전에, 꽉 감긴 눈과 크게 열린 입이 웃다 우는 반응으로 읽힌다."
+    },
+    {
+      "example_id": "5677881_04",
+      "context": "친구가 이사 직전 단골 가게의 마지막 날에 못 간다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일이 가게 문 닫는 날이래"
+        },
+        {
+          "speaker": "B",
+          "text": "나 금요일 낮에 기차라 못 가"
+        },
+        {
+          "speaker": "A",
+          "text": "사장님께 인사도 못 하겠네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "진짜 여기 동네에서 제일 아쉬운 게 그거야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "섭섭함",
+        "작별 아쉬움"
+      ],
+      "fit_reason": "오래 다닌 가게의 마지막 인사를 놓친 상황에서, 엎드린 몸과 뺨의 눈물이 작별이 못내 아쉬운 감정을 전한다."
+    },
+    {
+      "example_id": "5677881_05",
+      "context": "동생이 형의 부품 정리를 도와주려다 섞어 버렸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 나사들이 한 통에 다 들어 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "빈 통 많길래 다 합쳤지. 이제 자리 넓다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아까 길이별로 한 시간 동안 분류했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "좌절",
+        "친근한 하소연"
+      ],
+      "fit_reason": "시간 들여 분류한 나사가 다시 섞여서, 리본 맨 고양이가 바닥에 쓰러져 우는 모습이 힘이 쫙 빠진 기분을 대신한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

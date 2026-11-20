@@ -1,0 +1,135 @@
+{
+  "package_id": "171686",
+  "sticker_id": "6203555",
+  "image_path": "images/171686/6203555-005f567a05ed7fe6c31b.png",
+  "image_view": "still",
+  "image_description": "보라색 얼굴의 작은 야구 선수가 몸을 기울여 공을 던지는 자세를 한다.",
+  "image_tags": [
+    "커다란 두 눈",
+    "꺾인 입꼬리",
+    "야구공",
+    "검은 모자",
+    "던지는 자세"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6203555_01",
+      "context": "친구가 면접 직전에 긴장한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "벌써 대기실이야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 손 떨려"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "준비한 만큼만 보여주고 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원"
+      ],
+      "fit_reason": "친구가 면접 직전에 긴장한다 상황에서 공을 던지는 선수의 집중한 자세가 시도 직전에 보태는 응원과 어울린다."
+    },
+    {
+      "example_id": "6203555_02",
+      "context": "동료가 첫 발표를 앞둔다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자료는 다 검토하셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 근데 말이 빨라질까 봐 걱정돼요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "첫 문장만 천천히 가요 잘하실 거예요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원"
+      ],
+      "fit_reason": "동료가 첫 발표를 앞둔다 상황에서 공을 던지는 선수의 집중한 자세가 시도 직전에 보태는 응원과 어울린다."
+    },
+    {
+      "example_id": "6203555_03",
+      "context": "친구가 운동 마지막 세트를 남겼다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 몇 세트 남았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "하나 남았는데 힘들다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "가볍게 줄여서 마지막만 마무리하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원"
+      ],
+      "fit_reason": "친구가 운동 마지막 세트를 남겼다 상황에서 공을 던지는 선수의 집중한 자세가 시도 직전에 보태는 응원과 어울린다."
+    },
+    {
+      "example_id": "6203555_04",
+      "context": "친구가 마감 직전에 집중한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 안에 될 것 같아?"
+        },
+        {
+          "speaker": "B",
+          "text": "결론만 쓰면 끝"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "진짜 거의 다 왔다 조금만 더",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원"
+      ],
+      "fit_reason": "친구가 마감 직전에 집중한다 상황에서 공을 던지는 선수의 집중한 자세가 시도 직전에 보태는 응원과 어울린다."
+    },
+    {
+      "example_id": "6203555_05",
+      "context": "게임 친구가 결정적인 시도를 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 기회지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 점프 타이밍만 맞추면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "천천히 보고 뛰어 할 수 있다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원"
+      ],
+      "fit_reason": "게임 친구가 결정적인 시도를 한다 상황에서 공을 던지는 선수의 집중한 자세가 시도 직전에 보태는 응원과 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

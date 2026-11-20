@@ -1,0 +1,157 @@
+{
+  "package_id": "170688",
+  "sticker_id": "7719296",
+  "image_path": "images/170688/7719296-182273a5d491d1350036.png",
+  "image_description": "파란 하늘을 배경으로 두 캐릭터와 흰 문구, ‘다음 장에 있음’이라고 적힌 빨간 화살표가 있다.",
+  "image_tags": [
+    "파란 하늘",
+    "파란 머리",
+    "노란 머리",
+    "흰색 제목",
+    "빨간 화살표"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7719296_01",
+      "context": "친구가 오랜만에 볼 사진을 두 장으로 나눠 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 사진 올림"
+        },
+        {
+          "speaker": "B",
+          "text": "이게 완성본이야?"
+        },
+        {
+          "speaker": "A",
+          "text": "아니 다음 거 보기 전에 마음의 준비해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아니 다음 장에 뭐 넣었길래 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예고",
+        "궁금함"
+      ],
+      "fit_reason": "빨간 화살표로 다음 사진을 예고하는 형식과 맞는다."
+    },
+    {
+      "example_id": "7719296_02",
+      "context": "친구가 풍선을 한계까지 불고 있다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "얼마나 더 불어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이제 불기 무서워"
+        },
+        {
+          "speaker": "A",
+          "text": "마지막 한 번만 더"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "사진 찍을 거면 지금 찍어 터지기 전에",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아슬아슬함",
+        "장난"
+      ],
+      "fit_reason": "‘터질듯한’이라는 제목 문구를 풍선에 빗댄다."
+    },
+    {
+      "example_id": "7719296_03",
+      "context": "장난스러운 발표를 앞두고 슬라이드를 만든다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그래프는 한 장에 다 넣었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "옆으로 삐져나와서 둘로 쪼갰어"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 첫 장에 예고라도 써줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이 정도면 예고편 편집까지 해야겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "슬라이드",
+        "유머"
+      ],
+      "fit_reason": "크게 쓴 제목과 다음 장 화살표가 과한 예고편 연출이 된다."
+    },
+    {
+      "example_id": "7719296_04",
+      "context": "친구가 자랑할 게임 기록의 결말을 미룬다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보스 체력 딱 1퍼야"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 잡았어?"
+        },
+        {
+          "speaker": "A",
+          "text": "두 번째 캡처 봐봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "야 어떻게 이렇게 궁금한 데서 끊냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "긴장",
+        "재촉"
+      ],
+      "fit_reason": "다음 장을 가리키는 배치가 결말을 미루는 장난에 맞는다."
+    },
+    {
+      "example_id": "7719296_05",
+      "context": "단톡에서 낚시성 제목이 붙은 링크를 본다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 단톡 링크 봤냐"
+        },
+        {
+          "speaker": "B",
+          "text": "제목부터 심상찮더라"
+        },
+        {
+          "speaker": "A",
+          "text": "눌렀는데 다음 페이지로 가래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "와 썸네일만 세 장째 보고 있어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "낚시",
+        "푸념"
+      ],
+      "fit_reason": "강조 문구와 화살표가 자꾸 다음 화면을 유도하는 구조를 떠올리게 한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

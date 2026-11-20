@@ -1,0 +1,137 @@
+{
+  "package_id": "176232",
+  "sticker_id": "7503010",
+  "image_path": "images/176232/7503010-de72aec00181f9b890b8.png",
+  "image_view": "still",
+  "image_description": "흑백 인물이 소파에 앉아 양손을 펼쳐 들고 있으며 아래에 영화 문구가 크게 쓰여 있다.",
+  "image_tags": [
+    "정면을 응시하는 눈",
+    "양손 들기",
+    "소파",
+    "흑백 화면",
+    "굵은 영문"
+  ],
+  "image_text": [
+    "ABSOLUTE CINEMA"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7503010_01",
+      "context": "친구가 취업 소식을 알린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "문자 뭐라고 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "최종 합격이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "진짜 고생 많았다 첫 출근 축하해!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하"
+      ],
+      "fit_reason": "친구가 취업 소식을 알린다 상황에서 양손을 번쩍 들어 장면을 치켜세우는 구도가 상대의 성취를 극적으로 축하한다."
+    },
+    {
+      "example_id": "7503010_02",
+      "context": "친구 생일에 연락한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 케이크 먹었냐"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 저녁에 먹으려고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "생일 축하한다 초는 내가 살게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하"
+      ],
+      "fit_reason": "친구 생일에 연락한다 상황에서 양손을 번쩍 들어 장면을 치켜세우는 구도가 상대의 성취를 극적으로 축하한다."
+    },
+    {
+      "example_id": "7503010_03",
+      "context": "동료가 프로젝트를 마친다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나머지도 승인 났어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 방금 다 통과됐어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "드디어 끝났네요 축하드려요!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하"
+      ],
+      "fit_reason": "동료가 프로젝트를 마친다 상황에서 양손을 번쩍 들어 장면을 치켜세우는 구도가 상대의 성취를 극적으로 축하한다."
+    },
+    {
+      "example_id": "7503010_04",
+      "context": "친구가 새집에 들어간다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이사 다 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오늘부터 여기서 자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "새집 첫날 축하 집들이 날짜 잡자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하"
+      ],
+      "fit_reason": "친구가 새집에 들어간다 상황에서 양손을 번쩍 들어 장면을 치켜세우는 구도가 상대의 성취를 극적으로 축하한다."
+    },
+    {
+      "example_id": "7503010_05",
+      "context": "친구가 게임 목표를 달성한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "랭크 어떻게 됐어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 방금 승급했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "드디어 올라갔네 축하!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하"
+      ],
+      "fit_reason": "친구가 게임 목표를 달성한다 상황에서 양손을 번쩍 들어 장면을 치켜세우는 구도가 상대의 성취를 극적으로 축하한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

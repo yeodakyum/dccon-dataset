@@ -1,0 +1,137 @@
+{
+  "package_id": "176746",
+  "sticker_id": "7760475",
+  "image_path": "images/176746/7760475-be949f8c523cd2d2604f.png",
+  "image_view": "still",
+  "image_description": "흰 머리 인물이 보라색 눈에 눈물을 매달고 울먹인다.",
+  "image_tags": [
+    "보라 눈의 눈물",
+    "떨리는 입",
+    "붉은 볼",
+    "별 장식",
+    "굵은 사과 자막"
+  ],
+  "image_text": [
+    "죄송해요..."
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7760475_01",
+      "context": "친구의 약속 장소를 잘못 전달했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지금 어디야?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 말한 카페인데 문 닫았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 지점 잘못 보냈다 미안",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 약속 장소를 잘못 전달했다 상황에서 눈물과 사과 문구가 실수를 인정하고 양해를 구하는 답에 어울린다."
+    },
+    {
+      "example_id": "7760475_02",
+      "context": "동료가 빠진 첨부 파일을 알려 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "메일 갔죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 첨부만 빠졌어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "죄송해요 지금 다시 보내겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "동료가 빠진 첨부 파일을 알려 준다 상황에서 눈물과 사과 문구가 실수를 인정하고 양해를 구하는 답에 어울린다."
+    },
+    {
+      "example_id": "7760475_03",
+      "context": "친구의 농담에 선을 넘었다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 내가 말 너무 세게 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "조금 기분 상하긴 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안해 다음부터 조심할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 농담에 선을 넘었다 상황에서 눈물과 사과 문구가 실수를 인정하고 양해를 구하는 답에 어울린다."
+    },
+    {
+      "example_id": "7760475_04",
+      "context": "게임에서 팀원의 진행을 방해했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 문 닫은 거 나였나"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 밖에 있었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안 못 봤어 다음엔 먼저 확인할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "게임에서 팀원의 진행을 방해했다 상황에서 눈물과 사과 문구가 실수를 인정하고 양해를 구하는 답에 어울린다."
+    },
+    {
+      "example_id": "7760475_05",
+      "context": "친구의 것을 모르고 먹었다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고에 그 케이크 네 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 저녁에 먹으려고 뒀어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안 내가 먹었어 새로 사 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 것을 모르고 먹었다 상황에서 눈물과 사과 문구가 실수를 인정하고 양해를 구하는 답에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

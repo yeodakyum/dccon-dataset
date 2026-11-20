@@ -1,0 +1,137 @@
+{
+  "package_id": "171686",
+  "sticker_id": "6203508",
+  "image_path": "images/171686/6203508-8924bf348151e865cd91.png",
+  "image_description": "둥근 보라색 캐릭터가 입을 크게 벌리고 웃는다. 감긴 눈 양쪽에서 하늘색 눈물이 옆으로 뿜어 나온다.",
+  "image_tags": [
+    "보라색 몸",
+    "하늘색 눈물",
+    "크게 벌린 입",
+    "감긴 눈",
+    "검은 윤곽선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6203508_1",
+      "context": "친구가 자동완성 오타를 보냄",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "교수님한테 메일 잘 보냈어?"
+        },
+        {
+          "speaker": "B",
+          "text": "‘검토 부탁드립니당’으로 끝냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 웃으면 안 되는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "오타"
+      ],
+      "fit_reason": "눈물이 옆으로 뿜어 나오는 모습이 참지 못한 웃음을 보여 준다."
+    },
+    {
+      "example_id": "6203508_2",
+      "context": "계획한 운동과 실제 활동량의 차이",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 만 보 걷기로 했잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "배달 받으러 현관까지 23보 찍었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "시작이 반이라더니",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "운동"
+      ],
+      "fit_reason": "크게 웃는 얼굴이 23보라는 예상 밖의 답에 맞는다."
+    },
+    {
+      "example_id": "6203508_3",
+      "context": "게임에서 진지한 연출 뒤에 실수",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "결승 장면 멋있게 찍었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 카메라 켜자마자 바닥으로 떨어졌어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그게 하이라이트다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "웃음",
+        "게임"
+      ],
+      "fit_reason": "눈물까지 흘리는 웃음이 멋진 연출이 허무하게 끝난 순간에 어울린다."
+    },
+    {
+      "example_id": "6203508_4",
+      "context": "동생이 반려견에게서 물건을 돌려받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "양말 물고 간 거 찾았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "걔가 그거 신고 현관에 누워 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "사진부터 찍어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "반려견"
+      ],
+      "fit_reason": "과장된 웃음이 상상한 장면만으로도 크게 웃게 되는 반응이다."
+    },
+    {
+      "example_id": "6203508_5",
+      "context": "친구가 영상 통화 화면 필터를 잘못 켬",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "부장님 통화 어땠어?"
+        },
+        {
+          "speaker": "B",
+          "text": "시작하자마자 내 얼굴에 왕관 떠 있었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하필 부장님 앞에서ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "폭소",
+        "영상통화"
+      ],
+      "fit_reason": "입을 활짝 벌린 얼굴이 민망한 실수를 듣고 터지는 웃음을 나타낸다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

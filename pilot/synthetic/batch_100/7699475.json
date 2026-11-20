@@ -1,0 +1,137 @@
+{
+  "package_id": "171234",
+  "sticker_id": "7699475",
+  "image_path": "images/171234/7699475-b9894d0f100afbd35ba1.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 캐릭터가 눈을 감고 고개를 돌리며 손에 힘을 준다.",
+  "image_tags": [
+    "질끈 감은 눈",
+    "삐죽 나온 입",
+    "진한 홍조",
+    "고개 옆 움직임선",
+    "반복 자막"
+  ],
+  "image_text": [
+    "아냐아냐모"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7699475_01",
+      "context": "친구가 일을 더 맡기려 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 장보기 맡았지?"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 예약도 네가 해주면 안 돼?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "예약은 네가 해줘 난 장보기까지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절"
+      ],
+      "fit_reason": "친구가 일을 더 맡기려 한다 상황에서 절레 움직이는 선과 반복 부정 문구가 사양하겠다는 말을 분명하게 만든다."
+    },
+    {
+      "example_id": "7699475_02",
+      "context": "밤늦게 게임을 더 권한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 이번 판까지만 한다고 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "진짜 막판 딱 한 판"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 여기까지 잘 자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절"
+      ],
+      "fit_reason": "밤늦게 게임을 더 권한다 상황에서 절레 움직이는 선과 반복 부정 문구가 사양하겠다는 말을 분명하게 만든다."
+    },
+    {
+      "example_id": "7699475_03",
+      "context": "단체방에서 적성 밖 역할을 권한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "행사 때 난 접수 맡을게"
+        },
+        {
+          "speaker": "B",
+          "text": "사회도 네가 보면 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마이크는 다른 분께 부탁하자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절"
+      ],
+      "fit_reason": "단체방에서 적성 밖 역할을 권한다 상황에서 절레 움직이는 선과 반복 부정 문구가 사양하겠다는 말을 분명하게 만든다."
+    },
+    {
+      "example_id": "7699475_04",
+      "context": "친구가 음식 취향을 강요한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "난 순한 맛 할게"
+        },
+        {
+          "speaker": "B",
+          "text": "아냐 제일 매운 걸로 같이 먹자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 접시는 순한 맛으로 지킬래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절"
+      ],
+      "fit_reason": "친구가 음식 취향을 강요한다 상황에서 절레 움직이는 선과 반복 부정 문구가 사양하겠다는 말을 분명하게 만든다."
+    },
+    {
+      "example_id": "7699475_05",
+      "context": "동료가 일정에 무리한 제안을 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "현재 금요일까지 가능해요"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 내일 아침은요?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내일 아침은 어렵습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "거절"
+      ],
+      "fit_reason": "동료가 일정에 무리한 제안을 한다 상황에서 절레 움직이는 선과 반복 부정 문구가 사양하겠다는 말을 분명하게 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

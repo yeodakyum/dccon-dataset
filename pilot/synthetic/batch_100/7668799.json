@@ -1,0 +1,137 @@
+{
+  "package_id": "175310",
+  "sticker_id": "7668799",
+  "image_path": "images/175310/7668799-a84549796dceeeadaabd.png",
+  "image_description": "분홍 머리 캐릭터 두 명이 한 화면에 있다. 앞 캐릭터는 보라색 눈으로 웃으며 가슴 앞에 손을 모으고 위쪽에는 '개꿀쌉도로'가 크게 적혀 있다.",
+  "image_tags": [
+    "분홍 머리",
+    "보라색 눈",
+    "한데 모은 손",
+    "두 캐릭터",
+    "개꿀쌉도로 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7668799-1",
+      "context": "게임 이벤트 무료 보상을 발견한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 뭐 업데이트됐어?"
+        },
+        {
+          "speaker": "B",
+          "text": "접속만 하면 뽑기권 30장 준대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개꿀, 지금 켠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "보상"
+      ],
+      "fit_reason": "신난 얼굴과 개꿀 문구가 쉽게 얻는 보상에 맞는다."
+    },
+    {
+      "example_id": "7668799-2",
+      "context": "수업 한 교시가 휴강된 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오전 수업 강의실 바뀌었나?"
+        },
+        {
+          "speaker": "B",
+          "text": "교수님이 오늘 휴강 올리셨어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개꿀 한 시간 더 자야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴강",
+        "기쁨"
+      ],
+      "fit_reason": "손을 모은 환한 표정이 갑자기 생긴 여유를 반긴다."
+    },
+    {
+      "example_id": "7668799-3",
+      "context": "배달 할인 쿠폰을 적용한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "치킨값 또 올랐더라"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 만 원 할인 쿠폰 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개꿀 오늘은 치킨이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "할인",
+        "횡재"
+      ],
+      "fit_reason": "강조된 개꿀 글자가 큰 할인을 얻은 기쁨을 전한다."
+    },
+    {
+      "example_id": "7668799-4",
+      "context": "회의가 예상보다 빨리 끝난 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 한 시간 걸린다며"
+        },
+        {
+          "speaker": "B",
+          "text": "안건 하나만 보고 끝냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개꿀 커피 사러 갈 시간 생겼다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "업무",
+        "여유"
+      ],
+      "fit_reason": "기뻐하는 두 인물이 뜻밖에 생긴 시간을 함께 즐기는 듯하다."
+    },
+    {
+      "example_id": "7668799-5",
+      "context": "마감 전에 빨리 끝낼 방법을 찾은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자료 다 새로 뽑아야 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "지난달에 정리한 거 그대로 쓰면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "개꿀 오늘은 칼퇴다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "업무",
+        "안도"
+      ],
+      "fit_reason": "기대하는 손짓과 미소가 수고를 덜게 된 기쁨을 드러낸다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

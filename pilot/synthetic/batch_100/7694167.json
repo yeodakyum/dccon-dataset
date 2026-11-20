@@ -1,0 +1,135 @@
+{
+  "package_id": "176562",
+  "sticker_id": "7694167",
+  "image_path": "images/176562/7694167-3043b7920fc585eb3bbd.png",
+  "image_view": "still",
+  "image_description": "남색 무늬 고양이 캐릭터 둘이 서로 고개를 붙이고 누워 있다.",
+  "image_tags": [
+    "가늘게 감은 눈",
+    "기댄 두 얼굴",
+    "파란 넥타이",
+    "둥글게 말린 꼬리",
+    "흰 바탕"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7694167_01",
+      "context": "친구가 시험을 망쳤다고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "시험 어땠어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아는 것도 긴장해서 틀렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘은 일단 맛있는 거 먹자 고생했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로"
+      ],
+      "fit_reason": "친구가 시험을 망쳤다고 한다 상황에서 서로 몸을 붙이고 기댄 두 캐릭터가 조용하게 다독이는 분위기를 보여 준다."
+    },
+    {
+      "example_id": "7694167_02",
+      "context": "동료가 결과에 실망한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "상담 끝났어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 준비한 것보다 못했어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "준비한 게 없어지는 건 아니니까 조금 쉬어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로"
+      ],
+      "fit_reason": "동료가 결과에 실망한다 상황에서 서로 몸을 붙이고 기댄 두 캐릭터가 조용하게 다독이는 분위기를 보여 준다."
+    },
+    {
+      "example_id": "7694167_03",
+      "context": "친구가 약속 취소에 속상해한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "주말 여행 어떻게 됐어?"
+        },
+        {
+          "speaker": "B",
+          "text": "숙소가 갑자기 취소했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "같이 다른 데 알아보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로"
+      ],
+      "fit_reason": "친구가 약속 취소에 속상해한다 상황에서 서로 몸을 붙이고 기댄 두 캐릭터가 조용하게 다독이는 분위기를 보여 준다."
+    },
+    {
+      "example_id": "7694167_04",
+      "context": "친구가 작업물을 잃어버렸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "파일 복구됐어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아무것도 못 건졌어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 좀 쉬고 필요한 거 있으면 말해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로"
+      ],
+      "fit_reason": "친구가 작업물을 잃어버렸다 상황에서 서로 몸을 붙이고 기댄 두 캐릭터가 조용하게 다독이는 분위기를 보여 준다."
+    },
+    {
+      "example_id": "7694167_05",
+      "context": "게임에서 실수한 친구가 미안해한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 마지막에 괜찮았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 때문에 진 것 같아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 다 한 번씩 실수했어 다음 판 가자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로"
+      ],
+      "fit_reason": "게임에서 실수한 친구가 미안해한다 상황에서 서로 몸을 붙이고 기댄 두 캐릭터가 조용하게 다독이는 분위기를 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

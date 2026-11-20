@@ -1,0 +1,137 @@
+{
+  "package_id": "176671",
+  "sticker_id": "7736056",
+  "image_path": "images/176671/7736056-cabd3886bcfdaf0904ba.png",
+  "image_description": "리본을 단 금발 캐릭터가 별 모양 눈으로 웃고 뒤에 은발 캐릭터가 있다. ‘터질 듯한 지능?’과 작은 ‘다음 장에 있음’ 문구가 보인다.",
+  "image_tags": [
+    "별 모양 눈",
+    "금발",
+    "은발",
+    "청록색 리본",
+    "다음 장 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7736056_1",
+      "context": "대충 넘긴 보고서 뒤에 답이 있었음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "전년 대비 수치는 왜 빠졌지?"
+        },
+        {
+          "speaker": "B",
+          "text": "다음 페이지 그래프에 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아하 제 두뇌가 이제 작동합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "머쓱함",
+        "문서"
+      ],
+      "fit_reason": "‘다음 장에 있음’이 바로 뒤 페이지를 놓친 상황에 들어맞는다."
+    },
+    {
+      "example_id": "7736056_2",
+      "context": "친구의 자랑 뒤에 허술한 계획 등장",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 방금 완전 좋은 아이디어 냈어"
+        },
+        {
+          "speaker": "B",
+          "text": "일단 계획서는 제목만 썼네?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지능은 다음 장에 있습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "농담",
+        "과장"
+      ],
+      "fit_reason": "신난 별눈과 지능 문구로 아직 보여 주지 못한 아이디어를 자조한다."
+    },
+    {
+      "example_id": "7736056_3",
+      "context": "퀴즈에서 답이 자료 뒷장에 있음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 문제 답 진짜 모르겠어"
+        },
+        {
+          "speaker": "B",
+          "text": "시험지 말고 연습 자료 뒷면 봐 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 여기에 두뇌가 있었네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "퀴즈",
+        "발견"
+      ],
+      "fit_reason": "‘다음 장에 있음’ 문구가 뒷면을 펼친 순간과 그대로 이어진다."
+    },
+    {
+      "example_id": "7736056_4",
+      "context": "슬라이드 발표 중 묻기 전에 먼저 답변",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네 발표에서 예산 먼저 물어봐도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장만 넘기면 바로 예산표야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헉 미리 읽혔다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발표",
+        "타이밍"
+      ],
+      "fit_reason": "‘다음 장에 있음’과 별눈 표정이 딱 맞는 타이밍에 대한 반응이다."
+    },
+    {
+      "example_id": "7736056_5",
+      "context": "간단한 해결책을 친구가 발견",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "표 가로가 잘려서 한 줄씩 옮기는 중"
+        },
+        {
+          "speaker": "B",
+          "text": "인쇄 설정에서 가로 방향 누르면 되잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 두뇌 어디 갔냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "작업"
+      ],
+      "fit_reason": "지능을 과장하는 문구와 천진한 미소가 단순한 해결책을 놓친 자조에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

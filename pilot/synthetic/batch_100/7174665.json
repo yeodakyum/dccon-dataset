@@ -1,0 +1,135 @@
+{
+  "package_id": "170660",
+  "sticker_id": "7174665",
+  "image_path": "images/170660/7174665-6f7f3efeb9aad996b82c.png",
+  "image_view": "still",
+  "image_description": "펭귄 모자를 쓴 인물이 노을을 뒤에 두고 입을 벌려 웃으며 팔을 든다.",
+  "image_tags": [
+    "밝게 뜬 눈",
+    "벌린 미소",
+    "들어 올린 팔",
+    "펭귄 모자",
+    "노을과 풀밭"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7174665_01",
+      "context": "친구가 예매 성공을 알린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자리 잡았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 둘 다 붙어 앉아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋았어 이제 달력에 박는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨"
+      ],
+      "fit_reason": "친구가 예매 성공을 알린다 상황에서 빛나는 배경과 활짝 웃는 얼굴이 좋은 소식을 기분 좋게 맞는다."
+    },
+    {
+      "example_id": "7174665_02",
+      "context": "팀 작업이 예상보다 일찍 끝난다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "수정 사항 더 왔나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "이대로 제출하면 된대요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "드디어 퇴근할 수 있겠네요!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨"
+      ],
+      "fit_reason": "팀 작업이 예상보다 일찍 끝난다 상황에서 빛나는 배경과 활짝 웃는 얼굴이 좋은 소식을 기분 좋게 맞는다."
+    },
+    {
+      "example_id": "7174665_03",
+      "context": "친구가 간식을 나눠 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 빵 어디서 났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 것도 하나 사 왔지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 제일 좋은 소식이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨"
+      ],
+      "fit_reason": "친구가 간식을 나눠 준다 상황에서 빛나는 배경과 활짝 웃는 얼굴이 좋은 소식을 기분 좋게 맞는다."
+    },
+    {
+      "example_id": "7174665_04",
+      "context": "비 예보가 사라진다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "피크닉 취소해야 하나"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 보니까 오후엔 해 뜬대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오 도시락 그대로 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨"
+      ],
+      "fit_reason": "비 예보가 사라진다 상황에서 빛나는 배경과 활짝 웃는 얼굴이 좋은 소식을 기분 좋게 맞는다."
+    },
+    {
+      "example_id": "7174665_05",
+      "context": "친구가 게임 함께 하자고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 혼자 돌려야 되나"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이제 접속함 같이 가자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "딱 기다리고 있었지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨"
+      ],
+      "fit_reason": "친구가 게임 함께 하자고 한다 상황에서 빛나는 배경과 활짝 웃는 얼굴이 좋은 소식을 기분 좋게 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

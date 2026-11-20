@@ -1,0 +1,135 @@
+{
+  "package_id": "42885",
+  "sticker_id": "6868061",
+  "image_path": "images/42885/6868061-745a7f7dd7bef3df5f27.png",
+  "image_view": "still",
+  "image_description": "개구리가 두 손으로 거대한 흰 눈 모양을 붙들고 정면을 본다.",
+  "image_tags": [
+    "비정상적으로 커진 눈",
+    "검은 갈색 동공",
+    "올린 두 손",
+    "파란 소매",
+    "초록 얼굴"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6868061_01",
+      "context": "친구가 뜻밖의 할인 소식을 전한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 운동화 샀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오늘만 반값이더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 반값이라고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람"
+      ],
+      "fit_reason": "친구가 뜻밖의 할인 소식을 전한다 상황에서 양손에 쥘 만큼 불어난 눈이 뜻밖의 소식을 보고 눈이 커지는 반응을 과장한다."
+    },
+    {
+      "example_id": "6868061_02",
+      "context": "업무 일정이 갑자기 빨라진다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 다음 주 맞죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 오늘 오후로 바뀌었어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘이요? 지금 파일 열게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람"
+      ],
+      "fit_reason": "업무 일정이 갑자기 빨라진다 상황에서 양손에 쥘 만큼 불어난 눈이 뜻밖의 소식을 보고 눈이 커지는 반응을 과장한다."
+    },
+    {
+      "example_id": "6868061_03",
+      "context": "조용하던 단체방에 합격 소식이 뜬다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "결과 아직 멀었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 나 방금 합격 문자 왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헐 진짜? 축하해!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람"
+      ],
+      "fit_reason": "조용하던 단체방에 합격 소식이 뜬다 상황에서 양손에 쥘 만큼 불어난 눈이 뜻밖의 소식을 보고 눈이 커지는 반응을 과장한다."
+    },
+    {
+      "example_id": "6868061_04",
+      "context": "친구가 예상외의 이동 거리를 말한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 산책 좀 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "집까지 걸었더니 19킬로 찍힘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그게 산책이었냐고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람"
+      ],
+      "fit_reason": "친구가 예상외의 이동 거리를 말한다 상황에서 양손에 쥘 만큼 불어난 눈이 뜻밖의 소식을 보고 눈이 커지는 반응을 과장한다."
+    },
+    {
+      "example_id": "6868061_05",
+      "context": "게임 결과가 막판에 뒤집힌다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 판 끝났네"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 팀이 마지막에 세 명 잡았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "엥 그걸 이겼어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람"
+      ],
+      "fit_reason": "게임 결과가 막판에 뒤집힌다 상황에서 양손에 쥘 만큼 불어난 눈이 뜻밖의 소식을 보고 눈이 커지는 반응을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

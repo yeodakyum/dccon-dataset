@@ -1,0 +1,137 @@
+{
+  "package_id": "176705",
+  "sticker_id": "7678323",
+  "image_path": "images/176705/7678323-7542bd72699f7638b050.png",
+  "image_description": "녹색 ‘요~이!’ 글자 아래 꽃 장식과 면사포가 달린 은빛 머리 캐릭터가 활짝 웃고, 왼쪽에 같은 캐릭터의 작은 얼굴이 있다.",
+  "image_tags": [
+    "은빛머리",
+    "분홍꽃",
+    "면사포",
+    "미소",
+    "녹색글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7678323-1",
+      "context": "공원 피크닉",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "돗자리 챙겼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지금 나갈 수 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요이 출발~",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "출발",
+        "피크닉"
+      ],
+      "fit_reason": "들뜬 얼굴과 구호가 나서는 순간에 맞다."
+    },
+    {
+      "example_id": "7678323-2",
+      "context": "웨딩 사진 정리",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 고른 거 이제 보낼까?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 컴퓨터 앞이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 첫 장 간다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사진",
+        "웨딩"
+      ],
+      "fit_reason": "면사포와 꽃 장식이 웨딩 사진을 보내는 상황에 특히 자연스럽다."
+    },
+    {
+      "example_id": "7678323-3",
+      "context": "시험 마친 저녁",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 할 거 다 끝났다"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 드디어 노래방 가는 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "당연하지 준비됐어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시험",
+        "해방"
+      ],
+      "fit_reason": "두 캐릭터의 밝은 표정이 시험 뒤의 해방감을 살린다."
+    },
+    {
+      "example_id": "7678323-4",
+      "context": "사진 찍기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "둘 다 카메라 보고 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 이제 눌러"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요~이, 하나 둘!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "촬영",
+        "준비"
+      ],
+      "fit_reason": "커다란 구호를 셔터 전 신호로 읽을 수 있다."
+    },
+    {
+      "example_id": "7678323-5",
+      "context": "친구와 첫 게임",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 처음 하는 게임이라며"
+        },
+        {
+          "speaker": "B",
+          "text": "응 네가 먼저 방 만들어 줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방 열었다. 같이 가자!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "시작"
+      ],
+      "fit_reason": "활짝 웃은 캐릭터가 함께 시작하는 들뜬 분위기와 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

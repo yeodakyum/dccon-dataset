@@ -1,0 +1,137 @@
+{
+  "package_id": "92234",
+  "sticker_id": "2521059",
+  "image_path": "images/92234/2521059-04850c61f7c550eac4be.png",
+  "image_description": "밝은 배경에서 여러 작은 캐릭터가 양팔을 들고 환호한다. 위쪽에는 주황색 ‘개추’ 글자와 별 장식이 있다.",
+  "image_tags": [
+    "개추 문구",
+    "주황색 글자",
+    "별 장식",
+    "여러 캐릭터",
+    "양팔 들기"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "2521059_1",
+      "context": "게임 공략 모음에 추천을 남김",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 보스 패턴 누가 정리 안 했나"
+        },
+        {
+          "speaker": "B",
+          "text": "게시판에 움짤까지 붙여서 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "공략추!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공략",
+        "추천"
+      ],
+      "fit_reason": "환호하는 인물들과 ‘개추’ 문구가 유용한 공략에 추천을 보내는 데 맞는다."
+    },
+    {
+      "example_id": "2521059_2",
+      "context": "친구의 공연 영상이 기대 이상",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "영상 다 보고 왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "마지막 합주 어땠어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "막곡 진짜 좋더라. 다들 봐야 돼",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공연",
+        "칭찬"
+      ],
+      "fit_reason": "여럿이 팔을 든 모양이 관객들의 호응을 떠올리게 한다."
+    },
+    {
+      "example_id": "2521059_3",
+      "context": "과제 파일에서 빠진 출처를 친구가 찾아 줌",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 통계 원문 링크 겨우 찾았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 공유 문서에 추가했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한 건 했다 우리 팀",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "팀작업",
+        "공로"
+      ],
+      "fit_reason": "팔을 든 캐릭터들이 작은 팀의 성과를 환호하는 모습에 어울린다."
+    },
+    {
+      "example_id": "2521059_4",
+      "context": "단체방에서 여행지 후보 투표",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "숙소 찾아 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "역에서 3분이고 방도 세 개래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 숙소에 한 표",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "투표",
+        "동의"
+      ],
+      "fit_reason": "추천 문구를 공동 결정에서 찬성표를 주는 표현으로 쓸 수 있다."
+    },
+    {
+      "example_id": "2521059_5",
+      "context": "게시판 운영자가 불편을 해결함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "검색 결과 또 날짜 순으로 못 보나?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 업데이트해서 정렬 넣었대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이건 추천 눌러야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "커뮤니티",
+        "호응"
+      ],
+      "fit_reason": "‘개추’ 글자와 환호가 편의 개선을 반기는 게시판 반응에 적합하다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

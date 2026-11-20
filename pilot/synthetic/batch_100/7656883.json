@@ -1,0 +1,137 @@
+{
+  "package_id": "176620",
+  "sticker_id": "7656883",
+  "image_path": "images/176620/7656883-7208693caeabc021fb51.png",
+  "image_description": "검은 앞머리 아래의 푸른 눈과 분홍빛 볼을 크게 확대했으며 얼굴 전체에 세로와 대각선 방향의 흐림이 있다.",
+  "image_tags": [
+    "검은앞머리",
+    "푸른눈",
+    "분홍볼",
+    "확대",
+    "모션블러"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7656883-1",
+      "context": "화면 가까이 보기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "메뉴판 사진 글씨 읽혀?"
+        },
+        {
+          "speaker": "B",
+          "text": "맨 아래는 작아서 안 보여"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 지금 화면에 코 닿을 듯",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "확대",
+        "사진"
+      ],
+      "fit_reason": "눈이 화면에 가득 차서 실제로 가까이 들여다보는 모습 같다."
+    },
+    {
+      "example_id": "7656883-2",
+      "context": "롤러코스터 사진",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "탑승 사진 주문할까?"
+        },
+        {
+          "speaker": "B",
+          "text": "넌 무슨 표정인데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "표정이 아니라 잔상임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀이기구",
+        "속도"
+      ],
+      "fit_reason": "얼굴이 날아가듯 흐려져 빠른 움직임을 표현한다."
+    },
+    {
+      "example_id": "7656883-3",
+      "context": "늦잠 직후",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 알람 울린 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "그건 두 번째 알람인데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직 방이 흐릿하게 보여",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "늦잠",
+        "당황"
+      ],
+      "fit_reason": "번진 눈이 잠에서 덜 깬 시야와 맞다."
+    },
+    {
+      "example_id": "7656883-4",
+      "context": "카메라 자동 초점",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 폰 전면 카메라 테스트 중"
+        },
+        {
+          "speaker": "B",
+          "text": "잘 찍혀?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 너무 가까이 갔나 봄",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "카메라",
+        "초점"
+      ],
+      "fit_reason": "크게 확대된 흐릿한 얼굴이 초점 실패를 보여 준다."
+    },
+    {
+      "example_id": "7656883-5",
+      "context": "매운 라면 첫 입",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새로 나온 라면 한입 먹었어"
+        },
+        {
+          "speaker": "B",
+          "text": "맵기 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "답하려다 눈물 때문에 자판이 안 보임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매운맛",
+        "눈물"
+      ],
+      "fit_reason": "흐린 화면을 눈물로 시야가 번진 듯 해석할 수 있다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

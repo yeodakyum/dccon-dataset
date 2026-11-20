@@ -1,0 +1,138 @@
+{
+  "package_id": "176742",
+  "sticker_id": "7740839",
+  "image_path": "images/176742/7740839-30052610f28cc35290bd.jpg",
+  "image_view": "still",
+  "image_description": "호랑이 무늬 모자를 쓴 고양이가 눈을 감고 입을 벌려 웃으며 초록색 글자를 띄운다.",
+  "image_tags": [
+    "감겨 접힌 눈",
+    "크게 열린 미소",
+    "호랑이 모자",
+    "빨간 리본",
+    "초록 인사 글씨"
+  ],
+  "image_text": [
+    "요",
+    "이!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7740839_01",
+      "context": "단체방에 새로운 멤버가 들어온다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새로 들어오신 분 맞죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 오늘부터 같이 합니다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "안녕하세요 잘 부탁드려요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인사"
+      ],
+      "fit_reason": "단체방에 새로운 멤버가 들어온다 상황에서 밝게 열린 입과 길게 뻗은 글씨가 친근하게 인사를 건네는 순간과 맞는다."
+    },
+    {
+      "example_id": "7740839_02",
+      "context": "오랜만에 친구가 연락한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "진짜 너 맞냐"
+        },
+        {
+          "speaker": "B",
+          "text": "응 번호 바꿨어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "야 오랜만이다 잘 지냈어?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인사"
+      ],
+      "fit_reason": "오랜만에 친구가 연락한다 상황에서 밝게 열린 입과 길게 뻗은 글씨가 친근하게 인사를 건네는 순간과 맞는다."
+    },
+    {
+      "example_id": "7740839_03",
+      "context": "친구가 잠들기 전 답한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 얘기 재밌었어"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이제 잘게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 잘 자 내일 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인사"
+      ],
+      "fit_reason": "친구가 잠들기 전 답한다 상황에서 밝게 열린 입과 길게 뻗은 글씨가 친근하게 인사를 건네는 순간과 맞는다."
+    },
+    {
+      "example_id": "7740839_04",
+      "context": "동료가 아침에 접속한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 재택이시죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 이제 들어왔어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋은 아침이에요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인사"
+      ],
+      "fit_reason": "동료가 아침에 접속한다 상황에서 밝게 열린 입과 길게 뻗은 글씨가 친근하게 인사를 건네는 순간과 맞는다."
+    },
+    {
+      "example_id": "7740839_05",
+      "context": "모임을 마치고 귀가한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 집 가는 중?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 버스 탔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 반가웠어 조심히 가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "인사"
+      ],
+      "fit_reason": "모임을 마치고 귀가한다 상황에서 밝게 열린 입과 길게 뻗은 글씨가 친근하게 인사를 건네는 순간과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

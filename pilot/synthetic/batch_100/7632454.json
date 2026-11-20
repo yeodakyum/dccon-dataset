@@ -1,0 +1,140 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632454",
+  "image_path": "images/176622/7632454-9c50466e54d29de2f805.png",
+  "image_view": "still",
+  "image_description": "흰 긴 머리 인물이 두 눈을 감아 웃고 검지를 볼 옆에 세운다. 볼과 코 주변은 분홍빛이다.",
+  "image_tags": [
+    "감긴 두 눈의 웃음 곡선",
+    "살짝 열린 미소",
+    "양 볼에 번진 홍조",
+    "볼 옆으로 든 검지",
+    "흰 긴 머리"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632454_01",
+      "context": "팀원이 발표 시간을 줄일 방법을 떠올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난달 자료도 전부 설명하면 시간이 안 맞아요."
+        },
+        {
+          "speaker": "B",
+          "text": "청중에게 미리 파일로 보낼까요?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋네요. 발표는 달라진 부분만 짚고 가죠.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아이디어 채택",
+        "협의"
+      ],
+      "fit_reason": "내용을 줄이는 방법이 떠올랐을 때 눈을 접어 웃으며 검지를 세운 자세가 깔끔한 제안에 어울린다."
+    },
+    {
+      "example_id": "7632454_02",
+      "context": "친구가 동네 길 찾기의 쉬운 기준을 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지도 보니까 출구가 네 개나 떠."
+        },
+        {
+          "speaker": "B",
+          "text": "일단 빵 냄새 나는 쪽으로 나오면 맞아."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이 정도 기준이면 발들일 자신 있다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "친근한 농담"
+      ],
+      "fit_reason": "냄새를 기준으로 길을 찾으면 쉽다는 가벼운 팁에 웃는 눈과 든 손가락이 원포인트 힌트처럼 읽힌다."
+    },
+    {
+      "example_id": "7632454_03",
+      "context": "친구의 휴대전화에서 놓치던 사진을 찾았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 사진 아무리 찾아도 없어."
+        },
+        {
+          "speaker": "B",
+          "text": "혹시 숨겨진 항목 확인했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "거기 다 있었네. 덕분에 살았다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "발견"
+      ],
+      "fit_reason": "사진을 찾은 반가움과 고마움을 함께 전할 때 붉은 볼과 감아 웃는 눈이 기쁜 답을 더한다."
+    },
+    {
+      "example_id": "7632454_04",
+      "context": "친구가 비밀 동선을 자랑하지만 늘 같은 가게로 간다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 내가 아는 맛집 데려간다."
+        },
+        {
+          "speaker": "B",
+          "text": "혹시 지난번에 갔던 그 골목이야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "설마 3주 연속 같은 만둣집은 아니겠지요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "친근한 놀림"
+      ],
+      "fit_reason": "만둣집만 반복해서 가는 친구에게 상냥한 미소와 검지를 곁들여 이미 안다는 뜻의 능청스러운 반어가 된다."
+    },
+    {
+      "example_id": "7632454_05",
+      "context": "작은 성공을 보고 스스로 칭찬한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 베란다 바질에 새 잎이 생겼어."
+        },
+        {
+          "speaker": "B",
+          "text": "네가 기른 것 중에 처음 아니야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "햇빛 드는 데로 옮겼더니 성공했다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "성취감",
+        "설명"
+      ],
+      "fit_reason": "새 잎이 난 이유를 짚어 주는 말에 미소와 볼 옆 검지가 작은 요령을 알려주는 모양과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

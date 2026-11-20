@@ -1,0 +1,150 @@
+{
+  "package_id": "154129",
+  "sticker_id": "5070087",
+  "image_path": "images/154129/5070087-99c9a549a594c6599612.png",
+  "image_view": "still",
+  "image_description": "파란 귀처럼 뾰족한 머리 모양의 흰 고양이가 눈을 동그랗게 뜨고 볼을 붉힌다. 머리 위의 생각 풍선에 친구 추가를 뜻하는 말이 적혀 있다.",
+  "image_tags": [
+    "동그랗고 반짝이는 눈",
+    "분홍 빗금 볼",
+    "오므린 작은 입",
+    "파란 뾰족 귀",
+    "구름 모양 생각 풍선"
+  ],
+  "image_text": [
+    "친추 마렵네"
+  ],
+  "interpretation_note": "‘친추’는 게임이나 메신저의 친구 추가를 가리키는 줄임말이다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5070087_01",
+      "context": "파티 매칭에서 처음 만난 사람과 한 판을 마쳤다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 나 혼자 떨어진 거 어떻게 봤어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "미니맵에 점 하나만 멀길래 데리러 갔죠 ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음에도 같이 돌리고 싶은데 친구 걸어도 돼요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친구 추가",
+        "팀플레이 호감"
+      ],
+      "fit_reason": "떨어진 팀원을 챙긴 행동에 호감을 느낀 상황이라, 반짝이는 눈과 ‘친추 마렵네’가 다시 함께하고 싶은 마음을 전한다."
+    },
+    {
+      "example_id": "5070087_02",
+      "context": "독서 모임에서 서로 좋아하는 단편을 알게 됐다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "제일 좋아하는 편이 뭐예요?"
+        },
+        {
+          "speaker": "B",
+          "text": "맨 끝에 편지 두 장만 남는 그거요."
+        },
+        {
+          "speaker": "A",
+          "text": "저도 그 편만 세 번 읽었어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 계정 알려주시면 감상도 나누고 싶어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "취향 공감",
+        "관계 확장"
+      ],
+      "fit_reason": "같은 단편을 반복해 읽었다는 공통점에, 볼을 붉히고 친구 추가를 떠올리는 고양이가 반가움을 더한다."
+    },
+    {
+      "example_id": "5070087_03",
+      "context": "동생이 한정 아이템을 무료로 나눠 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 파란 모자 두 개 떴는데 하나 가져갈래?"
+        },
+        {
+          "speaker": "B",
+          "text": "진짜 공짜로 준다고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이 정도면 가족에서 친구로 승격임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "장난스러운 감사"
+      ],
+      "fit_reason": "이미 가족인 동생에게 친구 추가를 떠올리는 고양이를 보내면 무료 선물이 그만큼 반갑다는 농담이 된다."
+    },
+    {
+      "example_id": "5070087_04",
+      "context": "같이 한 퍼즐의 상대가 답을 말하지 않고 힌트만 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "정답 말고 방향만 알려주실 수 있나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "맨 왼쪽 스위치는 마지막에 만져 보세요."
+        },
+        {
+          "speaker": "A",
+          "text": "됐다! 딱 이 정도 힌트 필요했어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 다음 판도 같이 하실래요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "재매칭 제안"
+      ],
+      "fit_reason": "부탁한 만큼만 힌트를 준 상대에게, 친구 추가를 생각하는 풍선이 관계를 이어가고 싶다는 제안을 강조한다."
+    },
+    {
+      "example_id": "5070087_05",
+      "context": "새 직장 동료와 퇴근 후 게임 이야기를 나눈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "퇴근 뒤에는 보통 뭐 하세요?"
+        },
+        {
+          "speaker": "B",
+          "text": "저녁 먹고 낚시 게임 켜요. 거의 매일요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저도 출석만큼은 개근이에요 ㅋㅋ 닉네임 여쭤봐도 돼요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공통 관심사",
+        "연락처 요청"
+      ],
+      "fit_reason": "둘 다 같은 게임에 자주 접속한다는 사실을 발견해, 동그란 눈과 친구 추가 문구가 들뜬 관심을 표현한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

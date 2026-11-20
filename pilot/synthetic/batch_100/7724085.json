@@ -1,0 +1,137 @@
+{
+  "package_id": "176298",
+  "sticker_id": "7724085",
+  "image_path": "images/176298/7724085-98334bc9c9d62bba98fc.png",
+  "image_description": "나무가 우거진 배경에 분홍 머리 캐릭터 셋이 신이 나 있고, 상단에 여러 색의 ‘개꿀쌉야르인상황’이 있다.",
+  "image_tags": [
+    "분홍머리",
+    "세캐릭터",
+    "숲배경",
+    "혀",
+    "알록달록글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7724085-1",
+      "context": "노트북 할인",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 본 노트북 할인 떴어"
+        },
+        {
+          "speaker": "B",
+          "text": "카드 할인도 같이 먹혀?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 장바구니에서 둘 다 빠짐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "할인",
+        "신남"
+      ],
+      "fit_reason": "만족스러운 상황을 강조하는 큰 글씨가 중복 할인과 잘 맞는다."
+    },
+    {
+      "example_id": "7724085-2",
+      "context": "수업 공강",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 마지막 수업 자료 올라왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "교수님 사정으로 다음 주로 밀렸대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 오늘 두 시에 집 간다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공강",
+        "기쁨"
+      ],
+      "fit_reason": "캐릭터 셋이 신나 하는 모습이 뜻밖에 쉬는 날에 어울린다."
+    },
+    {
+      "example_id": "7724085-3",
+      "context": "경기 추첨",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자리 추첨 결과 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 둘 바로 옆에 붙었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "심지어 앞에서 두 번째 줄임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추첨",
+        "행운"
+      ],
+      "fit_reason": "말풍선 대신 큰 문구가 연달아 들어온 행운을 강조한다."
+    },
+    {
+      "example_id": "7724085-4",
+      "context": "게임 연속 보상",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "상자 하나만 열고 끌까 했는데"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐 나왔길래 계속 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "중복 없이 남은 두 개가 다 나옴",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "보상"
+      ],
+      "fit_reason": "혀를 내밀고 좋아하는 표정이 기대 이상의 보상과 맞다."
+    },
+    {
+      "example_id": "7724085-5",
+      "context": "식당 서비스",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "물어보니 사이드 하나 서비스래"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐 골랐어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마침 우리가 시키려던 만두",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "서비스",
+        "만족"
+      ],
+      "fit_reason": "좋은 일이 딱 맞아떨어진 기분이 밝은 표정에 담긴다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

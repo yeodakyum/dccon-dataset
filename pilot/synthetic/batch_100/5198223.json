@@ -1,0 +1,137 @@
+{
+  "package_id": "156740",
+  "sticker_id": "5198223",
+  "image_path": "images/156740/5198223-ad5d523b54e03101cfb7.png",
+  "image_description": "갈색과 흰 털의 고양이가 귀를 옆으로 누이고 앞발을 카메라 쪽으로 뻗는다. 왼쪽에는 노란 주먹 이모지가 떠 있다.",
+  "image_tags": [
+    "갈색 고양이",
+    "누운 귀",
+    "뻗은 앞발",
+    "노란 주먹",
+    "흐릿한 사진"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5198223-1",
+      "context": "친구와 달리기 기록을 세우고 주먹 인사를 하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 둘 다 최고 기록이다"
+        },
+        {
+          "speaker": "B",
+          "text": "마지막에 네가 끌어줘서 됐어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잘했다 우리 주먹 한 번",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "운동",
+        "주먹인사"
+      ],
+      "fit_reason": "앞발을 내민 고양이와 주먹 그림이 같이 축하하는 동작이 된다."
+    },
+    {
+      "example_id": "5198223-2",
+      "context": "친구가 마지막 감자튀김을 집은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그거 내 마지막 감튀인데"
+        },
+        {
+          "speaker": "B",
+          "text": "이미 먹었음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너 일로 와 봐ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "장난"
+      ],
+      "fit_reason": "귀를 눕힌 눈빛과 작은 주먹이 가벼운 장난 경고에 맞는다."
+    },
+    {
+      "example_id": "5198223-3",
+      "context": "같은 아이디어를 동시에 떠올린 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "제목에 지하철 넣으면 어때?"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 방금 딱 그 생각했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "통했다 주먹 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "협업",
+        "공감"
+      ],
+      "fit_reason": "앞으로 뻗는 발이 합이 맞았을 때의 주먹 인사를 표현한다."
+    },
+    {
+      "example_id": "5198223-4",
+      "context": "친구가 게임에서 연달아 방해한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 자꾸 내 앞에 벽 세워"
+        },
+        {
+          "speaker": "B",
+          "text": "이번엔 네가 걸릴 줄 몰랐지ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음 판 두고 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "장난"
+      ],
+      "fit_reason": "노란 주먹과 다소 뾰로통한 얼굴이 모의 응징 같은 농담을 살린다."
+    },
+    {
+      "example_id": "5198223-5",
+      "context": "친구가 야간 작업을 서로 버티자고 하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 새벽까지는 해야겠다"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 옆에서 마무리할게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋다 한 번 버텨 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "작업",
+        "격려"
+      ],
+      "fit_reason": "작게 내민 주먹이 함께 버티자는 격려로 읽힌다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

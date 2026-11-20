@@ -1,0 +1,137 @@
+{
+  "package_id": "176304",
+  "sticker_id": "7618961",
+  "image_path": "images/176304/7618961-1c1ec9e96dcaa747824c.png",
+  "image_description": "베이지색 머리에 분홍 꽃 장식을 단 캐릭터가 눈을 감고 손으로 입가를 가리며 웃는다. 머리 위의 분홍 글자는 '하핫'이다.",
+  "image_tags": [
+    "꽃 장식",
+    "베이지색 머리",
+    "감은 눈",
+    "입가의 손",
+    "하핫 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7618961-1",
+      "context": "친구가 예상 못 한 말장난을 던진 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 오늘 왜 이렇게 일찍 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지각도 너무 자주 하면 조퇴인 줄 알까 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하핫 그 논리 뭐야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "말장난",
+        "웃음"
+      ],
+      "fit_reason": "입을 가리고 터뜨리는 웃음이 뜬금없는 농담과 맞는다."
+    },
+    {
+      "example_id": "7618961-2",
+      "context": "단체 채팅에서 본인이 오타를 낸 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 회의 장소가 진짜 옥상이에요?"
+        },
+        {
+          "speaker": "B",
+          "text": "너가 단톡에 옥상이라고 썼더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하핫 5층 오타입니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "오타",
+        "민망함"
+      ],
+      "fit_reason": "작은 웃음이 실수를 깨달은 멋쩍은 반응으로 읽힌다."
+    },
+    {
+      "example_id": "7618961-3",
+      "context": "친구가 반려동물의 사고를 보여주는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "화분은 왜 넘어져 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "범인이 옆에서 모르는 척 중"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하핫 표정 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물",
+        "웃음"
+      ],
+      "fit_reason": "눈을 꼭 감은 웃음이 엉뚱한 장면에 대한 반응으로 어울린다."
+    },
+    {
+      "example_id": "7618961-4",
+      "context": "오랜만에 만난 친구가 옛 사진을 꺼낸 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그런 앞머리를 내가 했었다고?"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 여기 있잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하핫 저때는 진심으로 멋있다고 생각했어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추억",
+        "자조"
+      ],
+      "fit_reason": "손으로 가린 웃음이 자기 옛 모습을 보는 민망함을 담는다."
+    },
+    {
+      "example_id": "7618961-5",
+      "context": "친구에게 계산이 틀렸다는 소리를 들은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 나눠 내면 7천 원이네"
+        },
+        {
+          "speaker": "B",
+          "text": "그 계산대로면 음식값을 두 번 냈어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "하핫 네가 계산해 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "계산",
+        "머쓱함"
+      ],
+      "fit_reason": "하핫이라는 글자가 가볍게 잘못을 인정하는 웃음에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

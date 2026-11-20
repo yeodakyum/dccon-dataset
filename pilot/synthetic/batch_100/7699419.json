@@ -1,0 +1,137 @@
+{
+  "package_id": "171234",
+  "sticker_id": "7699419",
+  "image_path": "images/171234/7699419-2e0f97c8b26a38fe5486.png",
+  "image_description": "분홍 리본과 꽃 장식을 한 금발 캐릭터가 한쪽 눈을 감고 땀을 흘리며 관자놀이에 손을 올린다. ‘얼마나 성공하고 싶은지’라는 문구가 있다.",
+  "image_tags": [
+    "금발",
+    "분홍 리본",
+    "꽃 장식",
+    "땀방울",
+    "성공 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7699419_1",
+      "context": "빵 굽기를 재도전하는 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "반죽 또 처음부터 해야 하나"
+        },
+        {
+          "speaker": "B",
+          "text": "이번에도 망하면 식빵 사 먹자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아냐 오늘은 꼭 내 손으로 굽는다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재도전",
+        "의욕"
+      ],
+      "fit_reason": "땀 흘리는 캐릭터와 성공 문구가 실패 뒤의 집념에 어울린다."
+    },
+    {
+      "example_id": "7699419_2",
+      "context": "어려운 영상 편집 과제",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "렌더 몇 번째지"
+        },
+        {
+          "speaker": "B",
+          "text": "다섯 번째인데 이번에도 소리가 밀려"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이번엔 진짜 맞추고 잔다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "집념",
+        "과제"
+      ],
+      "fit_reason": "지친 표정이 반복 작업의 피로를, 문구가 끝내고 싶은 마음을 나타낸다."
+    },
+    {
+      "example_id": "7699419_3",
+      "context": "채용 면접을 준비하는 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 모의 면접 한 번만 더 해 줄래"
+        },
+        {
+          "speaker": "B",
+          "text": "넌 그 회사 진짜 가고 싶구나"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "유독 여기가 욕심나",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "면접",
+        "간절함"
+      ],
+      "fit_reason": "성공을 원하는 문구가 지원자의 간절함을 직접 전한다."
+    },
+    {
+      "example_id": "7699419_4",
+      "context": "게임 최고 기록 갱신 시도",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "0.2초만 줄이면 1등인데"
+        },
+        {
+          "speaker": "B",
+          "text": "두 시간째 같은 코스잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 끄면 잠도 안 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "경쟁",
+        "몰입"
+      ],
+      "fit_reason": "땀과 찡그린 얼굴이 작은 차이에 매달리는 상태를 보여 준다."
+    },
+    {
+      "example_id": "7699419_5",
+      "context": "원하던 공연 티켓 예매 직전",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 지금 예매 창 세 개 켜 놨어"
+        },
+        {
+          "speaker": "B",
+          "text": "그렇게까지 보고 싶어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "손까지 떨려",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예매",
+        "긴장"
+      ],
+      "fit_reason": "땀방울과 성공 문구가 꼭 표를 확보하고 싶은 긴장감에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "172975",
+  "sticker_id": "7685486",
+  "image_path": "images/172975/7685486-3622c5ac58cd7ea69b08.png",
+  "image_description": "회색 체크 모자를 쓴 금발 캐릭터가 큰 보라색 눈을 뜨고 입을 벌린다. 볼 옆에 땀이 있고 왼쪽 위에 ‘엑’이 적혀 있다.",
+  "image_tags": [
+    "금발",
+    "회색 체크 모자",
+    "큰 보라색 눈",
+    "땀방울",
+    "엑 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7685486_1",
+      "context": "주문 가격을 보고 놀람",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기 케이크 한 조각 먹을래?"
+        },
+        {
+          "speaker": "B",
+          "text": "가격표 잘 봐. 한 조각에 만 팔천 원이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "엑 조각 맞아?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "가격",
+        "놀람"
+      ],
+      "fit_reason": "‘엑’ 소리와 크게 뜬 눈이 예상보다 비싼 가격에 대한 당황을 표현한다."
+    },
+    {
+      "example_id": "7685486_2",
+      "context": "단체 채팅을 개인 메시지로 착각",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 너한테도 파일 보냈어?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 동아리 전체 채팅에 올라왔는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "엑 바로 지울게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실수",
+        "당황"
+      ],
+      "fit_reason": "땀을 흘리는 캐릭터가 잘못된 방에 보낸 순간의 반응에 맞는다."
+    },
+    {
+      "example_id": "7685486_3",
+      "context": "이사 짐이 예상보다 많음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "박스 네 개면 끝이지?"
+        },
+        {
+          "speaker": "B",
+          "text": "그건 책만. 주방 쪽에 아홉 개 더 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 트럭 바꿔야겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "이사"
+      ],
+      "fit_reason": "커진 눈과 벌린 입이 늘어난 짐 규모를 듣고 놀라는 표정이다."
+    },
+    {
+      "example_id": "7685486_4",
+      "context": "여행 날짜 착오",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "기차표 다음 주 걸로 뽑았지?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 출발 내일이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "엑 진짜?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "일정"
+      ],
+      "fit_reason": "짧은 ‘엑’이 날짜를 크게 착각한 순간의 반사적인 반응이 된다."
+    },
+    {
+      "example_id": "7685486_5",
+      "context": "예상보다 어려운 과제 조건",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 5분 정도면 되겠지?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 사람당 15분이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "15분을 다 채워야 해?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과제",
+        "충격"
+      ],
+      "fit_reason": "크게 뜬 눈과 땀방울이 갑자기 커진 부담에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

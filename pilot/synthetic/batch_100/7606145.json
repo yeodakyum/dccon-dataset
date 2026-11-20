@@ -1,0 +1,144 @@
+{
+  "package_id": "176439",
+  "sticker_id": "7606145",
+  "image_path": "images/176439/7606145-dad60c3834867202f25b.png",
+  "image_view": "still",
+  "image_description": "연두색 연필로 칠한 둥근 옷 안에 볼을 붉힌 하얀 얼굴이 있다. 옷의 꼭대기에 분홍 꽃과 노란 장식이 얹혀 있다.",
+  "image_tags": [
+    "반쯤 떠 보이는 둥근 눈",
+    "분홍 빗금 홍조",
+    "작게 오므린 입",
+    "연두색 연필 결",
+    "머리 위 분홍 꽃"
+  ],
+  "image_text": [],
+  "interpretation_note": "얼굴을 둘러싼 둥근 부분이 옷인지 캐릭터의 몸 자체인지는 분명하지 않다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7606145_01",
+      "context": "친구가 집에서 키우는 작은 화분에 첫 꽃이 핀 모습을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난주까진 잎만 있었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 오늘 보니까 분홍색 하나 올라왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잎 사이에서 삐죽 나온 게 너무 귀엽다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "성장 기쁨",
+        "귀여움"
+      ],
+      "fit_reason": "초록 잎 사이 첫 분홍 꽃이 눈에 띄는 상황과 둥근 초록 외곽 꼭대기의 꽃 장식이 닮았다."
+    },
+    {
+      "example_id": "7606145_02",
+      "context": "친구가 봄 모임에서 평소와 다른 색을 입으려다 민망해 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "연두색 니트에 꽃핀 꽂으면 너무 티 나나?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 모임 주제가 봄인데 딱이지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 단체사진 찍을 때만 머리에 달아 볼게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "꾸밈"
+      ],
+      "fit_reason": "연두 니트에 꽃 장식을 조심스레 골랐다는 말에 초록 옷과 분홍 꽃, 수줍은 홍조가 이어진다."
+    },
+    {
+      "example_id": "7606145_03",
+      "context": "동생이 학교에서 색연필로 캐릭터 숙제를 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "선생님이 초록색 하나로도 그림 그릴 수 있대"
+        },
+        {
+          "speaker": "B",
+          "text": "잎 색만 연하게 했다 진하게 해 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "꽃만 몰래 분홍색 쓸래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 창작",
+        "귀여움"
+      ],
+      "fit_reason": "초록 연필로 몸을 칠하고 꽃만 분홍색으로 그린 듯한 질감이 아이가 떠올린 그림을 보여 준다."
+    },
+    {
+      "example_id": "7606145_04",
+      "context": "친구가 나뭇잎 같은 후드를 입고 사진을 찍었다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "단체 행사 옷 받았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나만 양옆이 동그란 초록 후드야"
+        },
+        {
+          "speaker": "A",
+          "text": "입어 보니까 어때"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "걸어 다니는 화단 같음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "복장 자조",
+        "친근한 유머"
+      ],
+      "fit_reason": "크고 둥근 초록 후드를 입었다는 말에 작은 얼굴만 내민 식물 같은 외곽이 잘 맞는다."
+    },
+    {
+      "example_id": "7606145_05",
+      "context": "친구가 정성 들여 작은 선물을 만들고 부끄러워한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "책갈피에 꽃 달아봤는데 줄까?"
+        },
+        {
+          "speaker": "B",
+          "text": "완전 좋아. 네가 직접 다른 색 고른 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 좋은 뜻이라길래 분홍색 골랐어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물 전달",
+        "쑥스러움"
+      ],
+      "fit_reason": "직접 고른 분홍 꽃이 선물의 포인트인 상황에서 머리 위 꽃과 작은 홍조가 수줍게 마음을 건네는 분위기를 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

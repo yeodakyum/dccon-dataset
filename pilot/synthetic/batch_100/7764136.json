@@ -1,0 +1,137 @@
+{
+  "package_id": "176340",
+  "sticker_id": "7764136",
+  "image_path": "images/176340/7764136-7671ed66f1fc4634609d.png",
+  "image_view": "still",
+  "image_description": "분홍 머리 인물이 눈을 찡그리고 울먹이며 위쪽에 내놓으라는 문구를 띄운다.",
+  "image_tags": [
+    "꽉 감은 눈",
+    "양 볼의 파란 눈물",
+    "벌린 입",
+    "분홍 머리",
+    "두 개의 느낌표"
+  ],
+  "image_text": [
+    "2기내놔!!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7764136_01",
+      "context": "친구가 정해야 할 메뉴를 계속 고민한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어디서 받을지 정했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 리뷰 보는 중"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "가게 곧 닫아 일단 하나 골라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉"
+      ],
+      "fit_reason": "친구가 정해야 할 메뉴를 계속 고민한다 상황에서 내놓으라는 요구와 눈물이 오래 기다려 답답한 재촉을 과장한다."
+    },
+    {
+      "example_id": "7764136_02",
+      "context": "게임의 시작 시간이 다가온다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "장비 다 챙겼어?"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐 상점 갔다 올게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이미 입장 열렸어 빨리 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉"
+      ],
+      "fit_reason": "게임의 시작 시간이 다가온다 상황에서 내놓으라는 요구와 눈물이 오래 기다려 답답한 재촉을 과장한다."
+    },
+    {
+      "example_id": "7764136_03",
+      "context": "제출 직전 최종 파일을 기다린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 버전 준비됐어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 제 컴퓨터에 있어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마감 2분 전이라 바로 올려 주세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉"
+      ],
+      "fit_reason": "제출 직전 최종 파일을 기다린다 상황에서 내놓으라는 요구와 눈물이 오래 기다려 답답한 재촉을 과장한다."
+    },
+    {
+      "example_id": "7764136_04",
+      "context": "친구가 이야기의 결정적인 부분을 미룬다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기서 그 사람이 뭐라고 했는데?"
+        },
+        {
+          "speaker": "B",
+          "text": "기억나는 게 있는데 잠깐만"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 제일 궁금한 데서 끊지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉"
+      ],
+      "fit_reason": "친구가 이야기의 결정적인 부분을 미룬다 상황에서 내놓으라는 요구와 눈물이 오래 기다려 답답한 재촉을 과장한다."
+    },
+    {
+      "example_id": "7764136_05",
+      "context": "친구가 차 출발 시간에 맞추려 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 어디야"
+        },
+        {
+          "speaker": "B",
+          "text": "신호 하나 남았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "차 문 닫기 직전이야 뛰어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉"
+      ],
+      "fit_reason": "친구가 차 출발 시간에 맞추려 한다 상황에서 내놓으라는 요구와 눈물이 오래 기다려 답답한 재촉을 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

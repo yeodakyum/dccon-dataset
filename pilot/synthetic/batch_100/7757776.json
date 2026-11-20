@@ -1,0 +1,137 @@
+{
+  "package_id": "176047",
+  "sticker_id": "7757776",
+  "image_path": "images/176047/7757776-dfd0486d40d770faa5c7.png",
+  "image_description": "하늘과 숲 앞에 녹색 ‘요~이!’ 글자가 있다. 앞의 보라색 머리 캐릭터는 눈을 감고 혀를 내밀 듯 입을 크게 벌리고 뒤에는 흰 머리 캐릭터가 서 있다.",
+  "image_tags": [
+    "보라머리",
+    "흰머리",
+    "혀",
+    "숲배경",
+    "녹색글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7757776-1",
+      "context": "동네 마라톤 연습",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 딱 한 바퀴만 뛰자"
+        },
+        {
+          "speaker": "B",
+          "text": "준비 운동은 이미 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요~이 땅!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "달리기",
+        "시작"
+      ],
+      "fit_reason": "큰 입과 구호가 달리기 시작 신호를 그대로 보여 준다."
+    },
+    {
+      "example_id": "7757776-2",
+      "context": "친구와 방탈출",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "예약 시간 다 됐지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 앞 팀도 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "좋아 들어가자!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "방탈출",
+        "출발"
+      ],
+      "fit_reason": "신난 앞 캐릭터가 입장 직전 들뜬 기분을 표현한다."
+    },
+    {
+      "example_id": "7757776-3",
+      "context": "버스 잡기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "버스 지금 코너 돈다"
+        },
+        {
+          "speaker": "B",
+          "text": "뛰면 신호 전에 타겠는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뛴다, 따라와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "버스",
+        "서두름"
+      ],
+      "fit_reason": "두 캐릭터 구도와 요란한 구호가 같이 뛰자는 말에 맞다."
+    },
+    {
+      "example_id": "7757776-4",
+      "context": "합주 박자 맞추기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번엔 처음부터 할까?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 네가 카운트 해 줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "요이, 하나 둘 셋 넷",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "합주",
+        "신호"
+      ],
+      "fit_reason": "녹색 구호가 합주 전에 박자를 세는 순간과 맞는다."
+    },
+    {
+      "example_id": "7757776-5",
+      "context": "둘이 배달 음식 먹기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 젓가락 가져왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "근데 너 사진 찍는 거 기다리는 중"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "찍었어 이제 먹자!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "음식",
+        "들뜸"
+      ],
+      "fit_reason": "혀를 내민 얼굴이 기다렸던 한입을 시작하는 기분을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

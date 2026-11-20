@@ -1,0 +1,137 @@
+{
+  "package_id": "176055",
+  "sticker_id": "7509739",
+  "image_path": "images/176055/7509739-d38166c4fd997632ae96.png",
+  "image_description": "검정과 은회색 머리의 캐릭터가 한쪽 노란 눈을 뜨고 윙크한다. 장갑 낀 손은 이마 가까이 있고, 다른 손으로 빨강과 검정 장식이 있는 마이크를 잡는다.",
+  "image_tags": [
+    "은회색 앞머리",
+    "윙크",
+    "노란 눈",
+    "이마의 손",
+    "마이크"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7509739-1",
+      "context": "친구 생일에 노래방 첫 곡을 고른 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "첫 곡 누가 할래?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘 생일인 나한테 선택권 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 신청곡 받습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "노래방",
+        "신청곡"
+      ],
+      "fit_reason": "마이크와 윙크가 자신 있게 무대를 시작하는 모습에 맞는다."
+    },
+    {
+      "example_id": "7509739-2",
+      "context": "방송에서 청취자 사연을 읽으려는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다음 코너 뭐예요?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘은 익명 사연 읽는 날이에요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "자, 첫 번째 사연 올라갑니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "방송",
+        "진행"
+      ],
+      "fit_reason": "마이크를 쥔 모습이 가볍게 진행을 맡는 연출이다."
+    },
+    {
+      "example_id": "7509739-3",
+      "context": "친구가 행사 진행을 부탁한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동아리 행사 사회자 구했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 해주면 딱인데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마이크만 준비해 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "행사",
+        "자신감"
+      ],
+      "fit_reason": "이마에 손을 올린 포즈와 윙크가 흔쾌히 맡겠다는 태도다."
+    },
+    {
+      "example_id": "7509739-4",
+      "context": "영상 통화에서 장난스러운 인터뷰를 시작하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 시험 끝난 소감 어떠십니까?"
+        },
+        {
+          "speaker": "B",
+          "text": "일단 침대로 가고 싶습니다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "마지막으로 전국의 수험생에게 한마디",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시험",
+        "인터뷰놀이"
+      ],
+      "fit_reason": "마이크를 내보이는 구도가 친구에게 진행자처럼 질문하기 좋다."
+    },
+    {
+      "example_id": "7509739-5",
+      "context": "친구가 플레이리스트를 틀어 달라고 한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "차에서 무슨 노래 틀까?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 요즘 듣는 거로 골라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금부터 제가 DJ 하겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "음악",
+        "장난"
+      ],
+      "fit_reason": "마이크와 익살스러운 윙크가 DJ 흉내의 분위기를 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

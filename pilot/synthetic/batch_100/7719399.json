@@ -1,0 +1,146 @@
+{
+  "package_id": "170688",
+  "sticker_id": "7719399",
+  "image_path": "images/170688/7719399-b696916146f5bc6b50e0.png",
+  "image_view": "still",
+  "image_description": "금발 캐릭터 두 명이 있다. 왼쪽은 반쯤 감은 눈으로 등을 기대고 서 있고 오른쪽의 작은 캐릭터는 눈을 동그랗게 뜬 채 초록색 소품 앞에 앉아 말풍선을 띄운다.",
+  "image_tags": [
+    "왼쪽 인물의 반쯤 감긴 분홍 눈",
+    "오른쪽 인물의 둥근 눈",
+    "금발 캐릭터 두 명",
+    "초록색 소품",
+    "영어 말풍선"
+  ],
+  "image_text": [
+    "So coool..."
+  ],
+  "interpretation_note": "같이 배치된 두 표정의 온도 차이로 진심 어린 감탄이나 시큰둥한 분위기 속 장난스러운 감탄을 표현할 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7719399_01",
+      "context": "친구가 가방에 넣고 다니는 미니 키보드를 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 조그만 건 계산기야?"
+        },
+        {
+          "speaker": "B",
+          "text": "키보드임. 블루투스로 바로 연결돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "헉 나도 눌러 봐도 돼?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감탄",
+        "호기심"
+      ],
+      "fit_reason": "작은 키보드의 기능을 알아본 직후라 눈을 동그랗게 뜬 캐릭터의 영어 감탄이 자연스럽다."
+    },
+    {
+      "example_id": "7719399_02",
+      "context": "후배가 선배의 공연 준비물을 보고 놀란다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "선배 오늘 악기 직접 들고 오셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 케이스도 제가 꾸몄어요. 옆에 별 보이죠?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "와 별 달아 놓은 거 진짜 멋있어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "감탄"
+      ],
+      "fit_reason": "케이스에 달린 별을 알아보는 대화가 왼쪽 캐릭터 뒤의 별 장식과 연결된다."
+    },
+    {
+      "example_id": "7719399_03",
+      "context": "친구가 아무 일도 아니라는 듯 고장 난 물건을 고친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 선풍기 버릴까?"
+        },
+        {
+          "speaker": "B",
+          "text": "잠깐만. 여기 접점만 닦으면 돼"
+        },
+        {
+          "speaker": "A",
+          "text": "어 다시 돌아가네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너한텐 이게 그냥 잠깐만이구나 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감탄",
+        "친근한 칭찬"
+      ],
+      "fit_reason": "덤덤하게 수리를 끝낸 친구와 놀란 화자의 온도 차가 시큰둥한 왼쪽과 감탄하는 오른쪽 인물의 대비에 맞는다."
+    },
+    {
+      "example_id": "7719399_04",
+      "context": "아이가 스스로 만든 장난감을 가족 단체방에 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진에 저 초록색은 뭐야?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 종이로 개구리 만들었어. 배 접으면 점프해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "와 다음에 만나면 점프하는 거 보여 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "다정한 칭찬",
+        "관심 표현"
+      ],
+      "fit_reason": "작은 소품을 든 캐릭터를 향한 감탄처럼, 직접 만든 종이 장난감을 더 보고 싶다는 말에 어울린다."
+    },
+    {
+      "example_id": "7719399_05",
+      "context": "게임 친구가 쉬운 트릭을 비장하게 설명한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 벽은 어떻게 넘어?"
+        },
+        {
+          "speaker": "B",
+          "text": "고도의 기술이지. 그냥 점프 두 번 하면 됨"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이렇게 대단한 비법을 다 알려 주시고 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "친근한 놀림"
+      ],
+      "fit_reason": "쉬운 방법을 비법처럼 소개한 직후라 말줄임표가 붙은 과장된 감탄과 옆의 반쯤 감긴 눈이 능청스럽게 읽힌다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

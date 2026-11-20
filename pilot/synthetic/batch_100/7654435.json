@@ -1,0 +1,140 @@
+{
+  "package_id": "172805",
+  "sticker_id": "7654435",
+  "image_path": "images/172805/7654435-e21ec3de992bbf7f55db.png",
+  "image_view": "still",
+  "image_description": "흰 단발 캐릭터가 양쪽 눈을 옆으로 길게 벌리고 정면을 응시한다. 볼은 붉고 분홍 배경에 흰빛 얼룩이 떠 있다.",
+  "image_tags": [
+    "길게 늘어난 동그란 눈",
+    "작게 내민 혀",
+    "큰 원형 홍조",
+    "머리 위 삐친 한 가닥",
+    "분홍 배경의 흰빛 얼룩"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7654435_01",
+      "context": "사라진 과자를 개봉한 사람이 드러난다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "책상에 있던 과자 어디 갔지?"
+        },
+        {
+          "speaker": "B",
+          "text": "안 먹으려 했는데 봉지를 연 건 나야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "누가 한 입만 먹고 봉지를 이렇게 접어두냐고.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "장난스러운 응시"
+      ],
+      "fit_reason": "과자를 슬쩍 먹은 고백에 옆으로 길어진 눈과 살짝 내민 혀를 붙여 장난스럽게 빤히 쳐다보는 반응을 만든다."
+    },
+    {
+      "example_id": "7654435_02",
+      "context": "친구가 갑자기 선물을 건넨다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 놓친 스티커 네 책상에 두고 왔어."
+        },
+        {
+          "speaker": "B",
+          "text": "뭐야 그걸 어떻게 구했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 지금 책상에 달려가는 중.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "설렘",
+        "놀람"
+      ],
+      "fit_reason": "놓쳤던 스티커가 책상에 있다는 소식에 동그란 눈과 붉은 볼이 기쁜 놀람을 보여 준다."
+    },
+    {
+      "example_id": "7654435_03",
+      "context": "공모전 참가자가 자유 복장을 문자 그대로 받아들인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "포스터에 자유 복장이라고 적혀 있었어."
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 내가 공룡 잠옷 입고 옴."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나는 셔츠 단추 하나 안 잠근 게 전분데.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당함",
+        "친근한 놀림"
+      ],
+      "fit_reason": "공룡 잠옷이라는 예상 밖의 답에 옆으로 퍼진 눈이 시선을 떼지 못하는 반응처럼 보인다."
+    },
+    {
+      "example_id": "7654435_04",
+      "context": "진행을 잘했다는 칭찬에 민망해한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 진행 깔끔하더라. 덕분에 빨리 끝났어."
+        },
+        {
+          "speaker": "B",
+          "text": "내가 너무 버벅댄 것 같았는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "좋게 봐줬다니 진짜 다행이다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "쑥스러움",
+        "감사"
+      ],
+      "fit_reason": "진행을 잘했다는 칭찬에 붉어진 양 볼과 작은 입이 기뻐하면서도 민망한 마음을 드러낸다."
+    },
+    {
+      "example_id": "7654435_05",
+      "context": "친구가 새로 산 안경이 어떠냐고 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "전이랑 안경테 많이 달라?"
+        },
+        {
+          "speaker": "B",
+          "text": "동그란 걸로 바꿨더니 눈이 더 커 보인대."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 방금 갑자기 내 화면도 같이 커진 줄.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 과장",
+        "관찰"
+      ],
+      "fit_reason": "눈이 커 보인다는 말에 양쪽 눈이 비정상적으로 크게 그려진 이미지를 붙여 농담을 키운다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

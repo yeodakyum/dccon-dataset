@@ -1,0 +1,137 @@
+{
+  "package_id": "175439",
+  "sticker_id": "7342832",
+  "image_path": "images/175439/7342832-b53ebabfadb774386429.png",
+  "image_description": "검은 배경 아래 밝은 청록색 파도가 화면을 채운다. 눈물을 흘리는 하얀 캐릭터가 물 위로 머리만 내밀고, 위에는 '끝나다..'가 적혀 있다.",
+  "image_tags": [
+    "검은 배경",
+    "청록색 파도",
+    "하얀 캐릭터",
+    "눈물",
+    "끝나다 글자"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7342832-1",
+      "context": "휴가 마지막 날 밤에 출근을 떠올린 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "달력 보니까 내일 월요일이다"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 휴가 벌써 다 썼네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나의 여름 끝나다..",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "휴가",
+        "아쉬움"
+      ],
+      "fit_reason": "반쯤 잠긴 얼굴과 끝나다 글자가 휴가 종료를 과장한다."
+    },
+    {
+      "example_id": "7342832-2",
+      "context": "시험장에서 확신하던 답이 틀린 걸 알아챈 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "3번 답 그거 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "문제에서 옳지 않은 걸 고르랬어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 점수 끝나다..",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시험",
+        "좌절"
+      ],
+      "fit_reason": "울면서 파도에 잠긴 모습이 뒤늦은 낙담을 보여준다."
+    },
+    {
+      "example_id": "7342832-3",
+      "context": "놓칠 수 없는 공연 예매가 실패한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "대기열 이제 빠졌어"
+        },
+        {
+          "speaker": "B",
+          "text": "전석 매진이라고 공지 떴다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "올해 내 공연 끝나다..",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예매",
+        "실패"
+      ],
+      "fit_reason": "파도에 떠밀리는 캐릭터가 허탈한 실패의 반응에 맞는다."
+    },
+    {
+      "example_id": "7342832-4",
+      "context": "온라인 게임에서 혼자 남아 포위된 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너희 어디 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 다 죽었어. 뒤에 셋 온다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 판 끝나다..",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "체념"
+      ],
+      "fit_reason": "작게 남은 머리와 슬픈 표정이 탈출이 힘든 처지처럼 보인다."
+    },
+    {
+      "example_id": "7342832-5",
+      "context": "실수로 과제 파일 저장을 안 한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "창 닫았는데 저장 창 안 봤어"
+        },
+        {
+          "speaker": "B",
+          "text": "복구 폴더 비어 있대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 밤샘 끝나다..",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과제",
+        "허탈"
+      ],
+      "fit_reason": "파도에 가라앉은 듯한 그림이 작업이 사라진 충격을 표현한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

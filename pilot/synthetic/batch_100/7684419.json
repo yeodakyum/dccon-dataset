@@ -1,0 +1,144 @@
+{
+  "package_id": "176544",
+  "sticker_id": "7684419",
+  "image_path": "images/176544/7684419-c1937debb832df55df22.png",
+  "image_view": "still",
+  "image_description": "동그란 흰 캐릭터가 귀를 뒤로 눕히고 팔과 다리를 양옆으로 벌렸다. 오른쪽 발 옆에 작은 동작선이 보인다.",
+  "image_tags": [
+    "점처럼 작은 양 눈",
+    "삐죽 오므린 입",
+    "뒤로 누운 귀",
+    "벌린 팔다리",
+    "발 옆 동작선"
+  ],
+  "image_text": [],
+  "interpretation_note": "발을 굴러 조르는 모습이나 신나서 제자리에서 뛰는 몸짓처럼 읽힐 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7684419_01",
+      "context": "친구가 분식집 신메뉴 사진을 보내고 같이 가자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저기 치즈떡볶이 새로 나왔대"
+        },
+        {
+          "speaker": "B",
+          "text": "사진 봐 치즈가 떡보다 많음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 바로 가자 나 신발 신음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "들뜸",
+        "즉석 약속"
+      ],
+      "fit_reason": "당장 신발을 신었다고 말할 때 발 옆 동작선이 신나서 제자리걸음 하는 듯한 분위기를 준다."
+    },
+    {
+      "example_id": "7684419_02",
+      "context": "친구가 온라인 게임의 방을 늦게 만든다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "준비됐어? 나 먼저 들어왔는데"
+        },
+        {
+          "speaker": "B",
+          "text": "아 잠깐 캐릭터 옷 하나만 바꾸고"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방부터 만들어 줘 나 입구에서 대기 중임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재촉",
+        "장난스러운 조르기"
+      ],
+      "fit_reason": "이미 입구에서 기다린다는 말 뒤에 발을 구르는 듯한 선이 가벼운 재촉으로 읽힌다."
+    },
+    {
+      "example_id": "7684419_03",
+      "context": "연인이 멀리 있다가 예정보다 일찍 돌아온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 막차 타고 와?"
+        },
+        {
+          "speaker": "B",
+          "text": "아냐 한 시간 일찍 끝나서 이제 내려"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 지금 역 앞 갈게!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반가움",
+        "설렘"
+      ],
+      "fit_reason": "예정보다 일찍 만난다는 소식 뒤에 양팔을 벌린 캐릭터가 뛰어나갈 만큼 반가운 마음을 전한다."
+    },
+    {
+      "example_id": "7684419_04",
+      "context": "친구가 이불 밖이 추워 아침에 일어나기 힘들다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너는 출근 준비 시작했냐"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 발 하나 내밀고 다시 넣음"
+        },
+        {
+          "speaker": "A",
+          "text": "나도 발 동동 거리는 중 버스 10분 남았는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이러다 잠옷으로 나가겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "초조함",
+        "자조"
+      ],
+      "fit_reason": "버스까지 얼마 안 남았을 때 발 옆 효과선과 어정쩡하게 벌린 다리가 급하고 망설이는 몸짓을 닮았다."
+    },
+    {
+      "example_id": "7684419_05",
+      "context": "행사 준비를 끝낸 동료가 남은 시간을 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "무대 체크 다 됐나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 시작까지 20분 남았습니다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 잠깐 밖에 나가서 바람 쐬고 올게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "해방감",
+        "가벼운 기쁨"
+      ],
+      "fit_reason": "체크를 마쳐 밖으로 나갈 수 있게 된 시점이라, 팔다리를 펴고 가볍게 움직이는 그림이 긴장을 푸는 답에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

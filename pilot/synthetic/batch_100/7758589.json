@@ -1,0 +1,146 @@
+{
+  "package_id": "176503",
+  "sticker_id": "7758589",
+  "image_path": "images/176503/7758589-52547c1b01ee5d7ffa63.png",
+  "image_view": "still",
+  "image_description": "크림과 고구마 조각이 얹힌 조각 케이크에 파란 눈물을 흘리는 얼굴이 그려져 있다. 위쪽 두 줄에는 왜 케이크가 되었는지 적혀 있다.",
+  "image_tags": [
+    "눈물이 맺힌 둥근 눈",
+    "오므린 작은 입",
+    "보랏빛 케이크 층",
+    "위에 얹은 고구마 조각",
+    "기울어진 검은 손글씨"
+  ],
+  "image_text": [
+    "나 우울해서 고구마 무스 케이크 됐어.."
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758589_01",
+      "context": "친구가 마감 직전 빵집에 도착했으나 먹고 싶던 빵은 품절이다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 고구마 케이크 꼭 먹는다 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "딱 나 들어가는데 마지막 조각 계산하더라"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오늘은 내가 고구마 케이크가 될게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절 아쉬움",
+        "자조"
+      ],
+      "fit_reason": "원하던 케이크를 놓친 사람이 케이크가 된다는 말에 눈물 흘리는 조각 그림이 정확히 이어진다."
+    },
+    {
+      "example_id": "7758589_02",
+      "context": "친구가 일이 힘들다며 하소연하고 상대가 간식을 제안한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "고친 부분 저장 전에 컴퓨터가 꺼졌어"
+        },
+        {
+          "speaker": "B",
+          "text": "편의점 가는 중인데 먹고 싶은 거 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "달달한 거 아무거나 부탁해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기분 전환 요청",
+        "속상함"
+      ],
+      "fit_reason": "작업을 잃어 속상한데 단것을 받기로 해, 우울 문구와 달콤한 케이크 이미지가 함께 맞는다."
+    },
+    {
+      "example_id": "7758589_03",
+      "context": "예정된 소풍이 날씨 때문에 취소된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "주말 내내 비 예보로 바뀜"
+        },
+        {
+          "speaker": "B",
+          "text": "도시락도 준비해서 냉장고에 뒀는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 우리 집에서 도시락이라도 까 먹자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "대안 제안"
+      ],
+      "fit_reason": "정성 들여 도시락을 준비했다가 소풍이 취소된 아쉬움에 케이크의 파란 눈물이 가벼운 하소연을 전한다."
+    },
+    {
+      "example_id": "7758589_04",
+      "context": "동료가 연속으로 일이 꼬인 날에 퇴근 인사를 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 표 계산 잘못하고 커피도 엎었어요"
+        },
+        {
+          "speaker": "B",
+          "text": "그래도 이제 일 다 끝났죠?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 집 가서 케이크 한 조각 먹고 끊겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자기 위로",
+        "피곤함"
+      ],
+      "fit_reason": "실수가 겹친 날을 케이크로 마무리한다는 말에 우울해서 케이크가 되었다는 문구가 자기 위로처럼 붙는다."
+    },
+    {
+      "example_id": "7758589_05",
+      "context": "친구가 가볍게 놀리려고 맛있어 보이는 디저트 사진만 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 이거 좋아하지 사진만 보냄"
+        },
+        {
+          "speaker": "B",
+          "text": "같이 가자는 말인 줄 알았는데"
+        },
+        {
+          "speaker": "A",
+          "text": "방금 다 먹었거든"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어쩜 사진에 남은 케이크보다 내가 더 슬프냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 탓",
+        "과장된 서운함"
+      ],
+      "fit_reason": "함께 먹지 못하고 사진만 받은 사람의 장난스러운 서운함이 눈물 나는 케이크와 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

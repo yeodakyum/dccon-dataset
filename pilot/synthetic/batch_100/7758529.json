@@ -1,0 +1,157 @@
+{
+  "package_id": "176503",
+  "sticker_id": "7758529",
+  "image_path": "images/176503/7758529-d39e93ce6ede8c9ba8fd.png",
+  "image_description": "딸기를 얹은 케이크 모양 고양이가 눈물을 흘리며 ‘나 우울해서 케잌 됐어..’라고 한다.",
+  "image_tags": [
+    "케이크 고양이",
+    "딸기 토핑",
+    "눈물",
+    "생크림",
+    "우울 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758529_01",
+      "context": "친구가 우울한 날 케이크를 산다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 단톡에 조용하더라"
+        },
+        {
+          "speaker": "B",
+          "text": "일이 좀 꼬였어"
+        },
+        {
+          "speaker": "A",
+          "text": "퇴근하고 뭐 했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "딸기 케이크 한 조각 사 왔어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기분 전환",
+        "우울"
+      ],
+      "fit_reason": "케이크가 된 슬픈 고양이가 디저트로 기분을 달래는 상황과 맞는다."
+    },
+    {
+      "example_id": "7758529_02",
+      "context": "비 때문에 소풍이 취소된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "하필 내일만 비 온대"
+        },
+        {
+          "speaker": "B",
+          "text": "도시락까지 다 해놨는데"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 실내에서 케이크 먹을래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "콜 나 지금 딸기 얹으면 케이크 될 기분임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "자조"
+      ],
+      "fit_reason": "슬픈 얼굴과 케이크 몸을 약속 변경 농담으로 연결한다."
+    },
+    {
+      "example_id": "7758529_03",
+      "context": "친구가 면접 뒤 디저트를 먹는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "면접 끝났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "질문 하나 아예 대답 못 했어"
+        },
+        {
+          "speaker": "A",
+          "text": "뭐라도 먹고 기분 풀자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이미 크림 잔뜩 올라간 거 시켰어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "위로",
+        "간식"
+      ],
+      "fit_reason": "눈물과 케이크가 속상함과 위로를 함께 표현한다."
+    },
+    {
+      "example_id": "7758529_04",
+      "context": "카페에서 딸기 케이크가 매진이다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "도착했는데 진열장 비었어"
+        },
+        {
+          "speaker": "B",
+          "text": "딸기 하나도 없어?"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘 건 다 나갔대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나 그냥 여기 앉아서 케이크 되는 수밖에",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "품절",
+        "장난"
+      ],
+      "fit_reason": "케이크 자체가 되어 버린 고양이를 품절의 대안으로 농담한다."
+    },
+    {
+      "example_id": "7758529_05",
+      "context": "서로의 기분을 그림으로 답한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 기분 색깔로 말해봐"
+        },
+        {
+          "speaker": "B",
+          "text": "회색쯤 되려나"
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 음식으로는?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "울고 있는 딸기 케이크",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기분 표현",
+        "유머"
+      ],
+      "fit_reason": "이미지가 최종 발화의 슬픈 케이크를 직접 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

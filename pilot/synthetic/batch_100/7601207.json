@@ -1,0 +1,146 @@
+{
+  "package_id": "175355",
+  "sticker_id": "7601207",
+  "image_path": "images/175355/7601207-8ee8e8d292572fc217ae.png",
+  "image_view": "still",
+  "image_description": "검은 단발 캐릭터가 반짝이는 큰 눈을 뜨고 얼굴 옆에 손을 올린다. 근처에 꼬불꼬불한 기호가 여러 개 떠 있고 위쪽에 되묻는 자막이 있다.",
+  "image_tags": [
+    "광택이 큰 붉은 눈",
+    "작게 벌린 분홍 입",
+    "귀 근처에 댄 손",
+    "휘어진 기호 여러 개",
+    "검붉은 질문 자막"
+  ],
+  "image_text": [
+    "어쩌라는거지.."
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7601207_01",
+      "context": "친구가 모임 시간을 정하자면서 서로 충돌하는 조건을 붙인다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일 오전이 좋아 오후가 좋아?"
+        },
+        {
+          "speaker": "B",
+          "text": "오전엔 못 일어나고 오후엔 이미 약속 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 너 가능한 다른 날을 말해 줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "조건 정리",
+        "친근한 답답함"
+      ],
+      "fit_reason": "토요일의 양쪽 선택지가 전부 막힌 뒤라 꼬인 머리 옆 기호와 ‘어쩌라는거지’가 딱 맞는다."
+    },
+    {
+      "example_id": "7601207_02",
+      "context": "동료가 무슨 의미인지 알기 어려운 수정 지시를 전달한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "포스터를 더 단정하게 바꾸라고 하셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 대신 지금보다 요소를 두 배로 많이 넣으래요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "어떤 요소가 먼저인지 물어보고 할게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "지시 확인",
+        "당혹감"
+      ],
+      "fit_reason": "요소를 줄일지 늘릴지 판단하기 어려워서 귀 옆에 손을 올린 얼굴과 질문 자막이 혼선을 나타낸다."
+    },
+    {
+      "example_id": "7601207_03",
+      "context": "친구가 공감과 해결책 중 무엇을 원하는지 말하지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 진짜 엉망이었어"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 뭐 도와줄까?"
+        },
+        {
+          "speaker": "A",
+          "text": "딱히 도와달라는 건 아님"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 얘기만 좀 들어 주면 돼?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기대 확인",
+        "조심스러운 접근"
+      ],
+      "fit_reason": "도움 요청인지 하소연인지 불분명한 때라 반짝이는 정면 눈과 의문 자막이 상대의 바람을 알아보는 반응이 된다."
+    },
+    {
+      "example_id": "7601207_04",
+      "context": "친구가 중요하지 않은 정보를 뒤늦게 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어제 네가 빌려 간 책 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 창문 밖에 비 옴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 소식까지는 잘 받았고 책은?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "화제 복귀",
+        "친근한 타박"
+      ],
+      "fit_reason": "책 위치 질문과 상관 없는 날씨 대답을 들어 어쩌라는 자막이 엉뚱한 답을 가볍게 지적한다."
+    },
+    {
+      "example_id": "7601207_05",
+      "context": "온라인 쇼핑 서비스에서 모호한 조건만 안내한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 옵션 누르면 배송 언제 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "버튼에 상황에 따라 가능이라고만 써 있음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "상황이 뭔지는 장바구니도 모르나 보네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "서비스 답답함",
+        "반어"
+      ],
+      "fit_reason": "알아보려 누른 옵션이 추가 정보 없이 ‘상황’이라고 답해서 고개 옆의 꼬인 기호가 풀리지 않은 의문을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

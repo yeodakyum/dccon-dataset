@@ -1,0 +1,137 @@
+{
+  "package_id": "176627",
+  "sticker_id": "7678772",
+  "image_path": "images/176627/7678772-c382646229023775f551.png",
+  "image_description": "빨간 목 리본을 맨 노란 줄무늬 고양이가 눈을 꽉 감고 양쪽으로 눈물을 흘리며 분홍색 입을 크게 벌린다.",
+  "image_tags": [
+    "줄무늬고양이",
+    "빨간리본",
+    "눈물",
+    "감은눈",
+    "벌린입"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7678772-1",
+      "context": "새끼 고양이 영상",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 고양이가 처음으로 상자에서 놀아"
+        },
+        {
+          "speaker": "B",
+          "text": "영상 하나 보낼까?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "보냈다. 나 귀여워서 우는 중",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고양이",
+        "감격"
+      ],
+      "fit_reason": "크게 우는 고양이가 귀여움에 벅찬 반응을 전한다."
+    },
+    {
+      "example_id": "7678772-2",
+      "context": "잠들기 직전 알림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 진짜 자려던 참인데"
+        },
+        {
+          "speaker": "B",
+          "text": "내일 첫 수업 강의실 바뀌었대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 아까 내일 동선 다 외웠다고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피곤",
+        "불평"
+      ],
+      "fit_reason": "눈을 꼭 감고 우는 과장이 사소한 막판 불평에 맞다."
+    },
+    {
+      "example_id": "7678772-3",
+      "context": "공포 게임 놀람",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 문 열면 다음 방 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 그냥 들어가면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 튀어나온 거 봤어?!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공포",
+        "놀람"
+      ],
+      "fit_reason": "벌어진 입과 눈물이 깜짝 놀라 소리 지르는 모습 같다."
+    },
+    {
+      "example_id": "7678772-4",
+      "context": "원하던 표 매진",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "결제창에서 튕겼어"
+        },
+        {
+          "speaker": "B",
+          "text": "다시 새로고침했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 이제 회색 버튼만 남았어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매진",
+        "속상함"
+      ],
+      "fit_reason": "눈물 흘리는 표정이 표를 놓친 허탈함을 전한다."
+    },
+    {
+      "example_id": "7678772-5",
+      "context": "양파 손질",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "볶음밥 재료 손질하는 중"
+        },
+        {
+          "speaker": "B",
+          "text": "왜 답장이 이렇게 늦어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "양파 썰다가 눈을 못 뜨겠어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "요리",
+        "눈물"
+      ],
+      "fit_reason": "눈을 감은 채 눈물을 흘려 양파 때문에 우는 모습과 맞다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

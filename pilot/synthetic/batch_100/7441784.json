@@ -1,0 +1,137 @@
+{
+  "package_id": "175964",
+  "sticker_id": "7441784",
+  "image_path": "images/175964/7441784-50d106960ce440505032.png",
+  "image_description": "빨간 머리 캐릭터의 파란 눈과 머리 장식이 화면을 가득 채우고, 왼쪽 위에 하얀 '오~' 글자가 걸쳐 있다.",
+  "image_tags": [
+    "빨간 머리",
+    "파란 눈",
+    "머리 장식",
+    "오 글자",
+    "클로즈업"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7441784-1",
+      "context": "친구가 처음 만든 쿠키를 보여주는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "쿠키 처음 구워본다더니 어땠어?"
+        },
+        {
+          "speaker": "B",
+          "text": "이거 봐. 모양도 잘 나왔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오~ 제법인데?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감탄",
+        "베이킹"
+      ],
+      "fit_reason": "큰 눈과 오 글자가 결과물에 대한 감탄을 대신한다."
+    },
+    {
+      "example_id": "7441784-2",
+      "context": "저렴한 공연 표를 발견한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 공연 비싸서 포기했는데"
+        },
+        {
+          "speaker": "B",
+          "text": "학생 할인 걸면 만 원이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오~ 그럼 얘기가 다르지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "할인",
+        "관심"
+      ],
+      "fit_reason": "얼굴을 가까이 내민 듯한 구도가 솔깃함을 표현한다."
+    },
+    {
+      "example_id": "7441784-3",
+      "context": "동료가 단축키를 알려 준 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 매번 메뉴 들어가서 해?"
+        },
+        {
+          "speaker": "B",
+          "text": "여기서 커맨드 엔터 누르면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오~ 된다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "업무",
+        "깨달음"
+      ],
+      "fit_reason": "짧은 감탄이 바로 해결된 순간과 맞는다."
+    },
+    {
+      "example_id": "7441784-4",
+      "context": "친구가 새로운 안경을 써 본 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "안경 바꿀까 고민 중이라며"
+        },
+        {
+          "speaker": "B",
+          "text": "이거 써 봤는데 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오~ 이거 잘 어울린다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "외모",
+        "칭찬"
+      ],
+      "fit_reason": "반짝이는 눈의 클로즈업으로 긍정적인 첫인상을 준다."
+    },
+    {
+      "example_id": "7441784-5",
+      "context": "퍼즐의 마지막 단서를 들은 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "비밀번호가 왜 네 자리야?"
+        },
+        {
+          "speaker": "B",
+          "text": "포스터에 적힌 개봉일 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오~ 날짜였구나",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "발견"
+      ],
+      "fit_reason": "오 글자가 뒤늦게 이해한 반응을 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

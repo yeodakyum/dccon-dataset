@@ -1,0 +1,151 @@
+{
+  "package_id": "176671",
+  "sticker_id": "7736062",
+  "image_path": "images/176671/7736062-e2198331ab389c04ba98.png",
+  "image_view": "still",
+  "image_description": "파란 보라색 머리의 메이드 차림 캐릭터가 눈꺼풀을 내리뜬 채 입을 작게 벌리고 땀을 흘린다. 머리 위에는 흰 글자와 빨간 물음표·느낌표가 있다.",
+  "image_tags": [
+    "반쯤 감긴 파란 눈",
+    "처진 눈썹",
+    "작게 벌어진 입",
+    "볼 옆 땀방울",
+    "붉은 느낌표와 물음표"
+  ],
+  "image_text": [
+    "예에?",
+    "!?"
+  ],
+  "interpretation_note": "늘인 존댓말 의문사와 피곤해 보이는 표정은 진짜 당황하거나 어이없는 요구를 되묻는 데 쓰일 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7736062_01",
+      "context": "회사에서 마감 직전 발표 순서가 바뀐다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다음 발표는 저희 다음 팀 맞죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 순서 바뀌어서 지금 바로 들어가시면 돼요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금이요? 저희 아직 파일도 안 띄웠는데요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "일정 재확인"
+      ],
+      "fit_reason": "파일도 열지 못한 팀이 지금 발표하라는 말을 들어, 땀방울과 늘인 ‘예에?’가 당황스러운 되물음을 표현한다."
+    },
+    {
+      "example_id": "7736062_02",
+      "context": "친구가 게임 길을 안내하면서 엉뚱한 통과 조건을 알려 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 문 레벨 몇 되면 열려?"
+        },
+        {
+          "speaker": "B",
+          "text": "레벨 말고 감자 30개 있어야 열림."
+        },
+        {
+          "speaker": "A",
+          "text": "아니 경비병도 아니고 왜 감자를 검문해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 나 지금 감자 장 보러 가야 돼?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당함",
+        "친근한 농담"
+      ],
+      "fit_reason": "문을 열려면 감자가 필요하다는 뜬금없는 조건이라, 반쯤 감긴 눈과 붉은 ‘!?’가 황당함을 드러낸다."
+    },
+    {
+      "example_id": "7736062_03",
+      "context": "동생이 빌려 간 소형 선풍기를 자기 물건처럼 소개한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 탁상 선풍기 오늘은 돌려줘."
+        },
+        {
+          "speaker": "B",
+          "text": "엄마한테 내가 산 거라고 했는데 ㅎㅎ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "예? 카드 내역도 네가 결제한 걸로 바뀌었대?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "가벼운 항의"
+      ],
+      "fit_reason": "동생이 빌린 물건을 자기 것이라고 하는 상황에서, 처진 눈썹과 긴 의문사가 사실을 믿을 수 없다는 핀잔처럼 들린다."
+    },
+    {
+      "example_id": "7736062_04",
+      "context": "친구 둘이 배송 개수 착오를 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "컵 네 개 주문한 거 오늘 도착했어."
+        },
+        {
+          "speaker": "B",
+          "text": "상자에 컵받침만 스무 개 있는데?"
+        },
+        {
+          "speaker": "A",
+          "text": "스무 개라고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "송장 사진 한 장만 보내줘 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "혼란",
+        "사실 확인"
+      ],
+      "fit_reason": "주문한 컵 대신 컵받침 스무 개가 왔다는 말에, 작은 입과 땀방울이 어리둥절한 얼굴을 대신한다."
+    },
+    {
+      "example_id": "7736062_05",
+      "context": "회의 중 통화음이 잠깐 끊긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기서 굵은 화살표 방향만 바꿔 주세요."
+        },
+        {
+          "speaker": "B",
+          "text": "아 잠시만요, 마지막에 뭐라고 하셨어요?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "제 쪽이 끊겼어요. 화살표 어디요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재질문",
+        "소통 복구"
+      ],
+      "fit_reason": "통화음이 끊겨 지시를 되묻는 말과, 정면을 보며 ‘예에?’ 하고 입을 여는 모습이 자연스럽게 이어진다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

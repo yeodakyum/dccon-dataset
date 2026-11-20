@@ -1,0 +1,157 @@
+{
+  "package_id": "175225",
+  "sticker_id": "7720252",
+  "image_path": "images/175225/7720252-9b625d202d481fae2a6b.jpg",
+  "image_description": "고양이 얼굴 앞에 노란 엄지 이미지가 있고 위에는 색이 섞인 ‘쥐쥐이야’ 문구가 있다.",
+  "image_tags": [
+    "고양이 얼굴",
+    "엄지 척",
+    "쥐쥐이야 문구",
+    "구름 낀 하늘",
+    "합성 이미지"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7720252_01",
+      "context": "친구와 하던 온라인 게임 한 판을 진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 넥서스 맞고 있음"
+        },
+        {
+          "speaker": "B",
+          "text": "나 20초 뒤에 살아나"
+        },
+        {
+          "speaker": "A",
+          "text": "이미 승리 화면 떴어 상대 팀 거"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 이건 진짜 GG ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "패배 인정"
+      ],
+      "fit_reason": "쥐쥐 문구를 GG로 읽으며 엄지로 한 판의 끝을 표시한다."
+    },
+    {
+      "example_id": "7720252_02",
+      "context": "친구가 경쟁에서 크게 앞선다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 기록 53초 나왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "난 아까 겨우 1분 깼는데"
+        },
+        {
+          "speaker": "A",
+          "text": "방금 50초도 나옴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너랑 기록 비교하는 건 여기까지다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "패배 인정",
+        "감탄"
+      ],
+      "fit_reason": "웃는 듯한 고양이와 엄지 척이 유쾌한 승복에 맞는다."
+    },
+    {
+      "example_id": "7720252_03",
+      "context": "답을 모르는 퀴즈를 끝내 포기한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "힌트 받아도 됨"
+        },
+        {
+          "speaker": "B",
+          "text": "일단 첫 글자만"
+        },
+        {
+          "speaker": "A",
+          "text": "첫 글자가 너라서 더 어려울걸"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그냥 답 공개해 나 GG 침",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "포기",
+        "장난"
+      ],
+      "fit_reason": "쥐쥐 문구가 더 추측하지 않겠다는 신호가 된다."
+    },
+    {
+      "example_id": "7720252_04",
+      "context": "서로 누가 더 매운 걸 먹나 내기한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너는 한 젓가락만 먹었잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "물 두 컵 마셨어"
+        },
+        {
+          "speaker": "A",
+          "text": "나는 아직 반 접시 남음"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오케이 네가 이겼다 혀가 안 돌아감",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "승복",
+        "매운맛"
+      ],
+      "fit_reason": "엄지 척이 친구의 승리를 인정하는 몸짓처럼 읽힌다."
+    },
+    {
+      "example_id": "7720252_05",
+      "context": "단체 게임을 끝낸 뒤 인사한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 여기까지 할까"
+        },
+        {
+          "speaker": "B",
+          "text": "응 수고했어"
+        },
+        {
+          "speaker": "A",
+          "text": "마지막 판은 재밌었다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "다들 GG 낼 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "마무리",
+        "인사"
+      ],
+      "fit_reason": "GG로 읽히는 말과 엄지가 가벼운 마무리 인사가 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

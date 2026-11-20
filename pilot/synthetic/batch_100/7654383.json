@@ -1,0 +1,142 @@
+{
+  "package_id": "172805",
+  "sticker_id": "7654383",
+  "image_path": "images/172805/7654383-cfcb1d004fb6a451c1a4.png",
+  "image_view": "still",
+  "image_description": "옅은 푸른 머리 인물이 눈을 휘둥그레 뜨고 혀처럼 길게 벌어진 입으로 외친다. 머리 위 말풍선에는 개불빙이 무엇인지 묻는 문구가 굵게 쓰여 있다.",
+  "image_tags": [
+    "크게 뜬 흰자와 작은 동공",
+    "세로로 벌린 분홍 입",
+    "분홍색 볼",
+    "흩어진 연푸른 머리",
+    "굵은 두 줄 말풍선"
+  ],
+  "image_text": [
+    "그래서 개불빙이 도대체 뭐냐고"
+  ],
+  "interpretation_note": "개불빙의 의미는 이미지에서 확인되지 않는다. 모르는 말의 뜻을 재차 묻는 용도로 읽었다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7654383_01",
+      "context": "친구가 단체방에서 메뉴를 줄임말로만 부른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "개불빙 하나 시킬까?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까부터 개불빙이 뭔데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "메뉴판 어디 줄에 있는지부터 좀 알려 줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뜻 확인",
+        "답답함"
+      ],
+      "fit_reason": "식당 메뉴 이름을 알아듣지 못해서 실제로 개불빙을 묻는 말풍선을 그대로 보낸다."
+    },
+    {
+      "example_id": "7654383_02",
+      "context": "회사에서 약자만 적힌 인수인계 문서를 받았다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이건 오늘까지 DCR에 넣으면 돼요."
+        },
+        {
+          "speaker": "B",
+          "text": "어느 메뉴가 DCR이에요?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "저 입사하고 그 약자 오늘 처음 봤어요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청",
+        "당황"
+      ],
+      "fit_reason": "뜻 모를 말에 눈을 크게 뜨고 되묻는 캐릭터가 신입의 막막함을 가볍게 보여 준다."
+    },
+    {
+      "example_id": "7654383_03",
+      "context": "친구가 레시피에 처음 보는 계량을 쓴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기에 소금 한 꼬집 반만 넣어."
+        },
+        {
+          "speaker": "B",
+          "text": "꼬집 반은 손가락 두 개야 세 개야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그냥 그램으로 알려줘 제발.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재질문",
+        "친근한 투정"
+      ],
+      "fit_reason": "장황한 질문 말풍선과 벌어진 입이 모호한 계량 단위를 듣고 답답한 반응을 강조한다."
+    },
+    {
+      "example_id": "7654383_04",
+      "context": "게임 친구가 지도에 없는 별명을 쓴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "다들 냉장고 뒤에 숨어."
+        },
+        {
+          "speaker": "B",
+          "text": "맵에 냉장고가 어디 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그게 맵 이름인지 지형 이름인지 좀 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "용어 확인",
+        "당혹감"
+      ],
+      "fit_reason": "휘둥그레 뜬 눈이 익숙하지 않은 지형 별명 때문에 헤매는 상황과 맞는다."
+    },
+    {
+      "example_id": "7654383_05",
+      "context": "친구가 커뮤니티 게시글을 맥락 없이 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 완전 개불빙 정석 아니냐."
+        },
+        {
+          "speaker": "B",
+          "text": "검색해도 나오는 게 없는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 그 단어 어디서 배워 왔냐고",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "호기심",
+        "친근한 타박"
+      ],
+      "fit_reason": "낯선 단어를 굵게 반복하는 문구와 외치는 표정이 답답해서 한 번 더 캐묻는 말과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

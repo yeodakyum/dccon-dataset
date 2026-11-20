@@ -1,0 +1,137 @@
+{
+  "package_id": "166499",
+  "sticker_id": "5677799",
+  "image_path": "images/166499/5677799-919e9169633bff2696df.png",
+  "image_description": "빨간 리본을 맨 노란색과 흰색 고양이가 앞발을 들고 활짝 웃는다. 위에 ‘이예이~’라고 적혀 있다.",
+  "image_tags": [
+    "고양이",
+    "빨간 리본",
+    "양발 들기",
+    "웃는 얼굴",
+    "이예이 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5677799_1",
+      "context": "마감 직전 과제를 구제한 친구",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 업로드 못 했어, 서버 먹통이야"
+        },
+        {
+          "speaker": "B",
+          "text": "조교님이 30분 연장해 주셨대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이예이 살았다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "환호"
+      ],
+      "fit_reason": "활짝 웃으며 양발을 드는 동작이 뜻밖의 구제에 어울린다."
+    },
+    {
+      "example_id": "5677799_2",
+      "context": "주말 빵집 한정 메뉴 확보",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "딸기 크루아상 남아 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "딱 두 개 남아서 둘 다 샀어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 거다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨",
+        "간식"
+      ],
+      "fit_reason": "고양이의 환호가 한정 메뉴를 얻은 소소한 기쁨을 전한다."
+    },
+    {
+      "example_id": "5677799_3",
+      "context": "재택근무 일정 확정",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "금요일에도 출근이지?"
+        },
+        {
+          "speaker": "B",
+          "text": "팀장님이 금요일 재택 가능하대"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이예이 늦잠 예약",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "환호",
+        "일정"
+      ],
+      "fit_reason": "앞발을 들어 만세하는 모습이 쉬워진 출근 일정에 대한 반응이다."
+    },
+    {
+      "example_id": "5677799_4",
+      "context": "동호회 첫 볼링 경기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 공 또 옆으로 샜어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니, 끝에 두 개까지 다 넘어갔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "첫 스트라이크다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하",
+        "성취"
+      ],
+      "fit_reason": "신난 표정과 만세가 첫 성공을 축하한다."
+    },
+    {
+      "example_id": "5677799_5",
+      "context": "배송이 늦던 책 도착",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "택배 아직도 안 왔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "문 앞에 방금 놓고 갔네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 밤에 읽어야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기대",
+        "도착"
+      ],
+      "fit_reason": "팔을 들어 기뻐하는 고양이가 기다리던 물건을 받은 기분을 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

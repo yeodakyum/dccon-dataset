@@ -1,0 +1,140 @@
+{
+  "package_id": "156740",
+  "sticker_id": "5198201",
+  "image_path": "images/156740/5198201-fce2db839c6e73617a76.png",
+  "image_view": "still",
+  "image_description": "갈색 줄무늬 고양이가 노트북 앞에 앉아 빨대에 입을 댄다. 목에는 흰 옷깃이 보이고 앞발 근처에 알록달록한 컵이 있다.",
+  "image_tags": [
+    "정면을 보는 둥근 눈",
+    "입에 닿은 빨대",
+    "목 뒤로 펼쳐진 흰 옷깃",
+    "노트북 키보드",
+    "검은 뚜껑과 색색의 컵"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5198201_01",
+      "context": "동료가 오전 회의 전에 커피를 사 왔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 준비 다 되셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "슬라이드는 열었고 커피도 여기 있어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이제 빨대 한 번 빨고 들어갑니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "준비 완료",
+        "가벼운 농담"
+      ],
+      "fit_reason": "노트북 옆 컵에 입을 댄 고양이가 일을 시작하기 전에 커피를 마시는 장면과 맞는다."
+    },
+    {
+      "example_id": "5198201_02",
+      "context": "친구가 집에 있는 고양이에게 일을 시킬 거라고 농담한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "재택하면 걔도 옆에 붙어 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 노트북 앞자리 내줬어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이제 그 집 월세 절반은 고양이가 버는 거네.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물 농담",
+        "친근한 놀림"
+      ],
+      "fit_reason": "흰 옷깃을 두르고 노트북 앞에 앉아 있는 모습이 출근한 직장인을 흉내 낸다."
+    },
+    {
+      "example_id": "5198201_03",
+      "context": "밤늦게 과제를 하던 친구가 간식에 의지한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보고서 어디까지 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "두 단락 남았는데 계속 졸려."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "얼음 커피 홀짝이면서 마지막 페이지만 버텨 볼게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "피로",
+        "상황 공유"
+      ],
+      "fit_reason": "빨대와 열린 노트북이 음료를 마시며 작업을 이어 가는 상황을 그대로 표현한다."
+    },
+    {
+      "example_id": "5198201_04",
+      "context": "친구가 게임 대기실에서 자리를 비우지 않았다고 밝힌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 말이 없어졌어. 자리 비웠어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 막 음료 한 모금 마셨어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "다 듣고 있었음. 준비 버튼 누를게.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응답",
+        "안심"
+      ],
+      "fit_reason": "화면 앞에 앉은 채 빨대로 마시는 고양이가 잠시 말만 못 했다는 답과 맞는다."
+    },
+    {
+      "example_id": "5198201_05",
+      "context": "새 카페에 먼저 도착한 친구가 좋은 자리를 잡아 둔다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "자리 어디 잡았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "콘센트 있는 벽 쪽. 음료도 나왔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "노트북 펴 놨어. 오면 바로 같이 하자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "대기",
+        "자리 공유"
+      ],
+      "fit_reason": "벽 앞 책상에 노트북과 텀블러를 갖춰 둔 장면이 먼저 와서 준비한 상황을 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

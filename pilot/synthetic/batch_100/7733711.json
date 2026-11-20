@@ -1,0 +1,157 @@
+{
+  "package_id": "176410",
+  "sticker_id": "7733711",
+  "image_path": "images/176410/7733711-b86b7032b282302ac597.png",
+  "image_description": "흐릿한 숲 배경에 눈을 가린 금발 캐릭터가 있고 빨간 ‘엄....’ 글씨가 떠 있다.",
+  "image_tags": [
+    "엄 문구",
+    "빨간 글씨",
+    "금발",
+    "앞머리에 가린 눈",
+    "숲 배경"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7733711_01",
+      "context": "친구의 요리 실험 결과를 두고 조심스럽게 말한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "한 입 먹어봤지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 씹는 중"
+        },
+        {
+          "speaker": "A",
+          "text": "솔직히 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어… 식감이 되게 새롭네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "머뭇거림",
+        "완곡한 평가"
+      ],
+      "fit_reason": "말줄임표가 평가를 망설이는 순간을 나타낸다."
+    },
+    {
+      "example_id": "7733711_02",
+      "context": "팀원이 발표 자료의 오류를 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 발표 파일 올렸어"
+        },
+        {
+          "speaker": "B",
+          "text": "그래프 맞게 넣었지?"
+        },
+        {
+          "speaker": "A",
+          "text": "응 표랑 숫자도 확인했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "잠깐 그래프 축 제목이 서로 바뀐 듯",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "망설임",
+        "정정"
+      ],
+      "fit_reason": "가려진 시선과 말줄임표가 조심스럽게 지적할 때 어울린다."
+    },
+    {
+      "example_id": "7733711_03",
+      "context": "친구가 공들여 만든 닉네임에 의견을 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "닉네임 갈아엎었는데 봐봐"
+        },
+        {
+          "speaker": "B",
+          "text": "예전 거 괜찮았잖아"
+        },
+        {
+          "speaker": "A",
+          "text": "이제 냉동브로콜리대장임"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어… 일단 쉽게 잊히진 않겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당",
+        "농담"
+      ],
+      "fit_reason": "빨간 엄이 당황해서 말을 고르는 박자를 준다."
+    },
+    {
+      "example_id": "7733711_04",
+      "context": "친구와 같은 약속으로 알고 있던 날짜가 다르다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 영화 예매했어"
+        },
+        {
+          "speaker": "B",
+          "text": "우리 토요일 아닌가?"
+        },
+        {
+          "speaker": "A",
+          "text": "내일 토요일인데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "아 나 지금 요일까지 밀려 있었네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "자조"
+      ],
+      "fit_reason": "잠시 말문이 막히는 반응을 말줄임표가 표현한다."
+    },
+    {
+      "example_id": "7733711_05",
+      "context": "친구가 동작을 보여달라고 재촉한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "연습 많이 했다며"
+        },
+        {
+          "speaker": "B",
+          "text": "집에서는 됐어"
+        },
+        {
+          "speaker": "A",
+          "text": "지금 한 번 보여줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어 지금 여기서 하면 갑자기 못할 것 같은데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "주저"
+      ],
+      "fit_reason": "앞머리에 가려진 얼굴이 주목받아 멈칫한 분위기를 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

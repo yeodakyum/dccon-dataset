@@ -1,0 +1,137 @@
+{
+  "package_id": "163269",
+  "sticker_id": "7620801",
+  "image_path": "images/163269/7620801-5e225268d87e4997f8b1.png",
+  "image_view": "still",
+  "image_description": "청록색 머리 캐릭터가 크고 반짝이는 눈을 한 채 얼굴 옆으로 손을 든다.",
+  "image_tags": [
+    "크고 둥근 눈",
+    "작게 벌린 입",
+    "들어 올린 손",
+    "청록색 단발",
+    "상단 물음표"
+  ],
+  "image_text": [
+    "빗비세여?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7620801_01",
+      "context": "단체 작업에서 수정할 부분이 남는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 마지막 표까지 볼까 했는데"
+        },
+        {
+          "speaker": "B",
+          "text": "표 숫자 아직 안 맞아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 네가 마지막 두 줄 같이 봐줄래?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청"
+      ],
+      "fit_reason": "단체 작업에서 수정할 부분이 남는다 상황에서 들린 손과 조심스럽게 열린 입이 상대에게 말을 거는 부탁에 맞는다."
+    },
+    {
+      "example_id": "7620801_02",
+      "context": "친구가 처음 가는 곳에서 길을 잃는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 역에서 내리면 된댔지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 거기서 3번 출구로"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "3번이 안 보이는데 혹시 지도 보내줄래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청"
+      ],
+      "fit_reason": "친구가 처음 가는 곳에서 길을 잃는다 상황에서 들린 손과 조심스럽게 열린 입이 상대에게 말을 거는 부탁에 맞는다."
+    },
+    {
+      "example_id": "7620801_03",
+      "context": "게임에서 혼자 진행하기 어렵다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 구간 혼자 넘을 수 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "보스가 혼자 잡기 좀 빡세"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 와서 같이 잡아 줄 사람",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청"
+      ],
+      "fit_reason": "게임에서 혼자 진행하기 어렵다 상황에서 들린 손과 조심스럽게 열린 입이 상대에게 말을 거는 부탁에 맞는다."
+    },
+    {
+      "example_id": "7620801_04",
+      "context": "동료에게 일정 조율을 부탁한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 오전 자리 비시나요?"
+        },
+        {
+          "speaker": "B",
+          "text": "11시까진 비어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "10시쯤 통화 5분만 가능하세요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청"
+      ],
+      "fit_reason": "동료에게 일정 조율을 부탁한다 상황에서 들린 손과 조심스럽게 열린 입이 상대에게 말을 거는 부탁에 맞는다."
+    },
+    {
+      "example_id": "7620801_05",
+      "context": "친구에게 도구를 잠깐 빌리고 싶다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "혹시 집에 육각렌치 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "작은 세트 하나 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 잠깐 빌려도 될까",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도움 요청"
+      ],
+      "fit_reason": "친구에게 도구를 잠깐 빌리고 싶다 상황에서 들린 손과 조심스럽게 열린 입이 상대에게 말을 거는 부탁에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,142 @@
+{
+  "package_id": "175882",
+  "sticker_id": "7534493",
+  "image_path": "images/175882/7534493-ad1ad4a35fb9f4617642.png",
+  "image_view": "still",
+  "image_description": "챙 넓은 푸른 모자를 쓴 캐릭터가 보라색 눈을 크게 뜨고 입을 벌린 채 앞으로 손을 뻗는다. 머리 위 말풍선에는 '배신한거냐?!'가 적혀 있다.",
+  "image_tags": [
+    "치켜뜬 보라색 눈",
+    "네모지게 벌린 입",
+    "앞으로 뻗은 검은 장갑",
+    "챙 넓은 푸른 모자",
+    "각진 흰 말풍선"
+  ],
+  "image_text": [
+    "배신한거냐?!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7534493_01",
+      "context": "친구들이 함께 끊기로 한 카페를 한 사람이 먼저 방문했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘부터 매일 카페 가는 거 끊는 거다."
+        },
+        {
+          "speaker": "B",
+          "text": "알았어. 근데 나 방금 쿠폰 써야 해서 왔어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "동맹 결성하고 세 시간 만에 이러기냐.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 배신감",
+        "과장"
+      ],
+      "fit_reason": "카페를 함께 끊기로 하자마자 어긴 약속에 '배신한거냐?!'와 치켜뜬 눈이 가벼운 타박을 키운다."
+    },
+    {
+      "example_id": "7534493_02",
+      "context": "보드게임에서 아군인 줄 알았던 친구가 자기 점수를 챙긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 내 카드 막아 주는 거였지?"
+        },
+        {
+          "speaker": "B",
+          "text": "미안 이제부터 굳이 막을 이유가 없어짐."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너 그 점수 카드 방금까지 숨겼구나.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "경쟁"
+      ],
+      "fit_reason": "숨긴 점수 카드로 입장을 바꾼 상대에게 손을 뻗고 크게 묻는 캐릭터가 뒤통수 맞은 게임 상황을 과장한다."
+    },
+    {
+      "example_id": "7534493_03",
+      "context": "반려동물이 자기를 야단친 사람보다 간식을 준 친구에게 붙는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 오늘 산책 두 번이나 시켰어."
+        },
+        {
+          "speaker": "B",
+          "text": "지금 우리 애 내 옆에서 자. 비스킷 한 조각 줬거든."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "산책 두 회가 비스킷 한 조각한테 졌어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "섭섭한 농담"
+      ],
+      "fit_reason": "산책시킨 정성을 비스킷 한 조각에 밀린 상황에서 배신 질문과 놀란 눈이 반려동물에 대한 섭섭함을 가볍게 표현한다."
+    },
+    {
+      "example_id": "7534493_04",
+      "context": "함께 보던 드라마를 친구가 먼저 다 봤다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 5화 같이 틀까?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 어제 너무 궁금해서 결말까지 봤어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "재생 누르기 전까지 기다리기로 했잖아.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 분노",
+        "약속 상기"
+      ],
+      "fit_reason": "같이 보던 드라마의 결말을 먼저 본 친구에게 네모지게 벌린 입과 강한 질문으로 과장된 추궁을 한다."
+    },
+    {
+      "example_id": "7534493_05",
+      "context": "매운맛을 피하던 친구가 갑자기 매운 메뉴에 표를 던진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 둘 다 순한 맛 표 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 오늘은 매운 짜장 땡겨."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "맵찔이 협회 유일한 회원을 두고 가시네.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 서운함",
+        "역할극"
+      ],
+      "fit_reason": "같은 편인 줄 알았던 주문 투표가 뒤집혀 '배신한거냐?!' 문구가 혼자 남은 협회라는 농담을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

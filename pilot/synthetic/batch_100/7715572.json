@@ -1,0 +1,137 @@
+{
+  "package_id": "176535",
+  "sticker_id": "7715572",
+  "image_path": "images/176535/7715572-02fcbdfd10a9b20ec727.png",
+  "image_description": "푸른 제복과 검은 모자를 쓴 인물이 정색한 얼굴로 카메라를 보며 한 손을 앞으로 내민다. 아래에는 보라색 ‘체포하겠어’ 문구가 있다.",
+  "image_tags": [
+    "푸른 제복",
+    "검은 모자",
+    "앞으로 뻗은 손",
+    "정색",
+    "체포하겠어 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7715572_1",
+      "context": "룸메이트가 남의 푸딩을 먹음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고 푸딩 어디 갔어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 먹었어. 새로 사 오면 되지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "증거 확보했습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "간식"
+      ],
+      "fit_reason": "제복과 ‘체포하겠어’ 문구가 푸딩 사건을 수사하는 농담을 만든다."
+    },
+    {
+      "example_id": "7715572_2",
+      "context": "친구가 유행이 지난 아재 개그를 반복",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 회식 썰 좀 풀어 봐"
+        },
+        {
+          "speaker": "B",
+          "text": "소가 계단 오르면 소오름이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이건 현행범이다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아재개그",
+        "장난"
+      ],
+      "fit_reason": "정색한 얼굴과 체포 문구가 썰렁한 개그를 장난스럽게 단속한다."
+    },
+    {
+      "example_id": "7715572_3",
+      "context": "보드게임에서 몰래 규칙을 바꿈",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 방금 카드 두 장 냈어?"
+        },
+        {
+          "speaker": "B",
+          "text": "여기만 특별 규칙이라고 우기면 안 돼?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 손 그대로 계세요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "보드게임",
+        "규칙"
+      ],
+      "fit_reason": "손을 뻗은 자세와 체포 문구가 반칙 장면을 잡은 반응이다."
+    },
+    {
+      "example_id": "7715572_4",
+      "context": "단체방에 오래된 흑역사 사진 공개",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 고딩 사진 다 내렸지?"
+        },
+        {
+          "speaker": "B",
+          "text": "단톡에 한 장 찾았다고 올렸는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너 잠깐 이리 와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "흑역사",
+        "놀리기"
+      ],
+      "fit_reason": "카메라 쪽을 향한 제복 인물이 사진을 올린 친구를 장난으로 지목한다."
+    },
+    {
+      "example_id": "7715572_5",
+      "context": "귀여운 고양이가 키보드 위에 올라감",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "쟤 또 메일 창 열었어"
+        },
+        {
+          "speaker": "B",
+          "text": "이번엔 답장에 ㅁ을 80개 썼어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "키보드 점거 혐의로 연행합니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려묘",
+        "장난"
+      ],
+      "fit_reason": "체포를 선언하는 문구를 고양이의 사소한 사고에 적용한 농담이다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

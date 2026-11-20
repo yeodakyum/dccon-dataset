@@ -1,0 +1,137 @@
+{
+  "package_id": "166270",
+  "sticker_id": "6060687",
+  "image_path": "images/166270/6060687-d5ba4cfd7763d51168c0.png",
+  "image_view": "still",
+  "image_description": "수녀복풍 모자를 쓴 금발 캐릭터 위에 질문형 사과 문구가 붙어 있다.",
+  "image_tags": [
+    "둥근 갈색 눈",
+    "작은 입",
+    "가슴에 교차한 소매",
+    "짙은 모자",
+    "물음표 자막"
+  ],
+  "image_text": [
+    "죄송할까요?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6060687_01",
+      "context": "친구의 약속 장소를 잘못 전달했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지금 어디야?"
+        },
+        {
+          "speaker": "B",
+          "text": "네가 말한 카페인데 문 닫았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내가 지점 잘못 보냈다 미안",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 약속 장소를 잘못 전달했다 상황에서 사과를 질문으로 비트는 문구가 가벼운 실수에 장난스럽게 사과하는 말과 맞는다."
+    },
+    {
+      "example_id": "6060687_02",
+      "context": "동료가 빠진 첨부 파일을 알려 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "메일 갔죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 첨부만 빠졌어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "죄송해요 지금 다시 보내겠습니다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "동료가 빠진 첨부 파일을 알려 준다 상황에서 사과를 질문으로 비트는 문구가 가벼운 실수에 장난스럽게 사과하는 말과 맞는다."
+    },
+    {
+      "example_id": "6060687_03",
+      "context": "친구의 농담에 선을 넘었다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 내가 말 너무 세게 했지"
+        },
+        {
+          "speaker": "B",
+          "text": "조금 기분 상하긴 했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안해 다음부터 조심할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 농담에 선을 넘었다 상황에서 사과를 질문으로 비트는 문구가 가벼운 실수에 장난스럽게 사과하는 말과 맞는다."
+    },
+    {
+      "example_id": "6060687_04",
+      "context": "게임에서 팀원의 진행을 방해했다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아까 문 닫은 거 나였나"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나 밖에 있었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안 못 봤어 다음엔 먼저 확인할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "게임에서 팀원의 진행을 방해했다 상황에서 사과를 질문으로 비트는 문구가 가벼운 실수에 장난스럽게 사과하는 말과 맞는다."
+    },
+    {
+      "example_id": "6060687_05",
+      "context": "친구의 것을 모르고 먹었다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "냉장고에 그 케이크 네 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 저녁에 먹으려고 뒀어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "미안 내가 먹었어 새로 사 갈게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사과"
+      ],
+      "fit_reason": "친구의 것을 모르고 먹었다 상황에서 사과를 질문으로 비트는 문구가 가벼운 실수에 장난스럽게 사과하는 말과 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,157 @@
+{
+  "package_id": "175332",
+  "sticker_id": "7307294",
+  "image_path": "images/175332/7307294-7cf94df90805e4ab33a1.png",
+  "image_description": "푸른 단발 캐릭터가 양손을 벌리고 옆에 알록달록한 감사 문구가 있다.",
+  "image_tags": [
+    "푸른 단발",
+    "알록달록한 문구",
+    "감사 인사",
+    "양손 벌림",
+    "머리 옆 낙서선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7307294_01",
+      "context": "친구가 동아리방 출입 방법을 알려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동방 문 왜 안 열려"
+        },
+        {
+          "speaker": "B",
+          "text": "카드 찍어도 안 되던데"
+        },
+        {
+          "speaker": "A",
+          "text": "아래층 경비실에서 임시 카드 받으면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "와 이거 아무도 안 알려줘서 헤맸어 고마워",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "정보 해결"
+      ],
+      "fit_reason": "알고 싶던 내용이라는 문구가 필요한 정보를 받은 순간에 맞는다."
+    },
+    {
+      "example_id": "7307294_02",
+      "context": "화상회의 중 질문과 관계없는 답변을 받는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 링크 어디 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "단톡에 공지했다고 들었어"
+        },
+        {
+          "speaker": "A",
+          "text": "아 맞다 나 오늘 키보드 새로 샀다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "와 정말 알고 싶었던 소식이다 그래서 링크는",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "비꼼",
+        "재질문"
+      ],
+      "fit_reason": "과한 감사 문구와 난감한 제스처가 엉뚱한 답에 장난으로 반응한다."
+    },
+    {
+      "example_id": "7307294_03",
+      "context": "친구가 파일 복구 단축키를 알려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "실수로 지웠다며"
+        },
+        {
+          "speaker": "B",
+          "text": "응 폴더가 통째로 사라짐"
+        },
+        {
+          "speaker": "A",
+          "text": "아무것도 건드리지 말고 Ctrl+Z 눌러봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "살아났다 이거 평생 기억할게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "안도",
+        "감사"
+      ],
+      "fit_reason": "크게 쓰인 감사 인사가 급한 문제를 해결해 준 친구에게 어울린다."
+    },
+    {
+      "example_id": "7307294_04",
+      "context": "친구가 오래 찾던 노래 제목을 맞힌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 어제 흥얼거린 거 찾았다"
+        },
+        {
+          "speaker": "B",
+          "text": "뭐야 나 제목 몰라서 일주일째 생각남"
+        },
+        {
+          "speaker": "A",
+          "text": "내가 링크 보냈어 후렴 들어봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이거 맞아 드디어 찾았다 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "발견",
+        "감사"
+      ],
+      "fit_reason": "꼭 알고 싶었던 내용을 알아낸 기쁨을 문구가 전한다."
+    },
+    {
+      "example_id": "7307294_05",
+      "context": "친구가 시간표 짜는 요령을 알려준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사이 시간 왜 이렇게 많아?"
+        },
+        {
+          "speaker": "B",
+          "text": "이 분반만 넣으면 어쩔 수 없대"
+        },
+        {
+          "speaker": "A",
+          "text": "같은 과목 월요일 분반 하나 더 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "야 미리 물어보길 잘했다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "정보 공유",
+        "감사"
+      ],
+      "fit_reason": "알록달록한 감사 문구가 도움 받은 기분을 밝게 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

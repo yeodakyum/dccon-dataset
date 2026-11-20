@@ -1,0 +1,142 @@
+{
+  "package_id": "170688",
+  "sticker_id": "7719477",
+  "image_path": "images/170688/7719477-34d4a7b9a5b080707019.png",
+  "image_view": "still",
+  "image_description": "검은 강아지가 동그란 눈을 크게 뜨고 정면을 바라본다. 흰 주둥이 위로 검은 코가 있고 이마 바로 위에 '봇'이 쓰여 있다.",
+  "image_tags": [
+    "동그랗게 뜬 정면 눈",
+    "흰 주둥이와 검은 코",
+    "양옆으로 처진 귀",
+    "검은 윤곽 중심 그림",
+    "머리 위 손글씨"
+  ],
+  "image_text": [
+    "봇"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7719477_01",
+      "context": "단체 채팅방에 같은 안내가 연속으로 올라온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내일 일곱 시까지 오면 돼!"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 방금 같은 말 세 번째야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 오늘 공지봇으로 취직했냐 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "반복 지적"
+      ],
+      "fit_reason": "같은 공지가 세 번 올라와서 정면을 빤히 보는 강아지 위의 '봇'이 친구에게 붙이는 장난스러운 별명처럼 읽힌다."
+    },
+    {
+      "example_id": "7719477_02",
+      "context": "친구가 키워드를 보내면 바로 답하는 기능을 만들었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "채팅에 !시간 한 번 쳐봐."
+        },
+        {
+          "speaker": "B",
+          "text": "지금 치자마자 현재 시간이 뜨네."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잘 듣고 있지요. 다음 명령을 입력해 주세요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "역할극",
+        "기능 시연"
+      ],
+      "fit_reason": "시간을 즉시 받는 시연 직후라 '봇' 표기가 명령을 기다리는 응답기의 명찰 구실을 한다."
+    },
+    {
+      "example_id": "7719477_03",
+      "context": "팀원이 점심 메뉴 이야기에 줄곧 똑같이 답했다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "샌드위치하고 우동 중에 뭐 드실래요?"
+        },
+        {
+          "speaker": "B",
+          "text": "다 좋아요. 아무거나 드세요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "혹시 입력을 바꿔도 답이 항상 같나요 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "맞장구",
+        "친근한 놀림"
+      ],
+      "fit_reason": "메뉴를 골라 달라는 입력을 줘도 답이 똑같아서 크게 뜬 눈과 '봇' 자막을 고정 응답에 빗대게 된다."
+    },
+    {
+      "example_id": "7719477_04",
+      "context": "게임 친구가 무의식적으로 같은 동작을 반복했다고 털어놓는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 거기서 계속 벽으로 뛰던데?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 잠깐 딴생각해서 방향키만 누르고 있었어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "방금 10초는 사람이 조종 안 했다고 봐도 됨.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "실수 인정"
+      ],
+      "fit_reason": "방향키를 계속 눌렀다는 말 뒤에서 '봇'이라고 쓰인 멍한 응시가 자동 조작에 빗댄 자조를 완성한다."
+    },
+    {
+      "example_id": "7719477_05",
+      "context": "친구가 새 알림 계정이 실제 사람인지 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "출석 체크해 주는 그 계정 운영진이 직접 써?"
+        },
+        {
+          "speaker": "B",
+          "text": "매일 새벽 다섯 시 정각에 올라오긴 해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "정각이면 자동 메시지일 가능성이 높겠다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추측",
+        "정보 확인"
+      ],
+      "fit_reason": "일정한 시각에 올라오는 메시지를 두고 '봇'이라고 적힌 그림을 보내 자동화라는 추측을 짚어 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,137 @@
+{
+  "package_id": "176375",
+  "sticker_id": "7685226",
+  "image_path": "images/176375/7685226-c3b4f9156c93421c4471.png",
+  "image_description": "분홍 꽃 머리핀을 단 캐릭터가 분홍 눈을 좁히고 입꼬리를 올린다. 화면 오른쪽에는 치켜든 갈색 물체가 거친 픽셀 선으로 그려져 있다.",
+  "image_tags": [
+    "픽셀 그림",
+    "분홍 꽃핀",
+    "분홍 눈",
+    "올라간 입꼬리",
+    "갈색 물체"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7685226-1",
+      "context": "게임에서 역전 수단을 숨겨 둔 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 턴 패스할 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 손에 쓸 카드 없잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직 하나 남았지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "역전"
+      ],
+      "fit_reason": "눈을 좁히고 물체를 치켜든 자세가 마지막 수를 꺼내는 느낌이다."
+    },
+    {
+      "example_id": "7685226-2",
+      "context": "친구가 계속 말장난을 하는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마지막 농담이라는 거 진짜지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응, 근데 또 생각났어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "딱 한 번만 더 해 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "경고"
+      ],
+      "fit_reason": "치켜든 물체와 찡그린 눈이 장난스러운 경고로 읽힌다."
+    },
+    {
+      "example_id": "7685226-3",
+      "context": "친구가 보드게임 규칙을 또 어긴 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "주사위 한 번만 굴리는 거 기억해"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 건 연습이었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "벌칙 카드 가져와",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "보드게임",
+        "장난"
+      ],
+      "fit_reason": "픽셀 캐릭터의 장난기 있는 표정이 가벼운 벌칙 선언에 맞는다."
+    },
+    {
+      "example_id": "7685226-4",
+      "context": "숨겨 둔 간식을 발견한 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "과자 다 떨어졌다고 했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 빈 봉지 하나밖에 없다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이건 내가 미리 빼놨지롱",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "득의"
+      ],
+      "fit_reason": "갈색 물체를 높이 든 그림이 숨겨 둔 물건을 자랑하는 듯하다."
+    },
+    {
+      "example_id": "7685226-5",
+      "context": "친구가 맡아 둔 물건을 못 찾는 상황",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "빌려 간 책 아직 못 찾았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "어디 뒀는지 진짜 모르겠어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "짜잔, 네 가방 옆에 있더라",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "분실물",
+        "발견"
+      ],
+      "fit_reason": "물체를 들어 보이는 동작과 웃는 입이 짠 하고 보여 주기에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

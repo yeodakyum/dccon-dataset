@@ -1,0 +1,137 @@
+{
+  "package_id": "175962",
+  "sticker_id": "7676245",
+  "image_path": "images/175962/7676245-95518448e68832b886f5.png",
+  "image_view": "still",
+  "image_description": "검은 긴 머리 인물이 반쯤 뜬 눈으로 옆을 보고 위에 반응을 소개하는 자막이 있다.",
+  "image_tags": [
+    "반쯤 뜬 눈",
+    "옆으로 향한 시선",
+    "작게 열린 입",
+    "검은 긴 머리",
+    "흰 자막"
+  ],
+  "image_text": [
+    "솔직한 내 반응"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7676245_01",
+      "context": "물건을 빌린 친구가 예상 밖의 답을 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 우산 어디 뒀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "비 맞을까 봐 우산은 집에 두고 나왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우산이 비를 피했네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "물건을 빌린 친구가 예상 밖의 답을 한다 상황에서 시큰둥한 곁눈질이 엉뚱한 일을 듣고 잠깐 말을 잃는 느낌을 전달한다."
+    },
+    {
+      "example_id": "7676245_02",
+      "context": "친구가 회의에 엉뚱한 자료를 올린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "발표 자료 올렸어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 근데 폴더에 떡볶이 사진만 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 발표 주제가 떡볶이냐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "친구가 회의에 엉뚱한 자료를 올린다 상황에서 시큰둥한 곁눈질이 엉뚱한 일을 듣고 잠깐 말을 잃는 느낌을 전달한다."
+    },
+    {
+      "example_id": "7676245_03",
+      "context": "동료가 이미 공유한 내용을 또 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "위에 공지 보셨죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "공지 어디 있는지 알려주세요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "방금 답장하신 그 글이에요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "동료가 이미 공유한 내용을 또 묻는다 상황에서 시큰둥한 곁눈질이 엉뚱한 일을 듣고 잠깐 말을 잃는 느낌을 전달한다."
+    },
+    {
+      "example_id": "7676245_04",
+      "context": "배달비가 음식값보다 크다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "최소 주문 얼마야?"
+        },
+        {
+          "speaker": "B",
+          "text": "음식 육천 원 배달 팔천 원"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "배달 기사님 식사를 시키는 건가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "배달비가 음식값보다 크다 상황에서 시큰둥한 곁눈질이 엉뚱한 일을 듣고 잠깐 말을 잃는 느낌을 전달한다."
+    },
+    {
+      "example_id": "7676245_05",
+      "context": "게임 친구가 스스로 위기를 만든다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "왜 함정에 빠졌어?"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 설치한 거 테스트하다가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "테스트 결과는 확실하네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당"
+      ],
+      "fit_reason": "게임 친구가 스스로 위기를 만든다 상황에서 시큰둥한 곁눈질이 엉뚱한 일을 듣고 잠깐 말을 잃는 느낌을 전달한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

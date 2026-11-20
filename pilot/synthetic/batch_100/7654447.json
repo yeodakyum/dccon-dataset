@@ -1,0 +1,146 @@
+{
+  "package_id": "172805",
+  "sticker_id": "7654447",
+  "image_path": "images/172805/7654447-f9a5be3fb07353812434.png",
+  "image_view": "still",
+  "image_description": "잿빛 머리 캐릭터가 눈을 크게 뜨고 볼을 붉힌 채 정면을 바라본다. 땀방울과 집중선 위에 붉은 되묻는 말이 붙어 있다.",
+  "image_tags": [
+    "크게 뜬 물빛 눈",
+    "볼의 굵은 홍조",
+    "이마와 뺨의 땀방울",
+    "흰 방사형 집중선",
+    "붉은 물음표 두 개"
+  ],
+  "image_text": [
+    "아 예??"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7654447_01",
+      "context": "학과 조별 발표의 순서가 예상보다 크게 앞당겨진다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저희 끝에서 세 번째였죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "앞 조 두 팀이 결석이라 바로 다음이래요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금 파일 여는 중인데 저희가 다음이요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "당황",
+        "일정 재확인"
+      ],
+      "fit_reason": "발표가 바로 다음이라고 하자 크게 뜬 눈과 땀방울이 준비할 시간이 없어진 당황을 보여 준다."
+    },
+    {
+      "example_id": "7654447_02",
+      "context": "친구가 음식 주문 수량에서 단위를 착각한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "샌드위치 두 개 부탁했지?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 두 상자로 왔어. 한 상자에 여섯 개"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 두 상자라고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "놀람",
+        "수량 재확인"
+      ],
+      "fit_reason": "두 개가 열두 개가 되었다는 말에 붉은 물음표와 확 커진 눈이 어울린다."
+    },
+    {
+      "example_id": "7654447_03",
+      "context": "집주인이 소소한 부탁에 전혀 다른 대안을 낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "현관 전구만 교체해 주실 수 있을까요?"
+        },
+        {
+          "speaker": "B",
+          "text": "이번 주에 현관 전체를 뜯을 예정이라 그때 같이 할게요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "현관을 뜯으신다고요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뜻밖의 답",
+        "정중한 당황"
+      ],
+      "fit_reason": "전구 부탁이 현관 전체 공사로 커진 순간이라 공손한 ‘아 예’에 붙은 물음표 두 개가 당혹감을 살린다."
+    },
+    {
+      "example_id": "7654447_04",
+      "context": "친구가 잠결에 보낸 메시지를 뒤늦게 발견한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아침에 네가 사과문을 보냈는데 무슨 일 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "뭔 사과문? 나 방금 깼어"
+        },
+        {
+          "speaker": "A",
+          "text": "나한테 ‘제가 달을 훔쳤습니다’라고 옴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "제가 뭘 훔쳤다고요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "어이없음",
+        "자조"
+      ],
+      "fit_reason": "잠결에 쓴 내용이 엉뚱한 고백이었다는 걸 듣고 흘리는 식은땀을 그림 속 얼굴이 받쳐 준다."
+    },
+    {
+      "example_id": "7654447_05",
+      "context": "동료가 진행 중인 회의에 예고 없이 접속한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "따로 공유할 건 없죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 본부장님도 듣고 계세요. 제가 방금 모셨어요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 그러면 처음부터 다시 말씀드릴게요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "긴장",
+        "태세 전환"
+      ],
+      "fit_reason": "갑자기 듣는 사람이 늘었다는 말 뒤에 이마의 땀과 급히 되묻는 글자가 긴장한 분위기를 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

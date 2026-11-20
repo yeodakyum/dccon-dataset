@@ -1,0 +1,142 @@
+{
+  "package_id": "176612",
+  "sticker_id": "7656800",
+  "image_path": "images/176612/7656800-36ccbf6881f071ce0548.png",
+  "image_view": "still",
+  "image_description": "밝은 초록색 머리 인물이 어두운 제복 모자를 쓰고 검은 팻말을 들어 보인다. 팻말에는 흰 영문으로 NO가 적혀 있다.",
+  "image_tags": [
+    "금빛으로 반짝이는 큰 눈",
+    "작게 오므린 입",
+    "귀 옆으로 흐르는 녹색 머리",
+    "양손으로 잡은 검은 팻말",
+    "흰색 거절 문구"
+  ],
+  "image_text": [
+    "NO"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7656800_01",
+      "context": "친구가 토요일 새벽부터 장을 보자고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "토요일 시장 갈 사람?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 갈래. 오전 여덟 시쯤 어때?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "토요일 여덟 시는 제 일정표에도 없어요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난스러운 거절",
+        "일정 조율"
+      ],
+      "fit_reason": "NO 팻말을 든 얼굴이 함께 가자는 말은 받아도 시간만큼은 사양한다는 답과 맞는다."
+    },
+    {
+      "example_id": "7656800_02",
+      "context": "단체방에서 버스 음료 선택 설문을 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저번처럼 민트초코 셰이크로 통일할까?"
+        },
+        {
+          "speaker": "B",
+          "text": "다른 맛 먹을 사람 먼저 말해."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저는 그때 한 입 마신 걸로 충분합니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "취향 표현",
+        "부드러운 거절"
+      ],
+      "fit_reason": "웃기보다 조용히 팻말을 드는 인물이 취향이 다르다는 거절을 가볍게 표현한다."
+    },
+    {
+      "example_id": "7656800_03",
+      "context": "친구가 업무용 방에 장난 사진을 올리려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 사진 프로젝트방에 올리면 웃기려나?"
+        },
+        {
+          "speaker": "B",
+          "text": "팀장님도 거기 계시지 않아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "우리 둘만 보고 지우자 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "만류",
+        "친근한 장난"
+      ],
+      "fit_reason": "금지 팻말 같은 NO 글씨가 공개 채널에 올리려는 친구를 말리는 데 어울린다."
+    },
+    {
+      "example_id": "7656800_04",
+      "context": "게임 친구가 지난 판에서 실패한 계획을 다시 제안한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번에도 우리 둘이 따로 갈까?"
+        },
+        {
+          "speaker": "B",
+          "text": "아까 그래서 각자 잡혔잖아."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이번엔 끝까지 붙어 다니자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "전략 반대",
+        "대안 제시"
+      ],
+      "fit_reason": "양손으로 NO를 들어 보이는 자세가 기존 전략에 분명히 반대하는 답을 시각화한다."
+    },
+    {
+      "example_id": "7656800_05",
+      "context": "친구가 영화 결말을 말해도 되냐고 묻는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "딱 하나만 스포해도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "엔딩 관련이야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "엔딩 근처 이야기면 입 닫아 줘 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포일러 거절",
+        "재치"
+      ],
+      "fit_reason": "큰 눈으로 보면서 NO 팻말을 드는 모습이 호기심은 있어도 결말은 듣기 싫다는 답을 보탠다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

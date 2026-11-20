@@ -1,0 +1,137 @@
+{
+  "package_id": "175798",
+  "sticker_id": "7764068",
+  "image_path": "images/175798/7764068-9c1da1bcb18fe6105b50.png",
+  "image_description": "긴 짙은 머리와 토끼 귀 모양 장식이 있는 캐릭터가 한쪽 눈을 감고 혀를 내민 채 손을 뺨에 댄다.",
+  "image_tags": [
+    "짙은 머리",
+    "토끼 귀 장식",
+    "윙크",
+    "혀 내밀기",
+    "보라색 눈"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7764068_1",
+      "context": "친구 몫 감자튀김을 먼저 집어 먹음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "감튀 한 개만 먹었어"
+        },
+        {
+          "speaker": "B",
+          "text": "상자 반이 비었는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한 개씩 여러 번",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "능청",
+        "장난"
+      ],
+      "fit_reason": "윙크와 혀 내밀기가 들킨 행동을 능청스럽게 인정하는 데 맞는다."
+    },
+    {
+      "example_id": "7764068_2",
+      "context": "스포일러를 아슬아슬하게 피함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "범인은 사실…"
+        },
+        {
+          "speaker": "B",
+          "text": "거기까지만 해 제발"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "ㅎㅎ 입 닫을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "스포일러"
+      ],
+      "fit_reason": "혀를 내민 윙크가 상대를 놀리다 말을 멈추는 장난기를 담는다."
+    },
+    {
+      "example_id": "7764068_3",
+      "context": "셀카에 장난 필터를 붙임",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 사진 보냈어"
+        },
+        {
+          "speaker": "B",
+          "text": "왜 내 머리에만 토끼 귀 붙였어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너한테 제일 잘 어울려",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "사진",
+        "놀리기"
+      ],
+      "fit_reason": "토끼 귀 장식과 윙크가 사진에 얹은 장난스러운 필터와 이어진다."
+    },
+    {
+      "example_id": "7764068_4",
+      "context": "게임에서 반칙을 의심받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 이번엔 네 뒤에 없었어"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 방금 문 닫고 튄 건 누군데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "누구였을까~",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "딴청"
+      ],
+      "fit_reason": "혀를 내민 얼굴이 뻔한 일을 모르는 척하는 장난에 어울린다."
+    },
+    {
+      "example_id": "7764068_5",
+      "context": "친구의 칭찬을 귀엽게 받음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 발표 덜 떨었지?"
+        },
+        {
+          "speaker": "B",
+          "text": "완전 여유 있어 보였어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "표정 연기 좀 하지? ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "칭찬",
+        "능청"
+      ],
+      "fit_reason": "윙크가 칭찬을 받고 cheeky하게 자신감을 보이는 표정이다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

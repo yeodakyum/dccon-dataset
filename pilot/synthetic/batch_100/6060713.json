@@ -1,0 +1,142 @@
+{
+  "package_id": "166270",
+  "sticker_id": "6060713",
+  "image_path": "images/166270/6060713-0cccc0d5db3e775c5412.png",
+  "image_view": "still",
+  "image_description": "어두운 모자를 쓴 금발 캐릭터가 갈색 눈을 크게 뜨고 웃으며 화면 왼쪽에 긴 막대를 들고 있다. 위쪽 말풍선에 다시 감으라는 말이 적혀 있다.",
+  "image_tags": [
+    "갈색으로 반짝이는 큰 눈",
+    "비스듬히 벌린 입",
+    "대각선 갈색 막대",
+    "모자 가장자리 금색 장식",
+    "굵은 말풍선 문구"
+  ],
+  "image_text": [
+    "다시 감으세요."
+  ],
+  "interpretation_note": "감으라는 말의 목적어는 이미지에 없다. 상황에 따라 눈을 감거나 영상을 되감으라는 뜻으로 쓸 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6060713_01",
+      "context": "친구에게 생일 선물을 보여 주기 직전이다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 눈 떠도 돼?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 포장 봉투 치우는 중이야."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "살짝 뜬 거 다 봤어. 다시 감아 주세요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "깜짝 선물"
+      ],
+      "fit_reason": "다시 감으라는 문구가 미리 훔쳐 본 눈을 감게 하는 말과 그대로 맞는다."
+    },
+    {
+      "example_id": "6060713_02",
+      "context": "축구 하이라이트를 보다가 중요한 부분을 놓친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방금 패스는 누가 넣었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "그 장면 내가 건너뛰었는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "딱 5초만 뒤로 돌려 줘.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "재확인",
+        "재생 요청"
+      ],
+      "fit_reason": "감으라는 자막이 확인하려는 장면으로 영상을 되돌리라는 부탁으로 읽힌다."
+    },
+    {
+      "example_id": "6060713_03",
+      "context": "친구가 이상한 필터로 찍힌 단체 사진을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "단체 사진 미리 보내 줘?"
+        },
+        {
+          "speaker": "B",
+          "text": "받았어. 확대하자마자 내 눈이 얼굴 반만 하던데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그 사진은 모두 못 본 걸로 합시다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "민망함",
+        "농담"
+      ],
+      "fit_reason": "말풍선의 다시 감으라는 지시가 민망한 사진을 본 눈을 닫고 잊자는 농담이 된다."
+    },
+    {
+      "example_id": "6060713_04",
+      "context": "형제가 먼저 깬 아이를 달래려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "애가 아까 다시 잠들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "눈 떴는데 아직 말은 안 하고 누워 있어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "지금은 불 켜지 말고 그냥 눕혀 두자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "상황 조율",
+        "조용한 당부"
+      ],
+      "fit_reason": "눈을 감으라는 말풍선이 아이가 다시 잠들도록 기다리는 맥락과 어울린다."
+    },
+    {
+      "example_id": "6060713_05",
+      "context": "친구가 단체방에 추리물 뒷부분을 실수로 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "사진 눌렀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 제목만 봤는데 왜?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내용 보지 말고 얼른 창 닫아 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포일러 차단",
+        "재촉"
+      ],
+      "fit_reason": "캐릭터가 명령형 말풍선과 막대를 들고 있어 더 보기 전에 창을 닫으라는 당부를 과장한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

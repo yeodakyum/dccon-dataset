@@ -1,0 +1,135 @@
+{
+  "package_id": "176338",
+  "sticker_id": "7655498",
+  "image_path": "images/176338/7655498-ce54eb770d33f9a4c40e.jpg",
+  "image_view": "still",
+  "image_description": "붉은 머리 인물이 눈을 가늘게 뜨고 빨간 사탕을 입가에 댄다.",
+  "image_tags": [
+    "가늘고 비껴 보는 눈",
+    "빨간 막대사탕",
+    "손끝에 든 막대",
+    "노란 모자",
+    "파란 리본"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7655498_01",
+      "context": "친구가 예상보다 훨씬 빠르게 온다고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기까지 30분 걸리잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "나 5분이면 가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 지도 켜봐 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "친구가 예상보다 훨씬 빠르게 온다고 한다 상황에서 가늘게 뜬 눈으로 상황을 보는 자세가 상대의 장담을 검토하는 태도처럼 보인다."
+    },
+    {
+      "example_id": "7655498_02",
+      "context": "중고 거래 가격이 지나치게 싸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 매물 사진 더 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장인데 시세의 반값이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다른 사진부터 요청해 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "중고 거래 가격이 지나치게 싸다 상황에서 가늘게 뜬 눈으로 상황을 보는 자세가 상대의 장담을 검토하는 태도처럼 보인다."
+    },
+    {
+      "example_id": "7655498_03",
+      "context": "동료가 변경 사항이 없다고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 배포 어땠어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "바뀐 건 없어요 화면만 좀 달라요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "화면도 변경 사항 아닌가요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "동료가 변경 사항이 없다고 한다 상황에서 가늘게 뜬 눈으로 상황을 보는 자세가 상대의 장담을 검토하는 태도처럼 보인다."
+    },
+    {
+      "example_id": "7655498_04",
+      "context": "친구가 단체방의 소문을 전한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "누가 그 얘기 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 어디서 봤는지 기억 안 나"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 아직 믿기엔 이르네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "친구가 단체방의 소문을 전한다 상황에서 가늘게 뜬 눈으로 상황을 보는 자세가 상대의 장담을 검토하는 태도처럼 보인다."
+    },
+    {
+      "example_id": "7655498_05",
+      "context": "게임 친구의 장담이 수상하다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 길 알아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지도 안 봐도 됨"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아까도 그 말 듣고 한 바퀴 돌았는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "게임 친구의 장담이 수상하다 상황에서 가늘게 뜬 눈으로 상황을 보는 자세가 상대의 장담을 검토하는 태도처럼 보인다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

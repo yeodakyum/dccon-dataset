@@ -1,0 +1,137 @@
+{
+  "package_id": "176597",
+  "sticker_id": "7708494",
+  "image_path": "images/176597/7708494-52e4a474585440dd2b90.png",
+  "image_description": "만화 말풍선에 모비노기가 재밌다더니 어디 가느냐, 아직 마력석을 다 못 캤다는 말이 적혀 있다. 아래에는 흐릿한 검은 덩어리 형태가 보인다.",
+  "image_tags": [
+    "베이지 배경",
+    "만화 말풍선",
+    "세로 글자 배치",
+    "검은 덩어리",
+    "마력석 언급"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7708494_1",
+      "context": "마비노기 모바일의 채집 도중 팀원이 접속 종료",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "마력석 여기 한 바퀴만 더 돌자"
+        },
+        {
+          "speaker": "B",
+          "text": "나 이제 모바일 끌게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직 마력석 다 못 캤는데!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "채집"
+      ],
+      "fit_reason": "스티커의 마력석 문구가 채집을 중단하려는 상황에 직접 맞는다."
+    },
+    {
+      "example_id": "7708494_2",
+      "context": "새 게임에 초대한 친구가 먼저 이탈",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 재밌다면서 같이 하자더니"
+        },
+        {
+          "speaker": "B",
+          "text": "난 튜토리얼까지만 보고 잘래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "날 여기 두고 간다고?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "이탈",
+        "장난"
+      ],
+      "fit_reason": "재미있다고 해 놓고 어디 가느냐는 말풍선이 친구의 빠른 이탈을 놀리기 좋다."
+    },
+    {
+      "example_id": "7708494_3",
+      "context": "보드게임 판을 벌인 사람이 잠깐 자리를 비움",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 룰 설명한다며"
+        },
+        {
+          "speaker": "B",
+          "text": "배달 와서 나 잠깐 내려갔다 올게"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "자리를 비우시면 저희가 뭘 하죠",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자리비움",
+        "장난"
+      ],
+      "fit_reason": "어딜 가느냐고 붙잡는 구도가 게임을 시작한 사람을 부르는 상황과 닮았다."
+    },
+    {
+      "example_id": "7708494_4",
+      "context": "게임 숙제 막판에 길드원이 자리를 뜸",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 주간 던전 아직 한 판 남았지?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘은 여기서 파티 쫑낼까"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아직 할 게 남았다구",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "아쉬움"
+      ],
+      "fit_reason": "남은 마력석을 언급하는 대사가 미완료 목표를 남겨 둔 파티원에게 어울린다."
+    },
+    {
+      "example_id": "7708494_5",
+      "context": "협동 농장에서 친구가 먼저 잠들려고 함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 내가 씨앗 심으면 너 물 주기로 했잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "미안 나 눈 감긴다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 감자만 살려 주고 가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "협동",
+        "붙잡기"
+      ],
+      "fit_reason": "해야 할 채집을 마치기 전 떠난다고 호소하는 스티커를 협동 농장에 빗댄다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

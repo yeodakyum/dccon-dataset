@@ -1,0 +1,137 @@
+{
+  "package_id": "173617",
+  "sticker_id": "7744592",
+  "image_path": "images/173617/7744592-1db5bda175a196a72ec2.png",
+  "image_description": "빨간 리본을 맨 노란 줄무늬 고양이가 높이 쌓인 초콜릿 과자를 양손으로 들고 눈물을 흘린다. 위에 ‘어억.. 컥...’이 있다.",
+  "image_tags": [
+    "줄무늬고양이",
+    "빨간리본",
+    "과자더미",
+    "눈물",
+    "손글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7744592-1",
+      "context": "간식 나누기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "과자 세 봉지 가져왔어"
+        },
+        {
+          "speaker": "B",
+          "text": "나 배부른데 네가 먹을 수 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 다 줘 봐. 어억",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "간식",
+        "과식"
+      ],
+      "fit_reason": "과자 더미를 들고 버거워하는 모습이 상황 그대로다."
+    },
+    {
+      "example_id": "7744592-2",
+      "context": "생일 케이크 나누기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "케이크 남은 거 얼마야?"
+        },
+        {
+          "speaker": "B",
+          "text": "반 판 너 싸 갈래?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내일 아침까지 이거만 먹겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "케이크",
+        "음식"
+      ],
+      "fit_reason": "얼굴을 가린 과자 더미가 음식 양에 압도되는 반응처럼 보인다."
+    },
+    {
+      "example_id": "7744592-3",
+      "context": "과제 몰림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번 주 보고서 하나 쓰면 끝이지?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 두 개 더 떴어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "벌써 체할 것 같음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "마감",
+        "압도"
+      ],
+      "fit_reason": "한꺼번에 감당하기 어려운 양을 과자 더미에 빗댄다."
+    },
+    {
+      "example_id": "7744592-4",
+      "context": "매운 간식 시식",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이거 안 매워 보이던데"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 두 개째 먹었잖아. 괜찮아?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐만 물 좀 줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "매운맛",
+        "당황"
+      ],
+      "fit_reason": "눈물과 ‘컥’ 글자가 매운 음식에 놀란 모습과 맞는다."
+    },
+    {
+      "example_id": "7744592-5",
+      "context": "장보기 짐 나르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 다 들고 갈게"
+        },
+        {
+          "speaker": "B",
+          "text": "진짜? 박스 하나 더 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "잠깐 이미 얼굴 안 보임",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "짐",
+        "장난"
+      ],
+      "fit_reason": "두 손으로 얼굴 높이까지 짐을 든 구도가 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

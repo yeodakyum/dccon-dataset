@@ -1,0 +1,137 @@
+{
+  "package_id": "175355",
+  "sticker_id": "7601162",
+  "image_path": "images/175355/7601162-eea44b3448248a02a788.png",
+  "image_description": "검은빛 단발에 금색 리본 장식을 단 캐릭터가 붉은 눈을 반쯤 뜨고 있다. 머리 위로 생각 구름처럼 굽은 선이 보인다.",
+  "image_tags": [
+    "검은단발",
+    "적안",
+    "금색장식",
+    "생각구름",
+    "반눈"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7601162-1",
+      "context": "메뉴 선택 고민",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 오늘 저녁 뭐 먹어"
+        },
+        {
+          "speaker": "B",
+          "text": "점심에 면 먹었으니까 밥?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "밥이면 무슨 밥인지가 또 문제네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고민",
+        "메뉴"
+      ],
+      "fit_reason": "반쯤 뜬 눈과 생각 구름이 결정에 지친 듯한 표정이다."
+    },
+    {
+      "example_id": "7601162-2",
+      "context": "추리 소설 중간",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 100쪽까지 읽었어"
+        },
+        {
+          "speaker": "B",
+          "text": "범인 짐작은 가?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "용의자가 어째 점점 늘어나",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "추리",
+        "고민"
+      ],
+      "fit_reason": "생각 구름과 무심한 눈이 추리가 꼬이는 순간과 맞다."
+    },
+    {
+      "example_id": "7601162-3",
+      "context": "선물 색상 고르기",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동생 선물로 이거 어때"
+        },
+        {
+          "speaker": "B",
+          "text": "색은 다섯 가지래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "걔 옷장이 전부 검은색이긴 해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물",
+        "숙고"
+      ],
+      "fit_reason": "검은 단발 아래 가만히 생각하는 얼굴이 고민을 대신한다."
+    },
+    {
+      "example_id": "7601162-4",
+      "context": "점심 뒤 업무",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의 15분 뒤래"
+        },
+        {
+          "speaker": "B",
+          "text": "커피 사 올 시간은 되겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 눈이 과연 15분이나 버틸지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "졸림",
+        "업무"
+      ],
+      "fit_reason": "반쯤 감긴 눈이 잠이 쏟아지는 기분을 보여 준다."
+    },
+    {
+      "example_id": "7601162-5",
+      "context": "모호한 안내문",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공지 링크 들어가 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "공지가 세 개라 무슨 말인지 모르겠어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 같은 줄 세 번째 읽는 중",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "혼란",
+        "공지"
+      ],
+      "fit_reason": "반쯤 뜬 눈과 작은 입이 집중해도 이해가 안 되는 표정 같다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

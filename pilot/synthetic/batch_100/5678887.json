@@ -1,0 +1,135 @@
+{
+  "package_id": "166518",
+  "sticker_id": "5678887",
+  "image_path": "images/166518/5678887-5c97a7ae5b483b647d54.png",
+  "image_view": "still",
+  "image_description": "만두 캐릭터가 한쪽 눈에 돋보기를 대고 눈썹을 낮춘다.",
+  "image_tags": [
+    "날카롭게 좁힌 눈",
+    "돋보기로 커진 눈",
+    "쳐진 눈썹",
+    "돋보기 손잡이",
+    "만두 윗주름"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "5678887_01",
+      "context": "친구가 예상보다 훨씬 빠르게 온다고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "여기까지 30분 걸리잖아"
+        },
+        {
+          "speaker": "B",
+          "text": "나 5분이면 가"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 지도 켜봐 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "친구가 예상보다 훨씬 빠르게 온다고 한다 상황에서 돋보기로 눈을 키워 보는 모습이 상대 말의 근거를 자세히 따지는 답과 어울린다."
+    },
+    {
+      "example_id": "5678887_02",
+      "context": "중고 거래 가격이 지나치게 싸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 매물 사진 더 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "한 장인데 시세의 반값이야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다른 사진부터 요청해 보자",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "중고 거래 가격이 지나치게 싸다 상황에서 돋보기로 눈을 키워 보는 모습이 상대 말의 근거를 자세히 따지는 답과 어울린다."
+    },
+    {
+      "example_id": "5678887_03",
+      "context": "동료가 변경 사항이 없다고 한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 배포 어땠어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "바뀐 건 없어요 화면만 좀 달라요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "화면도 변경 사항 아닌가요?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "동료가 변경 사항이 없다고 한다 상황에서 돋보기로 눈을 키워 보는 모습이 상대 말의 근거를 자세히 따지는 답과 어울린다."
+    },
+    {
+      "example_id": "5678887_04",
+      "context": "친구가 단체방의 소문을 전한다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "누가 그 얘기 했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "나도 어디서 봤는지 기억 안 나"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 아직 믿기엔 이르네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "친구가 단체방의 소문을 전한다 상황에서 돋보기로 눈을 키워 보는 모습이 상대 말의 근거를 자세히 따지는 답과 어울린다."
+    },
+    {
+      "example_id": "5678887_05",
+      "context": "게임 친구의 장담이 수상하다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이 길 알아?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 지도 안 봐도 됨"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아까도 그 말 듣고 한 바퀴 돌았는데",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심"
+      ],
+      "fit_reason": "게임 친구의 장담이 수상하다 상황에서 돋보기로 눈을 키워 보는 모습이 상대 말의 근거를 자세히 따지는 답과 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

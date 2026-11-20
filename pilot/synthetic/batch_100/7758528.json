@@ -1,0 +1,137 @@
+{
+  "package_id": "176503",
+  "sticker_id": "7758528",
+  "image_path": "images/176503/7758528-bd62a92972edb844a388.png",
+  "image_description": "둥근 빵처럼 생긴 갈색 줄무늬 고양이가 눈물을 흘리고 위에 ‘나 우울해서 빵됐어..’가 적혀 있다.",
+  "image_tags": [
+    "식빵모양",
+    "고양이",
+    "줄무늬",
+    "눈물",
+    "손글씨"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758528-1",
+      "context": "빵집 영업 종료",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "퇴근하고 크루아상 사려 갔거든"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 샀어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "문 닫았더라. 내가 빵 될게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "빵",
+        "농담"
+      ],
+      "fit_reason": "좋아하는 빵을 놓친 실망을 빵 모양 고양이로 말장난한다."
+    },
+    {
+      "example_id": "7758528-2",
+      "context": "주말 약속 취소",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 영화 몇 시 거 볼까?"
+        },
+        {
+          "speaker": "B",
+          "text": "나 야근이라 오늘은 안 될 듯"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 집에서 빵처럼 누워 있을래",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아쉬움",
+        "약속"
+      ],
+      "fit_reason": "눈물 흘리는 납작한 모양이 시무룩하게 누운 모습에 어울린다."
+    },
+    {
+      "example_id": "7758528-3",
+      "context": "비 오는 날",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "피크닉 도시락까지 싸 놨어"
+        },
+        {
+          "speaker": "B",
+          "text": "밖에 갑자기 비 엄청 와"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나 지금 도시락 옆에서 굳었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실망",
+        "피크닉"
+      ],
+      "fit_reason": "빵처럼 굳은 고양이와 눈물이 아쉬운 상황과 맞다."
+    },
+    {
+      "example_id": "7758528-4",
+      "context": "홈베이킹 실패",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오븐에 넣었는데 왜 그대로지"
+        },
+        {
+          "speaker": "B",
+          "text": "이스트 넣었어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "기억이 안 나. 나만 부풀어 오름",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "빵",
+        "실패"
+      ],
+      "fit_reason": "빵 고양이로 빵 굽기 실패를 웃어넘긴다."
+    },
+    {
+      "example_id": "7758528-5",
+      "context": "반려묘 자세",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 고양이 오늘 나한테 삐졌어"
+        },
+        {
+          "speaker": "B",
+          "text": "지금도 소파에 식빵 굽고 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "응 딱 이렇게 생겼어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "고양이",
+        "일상"
+      ],
+      "fit_reason": "납작하게 웅크린 외형이 식빵 자세를 닮았다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

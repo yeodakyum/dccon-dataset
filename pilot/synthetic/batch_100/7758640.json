@@ -1,0 +1,162 @@
+{
+  "package_id": "176503",
+  "sticker_id": "7758640",
+  "image_path": "images/176503/7758640-f980cf9069c812ad6434.png",
+  "image_view": "still",
+  "image_description": "붉은 첨탑과 푸른 창을 가진 전망탑에 작은 얼굴이 그려져 눈물을 흘린다. 아래에는 초록 언덕과 구름이 있고 위에는 우울해서 남산타워가 되었다는 문구가 있다.",
+  "image_tags": [
+    "파란 눈물을 흘리는 창가의 얼굴",
+    "붉고 긴 첨탑",
+    "푸른 원형 전망대",
+    "초록색 언덕과 구름",
+    "갈색 두 줄 손글씨"
+  ],
+  "image_text": [
+    "나 우울해서 남산타워 됐어.."
+  ],
+  "interpretation_note": "우울하다는 말을 장소나 사물로 변했다는 황당한 결말과 섞어, 슬픔을 드러내면서 농담처럼 받아 달라는 뜻으로도 쓸 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7758640_01",
+      "context": "친구들과 남산에 가려고 했는데 폭우로 약속이 취소된다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우산 챙기면 그래도 걸어갈 만할까"
+        },
+        {
+          "speaker": "B",
+          "text": "남산 올라가는 길 지금 비바람 심해서 다 취소했대"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘 사진 찍으려고 필름도 샀는데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "집에서 남산 생각만 하고 있을게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "여행 취소 아쉬움",
+        "자조"
+      ],
+      "fit_reason": "남산 나들이가 비바람에 취소된 상황에서 타워의 파란 눈물과 변했다는 문구가 장소에 맞는 자조를 만들어 준다."
+    },
+    {
+      "example_id": "7758640_02",
+      "context": "멀리 이사한 친구가 서울에서 본 풍경을 그리워한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 자주 보던 야경 사진 보냈어"
+        },
+        {
+          "speaker": "B",
+          "text": "맨 끝에 반짝이는 게 남산 맞지?"
+        },
+        {
+          "speaker": "A",
+          "text": "응 그쪽에 다시 가려면 연휴는 돼야겠다"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "사진만 봤는데 벌써 집 가고 싶음",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "향수",
+        "그리움"
+      ],
+      "fit_reason": "예전에 자주 보던 야경의 남산을 발견해, 우는 남산타워 그림이 돌아가고 싶은 마음을 직접 그려 준다."
+    },
+    {
+      "example_id": "7758640_03",
+      "context": "애써 준비한 작품 응모가 마감 시각을 1분 넘긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 제출 버튼 없어졌어?"
+        },
+        {
+          "speaker": "B",
+          "text": "오후 여섯 시까지였는데 너 몇 시에 눌렀어?"
+        },
+        {
+          "speaker": "A",
+          "text": "6시 1분"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "진짜 오늘의 최고 바보가 되었다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "허탈함"
+      ],
+      "fit_reason": "한 분 차이로 응모 기회를 놓쳐 멍해진 마음을, 이유 없이 타워가 되어 우는 캐릭터가 엉뚱하게 과장한다."
+    },
+    {
+      "example_id": "7758640_04",
+      "context": "친구가 부탁을 들어주러 오겠다더니 길을 몇 번이나 잘못 든다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "어디야 나 아까부터 이 자리에 있어"
+        },
+        {
+          "speaker": "B",
+          "text": "나 방금 반대 방향 차 타서 다시 돌아가는 중"
+        },
+        {
+          "speaker": "A",
+          "text": "처음에 5분이면 온다며"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나는 이제 여기 랜드마크 됐어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기다림",
+        "친근한 타박"
+      ],
+      "fit_reason": "한자리에서 오래 기다렸다는 말을 움직일 수 없는 전망탑에 빗대고 타워의 눈물로 불만을 가볍게 표현한다."
+    },
+    {
+      "example_id": "7758640_05",
+      "context": "학교에서 과제가 한꺼번에 쌓인 친구를 팀원이 달랜다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 자정까지 두 과목 맞지?"
+        },
+        {
+          "speaker": "B",
+          "text": "맞고 내일 아침 퀴즈도 생김"
+        },
+        {
+          "speaker": "A",
+          "text": "할 일 목록만 봐도 멍해"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 책상 위에 살짝만 더 쌓이면 전망대 만들겠다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "과제 하소연",
+        "자조"
+      ],
+      "fit_reason": "과제가 계속 쌓인 부담을 전망대로 비교하므로, 높은 탑의 우는 얼굴과 우울하다는 문구가 상심을 우습게 보여 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

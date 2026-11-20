@@ -1,0 +1,154 @@
+{
+  "package_id": "175355",
+  "sticker_id": "7601266",
+  "image_path": "images/175355/7601266-ad171880eeb4ed933c8e.png",
+  "image_view": "still",
+  "image_description": "검은 긴 머리 캐릭터가 반쯤 감긴 붉은 눈으로 정면을 보고 손가락을 열린 입 앞에 올린다. 위쪽에는 어이없다는 듯한 질문이 굵은 글자로 적혀 있다.",
+  "image_tags": [
+    "반쯤 감긴 붉은 눈",
+    "삼각형으로 열린 입",
+    "입 앞에 올린 손가락",
+    "분홍 뺨",
+    "굵은 적갈색 글씨"
+  ],
+  "image_text": [
+    "머라는거야"
+  ],
+  "interpretation_note": "끝 글자의 오른쪽 일부가 이미지 가장자리에서 잘렸다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7601266_01",
+      "context": "친구가 설명에 줄임말을 너무 많이 쓴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새로 뜬 방 어떻게 들어감?"
+        },
+        {
+          "speaker": "B",
+          "text": "ㅈㄱ 누르고 ㅂㅅㄱ 쳐."
+        },
+        {
+          "speaker": "A",
+          "text": "두 번째를 뭐라고 읽는 건데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제발 한 번만 모음도 같이 써줘",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "설명 요청",
+        "친근한 타박"
+      ],
+      "fit_reason": "자음만 붙여 쓴 안내를 알아듣기 어려워, 반쯤 감긴 눈과 ‘머라는거야’가 풀어서 말해 달라는 타박이 된다."
+    },
+    {
+      "example_id": "7601266_02",
+      "context": "형제가 설거지 순서를 자의적으로 해석한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 설거지 네 차례잖아."
+        },
+        {
+          "speaker": "B",
+          "text": "냄비는 설거지가 아니라 요리 도구 관리지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 네 차례에 도구 관리까지 해",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "궤변 지적",
+        "친근한 놀림"
+      ],
+      "fit_reason": "냄비를 설거지에서 빼려는 억지 구분에, 반쯤 감긴 눈과 퉁명스러운 질문이 황당함을 보탠다."
+    },
+    {
+      "example_id": "7601266_03",
+      "context": "게임 음성 통화에서 마이크가 찢어진 소리만 낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "야 지금 내 말 들리냐"
+        },
+        {
+          "speaker": "B",
+          "text": "지지직 하고 마지막에 숨소리만 들려"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "네 입장에선 한 문장 했겠지만 내 쪽에선 라디오 주파수 맞추는 중이야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "청취 실패",
+        "장난스러운 재질문"
+      ],
+      "fit_reason": "말소리가 잡음에 묻힌 통화라, 입 앞에 손가락을 대고 ‘머라는거야’라고 묻는 장면이 다시 말해 달라는 뜻으로 읽힌다."
+    },
+    {
+      "example_id": "7601266_04",
+      "context": "친구가 지난 채팅의 맥락을 모르고 엉뚱한 답을 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이제 출발한대"
+        },
+        {
+          "speaker": "B",
+          "text": "그래서 김치는 몇 포기 담근대?"
+        },
+        {
+          "speaker": "A",
+          "text": "나 버스 얘기했어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "너 위에 채팅 하나 놓쳤지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "맥락 확인",
+        "황당함"
+      ],
+      "fit_reason": "버스 출발 소식에 김치 개수로 답하는 대화가 어긋나서, 붉은 눈으로 정면을 보는 캐릭터의 질문이 웃긴 지적이 된다."
+    },
+    {
+      "example_id": "7601266_05",
+      "context": "친구가 수고한 사람에게 오히려 커피를 사라고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "벽 선반 네가 혼자 달았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 나사 여덟 개 다 혼자 박음."
+        },
+        {
+          "speaker": "A",
+          "text": "그럼 기념으로 네가 커피 쏴"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "나사 박고 돈도 내는 게 무슨 상이야 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 항의",
+        "보상 요구"
+      ],
+      "fit_reason": "혼자 작업한 사람이 커피까지 사라는 농담을 받아, 반쯤 감긴 붉은 눈의 ‘머라는거야’가 얄미운 제안을 받아친다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

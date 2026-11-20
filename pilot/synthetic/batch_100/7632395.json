@@ -1,0 +1,140 @@
+{
+  "package_id": "176622",
+  "sticker_id": "7632395",
+  "image_path": "images/176622/7632395-8e4c9ee502e116d91653.png",
+  "image_view": "still",
+  "image_description": "연보라빛 짧은 머리 인물이 고개를 옆으로 돌리고 눈을 감아서 웃고 있다. 귓불에 금빛 작은 귀걸이가 있고 뒤에는 주황빛 기둥이 보인다.",
+  "image_tags": [
+    "휘어 감긴 눈",
+    "입을 살짝 벌린 웃음",
+    "비스듬한 옆얼굴",
+    "금빛 귀걸이",
+    "주황빛 세로 기둥"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7632395_01",
+      "context": "가족이 아버지의 오래된 농담을 다시 듣는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아빠가 냉장고 앞에서 또 문 좀 잠가 달래."
+        },
+        {
+          "speaker": "B",
+          "text": "전기세 새어 나간다는 그 농담?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그거 열 번 들었는데 이번에도 웃음 나왔어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "따뜻한 웃음",
+        "가족 공감"
+      ],
+      "fit_reason": "익숙한 농담을 듣고도 웃었다는 말에 고개를 돌려 부드럽게 웃는 표정이 편한 가족 분위기를 살린다."
+    },
+    {
+      "example_id": "7632395_02",
+      "context": "친구가 좋은 발표 결과를 알린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네 시 발표 끝났어?"
+        },
+        {
+          "speaker": "B",
+          "text": "질문 하나 받았는데 생각보다 잘 답했어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 괜히 떨었네 싶지? 고생했다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하",
+        "안도"
+      ],
+      "fit_reason": "어려운 질문을 잘 넘겼다는 반가운 소식에 눈을 접고 편히 웃는 얼굴이 차분한 축하를 더한다."
+    },
+    {
+      "example_id": "7632395_03",
+      "context": "동료가 닫힌 회의실 문 앞에서 상황을 파악한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "회의실에 발표 자료 두고 나오신 거 맞죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 제 안경도 거기 두고 왔네요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "두 분 같이 들어갔다가 물건만 남았군요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "온화한 타박",
+        "실수 정리"
+      ],
+      "fit_reason": "자료에 안경까지 두고 온 상황을 두고 옆을 보며 웃는 얼굴을 보내면 한층 부드러운 농담이 된다."
+    },
+    {
+      "example_id": "7632395_04",
+      "context": "친구와 취향이 다른 영화를 한 편씩 고른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내가 지난번에 공포 영화 봐줬지?"
+        },
+        {
+          "speaker": "B",
+          "text": "맞아. 넌 뭐 보고 싶어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 이번에는 이 두 시간짜리 판다 다큐요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근함",
+        "제안"
+      ],
+      "fit_reason": "서로 한 번씩 봐주기로 하는 흐름에서 느긋하게 웃는 옆얼굴이 취향을 편히 내미는 말과 맞는다."
+    },
+    {
+      "example_id": "7632395_05",
+      "context": "친구의 반려견이 모두 기다린다는 듯 산책 줄을 물고 앉아 있다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "치즈 아침 산책 다녀왔다며."
+        },
+        {
+          "speaker": "B",
+          "text": "저녁 산책은 따로 있다고 주장하시는데."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "정확하시네요. 해질 때 다시 모시겠습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반려동물 농담",
+        "상냥한 받아치기"
+      ],
+      "fit_reason": "개가 산책 회차를 챙긴다는 귀여운 앞말에 예의 있게 웃는 얼굴을 붙여 존댓말 역할극을 살린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

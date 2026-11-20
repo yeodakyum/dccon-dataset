@@ -1,0 +1,137 @@
+{
+  "package_id": "176257",
+  "sticker_id": "7534334",
+  "image_path": "images/176257/7534334-9cd40217f2dcb0e9f303.png",
+  "image_description": "검은 배경 위에서 짙은 보라색 양갈래 머리 캐릭터가 눈을 감고 크게 웃으며 두 손을 머리 위로 들어 올린다. 목에 분홍 리본이 달려 있다.",
+  "image_tags": [
+    "보라색 양갈래",
+    "분홍 리본",
+    "양손 위로",
+    "감긴 눈",
+    "검은 배경"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7534334_1",
+      "context": "동아리 지원 결과 발표",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "우리 둘 붙으면 같이 활동할 수 있겠다"
+        },
+        {
+          "speaker": "B",
+          "text": "결과 떴어. 너랑 나 둘 다 합격이야!"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "같이 간다 만세!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "축하",
+        "합격"
+      ],
+      "fit_reason": "두 손을 번쩍 들어 웃는 자세가 함께 합격한 기쁨을 표현한다."
+    },
+    {
+      "example_id": "7534334_2",
+      "context": "공연장에서 앙코르 소식을 들음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "끝난 거 맞아? 조명이 안 켜지네"
+        },
+        {
+          "speaker": "B",
+          "text": "세트리스트 보니까 한 곡 더 있어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한 곡 더!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "공연",
+        "환호"
+      ],
+      "fit_reason": "두 손을 올린 모습이 앙코르를 기다리는 관객의 동작과 맞는다."
+    },
+    {
+      "example_id": "7534334_3",
+      "context": "비로 취소될 뻔했던 피크닉",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아침까지만 해도 비 예보였는데"
+        },
+        {
+          "speaker": "B",
+          "text": "오후엔 정말 맑고 돗자리도 가져왔어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "피크닉 간다!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "소풍",
+        "기쁨"
+      ],
+      "fit_reason": "활짝 웃고 팔을 들어 기대했던 약속을 지킬 수 있게 된 기분을 보여 준다."
+    },
+    {
+      "example_id": "7534334_4",
+      "context": "친구가 대신 티켓을 예매해 줌",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 화면에는 좌석이 안 떠"
+        },
+        {
+          "speaker": "B",
+          "text": "내 쪽에서 두 자리 잡았어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "진짜 고마워!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "예매",
+        "감사"
+      ],
+      "fit_reason": "두 손을 들고 웃는 얼굴이 급한 예매가 해결된 안도와 고마움을 표현한다."
+    },
+    {
+      "example_id": "7534334_5",
+      "context": "단체 채팅의 스트레칭 인증",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 스트레칭 한 사람 손"
+        },
+        {
+          "speaker": "B",
+          "text": "나 아까 했지. 너도 했어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "여기요 양손 들었어요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "운동",
+        "인증"
+      ],
+      "fit_reason": "양손을 들어 보이는 자세가 말 그대로 손을 들라는 요청에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

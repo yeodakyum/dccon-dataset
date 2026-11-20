@@ -1,0 +1,138 @@
+{
+  "package_id": "171100",
+  "sticker_id": "6425838",
+  "image_path": "images/171100/6425838-4a3d6cb27a44056b5911.png",
+  "image_view": "still",
+  "image_description": "노란 고양이가 눈을 접어 웃으며 양팔을 펼친다.",
+  "image_tags": [
+    "감긴 웃음눈",
+    "작게 튀어나온 혀",
+    "분홍 볼",
+    "옆으로 편 두 팔",
+    "손글씨"
+  ],
+  "image_text": [
+    "조아해요",
+    ""
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6425838_01",
+      "context": "친구가 반려동물 사진을 보낸다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘도 옆에서 자?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 내 팔에 턱 올렸어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 저러면 팔 못 빼지 너무 귀엽다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정"
+      ],
+      "fit_reason": "친구가 반려동물 사진을 보낸다 상황에서 두 팔을 펼친 밝은 표정과 좋아한다는 문구가 애정을 직접 전한다."
+    },
+    {
+      "example_id": "6425838_02",
+      "context": "친구가 힘든 날을 챙겨 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "오늘 말이 좀 없었지"
+        },
+        {
+          "speaker": "B",
+          "text": "응 따뜻한 거 문 앞에 두고 감"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이런 날에 너 있어서 다행이야",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정"
+      ],
+      "fit_reason": "친구가 힘든 날을 챙겨 준다 상황에서 두 팔을 펼친 밝은 표정과 좋아한다는 문구가 애정을 직접 전한다."
+    },
+    {
+      "example_id": "6425838_03",
+      "context": "오랜 친구가 함께한 추억을 떠올린다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 예전에 그 우산 기억나?"
+        },
+        {
+          "speaker": "B",
+          "text": "둘이 쓰고 둘 다 젖은 거? ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그때도 너랑 있어서 재밌었어",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정"
+      ],
+      "fit_reason": "오랜 친구가 함께한 추억을 떠올린다 상황에서 두 팔을 펼친 밝은 표정과 좋아한다는 문구가 애정을 직접 전한다."
+    },
+    {
+      "example_id": "6425838_04",
+      "context": "연인이 사소한 안부를 묻는다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "수업 끝나면 전화할까"
+        },
+        {
+          "speaker": "B",
+          "text": "응 네 목소리 듣고 싶어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "나도 이따 내가 먼저 걸게",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정"
+      ],
+      "fit_reason": "연인이 사소한 안부를 묻는다 상황에서 두 팔을 펼친 밝은 표정과 좋아한다는 문구가 애정을 직접 전한다."
+    },
+    {
+      "example_id": "6425838_05",
+      "context": "친구가 만든 작은 물건을 보여 준다",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "키링 완성했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 네 생각나서 하나 더 만듦"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "아 그건 가방 앞에 달아야지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "애정"
+      ],
+      "fit_reason": "친구가 만든 작은 물건을 보여 준다 상황에서 두 팔을 펼친 밝은 표정과 좋아한다는 문구가 애정을 직접 전한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

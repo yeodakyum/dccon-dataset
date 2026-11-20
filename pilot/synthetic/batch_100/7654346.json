@@ -1,0 +1,157 @@
+{
+  "package_id": "172805",
+  "sticker_id": "7654346",
+  "image_path": "images/172805/7654346-0965d49cc65c1a0d2a24.png",
+  "image_description": "검은 바탕에 굵은 흰 글씨로 ‘[다음화] 개붕병의 죽음.’과 유사한 예고 문구가 배치돼 있다.",
+  "image_tags": [
+    "검은 배경",
+    "굵은 흰 글씨",
+    "다음화 문구",
+    "죽음 문구",
+    "예고편 형식"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7654346_01",
+      "context": "게임 중 보스방을 혼자 열겠다고 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "버프 기다리랬지"
+        },
+        {
+          "speaker": "B",
+          "text": "나 조금만 먼저 들어가 볼게"
+        },
+        {
+          "speaker": "A",
+          "text": "문 닫히면 우리 못 들어감"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내 다음 화 제목 벌써 정해졌네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "게임",
+        "불길한 예감"
+      ],
+      "fit_reason": "죽음을 미리 밝히는 예고 자막을 게임 실패 플래그로 쓴다."
+    },
+    {
+      "example_id": "7654346_02",
+      "context": "시험을 망친 것 같다고 과장한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "채점해 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "객관식부터 아슬아슬함"
+        },
+        {
+          "speaker": "A",
+          "text": "마지막 장 뒷면도 있었던 거 알지?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "내 성적표 공개는 다음 화에서",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "시험",
+        "자조"
+      ],
+      "fit_reason": "비장한 예고가 성적을 확인하기 직전의 기분을 과장한다."
+    },
+    {
+      "example_id": "7654346_03",
+      "context": "친구가 매운 음식을 무리해서 주문한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "보통맛도 맵다는데"
+        },
+        {
+          "speaker": "B",
+          "text": "그래도 최고 단계 하나 먹어 봐야지"
+        },
+        {
+          "speaker": "A",
+          "text": "우유는 매진이래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "여기서 화면 어두워지고 엔딩곡 나오는 거지",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "도전",
+        "불길한 예감"
+      ],
+      "fit_reason": "검은 예고 화면이 매운맛 도전의 결말을 장난으로 암시한다."
+    },
+    {
+      "example_id": "7654346_04",
+      "context": "친구가 팀장에게 지각 연락을 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 지금 출발했어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 택시 잡는 중"
+        },
+        {
+          "speaker": "A",
+          "text": "오늘 아침 진행 맡은 사람 너던데"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "회의실 문 여는 순간부터 다음 화다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "지각",
+        "민망함"
+      ],
+      "fit_reason": "죽음 예고처럼 과장해 회의에 들어갈 때의 난처함을 전한다."
+    },
+    {
+      "example_id": "7654346_05",
+      "context": "친구가 드라마의 스포일러를 말할 뻔한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "거기까지 봤으면 주인공이 다음에"
+        },
+        {
+          "speaker": "B",
+          "text": "야 거기서 멈춰"
+        },
+        {
+          "speaker": "A",
+          "text": "아 제목만 읽어주면 안 돼?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그 제목부터 이미 스포잖아 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포일러",
+        "타박"
+      ],
+      "fit_reason": "제목만으로 전개를 밝히는 예고 방식 자체를 농담으로 삼는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

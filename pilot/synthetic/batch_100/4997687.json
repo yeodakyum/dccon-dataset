@@ -1,0 +1,137 @@
+{
+  "package_id": "152659",
+  "sticker_id": "4997687",
+  "image_path": "images/152659/4997687-c56f89c783d763aa1b44.png",
+  "image_description": "청록색 양갈래 머리의 캐릭터가 고개를 기울이고 큰 눈으로 위를 바라본다. 위에는 ‘불만 있으세요?’가 적혀 있다.",
+  "image_tags": [
+    "청록색 머리",
+    "양갈래",
+    "큰 눈",
+    "기울인 고개",
+    "불만 있으세요 문구"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "4997687_1",
+      "context": "친구가 파인애플 피자를 주문함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "피자 주문했어"
+        },
+        {
+          "speaker": "B",
+          "text": "너 설마 또 파인애플 추가했냐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "네 두 번 추가했는데요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "취향",
+        "능청"
+      ],
+      "fit_reason": "‘불만 있으세요?’ 문구와 귀여운 눈이 늘 하던 취향 논쟁을 능청스럽게 받는다."
+    },
+    {
+      "example_id": "4997687_2",
+      "context": "귀여운 폰 배경으로 친구를 놀림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 폰 화면 보여 줄까"
+        },
+        {
+          "speaker": "B",
+          "text": "그거 내 하품하는 사진이잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "풍경 사진보다 정감 가서",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "사진"
+      ],
+      "fit_reason": "고개를 갸웃하며 묻는 문구가 짓궂은 선택을 귀엽게 우기는 반응이다."
+    },
+    {
+      "example_id": "4997687_3",
+      "context": "동생이 방 청소 모양을 지적함",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "방 청소 다 했다"
+        },
+        {
+          "speaker": "B",
+          "text": "바닥에 있던 걸 전부 의자 위에 올렸네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일단 바닥은 깨끗하죠?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "집안일",
+        "능청"
+      ],
+      "fit_reason": "‘불만 있으세요?’와 큰 눈이 어설픈 청소를 천연덕스럽게 변호한다."
+    },
+    {
+      "example_id": "4997687_4",
+      "context": "보드게임에서 엉뚱한 색을 고름",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 말은 형광핑크로 할게"
+        },
+        {
+          "speaker": "B",
+          "text": "왜 그 색만 멀리서도 보이냐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "제 말은 주인공이거든요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "보드게임",
+        "장난"
+      ],
+      "fit_reason": "고개를 기울인 캐릭터가 튀는 선택이 당연한 듯 반문하는 태도와 맞는다."
+    },
+    {
+      "example_id": "4997687_5",
+      "context": "점심부터 디저트를 먼저 고름",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "밥 먹기 전에 케이크 골랐어"
+        },
+        {
+          "speaker": "B",
+          "text": "메뉴판 첫 장도 안 봤는데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 여기 온 이유라서요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "디저트",
+        "취향"
+      ],
+      "fit_reason": "귀여운 표정과 당돌한 질문의 조합이 먹는 순서를 고집하는 농담에 어울린다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,142 @@
+{
+  "package_id": "175310",
+  "sticker_id": "7668834",
+  "image_path": "images/175310/7668834-073f170f2dd15e73b2c6.png",
+  "image_view": "still",
+  "image_description": "분홍 긴 머리 캐릭터가 커다란 보라색 눈을 반짝이며 양손으로 브이 포즈를 취한다. 위에는 '제가 좀 쩔져?'라는 질문이 담긴 말풍선이 있다.",
+  "image_tags": [
+    "크고 반짝이는 보라 눈",
+    "살짝 벌린 웃는 입",
+    "양손 브이 포즈",
+    "분홍 머리와 보라 리본",
+    "화면 위 굵은 질문 말풍선"
+  ],
+  "image_text": [
+    "제가 좀 쩔져?"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7668834_01",
+      "context": "친구가 지난번 실패한 반죽에 다시 도전한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이번에도 만두피 다 찢어진 거 아니야?"
+        },
+        {
+          "speaker": "B",
+          "text": "오늘은 20개 하나도 안 터졌어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "어제의 나 보고 있냐. 20전 20승이다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "성취감",
+        "장난스러운 자랑"
+      ],
+      "fit_reason": "전날의 실패를 뒤집은 만두 20개에 두 손 브이와 자랑 질문이 과장된 승리 포즈가 된다."
+    },
+    {
+      "example_id": "7668834_02",
+      "context": "동료 질문에 대비 자료가 이미 있었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지난 분기 숫자 어디서 확인하죠?"
+        },
+        {
+          "speaker": "B",
+          "text": "혹시 물어보실까 봐 맨 뒤 페이지에 넣었어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "맨 뒤에 항목별로 두 장 더 있습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "은근한 자랑",
+        "준비성"
+      ],
+      "fit_reason": "묻기 전에 자료까지 챙겨뒀으므로 웃는 눈과 '제가 좀 쩔져?'가 기분 좋은 자기 칭찬으로 읽힌다."
+    },
+    {
+      "example_id": "7668834_03",
+      "context": "친구가 작은 실수를 업적처럼 포장한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 폰에 필름 붙였어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 기포를 딱 한 군데에 모으는 데 성공했어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "다섯 개였는데 하나로 만들었으니 발전이지.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "반어"
+      ],
+      "fit_reason": "기포가 여전히 남았는데 양손으로 승리를 자랑하는 얼굴이 실패를 성과라 부르는 반어를 만든다."
+    },
+    {
+      "example_id": "7668834_04",
+      "context": "게임에서 우연히 두 번 연속 희귀 아이템이 나온다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "상자 결과 캡처 두 개 왔는데 잘못 보낸 거야?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 둘 다 같은 장비 나옴."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "오늘 뽑기는 여기서 멈춰야겠다. 운 다 썼어.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기쁨",
+        "행운 자랑"
+      ],
+      "fit_reason": "같은 희귀 장비를 두 번 얻은 사실에 두 손 브이가 두 번의 성공을 ‘쩐다’고 자랑하는 표시가 된다."
+    },
+    {
+      "example_id": "7668834_05",
+      "context": "친구가 숨어 있던 맛집에 늦게 도착했는데 자리가 있었다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "금요일인데 혹시 자리 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "막 문 열었을 때 들어와서 창가 잡았다."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "창가랑 콘센트까지 확보했습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "뿌듯함",
+        "친근한 과장"
+      ],
+      "fit_reason": "경쟁이 심한 식당에서 좋은 자리까지 확보했다는 말을 반짝이는 큰 눈과 브이가 승전보처럼 받아 준다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

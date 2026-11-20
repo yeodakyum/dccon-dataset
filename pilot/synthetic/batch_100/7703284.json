@@ -1,0 +1,137 @@
+{
+  "package_id": "176766",
+  "sticker_id": "7703284",
+  "image_path": "images/176766/7703284-2175c7501f070a034f3e.png",
+  "image_description": "빨간 테두리가 있는 검은 모자와 로고가 여러 개 붙은 짙은 셔츠를 입은 남성이 굳은 입으로 옆쪽을 바라본다.",
+  "image_tags": [
+    "검은 모자",
+    "빨간 테두리",
+    "로고 셔츠",
+    "굳은 입",
+    "옆으로 보는 눈"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7703284_1",
+      "context": "친구가 약속에 늦은 이유를 얼버무림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "역에서 5분 걸린다며"
+        },
+        {
+          "speaker": "B",
+          "text": "아직 출발을 안 했으니까 걸리는 시간을 체크 못 했지"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그걸 지금 말해?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "정색",
+        "지각"
+      ],
+      "fit_reason": "옆을 보는 시선과 다문 입이 황당한 변명에 정색하는 반응이다."
+    },
+    {
+      "example_id": "7703284_2",
+      "context": "모터스포츠 중계 중 전략 발표",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "지금 타이어 갈면 앞 차 잡을 수 있겠지?"
+        },
+        {
+          "speaker": "B",
+          "text": "팀이 이번에도 그대로 오래 달리래"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "이 전략 맞는 건가",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "모터스포츠",
+        "회의"
+      ],
+      "fit_reason": "경기 팀 복장과 굳은 표정이 납득하기 어려운 전략을 바라보는 상황에 어울린다."
+    },
+    {
+      "example_id": "7703284_3",
+      "context": "친구가 해외여행 동선을 황당하게 잡음",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "공항에 지하철로 가는 경로 찾았어?"
+        },
+        {
+          "speaker": "B",
+          "text": "택시로 반대쪽 역까지 가서 거기서 타면 돼"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "그럼 왜 지하철을 타?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "혼란",
+        "동선"
+      ],
+      "fit_reason": "심각한 옆눈이 불필요하게 복잡한 제안을 듣는 순간의 표정이다."
+    },
+    {
+      "example_id": "7703284_4",
+      "context": "친구가 야식 비용을 예상 밖으로 배분",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 메뉴는 만 원짜리 하나였어"
+        },
+        {
+          "speaker": "B",
+          "text": "배달비랑 내 사이드까지 같이 반 나누자"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다시 계산해 봐",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "의심",
+        "정산"
+      ],
+      "fit_reason": "표정이 굳은 채 바라보는 모습이 납득하기 어려운 정산에 어울린다."
+    },
+    {
+      "example_id": "7703284_5",
+      "context": "스포츠 경기 후 인터뷰 답변을 기다림",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "져도 경기력은 좋았던 거지?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 인터뷰 중인데 감독이 한참 말을 안 하네"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "저 표정이면 답 다 나왔다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "스포츠",
+        "침묵"
+      ],
+      "fit_reason": "모자와 로고가 붙은 복장, 입을 다문 표정이 스포츠 인터뷰의 침묵에 맞는다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

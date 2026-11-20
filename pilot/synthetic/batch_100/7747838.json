@@ -1,0 +1,157 @@
+{
+  "package_id": "174452",
+  "sticker_id": "7747838",
+  "image_path": "images/174452/7747838-0e75d9ff3740948ba3e3.png",
+  "image_description": "흰 배경에 빨간 열매처럼 보이는 도형과 작은 원통형 물체가 있고 검은 움직임 선이 이어진다.",
+  "image_tags": [
+    "흰 배경",
+    "빨간 원형",
+    "검은 움직임 선",
+    "작은 원통",
+    "굵은 윤곽선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7747838_01",
+      "context": "간식을 책상 맞은편 친구에게 넘긴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나도 하나 줘"
+        },
+        {
+          "speaker": "B",
+          "text": "여기까지 와서 가져가"
+        },
+        {
+          "speaker": "A",
+          "text": "손 멀잖아 그냥 던져줘"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "간다 떨어뜨리지 마",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "던지기",
+        "장난"
+      ],
+      "fit_reason": "움직임 선이 가벼운 물건이 날아가는 동작을 대신한다."
+    },
+    {
+      "example_id": "7747838_02",
+      "context": "게임에서 회복 물약을 아군 쪽으로 보낸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "체력 없어서 못 움직여"
+        },
+        {
+          "speaker": "B",
+          "text": "내가 하나 들고 있어"
+        },
+        {
+          "speaker": "A",
+          "text": "여기 벽 뒤로 던질 수 있어?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "너 바로 옆으로 날아간다 받아",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "아이템",
+        "전달"
+      ],
+      "fit_reason": "작은 용기와 궤적이 물약을 건네는 동작에 맞는다."
+    },
+    {
+      "example_id": "7747838_03",
+      "context": "종이 뭉치 던지기로 휴지통 골인 내기를 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "저기서 골인하면 인정"
+        },
+        {
+          "speaker": "B",
+          "text": "한 번만 할 수 있는 거야?"
+        },
+        {
+          "speaker": "A",
+          "text": "응 실패하면 네가 줍기"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "포물선 보여준다",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "내기",
+        "던지기"
+      ],
+      "fit_reason": "검은 곡선이 던진 물건의 궤적처럼 보인다."
+    },
+    {
+      "example_id": "7747838_04",
+      "context": "친구가 찍은 사진에 공중에 뜬 물건이 잡힌다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 쏟는 거 찍혔어"
+        },
+        {
+          "speaker": "B",
+          "text": "난 하나도 안 떨어뜨렸는데"
+        },
+        {
+          "speaker": "A",
+          "text": "영상 3초에서 멈춰 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "이미 공중에 뜬 뒤였네 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "실수",
+        "순간 포착"
+      ],
+      "fit_reason": "흰 바탕 위에 떠 있는 물체가 정지 화면의 순간을 떠올리게 한다."
+    },
+    {
+      "example_id": "7747838_05",
+      "context": "보드게임을 정리하다 작은 토큰을 놓친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "빨간 토큰 한 개 비는데"
+        },
+        {
+          "speaker": "B",
+          "text": "방금 정리할 때까진 있었어"
+        },
+        {
+          "speaker": "A",
+          "text": "네 쪽으로 튕긴 거 봤어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "그럼 책상 밑부터 봐야겠네",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "토큰",
+        "실수"
+      ],
+      "fit_reason": "빨간 둥근 물체와 움직임 선을 튕긴 토큰에 빗댄다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,150 @@
+{
+  "package_id": "171847",
+  "sticker_id": "6169588",
+  "image_path": "images/171847/6169588-4bb07e3e29d73580963e.png",
+  "image_view": "still",
+  "image_description": "갈색 긴 머리 캐릭터가 눈을 가늘게 뜨고 혀를 살짝 내민 채 위의 질문 자막 아래에 서 있다. 머리와 옷에 푸른 장식이 달렸다.",
+  "image_tags": [
+    "반쯤 감긴 남색 눈",
+    "살짝 내민 혀",
+    "긴 갈색 앞머리",
+    "푸른 모자와 리본",
+    "검은 테두리의 질문 자막"
+  ],
+  "image_text": [
+    "이게 답니마?"
+  ],
+  "interpretation_note": "표기는 이미지에 보이는 형태를 그대로 옮겼다. 분량을 따지는 말이거나 장난스러운 실망으로 읽힐 수 있다.",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6169588_01",
+      "context": "친구가 카페에서 받은 아주 작은 디저트 사진을 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그 카페 조각 케이크 사진 있냐"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 올렸어. 옆에 티스푼은 크기 비교용"
+        },
+        {
+          "speaker": "A",
+          "text": "저게 일 인분이라고?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "한입 먹으면 끝나겠는데요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "분량 불만",
+        "가벼운 놀림"
+      ],
+      "fit_reason": "티스푼으로 크기를 확인하고 나온 반응이라 ‘이게 답니마?’라는 질문과 시큰둥한 눈이 작은 양을 꼬집는다."
+    },
+    {
+      "example_id": "6169588_02",
+      "context": "동아리에서 인수인계 문서에 내용이 너무 적다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "새 운영진한테 넘길 자료 확인했어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "네 지금 링크 하나 왔고 본문은 계정 만들라는 한 줄이에요"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "설정이랑 담당자 정보는 더 있는 거죠?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "확인 요청",
+        "실망"
+      ],
+      "fit_reason": "인수인계 문서가 한 줄뿐이라는 답 뒤에 반쯤 감은 눈으로 전부냐고 묻는 컷이 빈 문서를 타박한다."
+    },
+    {
+      "example_id": "6169588_03",
+      "context": "친구가 오래 끌던 이야기를 갑자기 마친다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그래서 그 둘이 왜 싸웠는데?"
+        },
+        {
+          "speaker": "B",
+          "text": "모름. 그 뒤는 나도 못 들었어"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "10분을 들었는데 결말이 없다고요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "허탈함",
+        "친근한 타박"
+      ],
+      "fit_reason": "십 분 동안 듣고도 결말이 없는 상황에 가는 눈과 짧은 질문이 어이없는 표정을 대신한다."
+    },
+    {
+      "example_id": "6169588_04",
+      "context": "게임 이벤트에서 모은 토큰을 보상으로 바꾼다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "드디어 토큰 천 개 채웠어"
+        },
+        {
+          "speaker": "B",
+          "text": "팻말 교환 눌러 봐"
+        },
+        {
+          "speaker": "A",
+          "text": "눌렀는데 돌 한 개 뜸"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "뒤에 상자 하나 더 오는 거 맞지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "보상 실망",
+        "반어 섞인 기대"
+      ],
+      "fit_reason": "큰 노력이 돌 한 개로 끝났다는 소식에 캐릭터의 눈매와 ‘이게 답니마?’가 부족한 보상을 지적한다."
+    },
+    {
+      "example_id": "6169588_05",
+      "context": "친구가 일주일 뒤에 드디어 그림을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 생일 카드 아직 그리는 중?"
+        },
+        {
+          "speaker": "B",
+          "text": "짠. 여기 동그라미 안에 점 두 개가 너야"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "일주일 숙성된 점이었구나 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 놀림",
+        "반어"
+      ],
+      "fit_reason": "공을 들인 줄 알았던 카드가 점 두 개뿐이라 혀를 내민 표정과 분량을 묻는 자막이 가볍게 받아친다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,142 @@
+{
+  "package_id": "175760",
+  "sticker_id": "7361850",
+  "image_path": "images/175760/7361850-da5fc0939b5e9181c1f9.png",
+  "image_view": "still",
+  "image_description": "밝은 머리 인물이 눈을 꽉 감고 입을 벌려 소리친다. 붉은 볼 옆에 화난 표시가 있고 위에 용서하지 못하겠다는 글씨가 있다.",
+  "image_tags": [
+    "가늘게 꽉 감은 눈",
+    "세로로 열린 입",
+    "붉은 뺨의 화 표시",
+    "머리 위 붉은 그림자",
+    "검은 방사선과 느낌표"
+  ],
+  "image_text": [
+    "용서못해-!!!"
+  ],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "7361850_01",
+      "context": "친구가 냉장고의 마지막 푸딩을 먹었다고 고백한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 푸딩 못 봤어?"
+        },
+        {
+          "speaker": "B",
+          "text": "미안. 그게 네 건지 모르고 먹었어."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "새 푸딩 두 개로 합의 봅시다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "친근한 타박",
+        "장난"
+      ],
+      "fit_reason": "뺨의 화 표시와 용서 못 한다는 글씨가 사소한 푸딩 분쟁을 과하게 엄숙하게 만든다."
+    },
+    {
+      "example_id": "7361850_02",
+      "context": "온라인 보드게임에서 친구가 결정적인 표를 남에게 준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "선거 때 우리 편 들기로 했잖아."
+        },
+        {
+          "speaker": "B",
+          "text": "네가 이길 것 같아서 반대 눌렀어 ㅋㅋ"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음 판 시작하자마자 너부터 견제한다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난 섞인 경쟁심",
+        "섭섭함"
+      ],
+      "fit_reason": "외치는 얼굴과 붉은 효과가 게임 안에서 동맹이 깨진 억울함을 표현한다."
+    },
+    {
+      "example_id": "7361850_03",
+      "context": "동료가 공유하기로 한 비공개 초안을 실수로 다른 채널에 올린다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "초안이 공개 채널에 보이는데 지우셨어요?"
+        },
+        {
+          "speaker": "B",
+          "text": "지금 지웠는데 벌써 한 분 읽으셨어요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "다음부터 보내기 전에 채널 이름 꼭 확인해 주세요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "불만",
+        "재발 방지"
+      ],
+      "fit_reason": "용서 못 한다는 글씨는 화를 과장하고 실제 발화는 업무상 요구를 구체적으로 전달한다."
+    },
+    {
+      "example_id": "7361850_04",
+      "context": "친구가 우유가 없다는 이유로 시리얼을 물에 말아 먹는다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "그릇 사진 좀 봐. 저거 우유 맞아?"
+        },
+        {
+          "speaker": "B",
+          "text": "아니 물. 생각보다 먹을 만한데?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "내 앞에서 두 번은 하지 마 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "황당함",
+        "친근한 놀림"
+      ],
+      "fit_reason": "빗금이 몰리는 화난 얼굴이 이상한 조합을 농담으로 규탄하는 답에 맞는다."
+    },
+    {
+      "example_id": "7361850_05",
+      "context": "가까운 친구가 단체방에서 생일을 일주일 잘못 알렸다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 생일 왜 오늘이라고 공지했냐"
+        },
+        {
+          "speaker": "B",
+          "text": "지난해 약속 잡았던 날짜랑 헷갈림."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "어쩔 수 없다 케이크 이번 주 다음 주 다 받아야겠네.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "반어",
+        "친근한 요구"
+      ],
+      "fit_reason": "용서 못 한다며 소리치는 이미지와 케이크를 두 번 받겠다는 과장이 함께 농담을 만든다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

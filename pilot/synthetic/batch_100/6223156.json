@@ -1,0 +1,157 @@
+{
+  "package_id": "171367",
+  "sticker_id": "6223156",
+  "image_path": "images/171367/6223156-11648912c8730b845da7.png",
+  "image_description": "큰 갈색 눈의 흰 머리 캐릭터가 혀를 내밀고 있으며 위쪽 말풍선은 ‘쫑아할까요?’로 보인다.",
+  "image_tags": [
+    "흰 머리",
+    "큰 갈색 눈",
+    "혀 내민 표정",
+    "홍조",
+    "질문 말풍선"
+  ],
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6223156_01",
+      "context": "친구가 동생 생일 선물을 골랐다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "동생 선물 뭐 샀어?"
+        },
+        {
+          "speaker": "B",
+          "text": "고양이 그려진 파우치"
+        },
+        {
+          "speaker": "A",
+          "text": "동생이 고양이 좋아해?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "사진만 봐도 좋아할 것 같지?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선물",
+        "확인"
+      ],
+      "fit_reason": "좋아하는지 묻는 듯한 문구가 선물 반응을 확인하는 말에 맞는다."
+    },
+    {
+      "example_id": "6223156_02",
+      "context": "친구에게 새로 꾸민 캐릭터를 보여준다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "아바타 색 바꿨다며"
+        },
+        {
+          "speaker": "B",
+          "text": "흰머리에 안경 씌웠어"
+        },
+        {
+          "speaker": "A",
+          "text": "우리 파티에 보여줄 거야?"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "응 다들 이 새 얼굴 좋아해주려나 ㅋㅋ",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "기대",
+        "반응 탐색"
+      ],
+      "fit_reason": "커다란 눈과 장난스러운 표정이 기대하는 태도를 살린다."
+    },
+    {
+      "example_id": "6223156_03",
+      "context": "모임 메뉴를 바꾸려 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "떡볶이집 예약 꽉 찼대"
+        },
+        {
+          "speaker": "B",
+          "text": "그럼 덮밥 어떰"
+        },
+        {
+          "speaker": "A",
+          "text": "민지는 매운 거 먹고 싶어 했잖아"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "덮밥도 좋아하는지 한번 물어볼까?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "메뉴 조율",
+        "질문"
+      ],
+      "fit_reason": "질문 말풍선이 다른 사람의 취향을 확인하는 상황에 맞는다."
+    },
+    {
+      "example_id": "6223156_04",
+      "context": "친구가 공개할 커버곡을 고른다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "네가 부른 곡 두 개 다 들었어?"
+        },
+        {
+          "speaker": "B",
+          "text": "응 둘 다 올릴까 고민 중"
+        },
+        {
+          "speaker": "A",
+          "text": "하나만 먼저 골라 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "사람들이 느린 버전 더 좋아할까?",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "선택",
+        "의견 요청"
+      ],
+      "fit_reason": "눈을 크게 뜬 채 묻는 모습이 반응을 기대하는 마음과 맞는다."
+    },
+    {
+      "example_id": "6223156_05",
+      "context": "단톡에 새 이모티콘을 처음 쓴다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "이모티콘 샀다면서 왜 안 써?"
+        },
+        {
+          "speaker": "B",
+          "text": "어울리는 말이 없었어"
+        },
+        {
+          "speaker": "A",
+          "text": "그냥 아무거나 보내 봐"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "자 첫 개시인데 다들 좋아할까요",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "장난",
+        "반응 확인"
+      ],
+      "fit_reason": "귀여운 표정과 질문 자체를 새 이모티콘에 대한 반응 요청으로 사용한다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,140 @@
+{
+  "package_id": "171686",
+  "sticker_id": "6203525",
+  "image_path": "images/171686/6203525-87cf4aacf30e32f7b04b.png",
+  "image_view": "still",
+  "image_description": "청록색 캐릭터가 눈을 반달 모양으로 감고 웃으며 손끝을 이마 옆에 댄다. 손 위쪽에는 노란 별 모양 효과가 있다.",
+  "image_tags": [
+    "반달로 접힌 눈",
+    "길게 휘어진 미소",
+    "이마 옆으로 곧게 들어 올린 손",
+    "노란색 별 효과",
+    "굵은 검은 윤곽선"
+  ],
+  "image_text": [],
+  "interpretation_note": null,
+  "is_synthetic": true,
+  "examples": [
+    {
+      "example_id": "6203525_01",
+      "context": "친구들이 야외 모임의 장보기 역할을 나눈다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "너 오는 길에 얼음 두 봉지만 사다 줄 수 있어?"
+        },
+        {
+          "speaker": "B",
+          "text": "편의점 들를 수 있지."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "얼음 담당 출동합니다. 두 봉지 접수!",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "부탁 수락",
+        "역할극"
+      ],
+      "fit_reason": "얼음을 사 오는 임무를 맡을 때 손을 이마까지 올린 자세가 익살스러운 경례로 읽힌다."
+    },
+    {
+      "example_id": "6203525_02",
+      "context": "게임 대회에서 먼저 탈락한 친구가 남은 팀을 격려한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "나 졌어. 너희 쪽은 몇 판 남음?"
+        },
+        {
+          "speaker": "B",
+          "text": "우린 지금 결승 대기 중."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "난 관중석에서 보고 있을게. 다들 끝까지 가자.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "응원",
+        "동료 의식"
+      ],
+      "fit_reason": "탈락하고도 동료들을 응원하는 대사에 반달 눈으로 웃으며 경례하는 표정이 밝게 힘을 실어 준다."
+    },
+    {
+      "example_id": "6203525_03",
+      "context": "오전부터 일을 도와준 동료와 교대한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "점심 먹고 오세요. 남은 전화는 제가 받을게요."
+        },
+        {
+          "speaker": "B",
+          "text": "아침에도 도와주셨는데 감사합니다."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "B",
+        "text": "복귀하면 선생님 점심 교대도 제가 볼게요.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "감사",
+        "인계"
+      ],
+      "fit_reason": "교대를 받아준 직후라 깍듯하게 손을 들어 보이는 캐릭터가 고마움과 인계 확인을 함께 표현한다."
+    },
+    {
+      "example_id": "6203525_04",
+      "context": "늦게까지 함께 작업한 친구에게 작별 인사를 한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "편집본 이제 공유 폴더에 넣었어."
+        },
+        {
+          "speaker": "B",
+          "text": "내 쪽에서도 확인했어. 이제 진짜 끝!"
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "오늘 같이 달려줘서 고맙습니다. 내일 봅시다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "격려",
+        "작별"
+      ],
+      "fit_reason": "공동 작업을 끝내고 밝게 인사하는 대사에 별이 붙은 웃는 경례가 작별 동작이 된다."
+    },
+    {
+      "example_id": "6203525_05",
+      "context": "친구가 청소한 방 사진을 보고 과하게 칭찬한다.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "내 바닥에 이런 무늬 있는 거 몇 달 만에 봐."
+        },
+        {
+          "speaker": "B",
+          "text": "와 방바닥 발굴 성공하셨군요."
+        }
+      ],
+      "sticker_message": {
+        "speaker": "A",
+        "text": "발굴반장 포상 기대하겠습니다.",
+        "send_sticker": true
+      },
+      "usage_tags": [
+        "자조",
+        "장난스러운 허세"
+      ],
+      "fit_reason": "오랫동안 치우지 않았던 바닥을 발굴했다고 하는 농담에 과장된 별과 경례를 붙이면 발굴반장인 척하는 장난이 된다."
+    }
+  ],
+  "review_status": "unreviewed"
+}

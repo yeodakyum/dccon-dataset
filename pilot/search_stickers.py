@@ -43,6 +43,17 @@ def load_stickers(directory, include_examples=False):
                 and message["text"].strip()
             ]
             sticker["examples"] = list(dict.fromkeys(example_texts))
+            sticker["image_text"] = image_text or []
+            situations = []
+            for example in record["examples"]:
+                parts = [
+                    example.get("context", "").strip(),
+                    example.get("fit_reason", "").strip(),
+                    ", ".join(example["usage_tags"]),
+                ]
+                if any(parts):
+                    situations.append(" ".join(part for part in parts if part))
+            sticker["situations"] = list(dict.fromkeys(situations))
         stickers.append(sticker)
     if not stickers:
         raise ValueError(f"No sticker annotations in {directory}")

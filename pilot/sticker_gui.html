@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>디시콘 검색</title>
+<style>
+  :root { font-family: system-ui, sans-serif; color: #292720; background: #f7f5ee; }
+  * { box-sizing: border-box; }
+  body { max-width: 1000px; margin: auto; padding: clamp(20px, 5vw, 58px); }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+  h1 { font-size: clamp(32px, 6vw, 58px); letter-spacing: -.065em; margin: 0 0 24px; }
+  #count, #status, .hint, small { color: #625a50; font-size: .88rem; }
+  form { background: #fffdf8; border: 1px solid #dfd8cc; border-radius: 16px; padding: 20px; }
+  label { display: block; font-weight: 650; margin-bottom: 5px; }
+  textarea, input { width: 100%; padding: 10px 12px; font: inherit; color: inherit; background: white;
+    border: 1px solid #d5cbbc; border-radius: 8px; margin-bottom: 14px; }
+  textarea { resize: vertical; }
+  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  button { font: inherit; font-weight: 650; padding: 9px 15px; border-radius: 8px; cursor: pointer; }
+  button[type=submit] { background: #244535; color: white; border: 1px solid #244535; }
+  #rewrite { background: #edf1e7; color: #244535; border: 1px solid #bccbb9; }
+  button:disabled { opacity: .55; cursor: default; }
+  h2 { font-size: 1.05rem; margin: 24px 0 10px; }
+  h3 { font-size: .93rem; margin: 14px 0 8px; }
+  .case { border-top: 1px solid #dfd8cc; margin-bottom: 24px; }
+  .example { margin: 6px 0; font-size: .83rem; overflow-wrap: anywhere; }
+  .cards { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    gap: 10px; padding: 0; margin: 0; }
+  .card { border: 1px solid #dfd8cc; padding: 10px; border-radius: 12px; background: #fffdf8; }
+  .preview { height: 100px; display: grid; place-items: center; background: #f0ede4; border-radius: 6px; }
+  img { max-width: 100%; max-height: 100px; object-fit: contain; }
+  .rank { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 0; }
+  .query-input { margin: 0 0 10px; }
+  .embedding-input { display: block; padding: 6px; background: #f0ede4; border-radius: 5px;
+    white-space: pre-wrap; overflow-wrap: anywhere; font-size: .82rem; line-height: 1.5; }
+  .card details { margin-top: 8px; font-size: .82rem; }
+  summary { cursor: pointer; color: #244535; }
+  .card details code { margin-top: 5px; }
+  #status { min-height: 1.3em; }
+</style>
+<main>
+<header><h1>디시콘 검색</h1><span id="count"></span></header>
+<form>
+  <label for="draft">내가 보낼 말 · 한 줄에 한 문장</label>
+  <textarea id="draft" rows="4" required placeholder="와 이걸 진짜 해냈다고?&#10;또 나만 몰랐어? ㅋㅋ&#10;지금 말 걸지 마 나 한 문제 남음"></textarea>
+  <details>
+  <summary>한 문장에 대화 맥락 또는 검색 의도 추가</summary>
+  <label for="context">최근 대화</label>
+  <textarea id="context" rows="3" placeholder="친구: 파일 복구했어? 다시 보내줄까?"></textarea>
+  <label for="query">의도 검색 문장</label>
+  <input id="query" placeholder="안도하며 도움 제안을 가볍게 사양하는 리액션">
+  <div class="actions">
+    <button id="rewrite" type="button" hidden>대화에서 검색 문장 만들기</button>
+    <span id="rewrite-hint" class="hint">검색 문장을 직접 입력할 수 있습니다.</span>
+  </div>
+  </details>
+  <div class="actions">
+    <button type="submit">설명 검색과 예문 검색 비교</button>
+  </div>
+</form>
+<p id="status" role="status"></p>
+<div id="results"></div>
+</main>
+<script>
+const form = document.querySelector('form');
+const status = document.querySelector('#status');
+const results = document.querySelector('#results');
+const rewrite = document.querySelector('#rewrite');
+const query = document.querySelector('#query');
+const submit = form.querySelector('button[type=submit]');
+
+fetch('/settings').then(response => response.json()).then(data => {
+  document.querySelector('#count').textContent = '콘 ' + data.count + '개 · 예문 ' + data.example_count + '개';
+  rewrite.hidden = !data.ollama_model;
+}).catch(() => { status.textContent = '서버 설정을 읽을 수 없습니다.'; });
+
+function input() {
+  return {
+    draft: document.querySelector('#draft').value,
+    context: document.querySelector('#context').value,
+    query: query.value
+  };
+}
+
+async function run(path, message, update) {
+  submit.disabled = rewrite.disabled = true;
+  status.textContent = message;
+  try {
+    const response = await fetch(path, {
+      method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(input())
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error);
+    update(data);
+    status.textContent = '';
+  } catch (error) {
+    status.textContent = error.message;
+  } finally {
+    submit.disabled = rewrite.disabled = false;
+  }
+}
+
+function element(tag, className, text = '') {
+  const node = document.createElement(tag);
+  node.className = className;
+  node.textContent = text;
+  return node;
+}
+
+function renderRanking(section, heading, entry) {
+    const cards = element('ol', 'cards');
+    for (const match of entry.matches) {
+      const card = element('li', 'card');
+      const preview = element('div', 'preview');
+      const image = document.createElement('img');
+      image.alt = '디시콘 ' + match.sticker_id;
+      image.addEventListener('error', () => preview.replaceChildren(element('small', '', '이미지 없음')));
+      image.src = '/sticker/' + encodeURIComponent(match.package_id) + '/' + encodeURIComponent(match.sticker_id);
+      preview.append(image);
+      const rank = element('div', 'rank');
+      rank.append(element('strong', '', match.rank + '위'), element('small', '', '#' + match.sticker_id));
+      const details = element('details', '');
+      details.append(element('summary', '', '임베딩 입력 보기'),
+        element('code', 'embedding-input', match.embedding_input));
+      card.append(preview, rank);
+      if (match.example_text) card.append(element('p', 'example', match.example_text));
+      card.append(details);
+      cards.append(card);
+    }
+    section.append(element('h3', '', heading), cards);
+}
+
+function render(data) {
+  results.replaceChildren();
+  data.cases.forEach(test => {
+    const section = element('section', 'case');
+    section.append(element('h2', '', test.description.query),
+      element('code', 'embedding-input query-input', test.description.embedding_input));
+    renderRanking(section, '설명으로 찾은 디시콘', test.description);
+    renderRanking(section, '예문으로 찾은 디시콘', test.example);
+    if (data.intent) {
+      const intent = element('section', '');
+      intent.append(element('code', 'embedding-input query-input', data.intent.embedding_input));
+      renderRanking(intent, '의도 문장으로 찾은 디시콘', data.intent);
+      section.append(intent);
+    }
+    results.append(section);
+  });
+}
+
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  run('/compare', '두 검색 결과를 비교하고 있습니다…', render);
+});
+rewrite.addEventListener('click', () => {
+  if (!form.reportValidity()) return;
+  run('/rewrite', '대화에서 검색 문장을 만들고 있습니다…', data => { query.value = data.query; });
+});
+</script>
+</html>

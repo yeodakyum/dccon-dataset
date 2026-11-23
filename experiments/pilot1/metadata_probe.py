@@ -6,7 +6,7 @@ from collections import Counter
 from math import log, sqrt
 from pathlib import Path
 
-DATA = Path(__file__).resolve().parent.parent / "data" / "week"
+DATA = Path(__file__).resolve().parents[2] / "data" / "week"
 PAIRS = (
     ("미쳤다 ㅋㅋ", (
         ("나 장학금 받았어!", "축하 축하해 잘했다"),

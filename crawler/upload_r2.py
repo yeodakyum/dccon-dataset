@@ -205,7 +205,7 @@ def run(args, credentials):
 
 
 def main():
-    settings = dotenv_values(Path(__file__).resolve().with_name(".env"), interpolate=False)
+    settings = dotenv_values(Path(__file__).resolve().parent.parent / ".env", interpolate=False)
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--directory", type=Path, default=Path("data/week"))
     parser.add_argument("--bucket", default=settings.get("R2_BUCKET") or os.environ.get("R2_BUCKET"))

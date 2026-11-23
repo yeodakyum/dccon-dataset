@@ -2,7 +2,7 @@
 __pycache__/
 data/
 /upload_r2_local.py
-/.env
+.env
 .env.*
 !.env.example
 .DS_Store

@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCCON Pilot 3</title>
+<style>
+:root{color-scheme:light;--ink:#1c2727;--muted:#526560;--line:#cfdcd5;--paper:#f4f7f4;--green:#135344}
+*{box-sizing:border-box} body{margin:0;font:15px/1.55 system-ui,sans-serif;background:var(--paper);color:var(--ink)}
+header{background:#103d35;color:white;padding:22px max(20px,calc((100vw - 1240px)/2))}
+header h1{margin:0 0 10px;font-size:27px} nav{display:flex;gap:8px;flex-wrap:wrap}
+button,select,textarea,input{font:inherit} button,select,textarea{border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}
+button{padding:7px 12px;cursor:pointer;font-weight:650} button:disabled{opacity:.55;cursor:wait}
+nav button{background:transparent;color:white;border-color:#76958b} nav [aria-selected=true]{background:white;color:var(--green)}
+main{max-width:1280px;margin:auto;padding:20px} form,article,#reports{background:white;border:1px solid var(--line);border-radius:13px;padding:16px}
+.settings,.inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:12px}
+label{font-weight:650} label select,label textarea{width:100%;margin-top:4px;padding:8px} textarea{resize:vertical}
+fieldset{border:0;padding:0;margin:0 0 12px;display:flex;gap:8px 16px;flex-wrap:wrap} legend{font-weight:650;margin-bottom:4px}
+fieldset label{font-weight:400} .primary{background:var(--green);color:white;border-color:var(--green)}
+small,.meta{color:var(--muted)} #results{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:12px}
+article h2{margin:0;font-size:17px} article p{margin:6px 0;overflow-wrap:anywhere} pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:4px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(87px,1fr));gap:6px;margin:8px 0}
+.cards figure{margin:0;border:1px solid var(--line);border-radius:8px;padding:6px;min-width:0} .cards img{width:100%;height:86px;object-fit:contain}
+figcaption{font-size:12px;overflow-wrap:anywhere} summary{cursor:pointer} .error{color:#a32730} iframe{width:100%;height:80vh;border:1px solid var(--line);border-radius:12px;background:white}
+[hidden]{display:none!important} a{color:var(--green)} @media(max-width:640px){.settings,.inputs{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>DCCON Pilot 3</h1>
+  <nav aria-label="실험 메뉴">
+    <button type="button" data-tab="search" aria-controls="search" aria-selected="true">추천 검색</button>
+    <button type="button" data-tab="tagging" aria-controls="tagging" aria-selected="false">이미지 태깅</button>
+    <button type="button" data-tab="reports" aria-controls="reports" aria-selected="false">실험 기록</button>
+  </nav>
+</header>
+<main>
+<section id="search">
+<form id="search-form">
+  <div class="settings">
+    <label>주석 데이터<select id="corpus"></select></label>
+    <label>텍스트 임베딩 모델<select id="model"></select></label>
+  </div>
+  <div class="settings">
+    <label>SLM 모델<select id="slm"></select></label>
+    <label id="search-key-field" hidden>Groq API 키<input id="search-key" type="password" autocomplete="off" placeholder="환경 변수 사용 가능"></label>
+  </div>
+  <div class="inputs">
+    <label>최근 대화<textarea id="context" rows="3" maxlength="1000"></textarea></label>
+    <label>내가 보낼 말<textarea id="draft" rows="3" maxlength="300" required></textarea></label>
+  </div>
+  <div class="inputs" id="manual-row">
+    <label>직접 쓴 의도 검색어 <small>(선택)</small><textarea id="intent-query" rows="2" maxlength="300"></textarea></label>
+    <label>직접 쓴 표정·동작 <small>(선택)</small><textarea id="visual-query" rows="2" maxlength="300"></textarea></label>
+  </div>
+  <fieldset id="methods"><legend>검색 방식</legend></fieldset>
+  <button id="submit" class="primary" disabled>검색</button>
+  <small id="model-note"></small>
+</form>
+<p id="status" role="status">설정을 불러오는 중입니다.</p>
+<div id="results"></div>
+</section>
+<section id="tagging" hidden>
+  <iframe title="Groq 이미지 태깅 실험실"></iframe>
+  <form id="batch-form">
+    <fieldset><legend>이미지 주석 배치</legend>
+      <label>표본
+        <select id="batch-corpus">
+          <option value="mixed32">32개 · 정지 16 + GIF 16</option>
+          <option value="mixed320">320개 · 정지 160 + GIF 160</option>
+        </select>
+      </label>
+      <label>Groq API 키<input id="batch-key" type="password" autocomplete="off" placeholder="환경 변수 사용 가능"></label>
+    </fieldset>
+    <button type="submit" id="batch-submit" class="primary">배치 실행 또는 재개</button>
+    <small>저장된 주석은 재사용하고 빠진 항목은 Groq에 요청합니다.</small>
+    <p id="batch-status" role="status"></p>
+    <pre id="batch-log"></pre>
+  </form>
+</section>
+<section id="reports" hidden><ul id="report-list"></ul></section>
+</main>
+<script>
+const $ = (selector) => document.querySelector(selector);
+const el = (tag, text) => {
+  const element = document.createElement(tag);
+  if (text !== undefined) element.textContent = text;
+  return element;
+};
+let config;
+let activeRun = 0;
+let batchPoll;
+
+for (const button of document.querySelectorAll("[data-tab]")) {
+  button.onclick = () => {
+    for (const tab of document.querySelectorAll("[data-tab]")) {
+      const selected = tab === button;
+      tab.setAttribute("aria-selected", selected);
+      document.getElementById(tab.dataset.tab).hidden = !selected;
+    }
+    const frame = $("iframe");
+    if (button.dataset.tab === "tagging") {
+      if (!frame.getAttribute("src")) frame.src = "/tagging/";
+      updateBatch();
+    }
+  };
+}
+
+async function json(url, options) {
+  const response = await fetch(url, options);
+  const result = await response.json();
+  if (!response.ok) throw new Error(result.error || "요청 실패");
+  return result;
+}
+
+function resetResults() {
+  activeRun++;
+  $("#results").replaceChildren();
+  $("#status").textContent = "";
+  $("#submit").disabled = false;
+}
+
+function updateMethods() {
+  const corpus = $("#corpus").value;
+  $("#manual-row").hidden = corpus !== "synthetic";
+  $("#methods").replaceChildren(el("legend", "검색 방식"));
+  for (const [key, title] of Object.entries(config.methods[corpus])) {
+    const label = el("label");
+    const checkbox = el("input");
+    checkbox.type = "checkbox";
+    checkbox.value = key;
+    checkbox.checked = ["examples", "situations", "fused", "context", "descriptions", "faiss"].includes(key);
+    label.append(checkbox, " " + title);
+    $("#methods").append(label);
+  }
+  resetResults();
+}
+
+function renderCards(matches, container) {
+  const cards = el("div");
+  cards.className = "cards";
+  for (const [i, match] of matches.entries()) {
+    const card = el("figure");
+    const image = el("img");
+    const id = `${match.package_id}-${match.sticker_id}`;
+    image.alt = match.image_text?.join(" / ") || match.visual || id;
+    image.src = "/sticker/" + encodeURIComponent(id);
+    image.loading = "lazy";
+    const caption = el("figcaption", `${i + 1}. ${match.sticker_id}`);
+    if (match.combined_score !== undefined) caption.append(" · 종합 " + match.combined_score);
+    else if (match.similarity !== undefined) caption.append(" · " + match.similarity);
+    const detail = el("details");
+    detail.append(el("summary", "근거"));
+    const evidence = [
+      match.embedding_input, match.example_text, match.situation_text, match.ocr_match,
+      match.caption_text && "이미지 문구: " + match.caption_text,
+      match.annotation_text && "기존 주석: " + match.annotation_text,
+      match.combined_score !== undefined && "텍스트 유사도: " + match.similarity,
+      match.kote_emotions?.length && "콘 태그: " + match.kote_emotions.join(" · "),
+      match.matched_emotions?.length && "일치한 감정: " + match.matched_emotions.join(" · "),
+      match.reactions?.map(item => item.intent + " · " + item.evidence).join("\n"),
+      match.uncertain?.join("\n")
+    ].filter(Boolean);
+    detail.append(el("pre", evidence.join("\n") || id));
+    card.append(image, caption, detail);
+    cards.append(card);
+  }
+  container.append(cards);
+}
+
+function renderResult(card, title, data) {
+  card.replaceChildren(el("h2", title));
+  const elapsed = el("p", `${data.seconds}초`);
+  elapsed.className = "meta";
+  card.append(elapsed);
+  if (data.emotions?.length) {
+    const scores = data.emotions.map(({label, score}) => `${label} ${(score * 100).toFixed(1)}%`);
+    card.append(el("p", "입력 감정 상위 3개 · " + scores.join(" · ")));
+  }
+  if (data.query) card.append(el("p", data.query));
+  if (data.embedding_input && data.embedding_input !== data.query) {
+    const details = el("details");
+    details.append(el("summary", "실제 임베딩 입력"), el("pre", data.embedding_input));
+    card.append(details);
+  }
+  if (data.matches.length) renderCards(data.matches, card);
+  else card.append(el("p", "추천 결과 없음"));
+  if (data.candidates) {
+    const details = el("details");
+    details.append(el("summary", "SLM에 전달한 후보"));
+    renderCards(data.candidates, details);
+    card.append(details);
+  }
+}
+
+$("#search-form").onsubmit = async (event) => {
+  event.preventDefault();
+  const model = $("#model").value;
+  const corpus = $("#corpus").value;
+  const slm = $("#slm").value;
+  const apiKey = slm === "groq" ? $("#search-key").value : "";
+  const draft = $("#draft").value.trim();
+  const context = $("#context").value.trim();
+  const tasks = [...document.querySelectorAll("#methods input:checked")].map(
+    ({value}) => ({method: value, title: config.methods[corpus][value], manual: ""})
+  );
+  if (corpus === "synthetic") {
+    const intent = $("#intent-query").value.trim();
+    const visual = $("#visual-query").value.trim();
+    if (intent) tasks.push({method: "descriptions", title: "직접 쓴 의도 → 이미지 설명", manual: intent});
+    if (visual) tasks.push({method: "image", title: "직접 쓴 표정·동작 → SigLIP 2", manual: visual});
+  }
+  if (!draft || !tasks.length) {
+    $("#status").textContent = "보낼 말과 검색 방식을 선택해 주세요.";
+    return;
+  }
+  const run = ++activeRun;
+  $("#submit").disabled = true;
+  $("#results").replaceChildren();
+  $("#status").textContent = "검색 중입니다. 모델별 첫 검색에는 로딩과 인덱싱이 포함됩니다.";
+  async function execute({method, title, manual, card}) {
+    if (run !== activeRun) return;
+    const usesSlm = config.slm_methods.includes(method);
+    if (usesSlm) title += ` · ${config[slm]}`;
+    try {
+      const result = await json("/api/search", {
+        method: "POST", headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          model, corpus, draft, context, method, manual, slm,
+          ...(usesSlm && apiKey ? {api_key: apiKey} : {}),
+        }),
+      });
+      if (run === activeRun) renderResult(card, title, result);
+    } catch (error) {
+      const message = el("p", error.message);
+      message.className = "error";
+      card.replaceChildren(el("h2", title), message);
+    }
+  }
+  for (const task of tasks) {
+    task.card = el("article");
+    task.card.append(el("h2", task.title), el("p", "검색 대기 중"));
+    $("#results").append(task.card);
+  }
+  for (const task of tasks) await execute(task);
+  if (run === activeRun) {
+    $("#status").textContent = `${config.models[model]} · ${config.corpora[corpus].label}`;
+    $("#submit").disabled = false;
+  }
+};
+
+function populateCorpora() {
+  const select = $("#corpus");
+  const previous = select.value;
+  select.replaceChildren();
+  for (const [key, item] of Object.entries(config.corpora)) {
+    select.add(new Option(`${item.label} · ${item.count}개`, key));
+  }
+  if (previous in config.corpora) select.value = previous;
+}
+
+async function updateBatch() {
+  clearTimeout(batchPoll);
+  try {
+    const data = await json("/api/batch");
+    const running = data.state === "running";
+    $("#batch-submit").disabled = running;
+    $("#batch-status").textContent = {idle: "", running: "진행 중", failed: "배치가 중단됐습니다. 다시 실행해 재개할 수 있습니다.",
+                                       done: "완료됐습니다. 추천 검색에서 갱신한 주석을 사용할 수 있습니다."}[data.state];
+    $("#batch-log").textContent = data.lines.join("\n");
+    if (running) batchPoll = setTimeout(updateBatch, 1200);
+    if (data.state === "done") {
+      config = await json("/api/workbench");
+      populateCorpora();
+    }
+  } catch (error) {
+    $("#batch-submit").disabled = false;
+    $("#batch-status").textContent = error.message;
+  }
+}
+
+$("#batch-form").onsubmit = async (event) => {
+  event.preventDefault();
+  const key = $("#batch-key");
+  $("#batch-submit").disabled = true;
+  try {
+    await json("/api/batch", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({corpus: $("#batch-corpus").value, api_key: key.value}),
+    });
+    key.value = "";
+    await updateBatch();
+  } catch (error) {
+    $("#batch-submit").disabled = false;
+    $("#batch-status").textContent = error.message;
+  }
+};
+
+$("#corpus").onchange = updateMethods;
+$("#model").onchange = resetResults;
+$("#slm").onchange = () => {
+  const groq = $("#slm").value === "groq";
+  $("#search-key-field").hidden = !groq;
+  $("#model-note").textContent = groq ? "SLM 검색 방식은 대화 입력을 Groq에 전송합니다." : "";
+  resetResults();
+};
+json("/api/workbench").then(data => {
+  config = data;
+  populateCorpora();
+  for (const [key, model] of Object.entries(data.models)) $("#model").add(new Option(model, key));
+  for (const [key, title] of Object.entries(data.reports)) {
+    const link = el("a", title);
+    link.href = "/reports/" + key;
+    link.target = "_blank";
+    link.rel = "noopener";
+    const item = el("li");
+    item.append(link);
+    $("#report-list").append(item);
+  }
+  $("#slm").add(new Option(`로컬 Ollama · ${data.ollama}`, "ollama"));
+  $("#slm").add(new Option(`Groq · ${data.groq}`, "groq"));
+  updateMethods();
+}).catch(error => $("#status").textContent = "설정을 불러오지 못했습니다. " + error.message);
+</script>
+</body>
+</html>

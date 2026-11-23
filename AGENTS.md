@@ -1,6 +1,6 @@
 # DCCON dataset
 
-`crawl_dccon.py` collects DCInside's popular DCCON packages and their individual stickers. A package is a sticker set. The default sample is the top **100 packages** in the weekly ranking, with every sticker returned by each package's detail endpoint. Daily and monthly rankings are also supported.
+`crawler/crawl_dccon.py` collects DCInside's popular DCCON packages and their individual stickers. A package is a sticker set. The default sample is the top **100 packages** in the weekly ranking, with every sticker returned by each package's detail endpoint. Daily and monthly rankings are also supported.
 
 ## Collection methodology
 
@@ -16,11 +16,11 @@
 
 ## Running and checking changes
 
-Use Python 3.10 or later and install the crawler dependencies from `requirements.txt`. On the original Mac, the working virtual environment is at `~/.local/share/venvs/dccon`. The former project-local environment had macOS-offloaded files that caused pip to hang.
+Run these commands from the repository root with Python 3.10 or later and install the crawler dependencies from `crawler/requirements.txt`. On the original Mac, the working virtual environment is at `~/.local/share/venvs/dccon`. The former project-local environment had macOS-offloaded files that caused pip to hang.
 
 ```bash
-python crawl_dccon.py
-python crawl_dccon.py --limit 3 --output data/smoke
+python crawler/crawl_dccon.py
+python crawler/crawl_dccon.py --limit 3 --output data/smoke
 ```
 
 The first command runs the full weekly crawl into `data/week/`. The second runs a live smoke test with three packages. Check `data/smoke/summary.json` for completion and `data/smoke/errors.jsonl` for failures.

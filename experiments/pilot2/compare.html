@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>디시콘 추천 비교</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #1c302b; background: #f2f5f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1260px; margin: auto; padding: 40px 24px; }
+    h1 { font-size: clamp(24px, 5vw, 36px); margin: 0; letter-spacing: -.04em; }
+    #catalog { margin: 4px 0 24px; color: #4c6359; }
+    form, section { background: white; border: 1px solid #d8e4db; border-radius: 14px; padding: 18px; }
+    form { display: grid; grid-template-columns: 2fr 1fr; gap: 14px 18px; }
+    label { display: grid; gap: 6px; font-weight: 650; align-content: start; }
+    textarea { width: 100%; min-height: 96px; resize: vertical; padding: 10px; font: inherit; font-weight: 400; border: 1px solid #aabeb0; border-radius: 8px; }
+    .actions { display: flex; gap: 14px; align-items: center; grid-column: 1 / -1; }
+    button { cursor: pointer; color: white; background: #214f40; border: 0; border-radius: 8px; padding: 9px 16px; font: inherit; font-weight: 650; }
+    button:disabled { opacity: .55; cursor: wait; }
+    #results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: start; margin-top: 18px; }
+    h2 { font-size: 18px; margin: 0; }
+    .method { color: #4c6359; margin: 3px 0 10px; font-size: 14px; }
+    .query { white-space: pre-wrap; overflow-wrap: anywhere; background: #eef4ee; border-radius: 8px; padding: 8px 10px; font-size: 14px; }
+    article { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 11px; align-items: start; padding: 10px 0; border-top: 1px solid #e1ebe2; }
+    article img { width: 92px; height: 92px; object-fit: contain; background: #f1f4ee; border-radius: 8px; }
+    article p { margin: 3px 0; overflow-wrap: anywhere; font-size: 14px; }
+    article small { color: #4c6359; }
+    summary { cursor: pointer; margin: 12px 0 7px; }
+    .error { color: #882b20; overflow-wrap: anywhere; }
+    @media (max-width: 900px) { #results { grid-template-columns: 1fr; } }
+    @media (max-width: 620px) { form { grid-template-columns: 1fr; } main { padding: 22px 12px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>디시콘 추천 비교</h1>
+  <p id="catalog"></p>
+  <form>
+    <label>이전 대화
+      <textarea id="context" maxlength="1000" placeholder="친구: 나 또 30분 늦을 것 같아"></textarea>
+    </label>
+    <label>입력할 대화
+      <textarea id="draft" maxlength="300" required placeholder="ㅋㅋ 알았다"></textarea>
+    </label>
+    <div class="actions"><button type="submit">세 방식 비교</button><span id="status" role="status"></span></div>
+  </form>
+  <div id="results"></div>
+</main>
+<script>
+  const byId = id => document.getElementById(id);
+  const form = document.querySelector("form");
+  const submit = form.querySelector("button");
+  const results = byId("results");
+  const status = byId("status");
+  const methods = [
+    ["faiss", "FAISS", "대화 원문으로 검색한 상위 5개"],
+    ["rewrite", "SLM output → FAISS", "SLM이 만든 반응 태그와 시각 묘사로 찾은 상위 5개"],
+    ["choose", "FAISS → SLM choose", "원문 검색 상위 10개 중 SLM이 최대 3개 선택"],
+  ];
+
+  function add(parent, tag, value, className) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    node.textContent = value;
+    parent.append(node);
+    return node;
+  }
+
+  function showStickers(parent, stickers, selection = false) {
+    stickers.forEach((sticker, index) => {
+      const card = add(parent, "article", "");
+      const image = document.createElement("img");
+      image.src = "/image/" + encodeURIComponent(sticker.id);
+      image.alt = sticker.visual;
+      image.loading = "lazy";
+      card.append(image);
+      const detail = add(card, "div", "");
+      const rank = selection ? `선택 ${index + 1} · FAISS ${sticker.rank}위` : `${sticker.rank}위`;
+      add(detail, "small", `${rank} · ${sticker.is_gif ? "GIF" : "정지"} · ${sticker.similarity.toFixed(3)}`);
+      add(detail, "p", sticker.image_text.length ? sticker.image_text.join(" / ") : sticker.visual);
+      if (sticker.reactions.length) add(detail, "small", sticker.reactions.map(item => item.intent).join(" · "));
+    });
+  }
+
+  async function readJson(response) {
+    const value = await response.json();
+    if (!response.ok) throw new Error(value.error || "요청이 실패했습니다.");
+    return value;
+  }
+
+  fetch("/api/config").then(readJson).then(config => {
+    const parts = [`정지 ${config.count - config.gifs}개`, `GIF ${config.gifs}개`];
+    if (config.embedding_model) parts.push(`임베딩 ${config.embedding_model}`);
+    parts.push(`SLM ${config.model}`);
+    byId("catalog").textContent = parts.join(" · ");
+  }).catch(error => { byId("catalog").textContent = error.message; });
+
+  form.addEventListener("submit", async event => {
+    event.preventDefault();
+    if (submit.disabled) return;
+    submit.disabled = true;
+    status.textContent = "검색하고 비교하는 중…";
+    results.replaceChildren();
+    try {
+      const response = await fetch("/api/compare", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({context: byId("context").value, draft: byId("draft").value}),
+      });
+      const data = await readJson(response);
+      methods.forEach(([key, title, description]) => {
+        const panel = add(results, "section", "");
+        const result = data[key];
+        add(panel, "h2", title);
+        add(panel, "p", description + (result.seconds === undefined ? "" : ` · ${result.seconds.toFixed(1)}초`), "method");
+        if (result.query) add(panel, "p", result.query, "query");
+        if (result.error) add(panel, "p", result.error, "error");
+        if (result.matches) {
+          if (result.matches.length) showStickers(panel, result.matches, key === "choose");
+          else add(panel, "p", key === "rewrite" ? "SLM이 검색할 반응 태그를 만들지 않았습니다." : "적절한 후보를 선택하지 않았습니다.");
+        }
+        if (result.candidates) {
+          const list = add(panel, "details", "");
+          add(list, "summary", `SLM에 보여준 후보 ${result.candidates.length}개`);
+          showStickers(list, result.candidates);
+        }
+      });
+      status.textContent = "비교 완료";
+    } catch (error) {
+      status.textContent = error.message;
+    } finally {
+      submit.disabled = false;
+    }
+  });
+</script>
+</body>
+</html>

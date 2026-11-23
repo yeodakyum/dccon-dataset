@@ -46,7 +46,7 @@ Groq 비전 모델로 40장 태깅, KURE-v1 임베딩 비교, GIF 여러 프레�
 E5·FAISS 검색 환경에서 저장소 루트 기준으로 실행한다. 이미지 검색에는 Pillow, PyTorch, Transformers와 SigLIP 2 모델이 필요하다. SLM 경로에는 로컬 Ollama 서버와 설치된 모델이 필요하다. 이미지 미리보기와 임베딩에는 주석의 이미지 경로에 대응하는 원본 데이터가 필요하다.
 
 ```sh
-python pilot/sticker_gui.py --image-search --ollama-model qwen3.5:2b
+python experiments/pilot1/sticker_gui.py --image-search --ollama-model qwen3.5:2b
 ```
 
 기본 주소는 `http://127.0.0.1:8765/`다. 텍스트 검색만 비교할 때는 두 옵션을 생략한다. 기본 주석·데이터 경로를 바꾸려면 `--annotations`와 `--dataset`을 지정한다.

@@ -199,7 +199,7 @@ Custom Domains → Add** and replace `PUBLIC_BASE` in the examples with that dom
 Use Cloudflare's R2 custom-domain connection flow rather than manually pointing
 a CNAME at `r2.dev`.
 
-For future completed crawls, run `upload_r2.py` as documented in `README.md`, then
+For future completed crawls, use the [crawler and R2 upload guide](../crawler/README.md#cloudflare-r2-업로드), then
 add the uploaded prefix and its actual counts/status to `catalog.json` using the
 owner's authenticated S3 client. The existing uploader does not update the
 catalog automatically. Publish a catalog entry only after its referenced objects

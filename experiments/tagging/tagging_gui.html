@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>디시콘 태깅 실험실</title>
+<style>
+  :root { font: 15px/1.55 system-ui, sans-serif; color: #212725; background: #f3f5f1; }
+  * { box-sizing: border-box; }
+  body { max-width: 1250px; margin: auto; padding: clamp(16px, 4vw, 52px); }
+  header, .actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  h1 { margin: 0; font-size: clamp(27px, 5vw, 42px); letter-spacing: -.055em; }
+  h2 { margin: 0 0 12px; font-size: 1.1rem; }
+  #model, #metadata, #metrics { color: #4a5c53; overflow-wrap: anywhere; }
+  main { display: grid; grid-template-columns: minmax(250px, 1fr) minmax(0, 2.15fr); gap: 16px; margin-top: 20px; }
+  section { background: white; border: 1px solid #d7ded7; border-radius: 14px; padding: 18px; min-width: 0; }
+  .output { grid-column: 1 / -1; }
+  .preview { display: grid; place-items: center; min-height: 190px; margin-bottom: 12px; border-radius: 8px;
+    background: conic-gradient(#e5eae4 25%, #f7f8f6 0 50%, #e5eae4 0 75%, #f7f8f6 0) 0 0 / 20px 20px; }
+  img { width: 150px; height: 150px; object-fit: contain; }
+  #gif-only { display: inline; width: auto; margin: 0; }
+  #strip { display: block; width: 100%; height: auto; margin: 8px 0; }
+  details { margin-bottom: 12px; }
+  label { font-weight: 650; }
+  input, select, textarea { display: block; width: 100%; padding: 8px; margin: 5px 0 10px;
+    border: 1px solid #aebcb3; border-radius: 6px; background: white; color: inherit; font: inherit; }
+  textarea { min-height: 330px; resize: vertical; line-height: 1.65; }
+  button { padding: 8px 12px; border: 1px solid #b5c4bb; background: white; color: inherit; border-radius: 7px; font: inherit; cursor: pointer; }
+  button.primary { background: #174e3e; border-color: #174e3e; color: white; font-weight: 650; }
+  button:disabled { opacity: .55; cursor: default; }
+  pre { margin: 8px 0 0; padding: 13px; background: #14241f; color: #f0f7f1; border-radius: 8px;
+    min-height: 110px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  #status { margin: 10px 0 0; }
+  @media (max-width: 720px) { main { grid-template-columns: minmax(0, 1fr); } }
+</style>
+<header><h1>디시콘 태깅 실험실</h1><code id="model"></code></header>
+<main>
+  <section aria-labelledby="picker-heading">
+    <h2 id="picker-heading">디시콘</h2>
+    <div class="preview"><img id="preview" alt="선택한 디시콘" hidden></div>
+    <details id="gif-preview" hidden>
+      <summary>Groq에 보낼 프레임 보기</summary>
+      <img id="strip" alt="GIF의 0%, 25%, 50%, 75%, 100% 시간순 프레임">
+    </details>
+    <p id="metadata"></p>
+    <label><input id="gif-only" type="checkbox"> GIF만 보기</label>
+    <label for="filter">제목 또는 ID</label>
+    <input id="filter" type="search" placeholder="예: 괴렘, 7626564">
+    <label for="stickers">검색 결과</label>
+    <select id="stickers"></select>
+    <button id="sample" type="button" disabled>무작위 선택</button>
+  </section>
+  <section>
+    <form id="form">
+      <label for="api-key">Groq API 키</label>
+      <input id="api-key" type="password" autocomplete="off" spellcheck="false" placeholder="gsk_…">
+      <label for="prompt">태깅 프롬프트</label>
+      <textarea id="prompt" required></textarea>
+      <div class="actions">
+        <button type="button" id="reset" disabled>기본 프롬프트 복원</button>
+        <button class="primary" id="run" disabled>Groq로 실행</button>
+      </div>
+      <p id="status" role="status">목록을 불러오는 중입니다.</p>
+    </form>
+  </section>
+  <section class="output" aria-labelledby="output-heading">
+    <div class="actions"><h2 id="output-heading">모델 출력</h2><button id="copy" disabled>출력 복사</button></div>
+    <div id="metrics"></div>
+    <pre id="output" aria-live="polite">실행 결과가 여기에 표시됩니다.</pre>
+  </section>
+</main>
+<script>
+  const byId = id => document.getElementById(id);
+  const [model, preview, metadata, filter, select, sample, prompt, reset, run, status, metrics, output, copy] =
+    ["model", "preview", "metadata", "filter", "stickers", "sample", "prompt", "reset", "run", "status", "metrics", "output", "copy"].map(byId);
+  const apiKey = byId("api-key");
+  const gifOnly = byId("gif-only");
+  const gifPreview = byId("gif-preview");
+  const strip = byId("strip");
+  const draft = {};
+  let config, stickers, matches, promptMode, pending = false;
+
+  function setPromptMode(mode) {
+    if (mode === promptMode) return;
+    if (promptMode) draft[promptMode] = prompt.value;
+    promptMode = mode;
+    prompt.value = draft[mode] ?? config[mode];
+  }
+
+  function showSticker() {
+    const sticker = stickers.get(select.value);
+    preview.hidden = !sticker;
+    gifPreview.hidden = !sticker?.is_gif;
+    if (sticker) {
+      const id = encodeURIComponent(sticker.id);
+      const imageUrl = "./image/" + id;
+      if (preview.getAttribute("src") !== imageUrl) preview.src = imageUrl;
+      if (sticker.is_gif && strip.getAttribute("src") !== "./strip/" + id) strip.src = "./strip/" + id;
+      setPromptMode(sticker.is_gif ? "gif_prompt" : "prompt");
+    }
+    metadata.textContent = sticker
+      ? [sticker.package_title, sticker.title, sticker.sticker_id, sticker.is_gif ? "GIF" : ""].filter(Boolean).join(" · ")
+      : "검색 결과가 없습니다.";
+    run.disabled = pending || !sticker || !(apiKey.value.trim() || config.configured);
+    sample.disabled = !matches.length;
+  }
+
+  function showMatches() {
+    const query = filter.value.trim().toLowerCase();
+    matches = config.stickers.filter(row =>
+      (!gifOnly.checked || row.is_gif) && [row.package_title, row.title, row.id].some(value => value.toLowerCase().includes(query)));
+    const previous = select.value;
+    select.replaceChildren(...matches.map(row =>
+      new Option([row.package_title, row.title, row.sticker_id, row.is_gif ? "GIF" : ""].filter(Boolean).join(" · "), row.id)));
+    if (matches.some(row => row.id === previous)) select.value = previous;
+    showSticker();
+  }
+
+  async function init() {
+    try {
+      const response = await fetch("./api/config");
+      if (!response.ok) throw Error("디시콘 목록을 불러오지 못했습니다.");
+      config = await response.json();
+      stickers = new Map(config.stickers.map(row => [row.id, row]));
+      model.textContent = config.model;
+      setPromptMode("prompt");
+      reset.disabled = false;
+      showMatches();
+      if (config.configured) apiKey.placeholder = "비워 두면 서버에 설정된 키 사용";
+      status.textContent = `디시콘 ${config.stickers.length.toLocaleString()}개`;
+    } catch (error) {
+      status.textContent = error.message;
+    }
+  }
+
+  apiKey.addEventListener("input", () => { if (config) showSticker(); });
+  filter.addEventListener("input", () => { if (config) showMatches(); });
+  gifOnly.addEventListener("change", () => { if (config) showMatches(); });
+  select.addEventListener("change", showSticker);
+  sample.addEventListener("click", () => {
+    select.value = matches[Math.floor(Math.random() * matches.length)].id;
+    showSticker();
+  });
+  reset.addEventListener("click", () => { prompt.value = config[promptMode]; });
+  copy.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(output.textContent);
+      copy.textContent = "복사됨";
+    } catch {
+      copy.textContent = "복사 실패";
+    }
+  });
+
+  byId("form").addEventListener("submit", async event => {
+    event.preventDefault();
+    if (run.disabled) return;
+    pending = true;
+    run.disabled = copy.disabled = true;
+    status.textContent = "Groq에서 응답을 기다리는 중입니다.";
+    metrics.textContent = output.textContent = "";
+    copy.textContent = "출력 복사";
+    try {
+      const response = await fetch("./api/tag", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({id: select.value, prompt: prompt.value, api_key: apiKey.value.trim()}),
+      });
+      const result = await response.json();
+      if (!response.ok) throw Error(result.error);
+      const {sticker, usage, seconds, finish_reason: finishReason} = result;
+      metrics.textContent = [
+        sticker.package_title, sticker.title, sticker.sticker_id, `${seconds}초`,
+        typeof usage.prompt_tokens === "number" ? `입력 ${usage.prompt_tokens} 토큰` : "",
+        typeof usage.completion_tokens === "number" ? `출력 ${usage.completion_tokens} 토큰` : "",
+        finishReason === "length" ? "출력 한도에 도달했습니다." : "",
+      ].filter(Boolean).join(" · ");
+      const raw = result.output ?? "";
+      try { output.textContent = JSON.stringify(JSON.parse(raw), null, 2); }
+      catch { output.textContent = raw || "빈 응답"; }
+      copy.disabled = !raw;
+      status.textContent = "응답을 받았습니다.";
+    } catch (error) {
+      status.textContent = error.message;
+    } finally {
+      pending = false;
+      showSticker();
+    }
+  });
+
+  init();
+</script>
+</html>

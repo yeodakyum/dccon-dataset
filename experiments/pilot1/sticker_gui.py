@@ -29,7 +29,7 @@ VISUAL_PROMPT = (
 )
 
 
-def rewrite_query(model, context, draft, *, visual=False):
+def rewrite_query(model, context, draft, *, visual=False, complete=None):
     body = {
         "model": model,
         "stream": False,
@@ -38,6 +38,8 @@ def rewrite_query(model, context, draft, *, visual=False):
             {"role": "user", "content": f"최근 대화:\n{context}\n\n내가 보낼 말:\n{draft}"},
         ],
     }
+    if complete is not None:
+        return " ".join(complete(body["messages"]).splitlines())
     body["options"] = {"temperature": 0.2, "num_ctx": 2048, "num_predict": 80}
     if model.startswith("qwen3.5"):
         body["think"] = False
@@ -95,7 +97,7 @@ def fuse_results(draft, examples, situations, stickers, top_k=5):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--annotations", type=Path, default=DEFAULT_PILOT)
-    parser.add_argument("--dataset", type=Path, default=PILOT.parent / "data" / "week")
+    parser.add_argument("--dataset", type=Path, default=PILOT.parents[1] / "data" / "week")
     parser.add_argument("--ollama-model", help="Installed Ollama model for context rewriting")
     parser.add_argument("--image-search", action="store_true", help="Index sticker images with SigLIP 2")
     parser.add_argument("--port", type=int, default=8765)

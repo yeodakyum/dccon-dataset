@@ -9,6 +9,7 @@
 | [`experiments/pilot1/`](experiments/pilot1/2026-11-23-search-experiments.md) | 합성 주석 378개를 이용한 예문·상황·이미지 검색 비교와 화면 캡처 |
 | [`experiments/pilot2/`](experiments/pilot2/README.md) | 이미지 주석 32·320개와 원문 FAISS, SLM 검색어 생성, SLM 후보 선택 비교 |
 | [`experiments/pilot3/`](experiments/pilot3/README.md) | 추천 검색, 임베딩·SLM 전환, 이미지 태깅을 묶은 로컬 GUI |
+| [`experiments/pilot4/`](experiments/pilot4/README.md) | 서브에이전트·Qwen 비전 채팅 예문과 디시콘 32개 전체 순위 |
 | [`docs/`](docs/2026-11-23-to-24-worklog.md) | 공개 데이터 접근 방법과 11월 23~24일 통합 실험 기록 |
 
 ## 데이터 받기

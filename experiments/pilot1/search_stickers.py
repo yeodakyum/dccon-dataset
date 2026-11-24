@@ -78,13 +78,27 @@ def index_passages(model, rows):
     return index
 
 
-def search(model, index, stickers, inputs, top_k=5, *, group_stickers=False):
+def search(model, index, stickers, inputs, top_k=5, *, group_stickers=False, sum_stickers=False):
     query_inputs = ["query: " + query for query in inputs]
     queries = model.encode(query_inputs, normalize_embeddings=True)
-    depth = index.ntotal if group_stickers else min(top_k, index.ntotal)
+    depth = index.ntotal if group_stickers or sum_stickers else min(top_k, index.ntotal)
     scores, positions = index.search(queries, depth)
     results = []
     for query, query_input, query_scores, query_positions in zip(inputs, query_inputs, scores, positions):
+        if sum_stickers:
+            grouped = {}
+            for score, position in zip(query_scores, query_positions):
+                sticker = stickers[position]
+                key = sticker["package_id"], sticker["sticker_id"]
+                if key not in grouped:
+                    grouped[key] = {**sticker, "similarity": round(float(score), 4), "score_sum": 0.0}
+                grouped[key]["score_sum"] += float(score)
+            matches = sorted(grouped.values(), key=lambda match: -match["score_sum"])[:top_k]
+            for rank, match in enumerate(matches, 1):
+                match["rank"] = rank
+                match["score_sum"] = round(match["score_sum"], 6)
+            results.append({"query": query, "embedding_input": query_input, "matches": matches})
+            continue
         matches = []
         seen = set()
         for score, position in zip(query_scores, query_positions):

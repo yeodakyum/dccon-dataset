@@ -32,6 +32,8 @@ from tagging_gui import MODEL as GROQ_MODEL, make_handler
 
 KOTE_MODEL = "searle-j/kote_for_easygoing_people"
 EMOTION_SEARCH = "examples_emotion"
+TERRA_SEARCH = "terra_examples"
+PILOT2_RESULTS = EXPERIMENTS / "pilot2/results"
 EMOTION_WEIGHT = 0.10
 
 MODELS = {"e5": MODEL, "kure": "nlpai-lab/KURE-v3"}
@@ -50,6 +52,7 @@ METHODS = {
     "intent": "SLM 반응 의도 → 사용 상황",
     "visual": "SLM 표정·동작 → SigLIP 2",
     EMOTION_SEARCH: "예문 + 감정",
+    TERRA_SEARCH: "Terra 예문 30개 유사도 합산",
     "faiss": "대화 원문 → FAISS",
     "rewrite": "SLM 반응 태그·묘사 → FAISS",
     "choose": "FAISS 상위 10개 → SLM 선택",
@@ -57,12 +60,6 @@ METHODS = {
 MIXED_SAMPLES = {"mixed320": ("pilot2_320", 160), "mixed32": ("pilot2", 16)}
 SYNTHETIC_METHODS = ("examples", "situations", "fused", "context", "descriptions", "image", "intent", "visual")
 MIXED_METHODS = ("faiss", "rewrite", "choose")
-
-
-def corpus_methods(corpus):
-    if corpus == "synthetic":
-        return SYNTHETIC_METHODS
-    return (*MIXED_METHODS, EMOTION_SEARCH) if corpus == "mixed320" else MIXED_METHODS
 
 
 REPORTS = {
@@ -150,6 +147,38 @@ class Workbench:
                  "embedding_input": "passage: " + passage}
                 for row in self.rows["synthetic"] for passage in row[field]
             ]
+        examples_path = PILOT2_RESULTS / "terra-examples-320.jsonl"
+        if examples_path.is_file():
+            self.load_terra_passages(examples_path)
+
+    def load_terra_passages(self, path):
+        rows, images = mixed.load_annotations(PILOT2_RESULTS / "annotations-320.jsonl", self.dataset)
+        examples = {}
+        for line in path.read_text(encoding="utf-8").splitlines():
+            record = json.loads(line)
+            texts = record["examples"]
+            if (record["id"] in examples or not isinstance(texts, list) or len(texts) != 30
+                    or any(not isinstance(text, str) or not text.strip() or len(text.splitlines()) != 1
+                           for text in texts)
+                    or len({text.strip() for text in texts}) != 30):
+                raise ValueError(f"Invalid Terra examples: {record['id']}")
+            examples[record["id"]] = texts
+        if examples.keys() != images.keys():
+            raise ValueError("Terra examples must cover the Pilot 2 sample.")
+        self.rows.setdefault("mixed320", rows)
+        self.images.update(images)
+        self.passages[TERRA_SEARCH] = [
+            {**row, "example_text": text, "embedding_input": "passage: " + text}
+            for row in rows for text in examples[row["id"]]
+        ]
+
+    def corpus_methods(self, corpus):
+        if corpus == "synthetic":
+            return SYNTHETIC_METHODS
+        if corpus == "mixed320":
+            methods = (*MIXED_METHODS, EMOTION_SEARCH)
+            return (*methods, TERRA_SEARCH) if TERRA_SEARCH in self.passages else methods
+        return MIXED_METHODS
 
     def refresh_corpus(self, corpus):
         directory, _ = MIXED_SAMPLES[corpus]
@@ -170,7 +199,7 @@ class Workbench:
         return {
             "models": MODELS, "ollama": self.ollama_model, "groq": GROQ_MODEL,
             "slm_methods": sorted(SLM_METHODS),
-            "methods": {corpus: {key: METHODS[key] for key in corpus_methods(corpus)}
+            "methods": {corpus: {key: METHODS[key] for key in self.corpus_methods(corpus)}
                         for corpus in rows_by_corpus},
             "corpora": {
                 key: {"label": CORPORA[key], "count": len(rows)}
@@ -212,7 +241,7 @@ class Workbench:
                 self.indexes[key] = index_passages(encoder, rows), rows
             index, rows = self.indexes[key]
             return search(encoder, index, rows, [query], limit,
-                          group_stickers=grouped)["results"][0]
+                          group_stickers=grouped, sum_stickers=collection == TERRA_SEARCH)["results"][0]
 
     def emotion_passages(self):
         passages = []
@@ -297,6 +326,8 @@ class Workbench:
             query = f"입력할 대화: {draft}\n이전 대화: {context}" if context else draft
             if method == EMOTION_SEARCH:
                 result = self.search_examples_emotion(model, draft)
+            elif method == TERRA_SEARCH:
+                result = self.lookup(model, TERRA_SEARCH, query)
             elif method == "rewrite":
                 generated = mixed.rewrite_query(self.ollama_model, context, draft, ask=ask)
                 result = self.lookup(model, corpus, generated) if generated else {"query": "", "matches": []}
@@ -439,7 +470,7 @@ def main():
                 slm = data.get("slm", "ollama")
                 model, corpus, method = (data[key] for key in ("model", "corpus", "method"))
                 draft, context, manual = (data[key].strip() for key in ("draft", "context", "manual"))
-                if (slm not in ("ollama", "groq") or model not in MODELS or corpus not in workbench.rows or method not in corpus_methods(corpus)
+                if (slm not in ("ollama", "groq") or model not in MODELS or corpus not in workbench.rows or method not in workbench.corpus_methods(corpus)
                         or not 0 < len(draft) <= 300 or len(context) > 1000 or len(manual) > 300):
                     raise ValueError
             except (AttributeError, KeyError, TypeError, ValueError):

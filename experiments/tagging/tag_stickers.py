@@ -13,7 +13,10 @@ from tempfile import NamedTemporaryFile
 from time import sleep
 from urllib.error import HTTPError, URLError
 
-from tagging_gui import DEFAULT_PROMPT, GIF_PROMPT, MODEL, ROOT, load_stickers, tag_sticker
+from tagging_gui import (
+    DEFAULT_PROMPT, GIF_PROMPT, MODEL, ROOT, examples_prompt, load_stickers,
+    tag_sticker, validate_examples,
+)
 
 IMAGE_TOKENS = 2048
 ESTIMATED_TEXT_TOKENS = 400
@@ -34,7 +37,7 @@ def write_atomic(path, content):
             temp.unlink(missing_ok=True)
 
 
-def annotation(result):
+def annotation(result, *, with_examples=False):
     tags = json.loads(result["output"])
     if result["finish_reason"] != "stop" or not isinstance(tags, dict):
         raise ValueError("Incomplete JSON response")
@@ -51,7 +54,10 @@ def annotation(result):
         for item in reactions
     ):
         raise ValueError("Invalid reactions")
-    return {field: tags[field] for field in ("image_text", "visual", "reactions", "uncertain")}
+    record = {field: tags[field] for field in ("image_text", "visual", "reactions", "uncertain")}
+    if with_examples:
+        record["examples"] = validate_examples(tags.get("examples"))
+    return record
 
 
 def mixed_sample(stickers, count, seed):
@@ -80,17 +86,24 @@ def mixed_sample(stickers, count, seed):
     return [item for pair in zip(*samples) for item in pair]
 
 
-def tag_with_retry(sticker, prompt, api_key):
+def tag_with_retry(sticker, prompt, api_key, *, with_examples=False):
     for attempt in range(4):
         try:
-            return tag_sticker(sticker, prompt, api_key)
+            result = tag_sticker(sticker, prompt, api_key, with_examples=with_examples)
+            return result, annotation(result, with_examples=with_examples)
         except HTTPError as exc:
             if exc.code not in (429, 500, 502, 503, 504) or attempt == 3:
                 raise
             retry_after = (exc.headers.get("Retry-After") or "").strip()
+            exc.close()
             delay = min(60, int(retry_after)) if retry_after.isdecimal() else 2 ** (attempt + 1)
             print(f"Groq HTTP {exc.code}; retrying in {delay}s", flush=True)
-            sleep(delay)
+        except (ValueError, TimeoutError, URLError) as exc:
+            if not with_examples or attempt == 3:
+                raise
+            delay = 2 ** (attempt + 1)
+            print(f"{sticker[0]['id']}: {exc}; retrying in {delay}s", flush=True)
+        sleep(delay)
 
 
 def main():
@@ -102,6 +115,7 @@ def main():
     parser.add_argument("--per-kind", type=int, help="Sample this many static stickers and animated GIFs")
     parser.add_argument("--seed", type=int, default=42, help="Sampling seed for --per-kind")
     parser.add_argument("--workers", type=int, default=1, help="Concurrent Groq requests (1–4)")
+    parser.add_argument("--examples", action="store_true", help="Include 30 chat examples in each image annotation")
     parser.add_argument("--run", action="store_true", help="Send requests to Groq and write annotations")
     args = parser.parse_args()
     if not 1 <= args.workers <= 4:
@@ -120,6 +134,11 @@ def main():
     prompt = args.prompt.read_text(encoding="utf-8") if args.prompt else DEFAULT_PROMPT
     if not prompt.strip():
         parser.error("Prompt is empty")
+    if args.examples and args.prompt:
+        parser.error("--examples uses the built-in image prompts")
+    gif_prompt = GIF_PROMPT
+    if args.examples:
+        prompt, gif_prompt = examples_prompt(prompt), examples_prompt(gif_prompt)
     mixed = args.per_kind is not None
     stickers = list(load_stickers(dataset, include_gifs=mixed).items())
     if mixed:
@@ -134,8 +153,12 @@ def main():
     high = cost(count * (IMAGE_TOKENS + ESTIMATED_TEXT_TOKENS), count * 200)
     if mixed:
         print(f"{args.per_kind:,} static + {args.per_kind:,} GIF stickers · {MODEL}", flush=True)
-    else:
+    elif not args.examples:
         print(f"{count:,} static stickers · {MODEL} · estimate ${low:.2f}–${high:.2f} USD", flush=True)
+    else:
+        print(f"{count:,} static stickers · {MODEL}", flush=True)
+    if args.examples:
+        print("Including 30 chat examples in each image request.", flush=True)
     if not args.run or not count:
         return
 
@@ -146,7 +169,9 @@ def main():
     config_path = output / "run.json"
     config = {"dataset": str(dataset), "model": MODEL, "prompt": prompt}
     if mixed:
-        config.update(gif_prompt=GIF_PROMPT, seed=args.seed, sample_ids=[key for key, _ in stickers])
+        config.update(gif_prompt=gif_prompt, seed=args.seed, sample_ids=[key for key, _ in stickers])
+    if args.examples:
+        config["with_examples"] = True
     if config_path.exists() and json.loads(config_path.read_text(encoding="utf-8")) != config:
         parser.error("This output directory belongs to a different dataset, model, or prompt")
     if not config_path.exists():
@@ -162,19 +187,23 @@ def main():
         if record_path.exists():
             existing = json.loads(record_path.read_text(encoding="utf-8"))
             if existing["image_sha256"] == image_sha256:
+                if args.examples:
+                    print(f"{index:,}/{count:,} · {key} (saved)", flush=True)
                 return existing
         try:
-            result = tag_with_retry(sticker, GIF_PROMPT if metadata["is_gif"] else prompt, api_key)
+            result, tags = tag_with_retry(sticker, gif_prompt if metadata["is_gif"] else prompt,
+                                          api_key, with_examples=args.examples)
             record = {
                 **metadata,
                 "image_path": image_path.relative_to(dataset).as_posix(),
                 "image_sha256": image_sha256,
                 "model": result["model"],
                 "review_status": "unreviewed",
-                **annotation(result),
+                **tags,
                 "usage": result["usage"],
             }
         except HTTPError as exc:
+            exc.close()
             print(f"{key}: Groq HTTP {exc.code}. Rerun to resume.", flush=True)
             return None
         except (URLError, TimeoutError, ValueError, KeyError, IndexError, TypeError) as exc:

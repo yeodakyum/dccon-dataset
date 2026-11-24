@@ -129,7 +129,7 @@ function updateMethods() {
     const checkbox = el("input");
     checkbox.type = "checkbox";
     checkbox.value = key;
-    checkbox.checked = ["examples", "situations", "fused", "context", "descriptions", "faiss"].includes(key);
+    checkbox.checked = ["examples", "situations", "fused", "context", "descriptions", "faiss", "terra_examples"].includes(key);
     label.append(checkbox, " " + title);
     $("#methods").append(label);
   }
@@ -147,12 +147,14 @@ function renderCards(matches, container) {
     image.src = "/sticker/" + encodeURIComponent(id);
     image.loading = "lazy";
     const caption = el("figcaption", `${i + 1}. ${match.sticker_id}`);
-    if (match.combined_score !== undefined) caption.append(" · 종합 " + match.combined_score);
+    if (match.score_sum !== undefined) caption.append(" · 유사도 합계 " + match.score_sum);
+    else if (match.combined_score !== undefined) caption.append(" · 종합 " + match.combined_score);
     else if (match.similarity !== undefined) caption.append(" · " + match.similarity);
     const detail = el("details");
     detail.append(el("summary", "근거"));
     const evidence = [
       match.embedding_input, match.example_text, match.situation_text, match.ocr_match,
+      match.score_sum !== undefined && "가장 유사한 예문 점수: " + match.similarity,
       match.caption_text && "이미지 문구: " + match.caption_text,
       match.annotation_text && "기존 주석: " + match.annotation_text,
       match.combined_score !== undefined && "텍스트 유사도: " + match.similarity,

@@ -53,6 +53,26 @@ GIF_PROMPT = DEFAULT_PROMPT.replace(
     "표본 사이의 동작이나 변화 방향이 불분명하면 추측하지 말고 uncertain에 남긴다.",
 )
 
+EXAMPLE_COUNT = 30
+
+
+def examples_prompt(base):
+    base = base.replace(" 구체적인 대화 예문이나 인물의 배경 이야기는 만들지 않는다.", "")
+    base = base.replace('"uncertain":[]}', '"uncertain":[],"examples":[]}')
+    return base + "\n\n" + (HERE / "examples_prompt.md").read_text(encoding="utf-8").strip()
+
+
+def validate_examples(texts):
+    if not isinstance(texts, list) or len(texts) != EXAMPLE_COUNT or any(
+        not isinstance(text, str) or not text.strip() or len(text.splitlines()) != 1
+        for text in texts
+    ):
+        raise ValueError("한 줄짜리 예문 30개가 필요합니다.")
+    texts = [text.strip() for text in texts]
+    if len(set(texts)) != EXAMPLE_COUNT:
+        raise ValueError("중복 예문이 있습니다.")
+    return texts
+
 
 def gif_strip(path):
     positions = (0, 25, 50, 75, 100)
@@ -107,7 +127,7 @@ def load_stickers(dataset, *, include_gifs=False):
     return stickers
 
 
-def tag_sticker(sticker, prompt, api_key):
+def tag_sticker(sticker, prompt, api_key, *, with_examples=False):
     metadata, path, mime = sticker
     instructions = "이 이미지의 태그를 JSON으로 작성하세요."
     if metadata["is_gif"]:
@@ -115,12 +135,14 @@ def tag_sticker(sticker, prompt, api_key):
         instructions = f"{GIF_LAYOUT} 이 GIF 전체의 태그를 JSON으로 작성하세요."
     else:
         image_bytes = path.read_bytes()
+    if with_examples:
+        instructions += " 이미지에 맞는 채팅 예문 30개도 같은 JSON의 examples에 작성하세요."
     image = base64.b64encode(image_bytes).decode("ascii")
     payload = {
         "model": MODEL,
         "reasoning_effort": "none",
-        "temperature": 0.2,
-        "max_completion_tokens": 800,
+        "temperature": 0.55 if with_examples else 0.2,
+        "max_completion_tokens": 2400 if with_examples else 800,
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": prompt},
@@ -189,6 +211,8 @@ def make_handler(dataset):
                     "model": MODEL,
                     "prompt": DEFAULT_PROMPT,
                     "gif_prompt": GIF_PROMPT,
+                    "examples_prompt": examples_prompt(DEFAULT_PROMPT),
+                    "gif_examples_prompt": examples_prompt(GIF_PROMPT),
                     "configured": bool(api_key),
                     "stickers": [entry[0] for entry in catalog().values()],
                 })
@@ -222,8 +246,9 @@ def make_handler(dataset):
                 payload = json.loads(self.rfile.read(size))
                 sticker = catalog()[payload["id"]]
                 prompt = payload["prompt"]
+                with_examples = payload.get("with_examples", False)
                 supplied_key = payload.get("api_key", "")
-                if not isinstance(supplied_key, str):
+                if not isinstance(supplied_key, str) or not isinstance(with_examples, bool):
                     raise ValueError
                 request_key = supplied_key.strip() or api_key
                 if any(not 33 <= ord(char) <= 126 for char in request_key):
@@ -237,7 +262,7 @@ def make_handler(dataset):
                 self.send_json({"error": "웹 화면에 Groq API 키를 입력해 주세요."}, 400)
                 return
             try:
-                self.send_json(tag_sticker(sticker, prompt, request_key))
+                self.send_json(tag_sticker(sticker, prompt, request_key, with_examples=with_examples))
             except HTTPError as exc:
                 with exc:
                     try:

@@ -17,7 +17,7 @@
   .preview { display: grid; place-items: center; min-height: 190px; margin-bottom: 12px; border-radius: 8px;
     background: conic-gradient(#e5eae4 25%, #f7f8f6 0 50%, #e5eae4 0 75%, #f7f8f6 0) 0 0 / 20px 20px; }
   img { width: 150px; height: 150px; object-fit: contain; }
-  #gif-only { display: inline; width: auto; margin: 0; }
+  #gif-only, #with-examples { display: inline; width: auto; margin: 0; }
   #strip { display: block; width: 100%; height: auto; margin: 8px 0; }
   details { margin-bottom: 12px; }
   label { font-weight: 650; }
@@ -53,6 +53,7 @@
     <form id="form">
       <label for="api-key">Groq API 키</label>
       <input id="api-key" type="password" autocomplete="off" spellcheck="false" placeholder="gsk_…">
+      <label><input id="with-examples" type="checkbox"> 채팅 예문 30개 함께 생성</label>
       <label for="prompt">태깅 프롬프트</label>
       <textarea id="prompt" required></textarea>
       <div class="actions">
@@ -73,6 +74,7 @@
   const [model, preview, metadata, filter, select, sample, prompt, reset, run, status, metrics, output, copy] =
     ["model", "preview", "metadata", "filter", "stickers", "sample", "prompt", "reset", "run", "status", "metrics", "output", "copy"].map(byId);
   const apiKey = byId("api-key");
+  const withExamples = byId("with-examples");
   const gifOnly = byId("gif-only");
   const gifPreview = byId("gif-preview");
   const strip = byId("strip");
@@ -95,7 +97,7 @@
       const imageUrl = "./image/" + id;
       if (preview.getAttribute("src") !== imageUrl) preview.src = imageUrl;
       if (sticker.is_gif && strip.getAttribute("src") !== "./strip/" + id) strip.src = "./strip/" + id;
-      setPromptMode(sticker.is_gif ? "gif_prompt" : "prompt");
+      setPromptMode(`${sticker.is_gif ? "gif_" : ""}${withExamples.checked ? "examples_" : ""}prompt`);
     }
     metadata.textContent = sticker
       ? [sticker.package_title, sticker.title, sticker.sticker_id, sticker.is_gif ? "GIF" : ""].filter(Boolean).join(" · ")
@@ -133,6 +135,7 @@
   }
 
   apiKey.addEventListener("input", () => { if (config) showSticker(); });
+  withExamples.addEventListener("change", () => { if (config) showSticker(); });
   filter.addEventListener("input", () => { if (config) showMatches(); });
   gifOnly.addEventListener("change", () => { if (config) showMatches(); });
   select.addEventListener("change", showSticker);
@@ -162,7 +165,8 @@
       const response = await fetch("./api/tag", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({id: select.value, prompt: prompt.value, api_key: apiKey.value.trim()}),
+        body: JSON.stringify({id: select.value, prompt: prompt.value, api_key: apiKey.value.trim(),
+                              with_examples: withExamples.checked}),
       });
       const result = await response.json();
       if (!response.ok) throw Error(result.error);

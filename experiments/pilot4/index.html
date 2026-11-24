@@ -116,7 +116,7 @@
 
     async function updateStatus() {
       try {
-        const {state, lines, configured, model, sources, source_errors: sourceErrors} = await request("/api/status");
+        const {state, lines, configured, model, sources, source_errors: sourceErrors} = await request("./api/status");
         const previous = $("source").value;
         const options = Object.entries(sources).map(([key, label]) => new Option(label, key));
         ready = options.length > 0;
@@ -150,7 +150,7 @@
       event.preventDefault();
       $("generate").disabled = true;
       try {
-        await request("/api/generate", {api_key: $("key").value});
+        await request("./api/generate", {api_key: $("key").value});
         $("key").value = "";
         await updateStatus();
       } catch (error) {
@@ -166,7 +166,7 @@
       score.title = "유사도 합계 · 합산된 예문 수";
       heading.append(element("span", `${row.rank}위`, "rank"), score);
       const image = element("img");
-      image.src = `/sticker/${source}/${encodeURIComponent(row.id)}`;
+      image.src = `./sticker/${source}/${encodeURIComponent(row.id)}`;
       image.alt = [row.package_title, row.title].filter(Boolean).join(" · ");
       const details = element("details");
       const examples = element("ol");
@@ -201,7 +201,7 @@
       $("source").disabled = true;
       setStatus("search-status", "예문 유사도를 계산하는 중입니다.");
       try {
-        const {matches, source} = await request("/api/search", {...lastSearch, cutoff});
+        const {matches, source} = await request("./api/search", {...lastSearch, cutoff});
         if (id !== searchId || cutoff !== ($("cutoff").valueAsNumber || null)) return;
         $("results").replaceChildren(...matches.map(row => showMatch(row, source)));
         const label = $("source").selectedOptions[0].textContent;

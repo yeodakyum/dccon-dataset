@@ -71,7 +71,7 @@
     stickers.forEach((sticker, index) => {
       const card = add(parent, "article", "");
       const image = document.createElement("img");
-      image.src = "/image/" + encodeURIComponent(sticker.id);
+      image.src = "./image/" + encodeURIComponent(sticker.id);
       image.alt = sticker.visual;
       image.loading = "lazy";
       card.append(image);
@@ -89,7 +89,7 @@
     return value;
   }
 
-  fetch("/api/config").then(readJson).then(config => {
+  fetch("./api/config").then(readJson).then(config => {
     const parts = [`정지 ${config.count - config.gifs}개`, `GIF ${config.gifs}개`];
     if (config.embedding_model) parts.push(`임베딩 ${config.embedding_model}`);
     parts.push(`SLM ${config.model}`);
@@ -103,7 +103,7 @@
     status.textContent = "검색하고 비교하는 중…";
     results.replaceChildren();
     try {
-      const response = await fetch("/api/compare", {
+      const response = await fetch("./api/compare", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({context: byId("context").value, draft: byId("draft").value}),

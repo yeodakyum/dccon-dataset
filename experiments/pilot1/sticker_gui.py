@@ -94,14 +94,17 @@ def fuse_results(draft, examples, situations, stickers, top_k=5):
     ]}
 
 
-def main():
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--annotations", type=Path, default=DEFAULT_PILOT)
     parser.add_argument("--dataset", type=Path, default=PILOT.parents[1] / "data" / "week")
     parser.add_argument("--ollama-model", help="Installed Ollama model for context rewriting")
     parser.add_argument("--image-search", action="store_true", help="Index sticker images with SigLIP 2")
     parser.add_argument("--port", type=int, default=8765)
-    args = parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def make_pilot_handler(args):
 
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
@@ -278,8 +281,14 @@ def main():
             except ValueError as exc:
                 self.send_json(400, {"error": str(exc)})
 
+    return Handler
+
+
+def main():
+    args = parse_args()
+    Handler = make_pilot_handler(args)
     with ThreadingHTTPServer(("127.0.0.1", args.port), Handler) as server:
-        print(f"DCCON · {index.ntotal}개 · http://127.0.0.1:{server.server_port}", flush=True)
+        print(f"DCCON · http://127.0.0.1:{server.server_port}", flush=True)
         try:
             server.serve_forever()
         except KeyboardInterrupt:

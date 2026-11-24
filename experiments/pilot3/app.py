@@ -116,6 +116,31 @@ def ask_groq(api_key, model, prompt, data, *, context_size, output_format="json"
     ], json_mode=True)
 
 
+class EmotionClassifier:
+    def __init__(self):
+        self.lock = Lock()
+        self.emotion_model = None
+
+    def top_emotions(self, draft):
+        import torch
+        from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+        with self.lock, torch.inference_mode():
+            if self.emotion_model is None:
+                tokenizer = AutoTokenizer.from_pretrained(KOTE_MODEL)
+                classifier = AutoModelForSequenceClassification.from_pretrained(KOTE_MODEL).eval()
+                self.emotion_model = tokenizer, classifier
+            tokenizer, classifier = self.emotion_model
+            inputs = tokenizer(draft, truncation=True, max_length=512, return_tensors="pt")
+            scores = classifier(**inputs).logits[0].sigmoid().tolist()
+            labels = classifier.config.id2label
+        ranked = sorted(
+            ((labels[i], score) for i, score in enumerate(scores) if labels[i] != "없음"),
+            key=lambda item: item[1], reverse=True,
+        )
+        return [{"label": label, "score": score} for label, score in ranked[:3]]
+
+
 class Workbench:
     def __init__(self, dataset, ollama_model, synthetic, annotations_root):
         self.dataset = dataset
@@ -125,7 +150,7 @@ class Workbench:
         self.encoders = {}
         self.indexes = {}
         self.image_index = None
-        self.emotion_model = None
+        self.emotion_classifier = EmotionClassifier()
         self.rows = {"synthetic": load_stickers(synthetic, include_examples=True)}
         self.examples_by_sticker = {
             (str(row["package_id"]), str(row["sticker_id"])): row["examples"]
@@ -259,27 +284,8 @@ class Workbench:
                 passages.append({**row, field: text, "embedding_input": "passage: " + text})
         return passages
 
-    def top_emotions(self, draft):
-        import torch
-        from transformers import AutoModelForSequenceClassification, AutoTokenizer
-
-        with self.lock, torch.inference_mode():
-            if self.emotion_model is None:
-                tokenizer = AutoTokenizer.from_pretrained(KOTE_MODEL)
-                classifier = AutoModelForSequenceClassification.from_pretrained(KOTE_MODEL).eval()
-                self.emotion_model = tokenizer, classifier
-            tokenizer, classifier = self.emotion_model
-            inputs = tokenizer(draft, truncation=True, max_length=512, return_tensors="pt")
-            scores = classifier(**inputs).logits[0].sigmoid().tolist()
-            labels = classifier.config.id2label
-        ranked = sorted(
-            ((labels[i], score) for i, score in enumerate(scores) if labels[i] != "없음"),
-            key=lambda item: item[1], reverse=True,
-        )
-        return [{"label": label, "score": score} for label, score in ranked[:3]]
-
     def search_examples_emotion(self, model, draft):
-        emotions = self.top_emotions(draft)
+        emotions = self.emotion_classifier.top_emotions(draft)
         result = self.lookup(model, EMOTION_SEARCH, draft, limit=len(self.rows["mixed320"]))
         for match in result["matches"]:
             tags = set(match.get("kote_emotions", []))
@@ -386,14 +392,17 @@ class BatchTagging:
                 self.state = state
 
 
-def main():
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", type=Path, default=ROOT / "data/week")
     parser.add_argument("--synthetic", type=Path, default=DEFAULT_PILOT)
     parser.add_argument("--annotations-root", type=Path, default=ROOT / "data")
     parser.add_argument("--ollama-model", default="qwen3.5:2b")
     parser.add_argument("--port", type=int, default=8768)
-    args = parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def make_pilot_handler(args):
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
     workbench = Workbench(args.dataset.resolve(), args.ollama_model,
@@ -413,7 +422,7 @@ def main():
                 self.send_json(batch.status())
             elif path == "/tagging":
                 self.send_response(302)
-                self.send_header("Location", "/tagging/")
+                self.send_header("Location", "tagging/")
                 self.end_headers()
             elif path.startswith("/tagging/"):
                 self.path = path.removeprefix("/tagging")
@@ -493,6 +502,12 @@ def main():
                     RuntimeError, ImportError) as exc:
                 self.send_json({"error": str(exc)}, 502)
 
+    return Handler
+
+
+def main():
+    args = parse_args()
+    Handler = make_pilot_handler(args)
     with ThreadingHTTPServer(("127.0.0.1", args.port), Handler) as server:
         print(f"Pilot 3 · http://127.0.0.1:{server.server_port}/", flush=True)
         server.serve_forever()

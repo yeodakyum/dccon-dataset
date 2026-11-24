@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pilot 5 · 디시콘 순위 비교</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #172336; background: #f4f6fa; font: 15px/1.5 system-ui, sans-serif; }
+  nav { display: flex; gap: .5rem; padding: .8rem max(1rem, calc((100vw - 1200px)/2)); background: #172336; }
+  nav a { text-decoration: none; white-space: nowrap; color: #dae3f1; padding: .35rem .65rem; border-radius: 5px; }
+  nav a[aria-current] { background: #fff; color: #172336; }
+  main { max-width: 1232px; margin: auto; padding: 1.2rem 1rem; }
+  h1 { margin: 0 0 1rem; font-size: 1.8rem; }
+  textarea, input, select { font: inherit; color: inherit; border: 1px solid #aeb9c7; border-radius: 5px; padding: .3rem .5rem; background: white; }
+  textarea { width: 100%; min-height: 4.5rem; resize: vertical; }
+  .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: .65rem; margin-top: .65rem; }
+  fieldset { border: 1px solid #d4dde9; min-width: 0; border-radius: 7px; background: white; }
+  fieldset label { display: flex; align-items: center; justify-content: space-between; gap: .25rem; margin-bottom: .35rem; }
+  fieldset input[type=range] { width: 100%; margin: 0 0 .5rem; padding: 0; accent-color: #27589a; }
+  fieldset input[type=checkbox] { accent-color: #27589a; }
+  fieldset output { font-variant-numeric: tabular-nums; }
+  fieldset label.cutoff-toggle { justify-content: flex-start; }
+  .toolbar { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin: .8rem 0; }
+  .input-emotion-filter { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .6rem; }
+  .input-emotion-filter input { accent-color: #27589a; }
+  #status { min-height: 1.5em; }
+  .table { overflow: auto; max-height: 65vh; background: white; border: 1px solid #d4dde9; border-radius: 7px; }
+  table { width: 100%; border-collapse: separate; border-spacing: 0; }
+  th, td { text-align: left; vertical-align: middle; border-bottom: 1px solid #e1e7ef; padding: .5rem .7rem; }
+  thead th { position: sticky; top: 0; background: #e5edf8; white-space: nowrap; }
+  td { font-variant-numeric: tabular-nums; }
+  td small { display: block; color: #47586e; }
+  td:first-child { white-space: nowrap; }
+  .sticker { display: flex; align-items: center; gap: .6rem; min-width: 170px; }
+  img { width: 52px; height: 52px; object-fit: contain; }
+  .example { min-width: 165px; }
+  details { margin-top: .5rem; }
+  @media (max-width: 450px) { nav { gap: .1rem; } nav a { padding-inline: .35rem; } }
+</style>
+</head>
+<body>
+<nav aria-label="실험 선택">
+  <a href="/pilot5/" aria-current="page">Pilot 5</a><a href="/pilot4/">Pilot 4</a>
+  <a href="/pilot3/">Pilot 3</a><a href="/pilot2/">Pilot 2</a><a href="/pilot1/">Pilot 1</a>
+</nav>
+<main>
+  <h1>디시콘 순위 비교</h1>
+  <label for="query">보낼 채팅</label>
+  <textarea id="query" maxlength="300" placeholder="예: 와 드디어 끝났다!"></textarea>
+  <div class="controls" id="controls"></div>
+  <div class="toolbar">
+    <label><input id="cluster-examples" type="checkbox" role="switch"> 예문 클러스터링</label>
+    <label for="example-limit">콘당 최대 예문 수</label>
+    <input id="example-limit" type="range" min="1" max="30" step="1" value="10" disabled>
+    <output id="example-limit-value" for="example-limit">10</output>
+    <label><input id="cluster-size-weight" type="checkbox" role="switch" disabled> 군집 크기 가중치 (√크기)</label>
+  </div>
+  <details><summary>점수 계산 방식</summary>
+    <p>텍스트 유사도는 KURE-v3 1,024차원 임베딩으로 계산합니다. 예문은 컷오프 이상인 코사인 유사도의 합을 사용한 예문 수로 나눕니다. 예문 클러스터링을 켜면 각 군집의 대표 예문을 사용합니다. 이미지 문구와 반응 의도는 각 항목의 최고 유사도, 시각 묘사는 유사도를 사용합니다. 감정은 입력의 KOTE 상위 3개 중 콘 태그와 일치하고 컷오프 이상인 확률을 합산한 뒤 3으로 나눕니다.</p>
+    <p>군집 크기 가중치를 켜면 컷오프를 통과한 대표 예문의 유사도에 군집 크기의 제곱근을 곱해 합산하고, 전체 대표 예문의 가중치 합으로 나눕니다.</p>
+    <p>가중합은 각 점수에 가중치를 곱해 더합니다. 누락되거나 컷오프를 통과하지 못한 점수는 0으로 계산합니다. 가중치 0은 해당 점수를 가중합에서 제외합니다. 컷오프 사용을 켜면 해당 기준을 적용합니다.</p>
+    <p>가중 RRF는 각 항목의 가중치를 (60 + 항목 순위)로 나눠 더합니다. 동점은 같은 순위로 계산하며, 컷오프를 통과한 점수가 없는 항목은 합산에서 제외됩니다.</p>
+  </details>
+  <div class="toolbar">
+    <label><input id="rrf" type="checkbox" role="switch"> 가중 RRF</label>
+    <label>정렬 <select id="sort"></select></label>
+    <output id="status" aria-live="polite"></output>
+  </div>
+  <div class="toolbar">
+    <div id="emotions" aria-live="polite">입력 감정</div>
+    <div class="input-emotion-filter">
+      <label for="input-emotion-cutoff">표시 컷오프</label>
+      <input id="input-emotion-cutoff" type="range" min="0" max="1" step="0.01" value="0.50">
+      <output id="input-emotion-cutoff-value" for="input-emotion-cutoff">0.50</output>
+    </div>
+  </div>
+  <div class="table" id="table" hidden tabindex="0" aria-label="320개 디시콘 순위">
+    <table><thead><tr id="head"></tr></thead><tbody id="ranking"></tbody></table>
+  </div>
+</main>
+<script>
+const fields = [
+  {key: "examples", label: "예문", weight: 1.5, min: -1, cutoff: 0.15},
+  {key: "emotion", label: "감정", weight: 0.35, min: 0, cutoff: 0.50},
+  {key: "caption", label: "이미지 문구", weight: 0.31, min: -1},
+  {key: "reaction", label: "반응 의도", weight: 0.2, min: -1},
+  {key: "visual", label: "시각 묘사", weight: 0.2, min: -1},
+];
+const RRF_K = 60;
+const modes = [{key: "total", label: "가중합"}, ...fields];
+const $ = id => document.getElementById(id);
+const settings = Object.fromEntries(fields.map(({key, label, weight, min, cutoff}) => {
+  const group = document.createElement("fieldset");
+  group.innerHTML = `<legend>${label}</legend>
+    <label for="${key}-weight">가중치 <output for="${key}-weight"></output></label>
+    <input id="${key}-weight" type="range" min="0" max="3" step="0.01" value="${weight}">
+    <label class="cutoff-toggle"><input type="checkbox" ${cutoff === undefined ? "" : "checked"}> 컷오프 사용</label>
+    <label for="${key}-cutoff">컷오프 <output for="${key}-cutoff"></output></label>
+    <input id="${key}-cutoff" type="range" min="${min}" max="1" step="0.01" value="${cutoff ?? 0.50}">`;
+  const [weightSlider, enabled, cutoffSlider] = group.querySelectorAll("input");
+  const [weightValue, cutoffValue] = group.querySelectorAll("output");
+  function updateLabels() {
+    weightValue.value = weightSlider.valueAsNumber.toFixed(2);
+    cutoffSlider.disabled = !enabled.checked;
+    cutoffValue.value = enabled.checked ? cutoffSlider.valueAsNumber.toFixed(2) : "꺼짐";
+  }
+  group.addEventListener("input", updateLabels);
+  updateLabels();
+  $("controls").append(group);
+  return [key, {weightSlider, cutoffSlider, enabled}];
+}));
+for (const {key, label} of modes) $("sort").add(new Option(label, key));
+for (const label of ["디시콘", ...modes.map(mode => mode.label), "가장 가까운 예문"]) {
+  const th = document.createElement("th");
+  th.scope = "col";
+  th.textContent = label;
+  $("head").append(th);
+}
+
+let corpus, result, timer, revision = 0, inFlight = false, pending = false;
+const format = value => value.toFixed(3);
+
+function scoreExamples(similarities, sizes, cutoff) {
+  let sum = 0, count = 0, totalWeight = 0;
+  similarities.forEach((similarity, index) => {
+    const weight = sizes ? Math.sqrt(sizes[index]) : 1;
+    totalWeight += weight;
+    if (similarity >= cutoff) {
+      sum += similarity * weight;
+      count++;
+    }
+  });
+  return {score: sum / totalWeight, sum, count};
+}
+
+function render() {
+  const useRrf = $("rrf").checked;
+  const totalLabel = useRrf ? "가중 RRF" : "가중합";
+  $("head").children[1].textContent = totalLabel;
+  $("sort").options[0].textContent = totalLabel;
+  if (!result) return;
+  const weights = {};
+  const cutoffs = {};
+  for (const {key} of fields) {
+    const {weightSlider, cutoffSlider, enabled} = settings[key];
+    weights[key] = weightSlider.valueAsNumber;
+    cutoffs[key] = enabled.checked ? cutoffSlider.valueAsNumber : -Infinity;
+  }
+  const scoringEmotions = result.emotions.filter(({score}) => score >= cutoffs.emotion);
+  const weightBySize = $("cluster-size-weight").checked && $("cluster-examples").checked;
+  const rows = corpus.map((item, index) => {
+    const raw = result.scores[index];
+    const sizes = weightBySize ? raw.example_cluster_sizes : null;
+    const {score: exampleScore, sum, count} = scoreExamples(raw.examples, sizes, cutoffs.examples);
+    const matched = scoringEmotions.filter(({label}) => item.kote_emotions.includes(label));
+    const scores = {
+      examples: exampleScore,
+      emotion: matched.reduce((total, {score}) => total + score, 0) / result.emotions.length,
+    };
+    const eligible = {examples: count > 0, emotion: matched.length > 0};
+    for (const key of ["caption", "reaction", "visual"]) {
+      eligible[key] = raw[key] !== null && raw[key] >= cutoffs[key];
+      scores[key] = eligible[key] ? raw[key] : 0;
+    }
+    return {item, raw, scores, eligible, sum, count, matched, ranks: {}};
+  });
+  const byScore = key => (a, b) => b.scores[key] - a.scores[key] || a.item.id.localeCompare(b.item.id);
+  for (const {key} of fields) {
+    const ranked = (useRrf ? rows.filter(row => row.eligible[key]) : [...rows]).sort(byScore(key));
+    let rank = 0;
+    ranked.forEach((row, index) => {
+      if (!useRrf || index === 0 || row.scores[key] !== ranked[index - 1].scores[key]) rank = index + 1;
+      row.ranks[key] = rank;
+    });
+  }
+  for (const row of rows) {
+    row.scores.total = fields.reduce((total, {key}) => {
+      if (!useRrf) return total + weights[key] * row.scores[key];
+      return row.eligible[key] ? total + weights[key] / (RRF_K + row.ranks[key]) : total;
+    }, 0);
+  }
+  rows.sort(byScore("total")).forEach((row, index) => { row.ranks.total = index + 1; });
+  const sortKey = $("sort").value;
+  rows.sort((a, b) => (a.ranks[sortKey] ?? Infinity) - (b.ranks[sortKey] ?? Infinity)
+    || a.item.id.localeCompare(b.item.id));
+  const fragment = document.createDocumentFragment();
+  for (const {item, raw, scores, sum, count, matched, ranks} of rows) {
+    const row = document.createElement("tr");
+    const sticker = document.createElement("div");
+    sticker.className = "sticker";
+    const image = document.createElement("img");
+    image.loading = "lazy";
+    image.src = "/pilot5/sticker/" + encodeURIComponent(item.id);
+    image.alt = "";
+    const title = document.createElement("span");
+    title.textContent = item.package_title;
+    const subtitle = document.createElement("small");
+    subtitle.textContent = item.title + " · " + item.id;
+    title.append(subtitle);
+    sticker.append(image, title);
+    row.insertCell().append(sticker);
+    for (const {key} of modes) {
+      const cell = row.insertCell();
+      cell.append(ranks[key] === undefined ? "—" : ranks[key] + "위");
+      const detail = document.createElement("small");
+      detail.textContent = key === "total" && useRrf ? scores[key].toFixed(6) : format(scores[key]);
+      if (key === "examples") {
+        const sumLabel = weightBySize && raw.example_cluster_sizes ? "가중합" : "합";
+        detail.textContent += " · " + count + "/" + raw.examples.length + " · " + sumLabel + " " + format(sum);
+      }
+      if (key === "emotion" && matched.length) detail.textContent += " · " + matched.map(entry => entry.label).join(", ");
+      if (raw[key] === null) detail.textContent += " · 주석 없음";
+      cell.append(detail);
+    }
+    const example = row.insertCell();
+    example.className = "example";
+    example.textContent = raw.best;
+    fragment.append(row);
+  }
+  $("ranking").replaceChildren(fragment);
+  renderInputEmotions();
+  $("table").hidden = false;
+  $("status").textContent = rows.length + "개 전체";
+}
+
+function renderInputEmotions() {
+  const cutoff = $("input-emotion-cutoff").valueAsNumber;
+  $("input-emotion-cutoff-value").value = cutoff.toFixed(2);
+  const labels = result?.emotions.filter(({score}) => score >= cutoff)
+    .map(({label, score}) => label + " " + format(score));
+  $("emotions").textContent = labels
+    ? "입력 감정 · " + (labels.join(" · ") || "컷오프를 통과한 감정 없음")
+    : "입력 감정";
+}
+
+async function search() {
+  if (inFlight || !pending) return;
+  pending = false;
+  const current = revision;
+  const query = $("query").value.trim();
+  if (!query) return;
+  const exampleLimit = $("cluster-examples").checked ? $("example-limit").valueAsNumber : null;
+  inFlight = true;
+  try {
+    const response = await fetch("/pilot5/api/search", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({query, example_limit: exampleLimit}),
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error);
+    if (current === revision) {
+      result = data;
+      render();
+    }
+  } catch (error) {
+    if (current === revision) $("status").textContent = "계산 실패 · " + error.message;
+  } finally {
+    inFlight = false;
+    if (pending) search();
+  }
+}
+
+function changed(event) {
+  if (event.isComposing) return;
+  clearTimeout(timer);
+  revision++;
+  pending = false;
+  result = null;
+  $("table").hidden = true;
+  renderInputEmotions();
+  const hasQuery = Boolean($("query").value.trim());
+  $("status").textContent = hasQuery ? "순위 계산 중… 최초 계산은 모델과 예문을 준비합니다." : "";
+  if (hasQuery) timer = setTimeout(() => {
+    pending = true;
+    search();
+  }, 250);
+}
+
+let renderFrame;
+$("controls").addEventListener("input", () => {
+  cancelAnimationFrame(renderFrame);
+  renderFrame = requestAnimationFrame(render);
+});
+$("sort").addEventListener("change", render);
+$("rrf").addEventListener("change", render);
+$("cluster-size-weight").addEventListener("change", render);
+$("input-emotion-cutoff").addEventListener("input", renderInputEmotions);
+fetch("/pilot5/api/corpus").then(async response => {
+  if (!response.ok) throw new Error(response.statusText);
+  corpus = await response.json();
+  $("query").addEventListener("input", changed);
+  $("query").addEventListener("compositionend", changed);
+  $("cluster-examples").addEventListener("change", event => {
+    $("example-limit").disabled = !event.target.checked;
+    $("cluster-size-weight").disabled = !event.target.checked;
+    changed(event);
+  });
+  $("example-limit").addEventListener("input", event => {
+    $("example-limit-value").value = event.target.value;
+    changed(event);
+  });
+  changed({});
+}).catch(error => { $("status").textContent = "데이터 로드 실패 · " + error.message; });
+</script>
+</body>
+</html>

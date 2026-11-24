@@ -22,9 +22,24 @@ from tagging_gui import MODEL, validate_examples
 
 STICKER_COUNT = 32
 EMBEDDING_MODEL = "nlpai-lab/KURE-v3"
+EMBEDDING_DIM = 1024
 PILOT2_SAMPLE = EXPERIMENTS / "pilot2/results/annotations-32.jsonl"
 SUBAGENT_EXAMPLES = HERE / "results/subagent-examples-32.jsonl"
 SOURCE_LABELS = {"subagent": "서브에이전트 예문", "qwen": "Qwen 비전 예문"}
+
+
+def make_encoder():
+    import torch
+    from sentence_transformers import SentenceTransformer
+
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    return SentenceTransformer(
+        EMBEDDING_MODEL, device=device, truncate_dim=EMBEDDING_DIM,
+        model_kwargs={
+            "attn_implementation": "sdpa",
+            "dtype": torch.float16 if device == "mps" else torch.float32,
+        },
+    )
 
 
 class Corpus:
@@ -171,24 +186,13 @@ class Pilot:
                 self.state = state
 
     def search(self, query, source="qwen", cutoff=None):
-        from sentence_transformers import SentenceTransformer
-
         with self.search_lock:
             corpus = self.corpora[source]
             corpus.load()
             if not corpus.rows:
                 raise ValueError("이 출처의 예문 32개 묶음이 아직 준비되지 않았습니다.")
             if self.encoder is None:
-                import torch
-
-                device = "mps" if torch.backends.mps.is_available() else "cpu"
-                self.encoder = SentenceTransformer(
-                    EMBEDDING_MODEL, device=device, truncate_dim=1024,
-                    model_kwargs={
-                        "attn_implementation": "sdpa",
-                        "dtype": torch.float16 if device == "mps" else torch.float32,
-                    },
-                )
+                self.encoder = make_encoder()
             return corpus.search(self.encoder, query, cutoff)
 
     def image(self, suffix):
@@ -199,12 +203,15 @@ class Pilot:
         return corpus.images.get(key) if corpus else None
 
 
-def main():
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", type=Path, default=ROOT / "data/week")
     parser.add_argument("--output", type=Path, default=ROOT / "data/pilot4")
     parser.add_argument("--port", type=int, default=8771)
-    args = parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def make_pilot_handler(args):
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
     pilot = Pilot(args.dataset, args.output)
@@ -288,6 +295,12 @@ def main():
             except (ValueError, KeyError, TypeError, OSError, RuntimeError, ImportError) as exc:
                 self.send_json({"error": str(exc)}, 422)
 
+    return Handler
+
+
+def main():
+    args = parse_args()
+    Handler = make_pilot_handler(args)
     with ThreadingHTTPServer(("127.0.0.1", args.port), Handler) as server:
         print(f"Pilot 4 · http://127.0.0.1:{server.server_port}/", flush=True)
         server.serve_forever()

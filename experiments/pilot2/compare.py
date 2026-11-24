@@ -177,14 +177,17 @@ def compare(lookup, model, context, draft):
     return {"faiss": baseline, "rewrite": rewritten, "choose": reranked}
 
 
-def main():
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--annotations", type=Path, default=ROOT / "data/pilot2_320/annotations.jsonl")
     parser.add_argument("--dataset", type=Path, default=ROOT / "data/week")
     parser.add_argument("--embedding-model", default=MODEL)
     parser.add_argument("--ollama-model", default="qwen3.5:2b")
     parser.add_argument("--port", type=int, default=8767)
-    args = parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def make_pilot_handler(args):
 
     from sentence_transformers import SentenceTransformer
 
@@ -245,8 +248,14 @@ def main():
                 return
             self.send_json(compare(lookup, args.ollama_model, context, draft))
 
+    return Handler
+
+
+def main():
+    args = parse_args()
+    Handler = make_pilot_handler(args)
     with ThreadingHTTPServer(("127.0.0.1", args.port), Handler) as server:
-        print(f"http://127.0.0.1:{args.port} · {len(rows)} stickers", flush=True)
+        print(f"http://127.0.0.1:{args.port}", flush=True)
         server.serve_forever()
 
 

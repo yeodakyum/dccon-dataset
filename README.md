@@ -10,6 +10,7 @@
 | [`experiments/pilot2/`](experiments/pilot2/README.md) | 이미지 주석 32·320개와 원문 FAISS, SLM 검색어 생성, SLM 후보 선택 비교 |
 | [`experiments/pilot3/`](experiments/pilot3/README.md) | 추천 검색, 임베딩·SLM 전환, 이미지 태깅을 묶은 로컬 GUI |
 | [`experiments/pilot4/`](experiments/pilot4/README.md) | 서브에이전트·Qwen 비전 채팅 예문과 디시콘 32개 전체 순위 |
+| [`experiments/pilot5/`](experiments/pilot5/README.md) | 디시콘 320개 실시간 순위 비교와 Pilot 1~5 통합 GUI |
 | [`docs/`](docs/2026-11-23-to-24-worklog.md) | 공개 데이터 접근 방법과 11월 23~24일 통합 실험 기록 |
 
 ## 데이터 받기
@@ -27,6 +28,8 @@ python crawler/crawl_dccon.py --limit 3 --output data/smoke
 
 ## 추천 GUI 실행
 
+Pilot 1~5 화면을 한 서버에서 열려면 [Pilot 5 실행 방법](experiments/pilot5/README.md)을 참고하세요.
+
 원본 스냅샷을 받은 다음 저장소 루트에서 실행하고 브라우저에서 Pilot 3를 엽니다. 이미지 주석 32·320개를 함께 쓰려면 Pilot 2의 주석 준비 절차를 먼저 실행하세요. [Pilot 2 주석 준비](experiments/pilot2/README.md#저장된-실험-재현) · [Pilot 3](http://127.0.0.1:8768/)
 
 ```bash
@@ -34,4 +37,4 @@ python -m pip install -r experiments/pilot3/requirements.txt
 python experiments/pilot3/app.py
 ```
 
-원본 이미지와 실행 중 생성되는 파일은 로컬 `data/`에 저장합니다. Git에는 합성 주석, 이미지 주석 표본, 검색 결과와 실험 코드가 있습니다. 비교 결과는 소규모 정성 점검이며 추천 정확도는 사람 평가 전입니다. [통합 실험 기록](docs/2026-11-23-to-24-worklog.md)
+원본 이미지와 실행 중 생성되는 파일은 로컬 `data/`에 저장합니다. Git에는 합성 주석, 이미지 주석 표본, 검색 결과와 실험 코드가 있습니다. 비교 결과는 소규모 정성 점검이며 추천 정확도는 사람 평가 전입니다. [통합 실험 기록](docs/2026-11-23-to-24-worklog.md) · [Pilot 1–5 영어 비교 보고서와 결과 화면](docs/pilot-comparison.md)

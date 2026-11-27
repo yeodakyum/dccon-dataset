@@ -1,0 +1,42 @@
+# Settings shared by every model (plan.md section 4).
+# Change a value here only if it applies to all models in the comparison.
+
+seed: 1113
+
+data:
+  snapshot: data/week                     # crawler / R2 snapshot (manifests, images)
+  index_scenarios: data/scenarios         # big-VLM usage dialogues (generated separately)
+  testset: data/testset                   # Claude Haiku test dialogues (OpenRouter)
+  split: {train: 0.7, dev: 0.1, test: 0.2, group_by: package_id}
+
+encoding:
+  normalize: l2                           # L2 normalize, then inner product == cosine
+  max_tokens: 512
+  truncation: oldest_turn_first           # drop whole turns from the start until it fits
+  dtype: float16
+  batch_size: 128
+
+index:
+  faiss: IndexFlatIP                      # exact search; ~60k vectors needs no ANN
+  sticker_score: max                      # sticker score = best-matching dialogue
+
+# Instruction text for models whose card asks for "Instruct: {task}\nQuery:".
+# The template itself lives in embedders.yaml; only the task sentence is shared.
+retrieval_tasks:
+  dialogue: "Given a Korean chat conversation, retrieve example conversations where the same sticker reaction would fit"
+  reaction: "Given a description of the emotion, intent, and tone needed in the next chat reply, retrieve example conversations where a sticker expresses that reaction"
+
+slm:
+  temperature: 0.0
+  max_new_tokens: 128
+  thinking: false
+  use_chat_template: true
+  structured_output: vllm_guided_json     # fall back to one retry; record retries
+  max_retries: 1
+  context_turns: 6
+
+metrics:
+  recall_at: [5, 50]
+  mrr: true
+  contrast_pairs: true                    # ties count as failures
+  latency_percentiles: [50, 95]

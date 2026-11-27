@@ -1,0 +1,15 @@
+# SLM reaction extraction. Newest vLLM image built for CUDA 12.9 (server driver 575 / CUDA 12.9;
+# the plain v0.33+ tags target CUDA 13 and need driver >= 580).
+FROM vllm/vllm-openai:v0.32.0-x86_64-cu129
+COPY requirements-vllm.txt /tmp/
+RUN (command -v uv >/dev/null && uv pip install --system --no-cache -r /tmp/requirements-vllm.txt) \
+ || python3 -m pip install --no-cache-dir -r /tmp/requirements-vllm.txt
+# The cu129 image ships a torchcodec built for CUDA 13 (needs libnvrtc.so.13), which
+# raises OSError on `import vllm`'s audio path; vLLM falls back cleanly when it is absent.
+# Audio input is not used here.
+RUN (command -v uv >/dev/null && uv pip uninstall --system torchcodec) \
+ || python3 -m pip uninstall -y torchcodec
+ENV HF_HOME=/hf HF_HUB_DISABLE_TELEMETRY=1 TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1 \
+    VLLM_WORKER_MULTIPROC_METHOD=spawn
+ENTRYPOINT []
+WORKDIR /work

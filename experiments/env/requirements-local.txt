@@ -1,0 +1,8 @@
+# Mac side: snapshot download and test-set generation through OpenRouter.
+openai>=1.0
+python-dotenv>=1,<2
+Pillow>=12,<13
+truststore>=0.10,<1
+certifi
+pyyaml
+tqdm

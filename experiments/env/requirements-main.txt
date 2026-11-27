@@ -1,0 +1,15 @@
+# Embedders, BM25, FAISS, rerankers, LightGBM. Installed on top of the PyTorch image
+# (docker/Dockerfile.main), which already provides torch.
+transformers>=5.8          # Kanana-2 embedding was evaluated on 5.8
+sentence-transformers>=6.0
+accelerate
+huggingface_hub[hf_xet]
+certifi                    # download_snapshot.py
+faiss-cpu>=1.9             # exact IndexFlatIP over ~60k vectors; GPU index not needed
+bm25s
+numpy
+pandas
+pyyaml
+tqdm
+scikit-learn
+lightgbm

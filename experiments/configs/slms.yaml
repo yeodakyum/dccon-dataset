@@ -1,0 +1,72 @@
+# Stage 2 SLMs for reaction extraction. All run in the vllm venv.
+#   chat_template_kwargs: passed to the chat template to keep thinking off.
+#   Checked against the Hub on 2026-11-24.
+
+models:
+  exaone4-1.2b:
+    hub_id: LGAI-EXAONE/EXAONE-4.0-1.2B
+    params: 1.2B
+    chat_template_kwargs: {enable_thinking: false}   # off by default; explicit anyway
+    license: EXAONE NC (non-commercial)
+    group: korean
+
+  kanana2-1.3b:
+    hub_id: kakaocorp/kanana-2-1.3b-instruct
+    params: 1.3B
+    chat_template_kwargs: {thinking_mode: no_think}
+    trust_remote_code: true                          # Kanana2TinyForCausalLM
+    group: korean
+
+  kanana2-3b:
+    hub_id: kakaocorp/kanana-2-3b-instruct
+    params: 3B
+    chat_template_kwargs: {thinking_mode: no_think}
+    group: korean
+
+  hyperclovax-seed-1.5b:
+    hub_id: naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B
+    params: 1.5B
+    chat_template_kwargs: {}                         # not a reasoning model
+    gated: true                                      # auto-approve after accepting terms
+    group: korean
+
+  qwen3.5-0.8b:
+    hub_id: Qwen/Qwen3.5-0.8B
+    params: 0.8B
+    chat_template_kwargs: {enable_thinking: false}
+    text_only: true                                  # VL architecture; no images
+    group: global
+
+  qwen3.5-2b:
+    hub_id: Qwen/Qwen3.5-2B
+    params: 2B
+    chat_template_kwargs: {enable_thinking: false}
+    text_only: true
+    group: global
+
+  qwen3.5-4b:
+    hub_id: Qwen/Qwen3.5-4B
+    params: 4B
+    chat_template_kwargs: {enable_thinking: false}   # 4B thinks by default
+    text_only: true
+    group: global
+
+  gemma4-e2b:
+    hub_id: google/gemma-4-E2B-it
+    params: 2B effective (5.1B total, 10 GB bf16)
+    chat_template_kwargs: {enable_thinking: false}
+    text_only: true
+    group: global
+
+  gemma4-e4b:
+    hub_id: google/gemma-4-E4B-it
+    params: 4B effective (8B total, 16 GB bf16)
+    chat_template_kwargs: {enable_thinking: false}
+    text_only: true
+    group: global
+
+  phi4-mini:
+    hub_id: microsoft/Phi-4-mini-instruct
+    params: 3.8B
+    chat_template_kwargs: {}
+    group: english_control

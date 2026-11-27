@@ -1,0 +1,146 @@
+# Stage 1 embedders. Prefixes follow each model card exactly (checked 2026-11-24).
+#   query_prefix / doc_prefix: literal strings prepended to the text.
+#   {task} is filled from common.yaml retrieval_tasks[<query type>].
+#   env: which server venv runs the model (see experiments/env/).
+# Korean retrieval = MTEB(kor, v2) retrieval avg nDCG@10 from the KURE-v2 model card.
+
+models:
+  bm25:
+    kind: bm25
+    env: main
+    track: baseline
+
+  kure-v1:
+    hub_id: nlpai-lab/KURE-v1
+    params: 568M
+    kor_retrieval: 0.7616
+    pooling: cls
+    dim: 1024
+    query_prefix: ""
+    doc_prefix: ""
+    env: main
+    track: korean
+
+  snowflake-ko:
+    hub_id: dragonkue/snowflake-arctic-embed-l-v2.0-ko
+    params: 568M
+    kor_retrieval: 0.7653
+    pooling: cls
+    dim: 1024
+    query_prefix: "query: "               # queries only
+    doc_prefix: ""
+    env: main
+    track: korean
+
+  kanana2-1.3b:
+    hub_id: kakaocorp/kanana-2-1.3b-embedding
+    params: 1.3B
+    kor_retrieval: null                   # not in the KURE table
+    pooling: mean
+    dim: 1280                             # MRL; keep full dim
+    query_prefix: ""                      # card: "without any task prompt"
+    doc_prefix: ""
+    trust_remote_code: true
+    env: main
+    track: korean
+
+  bge-m3:
+    hub_id: BAAI/bge-m3
+    params: 568M
+    kor_retrieval: 0.7509
+    pooling: cls
+    dim: 1024
+    query_prefix: ""
+    doc_prefix: ""
+    env: main
+    track: multilingual
+    note: "pytorch_model.bin only (no safetensors); dense output only"
+
+  me5-large:
+    hub_id: intfloat/multilingual-e5-large
+    params: 560M
+    kor_retrieval: null                   # KoE5 (fine-tuned) is 0.7337
+    pooling: mean
+    dim: 1024
+    max_tokens: 512                       # model limit equals the shared limit
+    query_prefix: "query: "
+    doc_prefix: "passage: "
+    env: main
+    track: multilingual
+
+  embeddinggemma-300m:
+    hub_id: google/embeddinggemma-300m
+    params: 300M
+    kor_retrieval: null
+    pooling: mean
+    dim: 768
+    query_prefix: "task: search result | query: "
+    doc_prefix: "title: none | text: "
+    dtype: bfloat16                       # card: fp16 not supported; only exception to fp16
+    gated: true                           # accept terms on the Hub first
+    env: main
+    track: multilingual
+
+  harrier-0.6b:
+    hub_id: microsoft/harrier-oss-v1-0.6b
+    params: 0.6B
+    kor_retrieval: null
+    pooling: last_token
+    dim: 1024
+    query_prefix: "Instruct: {task}\nQuery: "
+    doc_prefix: ""
+    env: main
+    track: multilingual
+
+  qwen3-emb-0.6b:
+    hub_id: Qwen/Qwen3-Embedding-0.6B
+    params: 0.6B
+    kor_retrieval: 0.7140
+    pooling: last_token
+    padding_side: left
+    dim: 1024
+    query_prefix: "Instruct: {task}\nQuery:"   # card has no space after "Query:"
+    doc_prefix: ""
+    env: main
+    track: multilingual
+
+  qwen3-emb-4b:
+    hub_id: Qwen/Qwen3-Embedding-4B
+    params: 4B
+    kor_retrieval: 0.7737
+    pooling: last_token
+    padding_side: left
+    dim: 2560
+    query_prefix: "Instruct: {task}\nQuery:"
+    doc_prefix: ""
+    env: main
+    track: upper_bound
+
+  kure-v2:
+    hub_id: nlpai-lab/KURE-v2
+    params: 154M
+    kor_retrieval: 0.8160
+    kind: late_interaction                # PyLate MaxSim, 128-d per token
+    query_prefix: ""                      # PyLate adds "[Q] " / "[D] " itself
+    doc_prefix: ""
+    env: pylate
+    track: separate
+
+# Only if time and GPU allow (plan.md).
+optional:
+  kanana2-3b:
+    hub_id: kakaocorp/kanana-2-3b-embedding
+    pooling: mean
+    dim: 2560
+    query_prefix: ""
+    doc_prefix: ""
+    trust_remote_code: true
+    env: main
+  qwen3-emb-8b:
+    hub_id: Qwen/Qwen3-Embedding-8B
+    kor_retrieval: 0.7826
+    pooling: last_token
+    padding_side: left
+    query_prefix: "Instruct: {task}\nQuery:"
+    doc_prefix: ""
+    env: main

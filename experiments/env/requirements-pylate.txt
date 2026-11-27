@@ -1,0 +1,8 @@
+# KURE-v2 late-interaction track. pylate 1.6.0 pins sentence-transformers==5.3.0
+# and transformers<=5.3.0, which conflicts with the main venv.
+pylate==1.6.0
+faiss-cpu>=1.9
+numpy
+pandas
+pyyaml
+tqdm

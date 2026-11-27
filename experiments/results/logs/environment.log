@@ -1,0 +1,30 @@
+== Mac
+macOS 27.2, Apple M4
+venv: Python 3.12.11
+repo: 1620f3c (main)
+
+== Server: snugpu, Ubuntu 22.04.5 LTS
+0, NVIDIA RTX A6000, 49140 MiB, 575.57.08
+1, NVIDIA RTX A6000, 49140 MiB, 575.57.08
+2, NVIDIA RTX A6000, 49140 MiB, 575.57.08
+3, NVIDIA RTX A6000, 49140 MiB, 575.57.08
+
+== Docker 28.2.2 (rootless)
+dccon-main:latest  7.91GB
+
+== CDI GPUs (GPU 0 is faulty and excluded)
+nvidia.com/gpu=gpu1
+nvidia.com/gpu=gpu2
+nvidia.com/gpu=gpu3
+
+== HF cache /mnt/main/nsu102/hf
+BAAI/bge-m3
+Qwen/Qwen3-Embedding-0.6B
+Qwen/Qwen3-Embedding-4B
+dragonkue/snowflake-arctic-embed-l-v2.0-ko
+intfloat/multilingual-e5-large
+kakaocorp/kanana-2-1.3b-embedding
+microsoft/harrier-oss-v1-0.6b
+nlpai-lab/KURE-v1
+16G
+Elapsed seconds: 7

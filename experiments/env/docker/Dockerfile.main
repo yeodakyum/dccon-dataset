@@ -1,0 +1,10 @@
+# Embedders, BM25, FAISS, rerankers. CUDA 12.6 runtime fits the server driver (CUDA 12.9).
+FROM pytorch/pytorch:2.14.1-cuda12.6-cudnn9-runtime
+# The image's system Python is PEP 668-managed; installing into it is fine in a container.
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
+COPY requirements-main.txt /tmp/
+# Keep the image's CUDA build of torch instead of letting pip replace it.
+RUN pip freeze | grep -E '^torch==' > /tmp/constraints.txt \
+ && pip install --no-cache-dir -c /tmp/constraints.txt -r /tmp/requirements-main.txt
+ENV HF_HOME=/hf HF_HUB_DISABLE_TELEMETRY=1 TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1
+WORKDIR /work

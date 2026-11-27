@@ -1,0 +1,23 @@
+# Stage 3 rerankers (run on the best embedder + SLM combination).
+
+models:
+  qwen3-reranker-0.6b:
+    hub_id: Qwen/Qwen3-Reranker-0.6B
+    kind: causal_yes_no                   # P(yes) from softmax over [no, yes] logits
+    instruction: "{task}"                 # filled from common.yaml retrieval_tasks
+    env: main
+
+  bge-reranker-v2-m3-ko:
+    hub_id: dragonkue/bge-reranker-v2-m3-ko
+    kind: cross_encoder                   # sigmoid over the classifier logit
+    env: main
+
+  # The BERT backbones from README III are fine-tuned cross-encoders; they are
+  # trained, not loaded, so they are listed here only for downloading.
+  backbones:
+    - beomi/kcbert-base
+    - beomi/KcELECTRA-base
+    - klue/roberta-large
+    - monologg/koelectra-base-v3-discriminator
+    - FacebookAI/xlm-roberta-large
+    - skt/A.X-Encoder-base

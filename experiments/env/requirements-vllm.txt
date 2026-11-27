@@ -1,0 +1,4 @@
+# Extras on top of the vLLM image (docker/Dockerfile.vllm). vLLM brings torch/transformers.
+pandas
+pyyaml
+tqdm
